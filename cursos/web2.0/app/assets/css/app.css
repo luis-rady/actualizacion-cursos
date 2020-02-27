@@ -3749,3 +3749,12 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 }
 
 /*-- Fin del carousel --*/
+
+/* Modulo 2 */
+
+.blogger img {
+  /* max-height: 100%;
+  max-width: 100%; */
+  width: 20px;
+  height: 20px;
+}
