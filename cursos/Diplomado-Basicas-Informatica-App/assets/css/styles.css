@@ -1,0 +1,7 @@
+#background-intro {
+  background-image: url('../../assets/images/logo/1.jpg');                                            
+  background-position-y: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover
+}

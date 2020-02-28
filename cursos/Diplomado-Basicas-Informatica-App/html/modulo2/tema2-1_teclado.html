@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Módulo 2 | Tema Tema 2: ¿Como manejar el sistema operativo Windows? | CVA - Centro Virtual de Aprendizaje</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png">
+
+    <!-- plugins css -->
+    <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+
+    <!-- page plugins css -->
+
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet">
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet">
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../assets/css/animate.min.css" rel="stylesheet">
+    <link href="../../assets/css/app.css" rel="stylesheet">
+    <link href="../../assets/css/progress.css" rel="stylesheet">
+    <link href="../../assets/css/progreso.css" rel="stylesheet">
+
+    <!-- js -->
+    <script>
+      function hideAll() {
+        document.getElementById('teclas-funcion').style.display='none';
+        document.getElementById('teclas-desplazamiento').style.display='none';
+        document.getElementById('teclas-numericas').style.display='none';
+        document.getElementById('teclas-alfanumericas').style.display='none';
+        document.getElementById('teclas-control').style.display='none';
+      }
+      function show1() {
+        hideAll();
+        document.getElementById('teclas-funcion').style.display='block';
+      }
+      function show2() {
+        hideAll();
+        document.getElementById('teclas-desplazamiento').style.display='block';
+      }
+      function show3() {
+        hideAll();
+        document.getElementById('teclas-numericas').style.display='block';
+      }
+      function show4() {
+        hideAll();
+        document.getElementById('teclas-alfanumericas').style.display='block';
+      }
+      function show5() {
+        hideAll();
+        document.getElementById('teclas-control').style.display='block';
+      }
+    </script>
+  </head>
+
+  <body onload="hideAll(); show1();" class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav">
+          <div class="side-nav-inner">
+            <div class="side-nav-logo">
+              <a href="http://www.centroscomunitariosdeaprendizaje.org.mx/" target="_blank">
+                  <div class="logo logo-dark" style="background-image: url('../../assets/images/logo/logo.png')">
+                  </div>
+                  <div class="logo logo-white" style="background-image: url('../../assets/images/logo/logo.png')">
+                  </div>
+              </a>
+              <div class="mobile-toggle side-nav-toggle">
+                  <a href="">
+                      <i class="ti-arrow-circle-left"></i>
+                  </a>
+              </div>
+            </div>
+            <!--Inician contenidos laterales-->
+            <ul class="side-nav-menu scrollable">
+                    <li class="nav-item active">
+                      <a class="mrg-top-30" href="../../index.html">
+                        <span class="icon-holder">
+                          <i class="ti-home"></i>
+                        </span>
+                        <span class="title">Bienvenida</span>
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="../introduccion/introduccion.html">
+                        <span class="icon-holder">
+                          <i class="ei-foggy"></i>
+                        </span>
+                        <span class="title">Introducción</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="dropdown-toggle" href="javascript:void(0);">
+                        <span class="icon-holder">
+                          <i class="ti-agenda"></i>
+                        </span>
+                        <span class="title">Módulos</span>
+                        <span class="arrow">
+                          <i class="ti-angle-right"></i>
+                        </span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                            <a href="../temario/temario.html" class="side-index-general">Módulos</a>
+                        </li>
+                        <!-- Módulo 1 -->
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="title side-index-general">Módulo 1: ¿Qué es y para qué sirve una computadora</span>
+                                <span class="arrow">
+                                    <i class="ti-angle-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../modulo1/presentacion-modulo1.html" class="side-index-general">
+                                    Presentación
+                                    </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/que-es-una-computadora.html" class="side-index-general"> <!--TODO: Add html page-->
+                                    Tema 1. ¿Qué es una computadora?
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/componentes-de-la-computadora.html" class="side-index-general">
+                                    Tema 2. Componentes de la computadoras
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/para-que-sirve-la-computadora.html" class="side-index-general">
+                                    Tema 3. ¿Para qué sirve la computadora?
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/m1-quiz.html" class="side-index-general">
+                                    Quiz
+                                </a>
+                            </li>
+                            </ul>
+                        </li>
+                        <!-- Módulo 2 -->
+                        <li class="nav-item dropdown">
+                          <a class="dropdown-toggle" href="javascript:void(0);">
+                            <span class="title side-index-general">Módulo 2: ¿Cómo funciona la compuadora?</span>
+                            <span class="arrow">
+                                <i class="ti-angle-right"></i>
+                            </span>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li>
+                                <a href="../modulo2/temario.html" class="side-index-general">
+                                    Temario
+                                </a>
+                            </li>
+                            <li>
+                              <a href="../modulo2/presentacion-modulo2.html" class="side-index-general">
+                                Presentación
+                              </a>
+                            </li>
+                            <li>
+                            <li>
+                                <a href="../modulo2/tema1-que-es-el-sistema-operativo-windows.html" class="side-index-general">
+                                  Tema 1. ¿Qué es el Sistema Operativo Windows?
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema2-como-manejar-sistema-operativo-windows.html" class="side-index-general">
+                                  Tema 2. ¿Cómo manejar el Sistema Operativo Windows?
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema3-inicio-cierre-sesion-windows.html" class="side-index-general">
+                                  Tema 3. Inicio y cierre de una sesión de Windows
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema4-uso-basico-componentes-de-windows.html" class="side-index-general">
+                                  Tema 4. Uso básico de los componentes de Windows
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema5-explorador-de-windows.html" class="side-index-general">
+                                  Tema 5. Explorador de Windows
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../modulo2/m2-autoevaluacion.html" class="side-index-general">
+                                    Quiz
+                                </a>
+                            </li>
+                          </ul>
+                        </li>
+      
+                        <!-- Módulo 3 -->
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="title side-index-general">Módulo 3: ¿Cómo me puede ayudar la computadora en mis actividades?</span>
+                                <span class="arrow">
+                                    <i class="ti-angle-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                <a href="../modulo3/presentacion.html" class="side-index-general">
+                                    Presentación
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/conceptos-generales-de-office.html" class="side-index-general">
+                                    Tema 1. Conceptos generales de Office
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/word-procesador-de-palabras.html" class="side-index-general">
+                                    Tema 2. Word (procesador de palabras)
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/power-point-presentador-electronico.html" class="side-index-general">
+                                    Tema 3. Power point (presentador electrónico)
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/excel-hoja-de-calculo.html" class="side-index-general">
+                                    Tema 4. Excel (hoja de cálculo)
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="../modulo3/quiz.html" class="side-index-general">
+                                    Quiz
+                                </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <!-- Módulo 4 -->
+                        <li class="nav-item dropdown">
+                              <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="title side-index-general">Módulo 4: ¿Cómo buscar información en Internet?</span>
+                                <span class="arrow">
+                                    <i class="ti-angle-right"></i>
+                                </span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../modulo4/temario.html" class="side-index-general">
+                                        Temario
+                                    </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/presentacion-modulo4.html" class="side-index-general">
+                                    Presentación
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema1-definicion-internet.html" class="side-index-general">
+                                    Tema 1. Definición de Internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema2-Comenzando-a-navegar-por-Internet.html" class="side-index-general">
+                                    Tema 2. Comenzando a navegar por internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema3-buscando-informacion-en-la-web.html" class="side-index-general">
+                                    Tema 3. Buscando información en internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema4-recursos-para-compartir-informacion.html" class="side-index-general">
+                                    Tema 4. Recursos para compartir información
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema5-seguridad-en-internet.html" class="side-index-general">
+                                    Tema 5. Seguridad en internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema6-imprimir-descargar-informacion.html" class="side-index-general">
+                                    Tema 6. Imprimir y descargar información de internet
+                                  </a>
+                                </li>
+                                <li>
+                                    <a href="../modulo4/m4-autoevaluacion.html" class="side-index-general">
+                                        Quiz
+                                    </a>
+                                </li>
+                              </ul>
+                            </li>
+    
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle" href="javascript:void(0);">
+                                  <span class="title side-index-general">Módulo 5: Comunicarse con otros a través de la computadora</span>
+                                  <span class="arrow">
+                                      <i class="ti-angle-right"></i>
+                                  </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="../modulo5/temario-modulo5.html" class="side-index-general">
+                                            Temario
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo4/presentacion-modulo5.html" class="side-index-general">
+                                        Presentación
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema1-definicion-e-importancia.html" class="side-index-general">
+                                        Tema 1. Definición e importancia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema2-elementos.html" class="side-index-general">
+                                        Tema 2. Elementos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema3-crear-cuenta.html" class="side-index-general">
+                                        Tema 3. Crear cuenta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema4-manejo-de-mensajes.html" class="side-index-general">
+                                        Tema 4. Manejo de mensajes
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema5-compartir-documentos.html" class="side-index-general">
+                                        Tema 5. Compartir documentos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema6-compartir-documentos.html" class="side-index-general">
+                                        Tema 6. Personalizar cuenta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/m5-quiz.html" class="side-index-general">
+                                            Quiz
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+      
+                      </ul>
+                    </li>
+      
+      
+                    <li class="nav-item active">
+                      <a href="../politicas/politicas.html">
+                          <span class="icon-holder">
+                              <i class="ei-preview"></i>
+                          </span>
+                          <span class="title">Políticas</span>
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="../contacto/contacto.html">
+                          <span class="icon-holder">
+                              <i class="ei-email"></i>
+                          </span>
+                          <span class="title">Contáctanos</span>
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="../creditos/creditos.html">
+                          <span class="icon-holder">
+                              <i class="ti-info-alt"></i>
+                          </span>
+                          <span class="title">Créditos</span>
+                      </a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar">
+              <div class="header-container">
+                  <ul class="nav-left">
+                      <li>
+                          <a class="side-nav-toggle" href="javascript:void(0);">
+                              <i class="ti-view-grid"></i>
+                          </a>
+                      </li>
+                  </ul>
+                  <ul class="nav-right">
+                      <li>
+                          <a href="https://tec.mx/es" target="_blank">
+                              <img src="../../assets/images/logo/tec-logo.png" height="45">
+                          </a>
+                      </li>
+                  </ul>
+
+              </div>
+          </div>
+          <!-- Header END -->
+
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+                <div class="container-fluid">                    
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                              <div class="row no-gutters">
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                      <h1 class="card-title">Tema 2. ¿Cómo manejar el sistema operativo Windows?</h1>
+                                      <h2 class="card-title">- Teclado</h2>
+                                      <div class="mrg-top-20">
+                                          <p class="text-justify">
+                                              Anteriormente mencionamos que el teclado incluye un conjunto de teclas especiales para dar 
+                                              instrucciones a la computadora.
+                                          </p>
+                                          <p>Veamos qué tipo de teclas son.</p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="padding: 1%">
+                                  <img src="../../assets/images/course/modulo2/teclado_main.jpg" class="card-img" alt="Teclado" style="width: auto; height: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto">
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="btn-group" role="group" aria-label="Teclas" style="width: 100; margin: auto">
+                            <button onclick="show1()" class="btn btn-dark btn-lg" type="button">
+                                <h3 style="color: white; vertical-align: middle">Teclas de función</h3>
+                            </button>
+                            <button onclick="show2()" class="btn btn-dark btn-lg" type="button">
+                                <h3 style="color: white; vertical-align: middle">Teclas de desplazamiento</h3>
+                            </button>
+                            <button onclick="show3()" class="btn btn-dark btn-lg" type="button">
+                                <h3 style="color: white; vertical-align: middle">Teclas numéricas</h3>
+                            </button>
+                            <button onclick="show4()" class="btn btn-dark btn-lg" type="button">
+                                <h3 style="color: white; vertical-align: middle">Teclas alfanuméricas</h3>
+                            </button>
+                            <button onclick="show5()" class="btn btn-dark btn-lg" type="button">
+                                <h3 style="color: white; vertical-align: middle">Teclas de control</h3>
+                            </button>
+                          </div>
+                        <div id="teclas-funcion" class="w-100">
+                          <div class="card mb-3">
+                              <div class="row">
+                                    <img class="card-img w-50 m-auto" src="../../assets/images/course/modulo2/teclado_funcion.jpg" alt="Teclado-Función">
+                    
+                                    <div class="card-body">
+                                        <h2 class="card-title" style="text-align:center">Teclas de función</h2>
+                                        <p class="card-text p-2">Estas teclas F1, F2... F12 permiten realizar funciones específicas en cada programa, de ahí su nombre. </p>
+                                        <p class="card-text p-2 text-muted">Ejemplo: si se está utilizando una aplicación como "Office" se puede solicitar ayuda pulsando la tecla 
+                                            de función "F1". Aparecerá otra ventana con la ayuda del programa. Para cerrar esa ventana, sólo presione 
+                                            con el ratón el icono "x" ubicado en la esquina superior derecha. </p>
+                                        <ul class="card-text">
+                                          <li>F1= Ayuda del programa</li>
+                                          <li>F2= Renombra el archivo, acceso directo o carpeta seleccionados.</li>                                      
+                                          <li>F3= Inicia una búsqueda en el directorio dónde se está.</li>
+                                          <li>F4= Despliega el menú Ir a una carpeta diferente desde la barra de herramientas de una carpeta</li>
+                                          <li>F5= Actualiza el contenido de la ventana seleccionada.</li>
+                                        </ul>
+                                        </li>
+                                    </div>
+                              </div>
+                            </div>
+                      </div>
+                          <div id="teclas-desplazamiento" class="w-100">
+                            <div class="card mb-3">
+                                <div class="row">
+                                      <img class="card-img w-50 m-auto" src="../../assets/images/course/modulo2/teclado_desplazamiento.jpg" alt="Teclado-Función">
+                      
+                                      <div class="card-body">
+                                          <h2 class="card-title" style="text-align:center">Teclas de desplazamiento</h2>
+                                          <p class="card-text" style="text-align: center">
+                                              Como su nombre lo indica, permiten desplazarse hacia: arriba, abajo, a la izquierda o derecha dentro de un documento.
+                                          </p>
+                                      </div>
+                                </div>
+                              </div>
+                          </div>
+                            <div id="teclas-numericas" class="w-100">
+                              <div class="card mb-3">
+                                  <div class="row">
+                                        <img class="card-img w-50 m-auto" src="../../assets/images/course/modulo2/teclado_numerico.jpg" alt="Teclado-numerico">
+                                  </div>
+                                  <div class="row">  
+                                        <div class="card-body">
+                                          <h2 class="card-title" style="text-align:center">Teclas numéricas</h2>
+                                          <p class="card-text" style="text-align: center">Estas teclas son similares a las de una calculadora.</p>
+                                        </div>
+                                  </div>
+                                  <div class="row">
+                                        <img class="card-img w-25 m-auto" src="../../assets/images/course/modulo2/teclado_numerico_explicado.gif" alt="numerico">
+                                    </div>
+                              </div>
+                          </div>
+                            <div id="teclas-alfanumericas" class="w-100">
+                              <div class="card mb-3">
+                                  <div class="row">
+                                        <img class="card-img w-50 m-auto" src="../../assets/images/course/modulo2/teclado_alfanumerico.jpg" alt="Teclado-alfanumerico">
+                        
+                                        <div class="card-body">
+                                            <h2 class="card-title" style="text-align:center">Teclas alfanuméricas</h2>
+                                            <p class="card-text" style="text-align: center">Similar al teclado de una máquina de escribir, dispone de todas las letras del alfabeto, 
+                                              los diez dígitos decimales y todos los signos de puntuación y acentuación, además de la barra espaciadora.</p>
+                                        </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div id="teclas-control">
+                                <div class="card mb-3">
+                                    <div class="row">
+                                          <img class="card-img w-50 m-auto" src="../../assets/images/course/modulo2/teclado_control.jpg" alt="Teclado-control">
+                          
+                                          <div class="card-body">
+                                              <h2 class="card-title" style="text-align:center">Teclas de control</h2>
+                                              <table class="table" width="80%" cellpadding="0" cellspacing="10" border="0" align="center">
+                                                  <tbody><tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Intro1.jpg" width="58" height="60" alt="" border="0"></td>
+                                                    <td valign="top"><b>Intro / Enter:</b> Tecla para terminar párrafos o introducir datos. </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_intro.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Shift2.jpg" width="80" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Shift:</b> Representado por una flecha hacia arriba, permite cambiar de minúsculas a mayúsculas y viceversa, mientras se mantiene pulsada. </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_shift.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Retroceder.jpg" width="68" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Retroceder:</b> Se representa por una flecha en sentido izquierdo. Sirve para retroceder el cursor hacia la izquierda borrando los caracteres. </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_retro.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Insert.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Insert:</b> Esta tecla permite insertar caracteres a la vez que borra el carácter actual. </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_insert.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Tab.jpg" width="57" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Tabulador:</b> Se representa mediante dos flechas en sentido contrario (izquierda - derecha). Sirve para alinear. En el sistema operativo se utiliza para desplazar el cursor por las diferentes ventanas y opciones, es sustituto del ratón.</td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_tab.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/BloqMayus.jpg" width="57" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Bloq Mayús (Cap Block):</b> Al pulsar esta tecla se enciende uno de los leds (luces) del teclado, que indica que está activado el bloqueo de mayúsculas, lo que hace que todo el texto se escriba en mayúsculas. Para desactivarlo, haga clic de nuevo en la tecla.</td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_bloqmayus.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Alt.jpg" width="57" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Alt:</b> Se usa en combinación con otras teclas para ejecutar funciones de algunas aplicaciones.<br><i>Ejemplos:</i>
+                                                      
+                                                      <br>Alt+E = abre el menú de Edición
+                                                      <br>Alt+A = abre  el menú Archivo
+                                                      <br>Alt+V = abre  el menú Ver
+                                                      <br>Alt + F4= cierra la aplicación activa, si está en el escritorio y no hay ventanas abiertas, cierra Windows.
+                                                      <br>Alt + TAB = muestra las aplicaciones abiertas en una barra. Manteniendo pulsado Alt y pulsando TAB repetidamente se cambia de aplicación.
+                                                      </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_alt.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Alt-Gr.jpg" width="57" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Alt Gr:</b> Además de servir como tecla Alt, también sirve en combinación con las teclas que incorporan símbolos. Ejemplo:
+                                                    
+                                                      <br>Alt Gr+Q = @
+
+                                                      </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_altgr.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/ctrl.jpg" width="57" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Control:</b> Se utiliza en combinación con otras teclas para activar distintas funciones del programa. 
+                                                      
+                                                    <br>Control+C= es para copiar.
+                                                      <br>Control+X =es para cortar.
+                                                      <br>Control+V =es para pegar la información que se copió o cortó. 
+                                                      <br>Control+ Esc=  desde cualquier aplicación nos muestra el menú inicio y la barra de tareas.
+                                                    </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_ctrl.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Supr.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Supr:</b> La tecla suprimir, como bien indica su nombre sirve para borrar, ya sean datos, carpetas, archivos.</td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_supr.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/esc.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Esc:</b> "Escape" en inglés es una tecla que sirve para cancelar procesos y acciones en progreso, también sirve para cerrar cuadros de diálogo o ventanas. </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_esc.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Inicio.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Inicio:</b> Esta tecla lo sitúa al principio de una línea o de un documento, dependiendo del programa que esté utilizando.</td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_inicio.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Fin.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Fin:</b> Su función es la contraria a la tecla Inicio, y lo sitúa en el final del documento.</td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_fin.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/RePag.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Re Pág:</b> Retrocede una página.</td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_repag.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/AvPag.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Av Pág:</b> Avanza una página. </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_avpag.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/ImpPant.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Impr pant:</b> También se puede ver como "Pet Sis", y significa Imprimir pantalla; su función es copiar lo que aparece en pantalla como una imagen. Se guarda en el portapapeles y lo puede pegar en cualquier documento que permita pegar imágenes. </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_imprpant.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/BloqDespl.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Bloq despl:</b> Se utiliza para detener el desplazamiento de texto. </td>
+                                                    <td valign="top"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Pausa.jpg" width="45" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Pausa:</b> Se utiliza para detener acciones en proceso y así poder leer el texto de esas acciones.</td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_pausa.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"><img src="../../assets/images/course/modulo2/TeclasControl/Windows.jpg" width="57" height="40" alt="" border="0"></td>
+                                                    <td valign="top"><b>Windows:</b> Sólo existe en teclados diseñados para Windows, se representa por el logo, y sirve para abrir el menú de Inicio. </td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_windows.jpg" width="200" height="64" alt="" border="0"></td></tr>
+                                                  <tr><td valign="top" align="center"></td>
+                                                    <td valign="top"><b>Barra espaciadora:</b> Introduce espacios entre caracteres (letras, números o caracteres especiales).</td>
+                                                    <td valign="top"><img src="../../assets/images/course/modulo2/TeclasControl/u_spacebar.jpg" width="200" height="64" alt="" border="0"></td></tr>	
+                                                  </tbody></table>
+                                          </div>
+                                    </div>
+                                  </div>
+                              </div>
+                    </div>
+
+                    <div class="row mrg-btm-20">
+                        <div class="col text-center">
+                            <div class="btn-group">
+                                <a class="btn btn-default" role="button" href="tema2-como-manejar-sistema-operativo-windows.html">
+                                    <span>Atrás</span>
+                                </a>
+                                <a class="btn btn-default" role="button" href="tema2-como-manejar-sistema-operativo-windows.html">
+                                    <span>1</span>
+                                </a>
+                                <a class="btn btn-actual-page" role="button" href="tema2-1_teclado.html">
+                                    <span>2</span>
+                                </a>
+                                <a class="btn btn-default" role="button" href="tema2-2_raton.html">
+                                    <span>3</span>
+                                </a>
+                                <a class="btn btn-default" role="button" href="tema2-2_raton.html">
+                                    <span>Siguiente</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card widget-feed">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <h1 class="feed-title tag tag-info">Módulo 2</h1>
+                                <h1 class="feed-title tag tag-info">Tema 2</h1>
+                                <h3 class="feed-subtitle">Tu Progreso</h3>
+                                <div class="progress" style="height: 20px;" id="bar">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 37%" >37%</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="circlecontainer"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h3 class="feed-subtitle">Progreso General del Curso</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                </div>
+          </div>
+          <!-- Content Wrapper END -->
+
+          <!-- Footer START -->
+          <footer class="content-footer">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <p>Se prohíbe la reproducción total o parcial sin previo y expreso consentimiento por
+                            escrito.</p>
+                        <p>D.R.© Instituto Tecnológico y de Estudios Superiores de Monterrey, México, 2020.</p>
+                    </div>
+                    <div class="col-12 col-md-4 center align-self-center">
+                        <a href="http://www.cca.org.mx/DED_Avisos/CCA_Aviso_Legal.pdf" target="_blank">Aviso Legal</a>
+                        <span><b>|</b></span>
+                        <a href="https://tec.mx/es/avisos-de-privacidad" target="_blank">Aviso de Privacidad</a>
+                        <span><b>|</b></span>
+                        <a href="../creditos.html">Créditos</a>
+                    </div>
+                </div>
+            </div>
+          </footer>
+          <!-- Footer END -->
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- Insert your dependencies here -->
+  </body>
+</html>

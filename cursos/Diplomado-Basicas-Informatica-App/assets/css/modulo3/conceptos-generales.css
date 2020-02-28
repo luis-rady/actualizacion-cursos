@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+}
+
+.col-4 {
+  flex: 1;
+  margin: 16px;
+  padding: 0px;
+  background-color: #093b8b;
+}
+
+.card-modulo3 { 
+  background-color: #093b8b;
+  border: 0px;
+}
+
+.card-modulo3 h1,h2 {
+  color: #ffffff;
+}

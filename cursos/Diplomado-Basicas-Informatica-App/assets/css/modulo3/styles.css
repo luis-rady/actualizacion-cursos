@@ -1,0 +1,170 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.flex-cursor {
+  align-items: center;
+}
+
+.flex-cursor > div {
+  padding: 20px;
+}
+
+.formato-tabla > div {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.formato-links > a {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.pdd-element {
+  border: 1px solid #000000;
+  padding: 15px;
+  margin: 10px;
+}
+
+.heading-table {
+  background-color: #093b8b;
+  color: white;
+  text-align: center;
+}
+.pdd-extra {
+  padding: 15px;
+}
+
+.underline-box-redo {
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
+.text-center-2 {
+  text-align: center;
+}
+
+.text-center-2 > img {
+  margin-left: -5px;
+  cursor: pointer;
+}
+.underline-box-redo > p {
+  margin: 10px;
+}
+
+.underline-box-redo > p:first-child {
+  margin: 0;
+}
+
+.block {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  margin: 5px;
+  color: #000000;
+  line-height: 1.0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.box-form {
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
+.underline-box {
+  border: 1px solid #000000;
+  margin: 10px;
+  padding: 10px;
+}
+
+.underline-box > p {
+  margin: 0px;
+}
+.box-form:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+
+.box-form-special {
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
+.nav-pills > li > a.active.nav-link.theme-color {
+  background-color: #093b8b;
+}
+
+.box-form-special:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+
+.box-form-special.selected{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.hidden {
+  display: none;
+}
+
+.card-information {
+  border: 2px dashed #000000;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+}
+
+.card-information h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-information h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-information p {
+  line-height: 1.4;
+}
+
+.remarcar {
+  color: red;
+  font-weight: bold;
+}
+
+.center-image {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+
+.nav-area-de-trabajo > li {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-botones-de-comando > li {
+  border-bottom: 1px solid #000000;
+}
+
+.nav-botones-de-comando {
+  border-bottom: 0px; 
+}

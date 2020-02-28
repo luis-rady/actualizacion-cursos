@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Módulo 2 | Tema 5: Explorador de Windows | CVA - Centro Virtual de Aprendizaje</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png">
+
+    <!-- plugins css -->
+    <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+
+    <!-- page plugins css -->
+
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet">
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet">
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../assets/css/animate.min.css" rel="stylesheet">
+    <link href="../../assets/css/app.css" rel="stylesheet">
+    <link href="../../assets/css/progress.css" rel="stylesheet">
+    <link href="../../assets/css/progreso.css" rel="stylesheet">
+
+    <style>
+        .card-funciones{
+            background-color: lightcyan;
+            margin: 1%;
+        }
+    </style>
+  </head>
+
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav">
+          <div class="side-nav-inner">
+            <div class="side-nav-logo">
+              <a href="http://www.centroscomunitariosdeaprendizaje.org.mx/" target="_blank">
+                  <div class="logo logo-dark" style="background-image: url('../../assets/images/logo/logo.png')">
+                  </div>
+                  <div class="logo logo-white" style="background-image: url('../../assets/images/logo/logo.png')">
+                  </div>
+              </a>
+              <div class="mobile-toggle side-nav-toggle">
+                  <a href="">
+                      <i class="ti-arrow-circle-left"></i>
+                  </a>
+              </div>
+            </div>
+            <!--Inician contenidos laterales-->
+            <ul class="side-nav-menu scrollable">
+                    <li class="nav-item active">
+                      <a class="mrg-top-30" href="../../index.html">
+                        <span class="icon-holder">
+                          <i class="ti-home"></i>
+                        </span>
+                        <span class="title">Bienvenida</span>
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="../introduccion/introduccion.html">
+                        <span class="icon-holder">
+                          <i class="ei-foggy"></i>
+                        </span>
+                        <span class="title">Introducción</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="dropdown-toggle" href="javascript:void(0);">
+                        <span class="icon-holder">
+                          <i class="ti-agenda"></i>
+                        </span>
+                        <span class="title">Módulos</span>
+                        <span class="arrow">
+                          <i class="ti-angle-right"></i>
+                        </span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                            <a href="../temario/temario.html" class="side-index-general">Módulos</a>
+                        </li>
+                        <!-- Módulo 1 -->
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="title side-index-general">Módulo 1: ¿Qué es y para qué sirve una computadora</span>
+                                <span class="arrow">
+                                    <i class="ti-angle-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../modulo1/presentacion-modulo1.html" class="side-index-general">
+                                    Presentación
+                                    </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/que-es-una-computadora.html" class="side-index-general"> <!--TODO: Add html page-->
+                                    Tema 1. ¿Qué es una computadora?
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/componentes-de-la-computadora.html" class="side-index-general">
+                                    Tema 2. Componentes de la computadoras
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/para-que-sirve-la-computadora.html" class="side-index-general">
+                                    Tema 3. ¿Para qué sirve la computadora?
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/m1-quiz.html" class="side-index-general">
+                                    Quiz
+                                </a>
+                            </li>
+                            </ul>
+                        </li>
+                        <!-- Módulo 2 -->
+                        <li class="nav-item dropdown">
+                          <a class="dropdown-toggle" href="javascript:void(0);">
+                            <span class="title side-index-general">Módulo 2: ¿Cómo funciona la compuadora?</span>
+                            <span class="arrow">
+                                <i class="ti-angle-right"></i>
+                            </span>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li>
+                                <a href="../modulo2/temario.html" class="side-index-general">
+                                    Temario
+                                </a>
+                            </li>
+                            <li>
+                              <a href="../modulo2/presentacion-modulo2.html" class="side-index-general">
+                                Presentación
+                              </a>
+                            </li>
+                            <li>
+                            <li>
+                                <a href="../modulo2/tema1-que-es-el-sistema-operativo-windows.html" class="side-index-general">
+                                  Tema 1. ¿Qué es el Sistema Operativo Windows?
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema2-como-manejar-sistema-operativo-windows.html" class="side-index-general">
+                                  Tema 2. ¿Cómo manejar el Sistema Operativo Windows?
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema3-inicio-cierre-sesion-windows.html" class="side-index-general">
+                                  Tema 3. Inicio y cierre de una sesión de Windows
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema4-uso-basico-componentes-de-windows.html" class="side-index-general">
+                                  Tema 4. Uso básico de los componentes de Windows
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema5-explorador-de-windows.html" class="side-index-general">
+                                  Tema 5. Explorador de Windows
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../modulo2/m2-autoevaluacion.html" class="side-index-general">
+                                    Quiz
+                                </a>
+                            </li>
+                          </ul>
+                        </li>
+      
+                        <!-- Módulo 3 -->
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="title side-index-general">Módulo 3: ¿Cómo me puede ayudar la computadora en mis actividades?</span>
+                                <span class="arrow">
+                                    <i class="ti-angle-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                <a href="../modulo3/presentacion.html" class="side-index-general">
+                                    Presentación
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/conceptos-generales-de-office.html" class="side-index-general">
+                                    Tema 1. Conceptos generales de Office
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/word-procesador-de-palabras.html" class="side-index-general">
+                                    Tema 2. Word (procesador de palabras)
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/power-point-presentador-electronico.html" class="side-index-general">
+                                    Tema 3. Power point (presentador electrónico)
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/excel-hoja-de-calculo.html" class="side-index-general">
+                                    Tema 4. Excel (hoja de cálculo)
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="../modulo3/quiz.html" class="side-index-general">
+                                    Quiz
+                                </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <!-- Módulo 4 -->
+                        <li class="nav-item dropdown">
+                              <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="title side-index-general">Módulo 4: ¿Cómo buscar información en Internet?</span>
+                                <span class="arrow">
+                                    <i class="ti-angle-right"></i>
+                                </span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../modulo4/temario.html" class="side-index-general">
+                                        Temario
+                                    </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/presentacion-modulo4.html" class="side-index-general">
+                                    Presentación
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema1-definicion-internet.html" class="side-index-general">
+                                    Tema 1. Definición de Internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema2-Comenzando-a-navegar-por-Internet.html" class="side-index-general">
+                                    Tema 2. Comenzando a navegar por internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema3-buscando-informacion-en-la-web.html" class="side-index-general">
+                                    Tema 3. Buscando información en internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema4-recursos-para-compartir-informacion.html" class="side-index-general">
+                                    Tema 4. Recursos para compartir información
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema5-seguridad-en-internet.html" class="side-index-general">
+                                    Tema 5. Seguridad en internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema6-imprimir-descargar-informacion.html" class="side-index-general">
+                                    Tema 6. Imprimir y descargar información de internet
+                                  </a>
+                                </li>
+                                <li>
+                                    <a href="../modulo4/m4-autoevaluacion.html" class="side-index-general">
+                                        Quiz
+                                    </a>
+                                </li>
+                              </ul>
+                            </li>
+    
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle" href="javascript:void(0);">
+                                  <span class="title side-index-general">Módulo 5: Comunicarse con otros a través de la computadora</span>
+                                  <span class="arrow">
+                                      <i class="ti-angle-right"></i>
+                                  </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="../modulo5/temario-modulo5.html" class="side-index-general">
+                                            Temario
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo4/presentacion-modulo5.html" class="side-index-general">
+                                        Presentación
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema1-definicion-e-importancia.html" class="side-index-general">
+                                        Tema 1. Definición e importancia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema2-elementos.html" class="side-index-general">
+                                        Tema 2. Elementos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema3-crear-cuenta.html" class="side-index-general">
+                                        Tema 3. Crear cuenta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema4-manejo-de-mensajes.html" class="side-index-general">
+                                        Tema 4. Manejo de mensajes
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema5-compartir-documentos.html" class="side-index-general">
+                                        Tema 5. Compartir documentos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema6-compartir-documentos.html" class="side-index-general">
+                                        Tema 6. Personalizar cuenta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/m5-quiz.html" class="side-index-general">
+                                            Quiz
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+      
+                      </ul>
+                    </li>
+      
+      
+                    <li class="nav-item active">
+                      <a href="../politicas/politicas.html">
+                          <span class="icon-holder">
+                              <i class="ei-preview"></i>
+                          </span>
+                          <span class="title">Políticas</span>
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="../contacto/contacto.html">
+                          <span class="icon-holder">
+                              <i class="ei-email"></i>
+                          </span>
+                          <span class="title">Contáctanos</span>
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="../creditos/creditos.html">
+                          <span class="icon-holder">
+                              <i class="ti-info-alt"></i>
+                          </span>
+                          <span class="title">Créditos</span>
+                      </a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar">
+              <div class="header-container">
+                  <ul class="nav-left">
+                      <li>
+                          <a class="side-nav-toggle" href="javascript:void(0);">
+                              <i class="ti-view-grid"></i>
+                          </a>
+                      </li>
+                  </ul>
+                  <ul class="nav-right">
+                      <li>
+                          <a href="https://tec.mx/es" target="_blank">
+                              <img src="../../assets/images/logo/tec-logo.png" height="45">
+                          </a>
+                      </li>
+                  </ul>
+
+              </div>
+          </div>
+          <!-- Header END -->
+
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+                <div class="container-fluid">                    
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                              <div class="row no-gutters">
+                                    <div class="card-body">
+                                      <h1 class="card-title">Tema 5. Explorador de Windows<br>-Funciones del explorador de Windows</h1>
+                                        <div class="mrg-top-20">
+                                            <p>
+                                                Con el Explorador de Windows, además de buscar y encontrar información de forma rápida, también nos ayuda a organizarla, copiarla, renombrarla, borrarla, entre otras cosas. Veamos qué ventajas nos ofrece esta utilería y cómo funciona.
+                                            </p>
+                                            <div class="tab-info">
+                                                <ul class="nav nav-tabs nav-area-de-trabajo" role="tablist">
+                                                    <li class="nav-item">
+                                                    <a href="#area-de-trabajo-1" class="nav-link active" role="tab" data-toggle="tab">Crear</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                    <a href="#area-de-trabajo-2" class="nav-link" role="tab" data-toggle="tab">Renombrar</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                    <a href="#area-de-trabajo-3" class="nav-link" role="tab" data-toggle="tab">Copiar/Mover</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                    <a href="#area-de-trabajo-4" class="nav-link" role="tab" data-toggle="tab">Borrar</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                    <a href="#area-de-trabajo-5" class="nav-link" role="tab" data-toggle="tab">Buscar</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                    <a href="#area-de-trabajo-6" class="nav-link" role="tab" data-toggle="tab">Ordenar</a>                        
+                                                    </li>                                               
+                                                </ul>
+                                                <div class="tab-content">
+                                                    <div role="tabpanel" class="tab-pane fade in active" id="area-de-trabajo-1">
+                                                        <div class="card p-3">
+                                                            <h2 class="card-title">Crear</h2>
+                                                            <p>
+                                                                Lo que debe saber antes de ponerle nombre a sus carpetas o archivos (Estas notas aplican tanto para Windows Vista y 7).
+                                                            </p>
+                                                            <p>
+                                                                El nombre de sus archivos o carpetas deben:
+                                                                <ul>
+                                                                    <li>Contener menos de 225 caracteres, incluyendo espacios.</li>
+                                                                    <li>No pueden contener los siguientes caracteres: \ / : * ? " <> |.</li>
+                                                                    <li>No utilizar ciertos nombres como: com1, com2, clock$, con, lpt1, prn, nul.<br>Estos nombres no pueden asignarse a un archivo o carpeta, ya que el sistema operativo los reserva para designar dispositivos específicos que usa la computadora</li>
+                                                                </ul>
+                                                            </p>
+                                                            <p>
+                                                                Las carpetas se crean muy fácilmente y no existe un límite sobre el número de carpetas que se pueden tener. Existen procedimientos muy sencillos para poder crear carpetas en Windows (Windows Explorer). Los más usados son a través de:
+                                                            </p>
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Menú Archivo
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Abra el Explorador de Windows (Windows Explorer).</li>
+                                                                                <li>Haga clic en el menú Archivo (File).<br>
+                                                                                        <i>En Windows Vista tendrá que primero presionar la tecla ALT para desplegar el menú.</i><br>
+                                                                                        <i>En Windows 7 debe presionar la tecla F10.</i></li>
+                                                                                <li>Seleccione la opción Nuevo (New), después Carpeta (Folder).</li>
+                                                                                <li>La carpeta se creará automáticamente en el lugar que se haya elegido.</li>
+                                                                                <li>Inmediatamente escriba el nombre de la carpeta recién creada.</li>
+                                                                                <li>Haga clic fuera de la carpeta para deshabilitar esta función.</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Menú Contextual
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            Los pasos para crear una carpeta con el menú contextual, son los siguientes:
+                                                                            <ol>
+                                                                                <li>Ubique el ratón en el lugar físico donde desea crear la nueva carpeta.</li>
+                                                                                <li>Haga clic con el botón derecho, para desplegar el menú contextual.</li>
+                                                                                <li>Elija la opción Nueva carpeta (New Folder).</li>
+                                                                                <li>La carpeta se habrá creado; enseguida asigne un nombre para la carpeta.</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Menú Organizar
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            La creación de la carpeta varía un poco a como se hacía en otras versiones de Windows, pero los pasos son muy sencillos:
+                                                                            <ol>
+                                                                                <li>Ubique el ratón en el lugar donde desea crear la carpeta nueva.</li>
+                                                                                <li>Haga clic en el botón Organizar (Organize) de la Barra de Herramientas.</li>
+                                                                                <li>Seleccione la opción Nueva carpeta (New Folder).</li>
+                                                                                <li>La nueva carpeta tiene como nombre Nueva Carpeta, este es el nombre que Windows les aplica a todas las carpeta. Pero se puede cambiar el nombre de manera inmediata escribiendo dentro del recuadro. Este tema lo veremos más adelante.</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Barra de herramientas
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Abra el Explorador de Windows (Windows Explorer).</li>
+                                                                                <li>Haga clic en el Nueva carpeta (New Folder)de la barra de menús. La carpeta se creará automáticamente en el lugar que se haya elegido.</li>
+                                                                                <li>Inmediatamente escriba el nombre de la carpeta recién creada.</li>
+                                                                                <li>Haga clic fuera de la carpeta para deshabilitar esta función.</li>
+                                                                                <img src="../../assets/images/course/modulo2/barrah_w7.jpg">
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-2">
+                                                        <div class="card p-3">
+                                                            <h2 class="card-title">Renombrar</h2>
+                                                            <p>
+                                                                En ocasiones es necesario cambiar el nombre de las carpetas o los archivos para adecuarlos a la nueva información que se les agrega.
+                                                            </p>
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Menú Archivo
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Seleccione el archivo que desea renombrar.</li>
+                                                                                <li>Abra el menú Archivo (File), después la opción Cambiar nombre (Rename).<br>
+                                                                                        <i>En Windows Vista tendrá que primero presionar la tecla ALT para desplegar el menú.</i><br>
+                                                                                        <i>En Windows 7 debe presionar la tecla F10.</i></li>
+                                                                                <li>Teclee el nuevo nombre y haga clic fuera de la carpeta para terminar.</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Menú Contextual
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Seleccione la carpeta o archivo que desea renombrar.</li>
+                                                                                <li>Abra el menú contextual con el clic derecho.</li>
+                                                                                <li>Elija la opción Cambiar nombre (Rename).</li>
+                                                                                <li>Teclee el nuevo nombre y haga clic afuera de la carpeta o archivo.</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Sobre Carpeta
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Seleccione la carpeta o archivo.</li>
+                                                                                <li>Haga clic sobre el nombre, hasta que aparezca el cursor intermitente.</li>
+                                                                                <li>Teclee el nuevo nombre y haga clic fuera de la carpeta o archivo para terminar.</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Tecla de función F2
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Seleccione la carpeta o archivo que desea renombrar.</li>
+                                                                                <li>Haga clic izquierdo sobre el nombre.</li>
+                                                                                <li>Oprima la tecla F2, inmediatamente aparecerá el cursor intermitente.</li>
+                                                                                <img src="../../assets/images/course/modulo2/teclado_funcion.jpg">
+                                                                                <li>Teclee el nuevo nombre y haga clic fuera de la carpeta o archivo para terminar.</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Menú Organizar
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Seleccione la carpeta o archivo que desea renombrar.</li>
+                                                                                <li>Abra el menú Organizar (Organize) y seleccione la opción Cambiar nombre (Rename).</li>
+                                                                                <li>Teclee el nuevo nombre y haga clic fuera de la carpeta para terminar.</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-3">
+                                                    <div class="card p-3">
+                                                            <h2 class="card-title">Copiar/Mover</h2>
+                                                            <p>
+                                                                Cuando trabajamos en la computadora nos vamos a encontrar con la necesidad de mover o copiar archivos. Hacer esto resulta muy sencillo. Veamos cuáles son los pasos para copiar y/o mover una carpeta o archivo.
+                                                            </p>
+                                                            <p>Existen varios métodos para realizar esto, pero los más comunes son:</p>
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Menú de Edición (Mover, Copiar)
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p style="text-align: center;"><b>Mover</b></p>
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Seleccione el archivo o carpeta a mover.</li>
+                                                                                <li>Abra el menú Edición (Edit) de la barra de menús.<br>
+                                                                                        <i>En Windows Vista tendrá que primero presionar la tecla ALT para desplegar el menú.</i><br>
+                                                                                        <i>En Windows 7 debe presionar la tecla F10.</i></li>
+                                                                                <li>Seleccione la opción "Mover a la carpeta" (Move to folder...)</li>
+                                                                                <img src="../../assets/images/course/modulo2/moveEdicion.gif">
+                                                                                <li>Seleccione la carpeta a donde desea mover el archivo o carpeta.</li>
+                                                                                <li>Haga clic en el botón Mover (Move).</li>
+                                                                            </ol>
+                                                                        </p>
+
+                                                                        <p style="text-align: center;"><b>Copiar</b></p>
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Seleccione el archivo o carpeta a copiar.</li>
+                                                                                <li>Abra el menú Edición (Edit) de la barra de menús.<br>
+                                                                                        <i>En Windows Vista tendrá que primero presionar la tecla ALT para desplegar el menú.</i><br>
+                                                                                        <i>En Windows 7 debe presionar la tecla F10.</i></li>
+                                                                                <li>Seleccione la opción Copiar (Copy).</li>
+                                                                                <img src="../../assets/images/course/modulo2/edicion_w7.jpg">
+                                                                                <li>Abra la carpeta donde desea copiar el archivo o carpeta.</li>
+                                                                                <li>En la carpeta nueva, haga clic en el menú Edición (Edit) y seleccione la opción "Pegar" (Paste).</li>
+                                                                                <img src="../../assets/images/course/modulo2/paste.jpg">
+                                                                                <li>El archivo o carpeta que haya copiado y pegado, aparecerá en el nuevo lugar.</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Menú Contextual (Copiar)
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Seleccione el archivo o carpeta a copiar.</li>
+                                                                                <li>Despliegue el menú contextual con un clic derecho.</li>
+                                                                                <li>Elija la opción Copiar (Copy).</li>
+                                                                                <li>Ubique el apuntador del ratón en el lugar donde desea copiar el archivo.</li>
+                                                                                <li>Despliegue el menú contextual con un clic derecho y elija la opción Pegar (Paste).</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Tecla de control Ctrl+ C (Copiar)
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            <ol>
+                                                                                <li>Seleccione el archivo o carpeta que desea copiar.</li>
+                                                                                <li>Presionar las teclas Ctrl + Letra C.</li>
+                                                                                <img src="../../assets/images/course/modulo2/teclado_copy.jpg">
+                                                                                <li>Seleccione la carpeta o directorio donde quiere copiar el archivo.</li>
+                                                                                <li>Presione las teclas Ctrl + Letra V.</li>
+                                                                                <img src="../../assets/images/course/modulo2/teclado_paste.jpg">
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="card-funciones">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <p style="text-align: center">
+                                                                            Arrastrar (Mover)
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <p>
+                                                                            La manera más común de mover archivos y carpetas es empleando el método de arrastrar y soltar, lo que significa que selecciona uno o más archivos y los arrastra a otra ubicación. Por ejemplo, puede arrastrar un archivo al escritorio o arrastrar un archivo a una carpeta para moverlo a dicha ubicación.
+                                                                            <ol>
+                                                                                <li>Localice el archivo a mover.</li>
+                                                                                <li>Seleccione el archivo con un clic izquierdo.</li>
+                                                                                <li>Manteniéndolo presionado, arrastre el archivo o carpeta al lugar donde lo desea mover.</li>
+                                                                                <li>Suelte el botón del ratón (mouse).</li>
+                                                                            </ol>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+    
+                                                        </div>
+                                                    </div>
+                                                    <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-4">
+                                                        <div class="card p-3">
+                                                            <h2 class="card-title">Borrar</h2>
+                                                            <div>
+                                                                <p>En ocasiones vamos a necesitar borrar archivos para no confundirnos a la hora de trabajar, o borrar información que ya no deseamos tener en la computadora y que sólo ocupa espacio. Al borrar información, la primera opción es enviarla a la papelera; la segunda opción es borrarla definitivamente.
+                                                                </p>
+                                                                <p>
+                                                                    Para borrar carpetas o archivos, existen tres formas muy comunes:
+                                                                </p>
+                                                                <div class="card-funciones">
+                                                                    <div class="row">
+                                                                        <div class="col-md-3">
+                                                                            <p style="text-align: center">
+                                                                                Menú Contextual
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="col-md-9">
+                                                                            <p>
+                                                                                <ol>
+                                                                                    <li>Seleccione con el apuntador del ratón el archivo o carpeta que desea eliminar.</li>
+                                                                                    <li>Despliegue un menú contextual con el botón derecho del ratón (mouse).</li>
+                                                                                    <li>Seleccione la opción Eliminar (Delete).</li>
+                                                                                </ol>
+                                                                                <img src="../../assets/images/course/modulo2/contextualBorrar.jpg">
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-funciones">
+                                                                    <div class="row">
+                                                                        <div class="col-md-3">
+                                                                            <p style="text-align: center">
+                                                                                Tecla de control SUPR
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="col-md-9">
+                                                                            <p>
+                                                                                <ol>
+                                                                                    <li>Seleccione el archivo a eliminar.</li>
+                                                                                    <li>Oprima la tecla SUPR (Delete).</li>
+                                                                                    <img src="../../assets/images/course/modulo2/Supr.jpg"><img src="../../assets/images/course/modulo2/u_supr.jpg">
+                                                                                    <li>Enseguida aparecerá un cuadro de confirmación para borrar el archivo.</li>
+                                                                                    <img src="../../assets/images/course/modulo2/confirmBorrar.jpg">
+                                                                                    <li>Seleccione la opción "Sí" (Yes) para borrar el archivo.</li>
+                                                                                    <li>Si no desea borrar el archivo, seleccione la opción "No".</li>
+                                                                                </ol>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-funciones">
+                                                                    <div class="row">
+                                                                        <div class="col-md-3">
+                                                                            <p style="text-align: center">
+                                                                                Arrastrando a papelera
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="col-md-9">
+                                                                            <p>
+                                                                                <ol>
+                                                                                    <li>Seleccione el archivo a eliminar.</li>
+                                                                                    <li>Con el ratón, arrástrelo hacia la papelera.</li>
+                                                                                </ol>
+                                                                                Esta opción no pide confirmación, simplemente se borra y ya.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-5">
+                                                        <div class="card p-3">
+                                                            <h2 class="card-title">Buscar</h2>
+                                                            <div>
+                                                                <p>
+                                                                    Esta función nos ayuda a buscar información en la computadora de manera fácil. A veces creamos archivos y luego no recordamos qué nombre le pusimos. O a veces es tanta la información que no recordamos dónde la guardamos.
+                                                                </p>
+                                                                <p>
+                                                                    Cuando ocurre esto, tenemos la opción de buscar los archivos por varios criterios, veamos cómo se hace.
+                                                                </p>
+                                                                <div class="card-funciones">
+                                                                    <div class="row">
+                                                                        <div class="col-md-3">
+                                                                            <p style="text-align: center">
+                                                                                Desde un cuadro de búsqueda Windows Vista y 7
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="col-md-9">
+                                                                            <p>
+                                                                                En este método, al escribir la palabra, se nos presentarán las opciones disponibles.
+                                                                                <img src="../../assets/images/course/modulo2/busqueda.PNG">
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-funciones">
+                                                                    <div class="row">
+                                                                        <div class="col-md-3">
+                                                                            <p style="text-align: center">
+                                                                                Búsqueda en menú Inicio
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="col-md-9">
+                                                                            <p>
+                                                                                Escribir el nombre del archivo o carpeta en el buscador.
+                                                                                <br>
+                                                                                <img src="../../assets/images/course/modulo2/buscadorInicio.jpg">
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-6">
+                                                        <div class="card p-3">
+                                                            <h2 class="card-title">Ordenar</h2>
+                                                            <div>
+                                                                <p>
+                                                                    Una forma fácil de encontrar un archivo consiste en ordenar el contenido en carpetas según ciertas características, como: agrupar todos los archivos de un mismo mes, la información de un proyecto, etc. Si después de ese orden, todavía es complicado encontrar información, entonces lo más fácil es ordenar los archivos de acuerdo a otros criterios.
+                                                                <p>
+                                                                    Los siguientes pasos permiten ordenar archivos de la manera más fácil:
+                                                                    <ol>
+                                                                        <li>Abra la carpeta donde desea ordenar los archivos.</li>
+                                                                        <li>En cualquier lugar de la carpeta, excepto sobre un archivo, despliegue el menú contextual, con el botón derecho del ratón (mouse).</li>
+                                                                        <img src="../../assets/images/course/modulo2/sortBy.jpg">
+                                                                        <li>Elija la opción con la que desea ordenar los archivos o carpetas (Arrange icons by). Las opciones son:
+                                                                            <ul>
+                                                                                <li><b>Nombre (Name)</b>: ordena los archivos por nombre, en orden alfabético.</li>
+                                                                                <li><b>Tamaño (Size)</b>: ordena los archivos por el tamaño del archivo o carpeta.</li>
+                                                                                <li><b>Tipo (Type)</b>: ordena los archivos por tipo de archivo; ejemplo: Word, Excel, Power Point, imagen jpg, gif, etc.</li>
+                                                                                <li><b>Fecha en que fue modificado (Date Modified)</b> los archivos se ordenan por la última fecha en que fueron modificados o editados.</li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>Al seleccionar la opción, los archivos y carpetas se habrán ordenado automáticamente de la manera indicada.</li>
+                                                                    </ol>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                              
+                                                </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mrg-btm-20">
+                        <div class="col text-center">
+                            <div class="btn-group">
+                                <a class="btn btn-default" role="button" href="tema5-1_secciones_explorador_windows.html">
+                                    <span>Atrás</span>
+                                </a>
+                                <a class="btn btn-default" role="button" href="tema5-explorador-de-windows.html">
+                                    <span>1</span>
+                                </a>
+                                <a class="btn btn-default" role="button" href="tema5-1_secciones_explorador_windows.html">
+                                    <span>2</span>
+                                </a>
+                                <a class="btn btn-actual-page" role="button" href="tema5-2_funciones-explorador.html">
+                                    <span>3</span>
+                                </a>
+                                <a class="btn btn-default" role="button" href="conclusion-modulo2.html">
+                                    <span>Siguiente</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="card widget-feed">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <h1 class="feed-title tag tag-info">Módulo 2</h1>
+                                <h1 class="feed-title tag tag-info">Tema 5</h1>
+                                <h3 class="feed-subtitle">Tu Progreso</h3>
+                                <div class="progress" style="height: 20px;" id="bar">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 40%" >40%</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="circlecontainer"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h3 class="feed-subtitle">Progreso General del Curso</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+          </div>
+          <!-- Content Wrapper END -->
+
+          <!-- Footer START -->
+          <footer class="content-footer">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <p>Se prohíbe la reproducción total o parcial sin previo y expreso consentimiento por
+                            escrito.</p>
+                        <p>D.R.© Instituto Tecnológico y de Estudios Superiores de Monterrey, México, 2020.</p>
+                    </div>
+                    <div class="col-12 col-md-4 center align-self-center">
+                        <a href="http://www.cca.org.mx/DED_Avisos/CCA_Aviso_Legal.pdf" target="_blank">Aviso Legal</a>
+                        <span><b>|</b></span>
+                        <a href="https://tec.mx/es/avisos-de-privacidad" target="_blank">Aviso de Privacidad</a>
+                        <span><b>|</b></span>
+                        <a href="../creditos.html">Créditos</a>
+                    </div>
+                </div>
+            </div>
+          </footer>
+          <!-- Footer END -->
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- Insert your dependencies here -->
+  </body>
+</html>

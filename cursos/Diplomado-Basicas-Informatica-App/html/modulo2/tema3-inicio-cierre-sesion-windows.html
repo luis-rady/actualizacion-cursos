@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Módulo 2 | Tema 3: Inicio y cierre de una sesión en Windows | CVA - Centro Virtual de Aprendizaje</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png">
+
+    <!-- plugins css -->
+    <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+
+    <!-- page plugins css -->
+
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet">
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet">
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../assets/css/animate.min.css" rel="stylesheet">
+    <link href="../../assets/css/app.css" rel="stylesheet">
+    <link href="../../assets/css/progress.css" rel="stylesheet">
+    <link href="../../assets/css/progreso.css" rel="stylesheet">
+
+    <!-- js -->
+    <script>
+        function hideAll() {
+            document.getElementById('iniciarSes').style.display='none';
+            document.getElementById('cerrarSes').style.display='none';
+        }
+        function show1() {
+            hideAll();
+            document.getElementById('iniciarSes').style.display='block';
+        }
+        function show2() {
+            hideAll();
+            document.getElementById('cerrarSes').style.display='block';
+        }
+    </script>
+  </head>
+
+  <body onload="hideAll(); show1();" class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav">
+          <div class="side-nav-inner">
+            <div class="side-nav-logo">
+              <a href="http://www.centroscomunitariosdeaprendizaje.org.mx/" target="_blank">
+                  <div class="logo logo-dark" style="background-image: url('../../assets/images/logo/logo.png')">
+                  </div>
+                  <div class="logo logo-white" style="background-image: url('../../assets/images/logo/logo.png')">
+                  </div>
+              </a>
+              <div class="mobile-toggle side-nav-toggle">
+                  <a href="">
+                      <i class="ti-arrow-circle-left"></i>
+                  </a>
+              </div>
+            </div>
+            <!--Inician contenidos laterales-->
+            <ul class="side-nav-menu scrollable">
+                    <li class="nav-item active">
+                      <a class="mrg-top-30" href="../../index.html">
+                        <span class="icon-holder">
+                          <i class="ti-home"></i>
+                        </span>
+                        <span class="title">Bienvenida</span>
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="../introduccion/introduccion.html">
+                        <span class="icon-holder">
+                          <i class="ei-foggy"></i>
+                        </span>
+                        <span class="title">Introducción</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="dropdown-toggle" href="javascript:void(0);">
+                        <span class="icon-holder">
+                          <i class="ti-agenda"></i>
+                        </span>
+                        <span class="title">Módulos</span>
+                        <span class="arrow">
+                          <i class="ti-angle-right"></i>
+                        </span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                            <a href="../temario/temario.html" class="side-index-general">Módulos</a>
+                        </li>
+                        <!-- Módulo 1 -->
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="title side-index-general">Módulo 1: ¿Qué es y para qué sirve una computadora</span>
+                                <span class="arrow">
+                                    <i class="ti-angle-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../modulo1/presentacion-modulo1.html" class="side-index-general">
+                                    Presentación
+                                    </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/que-es-una-computadora.html" class="side-index-general"> <!--TODO: Add html page-->
+                                    Tema 1. ¿Qué es una computadora?
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/componentes-de-la-computadora.html" class="side-index-general">
+                                    Tema 2. Componentes de la computadoras
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/para-que-sirve-la-computadora.html" class="side-index-general">
+                                    Tema 3. ¿Para qué sirve la computadora?
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo1/m1-quiz.html" class="side-index-general">
+                                    Quiz
+                                </a>
+                            </li>
+                            </ul>
+                        </li>
+                        <!-- Módulo 2 -->
+                        <li class="nav-item dropdown">
+                          <a class="dropdown-toggle" href="javascript:void(0);">
+                            <span class="title side-index-general">Módulo 2: ¿Cómo funciona la compuadora?</span>
+                            <span class="arrow">
+                                <i class="ti-angle-right"></i>
+                            </span>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li>
+                                <a href="../modulo2/temario.html" class="side-index-general">
+                                    Temario
+                                </a>
+                            </li>
+                            <li>
+                              <a href="../modulo2/presentacion-modulo2.html" class="side-index-general">
+                                Presentación
+                              </a>
+                            </li>
+                            <li>
+                            <li>
+                                <a href="../modulo2/tema1-que-es-el-sistema-operativo-windows.html" class="side-index-general">
+                                  Tema 1. ¿Qué es el Sistema Operativo Windows?
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema2-como-manejar-sistema-operativo-windows.html" class="side-index-general">
+                                  Tema 2. ¿Cómo manejar el Sistema Operativo Windows?
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema3-inicio-cierre-sesion-windows.html" class="side-index-general">
+                                  Tema 3. Inicio y cierre de una sesión de Windows
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema4-uso-basico-componentes-de-windows.html" class="side-index-general">
+                                  Tema 4. Uso básico de los componentes de Windows
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../modulo2/tema5-explorador-de-windows.html" class="side-index-general">
+                                  Tema 5. Explorador de Windows
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../modulo2/m2-autoevaluacion.html" class="side-index-general">
+                                    Quiz
+                                </a>
+                            </li>
+                          </ul>
+                        </li>
+      
+                        <!-- Módulo 3 -->
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="title side-index-general">Módulo 3: ¿Cómo me puede ayudar la computadora en mis actividades?</span>
+                                <span class="arrow">
+                                    <i class="ti-angle-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                <a href="../modulo3/presentacion.html" class="side-index-general">
+                                    Presentación
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/conceptos-generales-de-office.html" class="side-index-general">
+                                    Tema 1. Conceptos generales de Office
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/word-procesador-de-palabras.html" class="side-index-general">
+                                    Tema 2. Word (procesador de palabras)
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/power-point-presentador-electronico.html" class="side-index-general">
+                                    Tema 3. Power point (presentador electrónico)
+                                </a>
+                                </li>
+                                <li>
+                                <a href="../modulo3/excel-hoja-de-calculo.html" class="side-index-general">
+                                    Tema 4. Excel (hoja de cálculo)
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="../modulo3/quiz.html" class="side-index-general">
+                                    Quiz
+                                </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <!-- Módulo 4 -->
+                        <li class="nav-item dropdown">
+                              <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="title side-index-general">Módulo 4: ¿Cómo buscar información en Internet?</span>
+                                <span class="arrow">
+                                    <i class="ti-angle-right"></i>
+                                </span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../modulo4/temario.html" class="side-index-general">
+                                        Temario
+                                    </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/presentacion-modulo4.html" class="side-index-general">
+                                    Presentación
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema1-definicion-internet.html" class="side-index-general">
+                                    Tema 1. Definición de Internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema2-Comenzando-a-navegar-por-Internet.html" class="side-index-general">
+                                    Tema 2. Comenzando a navegar por internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema3-buscando-informacion-en-la-web.html" class="side-index-general">
+                                    Tema 3. Buscando información en internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema4-recursos-para-compartir-informacion.html" class="side-index-general">
+                                    Tema 4. Recursos para compartir información
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema5-seguridad-en-internet.html" class="side-index-general">
+                                    Tema 5. Seguridad en internet
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="../modulo4/tema6-imprimir-descargar-informacion.html" class="side-index-general">
+                                    Tema 6. Imprimir y descargar información de internet
+                                  </a>
+                                </li>
+                                <li>
+                                    <a href="../modulo4/m4-autoevaluacion.html" class="side-index-general">
+                                        Quiz
+                                    </a>
+                                </li>
+                              </ul>
+                            </li>
+    
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle" href="javascript:void(0);">
+                                  <span class="title side-index-general">Módulo 5: Comunicarse con otros a través de la computadora</span>
+                                  <span class="arrow">
+                                      <i class="ti-angle-right"></i>
+                                  </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="../modulo5/temario-modulo5.html" class="side-index-general">
+                                            Temario
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo4/presentacion-modulo5.html" class="side-index-general">
+                                        Presentación
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema1-definicion-e-importancia.html" class="side-index-general">
+                                        Tema 1. Definición e importancia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema2-elementos.html" class="side-index-general">
+                                        Tema 2. Elementos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema3-crear-cuenta.html" class="side-index-general">
+                                        Tema 3. Crear cuenta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema4-manejo-de-mensajes.html" class="side-index-general">
+                                        Tema 4. Manejo de mensajes
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema5-compartir-documentos.html" class="side-index-general">
+                                        Tema 5. Compartir documentos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/tema6-compartir-documentos.html" class="side-index-general">
+                                        Tema 6. Personalizar cuenta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../modulo5/m5-quiz.html" class="side-index-general">
+                                            Quiz
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+      
+                      </ul>
+                    </li>
+      
+      
+                    <li class="nav-item active">
+                      <a href="../politicas/politicas.html">
+                          <span class="icon-holder">
+                              <i class="ei-preview"></i>
+                          </span>
+                          <span class="title">Políticas</span>
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="../contacto/contacto.html">
+                          <span class="icon-holder">
+                              <i class="ei-email"></i>
+                          </span>
+                          <span class="title">Contáctanos</span>
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="../creditos/creditos.html">
+                          <span class="icon-holder">
+                              <i class="ti-info-alt"></i>
+                          </span>
+                          <span class="title">Créditos</span>
+                      </a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar">
+              <div class="header-container">
+                  <ul class="nav-left">
+                      <li>
+                          <a class="side-nav-toggle" href="javascript:void(0);">
+                              <i class="ti-view-grid"></i>
+                          </a>
+                      </li>
+                  </ul>
+                  <ul class="nav-right">
+                      <li>
+                          <a href="https://tec.mx/es" target="_blank">
+                              <img src="../../assets/images/logo/tec-logo.png" height="45">
+                          </a>
+                      </li>
+                  </ul>
+
+              </div>
+          </div>
+          <!-- Header END -->
+
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+                <div class="container-fluid">                    
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                              <div class="row no-gutters">
+                                    <div class="card-body">
+                                      <h1 class="card-title">Tema 3. Inicio y cierre de sesión en Windows</h1>
+                                      <div class="mrg-top-20">
+                                          <p class="text-justify">
+                                            El sistema operativo Windows trabaja por sesiones, es decir, cada que enciende la computadora es una sesión, 
+                                            y cuando apaga la computadora, se cierra esa sesión. Además de las sesiones, una computadora puede ser utilizada 
+                                            por varias personas, y cada persona puede utilizar programas diferentes. Para que cada persona pueda personalizar 
+                                            la computadora, el sistema operativo permite trabajar bajo perfiles.
+                                        </p>
+                                        <p class="text-justify">
+                                            Un perfil es un nombre que se utiliza para personalizar el funcionamiento y otros aspectos decorativos en su computadora. 
+                                            Es como cuando se arregla la oficina de la forma en que la necesita, esto mismo hace Windows. Cada usuario (persona que utiliza una computadora) 
+                                            puede utilizar un perfil para identificarse y disponer el funcionamiento de la computadora, logrando que al momento de identificarse, 
+                                            Windows recupere y establezca los elementos decorativos y de funcionamiento definidos por el usuario que está empezando a trabajar.
+                                        </p>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="card w-100">
+                            <div class="row">
+                                
+                                    <div class="col-md-6 text-center" style="padding: 1%">
+                                        <img  src="../../assets/images/course/modulo2/w7.png" class="card-img w-75"  alt="Windows 7" style="border-radius: 5%">
+                                        <h3>Windows 7</h3>
+                                           
+                                    </div>
+                                    <div class="col-md-6 text-center" style="padding: 1%">
+                                        <img  src="../../assets/images/course/modulo2/w10.jpg" class="card-img w-75"  alt="Windows 10" style="border-radius: 5%">
+                                        <h3>Windows 10</h3>
+                                    </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        
+                            <div style="width: 100; margin: auto">
+                                <button onclick="show1()" class="btn btn-dark btn-lg" type="button">
+                                    <h3 style="color: white; vertical-align: middle">Cómo iniciar una sesión</h3>
+                                </button>
+                                <button onclick="show2()" class="btn btn-dark btn-lg" type="button">
+                                    <h3 style="color: white; vertical-align: middle">Cómo cerrar una sesión</h3>
+                                </button>
+                              </div>
+                            <div id="iniciarSes" class="w-100">
+                              <div class="card mb-3">
+                                  <div class="row">
+                                      
+                                    <div class="card-body">
+                                        <h2 class="card-title" style="text-align:center">Cómo iniciar una sesión</h2>
+                                        <p class="card-text" style="text-align: center">Cuando la computadora enciende, hay tres opciones para entrar a ella:</p>
+                                        <ul class="card-text pl-5">
+                                            <li>Que entre directamente sin pedir datos de usuario y contraseña.</li>
+                                            <li>Que entre a una pantalla de Windows donde haya varios usuarios (perfiles) pero no se pida contraseña.</li>                                      
+                                            <li>Que entre a una pantalla de Windows donde haya varios usuarios (perfiles) y se pida contraseña.</li>
+                                        </ul>
+                                        <p class="card-text pl-5">Si se pide contraseña, sólo se escribe en el recuadro blanco que aparece y se hace clic en el icono</p>
+                                        <img class="card-img w-25 pl-5" src="../../assets/images/course/modulo2/pwdW7.jpg" alt="login-w7">
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                            <div id="cerrarSes" class="w-100">
+                                <div class="card mb-3">
+                                    <div class="row">
+                                          <div class="card-body">
+                                                <h2 class="card-title" style="text-align:center">Cómo cerrar una sesión</h2>
+                                                <p class="card-text pl-5" style="text-align: center">Cuando se ha terminado de trabajar con la computadora, siempre se deberá salir de Windows; es recomendable guardar todo el trabajo realizado antes de finalizar una sesión, de no ser así se perderá toda la información al apagar el sistema.</p>
+                                                <p class="card-text pl-5" style="text-align: center"><b>Para cerrar una sesión de Windows y apagar la computadora debe seguir los siguientes pasos:</b></p>
+                                                <ol class="card-text pl-5">
+                                                    <li>Cierre todas las aplicaciones o programas que se encuentren abiertos.</li>
+                                                    <li>Haga clic en el botón Inicio (Start)
+                                                        <img class="card-img" style="width: 100px; height: 35px;" src="../../assets/images/course/modulo2/inicioW7.jpg" alt="boton-inicio">
+                                                        <img class="card-img" style="width: 100px; height: 35px;" src="../../assets/images/course/modulo2/inicioW10.jpg" alt="boton-inicio">
+                                                    </li>                                      
+                                                    <li>Haga clic en el icono "Apagar equipo" (Turn Off Computer)
+                                                            <img class="card-img" style="width: 125px; height: 35px;" src="../../assets/images/course/modulo2/apagarW7.jpg" alt="boton-apagar">
+                                                            <img class="card-img" style="width: 125px; height: 35px;" src="../../assets/images/course/modulo2/apagarW10.jpg" alt="boton-apagar">
+                                                    </li>
+                                                    <li>Si no desea apagar el equipo, puede:
+                                                        <ul>
+                                                            <li><b>Suspender (Stand By)</b>: esta opción la puede utilizar para cuando no desea cerrar todos los programas o páginas que tiene abiertos, y va a continuar trabajando en la computadora; temporalmente la puede suspender para que no se quede abierta. Esta característica es particularmente útil para mantener la carga de batería de equipos portátiles y para reducir el consumo de energía cuando equipo está inactivo.</li>
+                                                            <li><b>Reiniciar (Restart)</b>: esta opción se utiliza cuando se ha instalado un programa nuevo, o la computadora marca algún o error, o marca que es necesario reiniciar.</li>
+                                                            <li><b>Cancelar (Cancel)</b>:  cuando no se desea ninguna de las anteriores opciones.</li>
+                                                        </ul>                                                        
+                                                    </li>
+                                                </ol>
+                                                <p class="card-text pl-5">En Windows 7 debe hacer clic en la flecha que aparece junto al botón para acceder a estas opciones:</p>
+                                                <img class="card-img pl-5" style="width: 15%" src="../../assets/images/course/modulo2/opcionesApW7.jpg">
+                                                <p class="card-text pl-5">En Windows 10 al hacer click en el boton de apagar se mostraran estas opciones:</p>
+                                                <img class="card-img pl-5" style="width: 15%" src="../../assets/images/course/modulo2/opcionesApW10.jpg">
+                                          </div>
+                                    </div>
+                                  </div>
+                              </div>
+                    </div>
+
+                    <div class="row mrg-btm-20">
+                        <div class="col text-center">
+                            <div class="btn-group">
+                                <a class="btn btn-default" role="button" href="tema2-2_raton.html">
+                                    <span>Atrás</span>
+                                </a>
+                                <a class="btn btn-actual-page" role="button" href="tema3-inicio-cierre-sesion-windows.html">
+                                    <span>1</span>
+                                </a>
+                                <a class="btn btn-default" role="button" href="tema4-uso-basico-componentes-de-windows.html">
+                                    <span>Siguiente</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card widget-feed">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <h1 class="feed-title tag tag-info">Módulo 2</h1>
+                                <h1 class="feed-title tag tag-info">Tema 3</h1>
+                                <h3 class="feed-subtitle">Tu Progreso</h3>
+                                <div class="progress" style="height: 20px;" id="bar">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 38%" >38%</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="circlecontainer"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h3 class="feed-subtitle">Progreso General del Curso</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+          </div>
+          <!-- Content Wrapper END -->
+
+          <!-- Footer START -->
+          <footer class="content-footer">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <p>Se prohíbe la reproducción total o parcial sin previo y expreso consentimiento por
+                            escrito.</p>
+                        <p>D.R.© Instituto Tecnológico y de Estudios Superiores de Monterrey, México, 2020.</p>
+                    </div>
+                    <div class="col-12 col-md-4 center align-self-center">
+                        <a href="http://www.cca.org.mx/DED_Avisos/CCA_Aviso_Legal.pdf" target="_blank">Aviso Legal</a>
+                        <span><b>|</b></span>
+                        <a href="https://tec.mx/es/avisos-de-privacidad" target="_blank">Aviso de Privacidad</a>
+                        <span><b>|</b></span>
+                        <a href="../creditos.html">Créditos</a>
+                    </div>
+                </div>
+            </div>
+          </footer>
+          <!-- Footer END -->
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- Insert your dependencies here -->
+  </body>
+</html>
