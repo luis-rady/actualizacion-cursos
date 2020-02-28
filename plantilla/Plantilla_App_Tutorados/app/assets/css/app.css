@@ -3718,3 +3718,38 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 
 /*-- Para los botones de creditos --*/
 .btn-credits { background-color: var(--theme-color); border-color: var(--theme-color); color: #ffffff; }
+
+
+/*QUIZ CSS*/
+.score{
+  position: absolute;
+  right:20%;
+  font-size: 22px;
+  font-weight: bold;
+  top:0px;
+}
+.msg{
+  position: absolute;
+  left:4%;
+  font-size: 22px;
+  font-weight: bold;
+  top:0px;
+}
+.submitbutton{
+  position: absolute;
+  right:18%;
+  font-size: 22px;
+  font-weight: bold;
+  bottom:0px;
+  z-index: 1;
+}
+
+b.alertWrong{
+  margin-top: -20px;
+}
+b.alertCorrect{
+  margin-top: -20px;
+}
+.mrg-btm--50{
+  margin-bottom: -50px;
+}
