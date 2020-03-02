@@ -1103,67 +1103,210 @@
                                                 <div role="tabpanel" class="tab-pane fade" id="tab-questions">
                                                     <div class="pdd-horizon-15 pdd-vertical-20">
                                                         <div class="description">
-                                                            <p>Contesta la preguntas correctamente.</p>
-                                                            
-                                                            <!-- EMPIEZAN PREGUNTAS -->
+                                                            <p><b>Contesta la preguntas correctamente.</b></p>
+
+
                                                             <div class="container-fluid p-0">
                                                                 <div class="row no-gutters">
                                                                     <div class="col">
-                                                                        <div><b>1. What is the name of the boy?</b></div>
-                                                                        <input type="radio" id="rosario"
-                                                                            name="questions" value="rosario">
-                                                                        <label for="rosario">Mrs. Rosario</label><br>
-                                                                        <input type="radio" id="milwaukee"
-                                                                            name="questions" value="milwaukee">
-                                                                        <label for="milwaukee">Milwaukee</label><br>
-                                                                        <input type="radio" id="carlos"
-                                                                            name="questions" value="carlos">
-                                                                        <label for="carlos">Carlos</label>
+                                                                        <p>1. What is the name of the boy?</p>
+
+                                                                        <b id='U01_Q1_Wrong'
+                                                                            style="display: none; color:red">
+                                                                            Wrong answer, try again
+                                                                        </b>
+                                                                        <b id='U01_Q1_Correct'
+                                                                            style="display: none; color:green">
+                                                                            Correct answer!!!
+                                                                        </b>
+
+                                                                        <div class="row">
+                                                                            <div class="pl-3">
+
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="U01_Q1_A1" name="U01_Q1">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="U01_Q1_A1">Mrs.
+                                                                                        Rosario</label>
+                                                                                </div>
+
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="U01_Q1_A2" name="U01_Q1">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="U01_Q1_A2">Milwaukee</label>
+                                                                                </div>
+
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="U01_Q1_A3" name="U01_Q1"
+                                                                                        value="correct">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="U01_Q1_A3">Carlos</label>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-4 mr-auto pt-2 pb-4">
+                                                                            <button type="button" class="button"
+                                                                                onclick="checkAnswer('U01_Q1', 3)">Submit</button>
+                                                                        </div>
                                                                     </div>
                                                                     <div class="col">
-                                                                        <div><b>2. I he a student?</b></div>
-                                                                        <input type="radio" id="yes"
-                                                                            name="questions" value="yes">
-                                                                        <label for="rosario">Yes, he is a student.</label><br>
-                                                                        <input type="radio" id="no"
-                                                                            name="questions" value="no">
-                                                                        <label for="milwaukee">No, he is not a student.</label><br>
+
+                                                                        <p>2. Is he a student?</p>
+
+                                                                        <b id='U01_Q2_Wrong'
+                                                                            style="display: none; color:red">
+                                                                            Wrong answer, try again
+                                                                        </b>
+                                                                        <b id='U01_Q2_Correct'
+                                                                            style="display: none; color:green">
+                                                                            Correct answer!!!
+                                                                        </b>
+
+                                                                        <div class="pl-3">
+
+                                                                            <div class="custom-control custom-radio">
+                                                                                <input type="radio"
+                                                                                    class="custom-control-input"
+                                                                                    id="U01_Q2_A1" name="U01_Q2"
+                                                                                    value="correct">
+                                                                                <label class="custom-control-label"
+                                                                                    for="U01_Q2_A1">Yes, he is a
+                                                                                    student.</label>
+                                                                            </div>
+
+                                                                            <div class="custom-control custom-radio">
+                                                                                <input type="radio"
+                                                                                    class="custom-control-input"
+                                                                                    id="U01_Q2_A2" name="U01_Q2">
+                                                                                <label class="custom-control-label"
+                                                                                    for="U01_Q2_A2">No, he is not a
+                                                                                    student.</label>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                        <div class="col-md-4 mr-auto pt-2 pb-4">
+                                                                            <button type="submit" class="button"
+                                                                                onclick="checkAnswer('U01_Q2', 2)">Submit</button>
+                                                                        </div>
+
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="row no-gutters">
                                                                     <div class="col">
-                                                                        <div><b>3. Where is he?</b></div>
-                                                                        <input type="radio" id="mexico"
-                                                                            name="questions" value="mexico">
-                                                                        <label for="rosario">He is in Mexico.</label><br>
-                                                                        <input type="radio" id="student"
-                                                                            name="questions" value="student">
-                                                                        <label for="milwaukee">He is a student</label><br>
-                                                                        <input type="radio" id="milwaukee3"
-                                                                            name="questions" value="milwaukee">
-                                                                        <label for="carlos">He is in Milwaukee</label>
+
+                                                                        <p>3. Where is he?</p>
+
+                                                                        <b id='U01_Q3_Wrong'
+                                                                            style="display: none; color:red">
+                                                                            Wrong answer, try again
+                                                                        </b>
+                                                                        <b id='U01_Q3_Correct'
+                                                                            style="display: none; color:green">
+                                                                            Correct answer!!!
+                                                                        </b>
+
+                                                                        <div class="pl-3">
+
+                                                                            <div class="custom-control custom-radio">
+                                                                                <input type="radio"
+                                                                                    class="custom-control-input"
+                                                                                    id="U01_Q3_A1" name="U01_Q3">
+                                                                                <label class="custom-control-label"
+                                                                                    for="U01_Q3_A1">He is in
+                                                                                    Mexico.</label>
+                                                                            </div>
+
+                                                                            <div class="custom-control custom-radio">
+                                                                                <input type="radio"
+                                                                                    class="custom-control-input"
+                                                                                    id="U01_Q3_A2" name="U01_Q3">
+                                                                                <label class="custom-control-label"
+                                                                                    for="U01_Q3_A2">He is a
+                                                                                    student.</label>
+                                                                            </div>
+
+                                                                            <div class="custom-control custom-radio">
+                                                                                <input type="radio"
+                                                                                    class="custom-control-input"
+                                                                                    id="U01_Q3_A3" name="U01_Q3"
+                                                                                    value="correct">
+                                                                                <label class="custom-control-label"
+                                                                                    for="U01_Q3_A3">He is in
+                                                                                    Milwaukee.</label>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                        <div class="col-md-4 mr-auto pt-2 pb-4">
+                                                                            <button type="submit" class="button"
+                                                                                onclick="checkAnswer('U01_Q3', 3)">Submit</button>
+                                                                        </div>
+
                                                                     </div>
                                                                     <div class="col">
-                                                                        <div><b>4. What is his teacher's name?</b></div>
-                                                                        <input type="radio" id="rosario4"
-                                                                            name="questions" value="rosario">
-                                                                        <label for="rosario">Mrs. Rosario</label><br>
-                                                                        <input type="radio" id="milwaukee4"
-                                                                            name="questions" value="milwaukee">
-                                                                        <label for="milwaukee">Milwaukee</label><br>
-                                                                        <input type="radio" id="carlos4"
-                                                                            name="questions" value="carlos">
-                                                                        <label for="carlos">Carlos</label>
+
+                                                                        <p>4. What is his teacher's name?</p>
+
+                                                                        <b id='U01_Q4_Wrong'
+                                                                            style="display: none; color:red">
+                                                                            Wrong answer, try again
+                                                                        </b>
+                                                                        <b id='U01_Q4_Correct'
+                                                                            style="display: none; color:green">
+                                                                            Correct answer!!!
+                                                                        </b>
+
+                                                                        <div class="pl-3">
+
+                                                                            <div class="custom-control custom-radio">
+                                                                                <input type="radio"
+                                                                                    class="custom-control-input"
+                                                                                    id="U01_Q4_A1" name="U01_Q4">
+                                                                                <label class="custom-control-label"
+                                                                                    for="U01_Q4_A1">Mrs. Rosario</label>
+                                                                            </div>
+
+                                                                            <div class="custom-control custom-radio">
+                                                                                <input type="radio"
+                                                                                    class="custom-control-input"
+                                                                                    id="U01_Q4_A2" name="U01_Q4">
+                                                                                <label class="custom-control-label"
+                                                                                    for="U01_Q4_A2">Milwaukee</label>
+                                                                            </div>
+
+                                                                            <div class="custom-control custom-radio">
+                                                                                <input type="radio"
+                                                                                    class="custom-control-input"
+                                                                                    id="U01_Q4_A3" name="U01_Q4">
+                                                                                <label class="custom-control-label"
+                                                                                    for="U01_Q4_A3">Carlos</label>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                        <div class="col-md-4 mr-auto pt-2 pb-4">
+                                                                            <button type="submit" class="button"
+                                                                                onclick="checkAnswer('U01_Q4', 3)">Submit</button>
+                                                                        </div>
+
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <!-- TERMINAN PREGUNTAS -->
-    
-                                                            <button style="margin: 0px; margin-top: 2%;" type="button" class="button">
-                                                                Verificar
-                                                            </button>
-                                                        
+
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1183,7 +1326,7 @@
                                                 aria-valuemin="0" aria-valuemax="100" style="max-width: 71%">71%</div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
@@ -1202,7 +1345,7 @@
                             </div>
                         </div>
 
-                        
+
                         <div class="row">
                             <div class="col text-center">
                                 <div class="btn-group">
@@ -1269,45 +1412,26 @@
     <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
     <script type="text/javascript">show(0.71)</script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            //close all the content divs on page load
-            $('.response').hide();
+    <script>
+        function checkAnswer(question, numOfAnswers) {
+            document.getElementById(question + '_Correct').style.display = 'none';
+            document.getElementById(question + '_Wrong').style.display = 'none';
 
-            // toggle slide
-            $('.selection').click(function () {
-                // by calling sibling, we can use same div for all demos
-                $(this).siblings('.response').slideToggle('fast');
-            });
-
-            $('button').click(function (event) {
-                var $target = $(event.target);
-                var $checkboxes = $target.parent('.mcq').find('input');
-                for (var i = 0; i < $checkboxes.length; i++) {
-                    var $checkbox = $checkboxes.eq(i);
-                    a = $checkbox;
-                    if ($checkbox[0].checked && $checkbox.nextAll('.response').hasClass('right')) {
-                        $checkbox.nextAll('.correct-checkbox').show();
-                    } else if ($checkbox[0].checked &&
-                        $checkbox.nextAll('.response').hasClass('wrong')) {
-                        $checkbox.nextAll('.incorrect-checkbox').show();
-                    } else if (!$checkbox[0].checked &&
-                        $checkbox.nextAll('.response').hasClass('right')) {
-                        $checkbox.nextAll('.incorrect-checkbox').show();
-                    } else {
-                        $checkbox.nextAll('.correct-checkbox').show();
+            setTimeout(function () {
+                for (var i = 1; i <= numOfAnswers; i++) {
+                    target = document.getElementById(question + '_A' + i);
+                    if (target.checked) {
+                        if (target.value == 'correct') {
+                            document.getElementById(question + '_Correct').style.display = 'block';
+                        }
+                        else {
+                            document.getElementById(question + '_Wrong').style.display = 'block';
+                        }
                     }
                 }
-                $target.parent('.mcq').find('.response').slideToggle('fast');
-                if ($target.text() == 'Submit') {
-                    $target.text('Hide');
-                } else {
-                    $checkboxes.nextAll('.incorrect-checkbox').hide();
-                    $checkboxes.nextAll('.correct-checkbox').hide();
-                    $target.text('Submit');
-                }
-            });
-        });
+            }, 250);
+
+        }
     </script>
 
     <!-- endbuild -->

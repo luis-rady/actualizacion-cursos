@@ -1549,47 +1549,79 @@
                                             <div class="tab-content">
                                                 <div role="tabpanel" class="tab-pane fade in active" id="tab-1">
                                                     <div class="pdd-horizon-15 pdd-vertical-20">
-                                                        <p>Selecciona la respuesta que corresponde al espacio en blanco.</p>
+                                                        <p>Selecciona la respuesta que corresponde al espacio en blanco.
+                                                        </p>
                                                         <div class="container-fluid p-0">
                                                             <div class="row">
                                                                 <div class="col-sm">
-                                                                    <div><b style="color: #daa520;">She ___ my mother.</b></div>
-                                                                    <input type="radio" id="nice1" name="questions"
-                                                                        value="nice">
-                                                                    <label for="rosario">nice</label><br>
-                                                                    <input type="radio" id="name1" name="questions"
-                                                                        value="name">
-                                                                    <label for="milwaukee">name</label><br>
-                                                                    <input type="radio" id="is1" name="questions" value="is">
-                                                                    <label for="carlos">is</label>
+                                                                    <div><b style="color: #daa520;">1. She ___ my
+                                                                            mother.</b></div>
+                                                                    <input type="radio" id="U01_E1_1_A1" name="E1_1">
+                                                                    <label for="U01_E1_1_A1">nice</label><br>
+                                                                    <input type="radio" id="U01_E1_1_A2" name="E1_1">
+                                                                    <label for="U01_E1_1_A2">name</label><br>
+                                                                    <input type="radio" id="U01_E1_1_A3" name="E1_1" value="correct">
+                                                                    <label for="U01_E1_1_A3">is</label>
+
+                                                                    <div>
+                                                                        <b  id='U01_E1_1_Wrong' class="indicator-labels"
+                                                                            style="display: none; color:red">Wrong</b>
+
+                                                                        <b  id='U01_E1_1_Correct' class="indicator-labels"
+                                                                            style="display: none; color:green">Correct</b>
+                                                                        </div>
                                                                 </div>
-    
+
                                                                 <div class="col-sm">
-                                                                    <div><b style="color: #daa520;">___ to meet you.</b></div>
-                                                                    <input type="radio" id="nice2" name="questions"
-                                                                        value="nice">
-                                                                    <label for="rosario">Nice</label><br>
-                                                                    <input type="radio" id="name2" name="questions"
-                                                                        value="name">
-                                                                    <label for="milwaukee">Name</label><br>
-                                                                    <input type="radio" id="is2" name="questions" value="is">
-                                                                    <label for="carlos">Is</label>
+                                                                    <div><b style="color: #daa520;">2. ___ to meet
+                                                                            you.</b></div>
+                                                                    <input type="radio" id="U01_E1_2_A1" name="E1_2" value="correct">
+                                                                    <label for="U01_E1_2_A1">Nice</label><br>
+                                                                    <input type="radio" id="U01_E1_2_A2" name="E1_2">
+                                                                    <label for="U01_E1_2_A2">Name</label><br>
+                                                                    <input type="radio" id="U01_E1_2_A3" name="E1_2">
+                                                                    <label for="U01_E1_2_A3">Is</label>
+
+                                                                    <div>
+                                                                        <b  id='U01_E1_2_Wrong' class="indicator-labels"
+                                                                            style="display: none; color:red">Wrong</b>
+
+                                                                        <b  id='U01_E1_2_Correct' class="indicator-labels"
+                                                                            style="display: none; color:green">Correct</b>
+                                                                    </div>
+                                                                    
                                                                 </div>
-    
+
+                                                                
+
                                                                 <div class="col-sm">
-                                                                    <div><b style="color: #daa520;">What ___ your name?</b></div>
-                                                                    <input type="radio" id="nice3" name="questions"
-                                                                        value="nice">
-                                                                    <label for="rosario">nice</label><br>
-                                                                    <input type="radio" id="name3" name="questions"
-                                                                        value="name">
-                                                                    <label for="milwaukee">name</label><br>
-                                                                    <input type="radio" id="is3" name="questions" value="is">
-                                                                    <label for="carlos">is</label>
+                                                                    <div><b style="color: #daa520;">3. What ___ your
+                                                                            name?</b></div>
+                                                                    <input type="radio" id="U01_E1_3_A1" name="E1_3">
+                                                                    <label for="U01_E1_3_A1">nice</label><br>
+                                                                    <input type="radio" id="U01_E1_3_A2" name="E1_3">
+                                                                    <label for="U01_E1_3_A2">name</label><br>
+                                                                    <input type="radio" id="U01_E1_3_A3" name="E1_3"
+                                                                        value="correct">
+                                                                    <label for="U01_E1_3_A3">is</label>
+                                                                    
+                                                                    <div>
+                                                                        <b  id='U01_E1_3_Wrong' class="indicator-labels"
+                                                                            style="display: none; color:red">Wrong</b>
+
+                                                                        <b  id='U01_E1_3_Correct' class="indicator-labels"
+                                                                            style="display: none; color:green">Correct</b>
+                                                                    </div>
+                                                                    
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        
+
+                                                        <div class="col-md-4 mr-auto pt-2 pb-4">
+                                                            <button type="submit" class="button"
+                                                                onclick="checkAnswer('U01_E1', 3, 3)">Submit</button>
+                                                        </div>
+
                                                     </div>
 
 
@@ -1710,44 +1742,32 @@
     <script type="text/javascript">show(0.85)</script>
 
     <script type="text/javascript">
-        $(document).ready(function () {
-            //close all the content divs on page load
-            $('.response').hide();
-
-            // toggle slide
-            $('.selection').click(function () {
-                // by calling sibling, we can use same div for all demos
-                $(this).siblings('.response').slideToggle('fast');
-            });
-
-            $('button').click(function (event) {
-                var $target = $(event.target);
-                var $checkboxes = $target.parent('.mcq').find('input');
-                for (var i = 0; i < $checkboxes.length; i++) {
-                    var $checkbox = $checkboxes.eq(i);
-                    a = $checkbox;
-                    if ($checkbox[0].checked && $checkbox.nextAll('.response').hasClass('right')) {
-                        $checkbox.nextAll('.correct-checkbox').show();
-                    } else if ($checkbox[0].checked &&
-                        $checkbox.nextAll('.response').hasClass('wrong')) {
-                        $checkbox.nextAll('.incorrect-checkbox').show();
-                    } else if (!$checkbox[0].checked &&
-                        $checkbox.nextAll('.response').hasClass('right')) {
-                        $checkbox.nextAll('.incorrect-checkbox').show();
-                    } else {
-                        $checkbox.nextAll('.correct-checkbox').show();
+        function checkAnswer(question, numQuestions, numAnswers) {
+            setTimeout(function () {
+                let labels = document.getElementsByClassName('indicator-labels');
+                for(let x = 0; x < labels.length; x++) {
+                    console.log(labels[x])
+                    labels[x].style.display = 'none';
+                }
+                for (let i = 1; i <= numQuestions; i++) {
+                    // document.getElementById(question + '_' + i + '_Correct').style.display = 'none';
+                    // document.getElementById(question + '_' + i + '_Wrong').style.display = 'none';
+                    let correct = false;
+                    for(let j = 1; j <= numAnswers; j++) {
+                        target = document.getElementById(question + '_' + i + '_A' + j);
+                        if(target.checked) {
+                            if(target.value === 'correct') {
+                                document.getElementById(question + '_' + i + '_Correct').style.display = 'block';
+                            }
+                            else {
+                                document.getElementById(question + '_' + i + '_Wrong').style.display = 'block';
+                            }
+                        }
                     }
                 }
-                $target.parent('.mcq').find('.response').slideToggle('fast');
-                if ($target.text() == 'Submit') {
-                    $target.text('Hide');
-                } else {
-                    $checkboxes.nextAll('.incorrect-checkbox').hide();
-                    $checkboxes.nextAll('.correct-checkbox').hide();
-                    $target.text('Submit');
-                }
-            });
-        });
+            }, 250);
+
+        }
     </script>
 
     <!-- endbuild -->
