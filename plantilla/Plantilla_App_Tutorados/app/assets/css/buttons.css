@@ -1,8 +1,8 @@
 .boton-palabra{
     float: left;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-bottom: 100px;
-    width: 18%;
+    width: 22%;
     height: 60px;
     font-size: 24px;
     border-radius: 15px;
@@ -92,4 +92,28 @@
 
 #boton-palabra-9:hover:before{
     content: "Palabra9";
+}
+
+#boton-palabra-10:hover span{
+    display: none;
+}
+
+#boton-palabra-10:hover:before{
+    content: "Palabra10";
+}
+
+#boton-palabra-11:hover span{
+    display: none;
+}
+
+#boton-palabra-11:hover:before{
+    content: "Palabra11";
+}
+
+#boton-palabra-12:hover span{
+    display: none;
+}
+
+#boton-palabra-12:hover:before{
+    content: "Palabra12";
 }
