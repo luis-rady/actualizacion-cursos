@@ -1,0 +1,39 @@
+.flecha-izquierda{
+    position: relative;
+    display: inline;
+    left: 8px;
+    font-weight: 500;
+  }
+  .flecha-derecha{
+    position: absolute;
+    display: inline;
+    right: 25px;
+    font-weight: 500;  
+  }
+  a.modulo-anterior:link{
+    color: black;
+    text-decoration: none;
+  }
+  a.modulo-anterior:hover{
+    color: goldenrod;
+  }
+  a.modulo-anterior:visited:hover{
+    color: goldenrod;
+  }
+  a.modulo-anterior:visited{
+    color: black;
+  }
+  a.modulo-siguiente:link{
+    color: #000000;
+    text-decoration: none;
+  }
+  a.modulo-siguiente:hover{
+    color: goldenrod;
+  }
+  a.modulo-siguiente:visited{
+    color: black;
+  }
+  a.modulo-siguiente:visited:hover{
+    color: goldenrod;
+  }
+  
