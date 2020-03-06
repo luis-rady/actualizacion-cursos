@@ -3687,6 +3687,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
   color: var(--theme-color);
 }
 
+<<<<<<< HEAD
 .flecha-izquierda{
   position: relative;
   display: inline;
@@ -3726,6 +3727,19 @@ a.modulo-siguiente:visited{
 a.modulo-siguiente:visited:hover{
   color: goldenrod;
 }
+=======
+.link_descarga:visited{
+  color: white;
+}
+.link_descarga:link{
+  color: white;
+}
+.link_descarga:hover{
+  color: goldenrod;
+}
+
+
+>>>>>>> ingles-basico
 /*----------------------------
 --------- 2. Personalización ---------
 ----------------------------*/
