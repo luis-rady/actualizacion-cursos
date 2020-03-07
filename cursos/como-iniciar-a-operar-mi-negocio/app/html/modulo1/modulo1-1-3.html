@@ -24,6 +24,25 @@
         <link href="../../assets/css/progress.css" rel="stylesheet">
         <link href="../../assets/css/progress-circle.css" rel="stylesheet">
 
+        <script>
+            function validateForm() {
+                var opt1 = document.forms["preguntaCasoClara"]["opt_1"].checked;
+                var opt2 = document.forms["preguntaCasoClara"]["opt_2"].checked;
+                var opt3 = document.forms["preguntaCasoClara"]["opt_3"].checked;
+                var opt4 = document.forms["preguntaCasoClara"]["opt_4"].checked;
+                if(opt1 && opt4 && !opt2 && !opt3) {
+                    alert("Correcto\nCon base en el gusto de Clara por cocinar y a las necesidades de su colonia, Cocinar comida rápida y hacer pasteles infantiles pueden ser algunas ideas de negocio.");
+                }
+                else if(!opt1 && !opt4 && !opt2 && !opt3){
+                    alert("Por favor seleccione al menos una opción.");
+                }
+                else {
+                    alert("Incorrecto\nLa respuesta correcta es cocinar comida rápida y hacer pasteles infantiles. Debido al gusto de Clara por cocinar y a las necesidades de su colonia.");
+                }
+                return false;
+            }
+        </script>
+
     </head>
 
     <body class="header-info side-nav-dark">
@@ -73,7 +92,7 @@
                                         </div>
                                         <div class="container-fluid">
                                             <div class="row">
-                                                <div class="col-md-7 ml-auto">
+                                                <div class="col-md-8 ml-auto">
                                                     <div class="pdd-vertical-30 pdd-horizon-25">
                                                         <h1 class="mrg-btm-20 card-title">Motivaciones</h1>
                                                         <p>Cuando una persona o grupo de personas decide crear un negocio una de sus mayores motivaciones está en obtener un beneficio económico, sin embargo es muy importante considerar también el beneficio social, no basta con tener un buen producto, hay que identificar una necesidad no satisfecha en la comunidad.</p>
@@ -155,6 +174,40 @@
                                 </div>
                                 <!-- Termina card 2 -->
 
+                                <!-- Card Prueba: Pregunta -->
+                                <div class="card">
+                                    <div class="card-block">
+                                        <div class="card widget-feed">
+                                            <h1 class="card-title">Pregunta rápida</h1>
+                                            <h3 class="">Piensa en el caso de Clara, ¿qué otras ideas de negocio crees que pudiera realizar?</h3>
+                                            <form name="preguntaCasoClara" onsubmit="return validateForm()">
+                                                <fieldset> 
+                                                    <div class="mrg-left-30">
+                                                        <input class="inputs" type="checkbox" name="opt_1" id="opt_1">
+                                                        <label for="opt_1">Cocinar comida rápida.</label>
+                                                    </div>
+                                                    <div class="mrg-left-30">
+                                                        <input class="inputs" type="checkbox" name="opt_2" id="opt_2">
+                                                        <label for="opt_2">Construir cocinas integrales.</label>
+                                                    </div>
+                                                    <div class="mrg-left-30">
+                                                        <input class="inputs" type="checkbox" name="opt_3" id="opt_3">
+                                                        <label for="opt_3">Diseñar platillos internacionales.</label>
+                                                    </div>
+                                                    <div class="mrg-left-30">
+                                                        <input class="inputs" type="checkbox" name="opt_4" id="opt_4">
+                                                        <label for="opt_4">Hacer pasteles.</label>
+                                                    </div>
+                                                    <div>
+                                                        <input type="submit" class="btn btn-primary btn-rounded pull-right" value="Verificar"> 
+                                                    </div>
+                                                </fieldset>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Termina Card Prueba -->
+
                                 <div class="row mrg-btm-20">
                                     <div class="col text-center">
                                         <div class="btn-group">
@@ -170,10 +223,10 @@
                                             <a class="btn btn-actual-page" role="button" href="modulo1-1-3.html">
                                                 <span>3</span>
                                             </a>
-                                            <a class="btn btn-default" role="button" href="modulo1-4.html">
+                                            <a class="btn btn-default" role="button" href="modulo1-2-1.html">
                                                 <span>4</span>
                                             </a>
-                                            <a class="btn btn-default" role="button" href="modulo1-5.html">
+                                            <a class="btn btn-default" role="button" href="modulo1-2-1.html">
                                                 <span>Siguiente</span>
                                             </a>
                                         </div>
