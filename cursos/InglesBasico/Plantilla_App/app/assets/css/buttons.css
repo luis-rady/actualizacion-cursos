@@ -1,8 +1,9 @@
+/* Modifique el width de porcentaje a pixeles para que la palabra no tiemble*/
 .boton-palabra{
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 50px;
-    width: 22%;
+    width: 250px;
     height: 60px;
     font-size: 24px;
     border-radius: 15px;
@@ -116,4 +117,138 @@
 
 #boton-palabra-12:hover:before{
     content: "Palabra12";
+}
+
+#boton-palabra-delicious:hover span{
+    display: none;
+}
+
+#boton-palabra-delicious:hover:before{
+    content: "Deliciosa";
+}
+
+
+#boton-palabra-tender:hover span{
+    display: none;
+}
+
+#boton-palabra-tender:hover:before{
+    content: "Tierno, Blando";
+}
+
+
+#boton-palabra-crunchy:hover span{
+    display: none;
+}
+
+#boton-palabra-crunchy:hover:before{
+    content: "Crujiente";
+}
+
+
+#boton-palabra-aromatic:hover span{
+    display: none;
+}
+
+#boton-palabra-aromatic:hover:before{
+    content: "Aromático";
+}
+
+
+#boton-palabra-tasty:hover span{
+    display: none;
+}
+
+#boton-palabra-tasty:hover:before{
+    content: "Sabroso";
+}
+
+
+#boton-palabra-sour:hover span{
+    display: none;
+}
+
+#boton-palabra-sour:hover:before{
+    content: "Agrio, ácido";
+}
+
+
+#boton-palabra-cold:hover span{
+    display: none;
+}
+
+#boton-palabra-cold:hover:before{
+    content: "Fría";
+}
+
+
+#boton-palabra-sticky:hover span{
+    display: none;
+}
+
+#boton-palabra-sticky:hover:before{
+    content: "Pegajoso";
+}
+
+
+#boton-palabra-spicy:hover span{
+    display: none;
+}
+
+#boton-palabra-spicy:hover:before{
+    content: "Condimentada";
+}
+
+
+#boton-palabra-hot:hover span{
+    display: none;
+}
+
+#boton-palabra-hot:hover:before{
+    content: "Caliente";
+}
+
+
+#boton-palabra-soft:hover span{
+    display: none;
+}
+
+#boton-palabra-soft:hover:before{
+    content: "Suave";
+}
+
+
+#boton-palabra-salty:hover span{
+    display: none;
+}
+
+#boton-palabra-salty:hover:before{
+    content: "Salado";
+}
+
+
+#boton-palabra-sweet:hover span{
+    display: none;
+}
+
+#boton-palabra-sweet:hover:before{
+    content: "Dulce";
+}
+
+
+#boton-palabra-bitter:hover span{
+    display: none;
+}
+
+#boton-palabra-bitter:hover:before{
+    content: "Amargo";
+}
+
+
+#boton-palabra-warm:hover span{
+    display: none;
+}
+
+#boton-palabra-warm:hover:before{
+    content: "Calientita, tibia";
 }
