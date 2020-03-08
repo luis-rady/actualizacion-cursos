@@ -3714,7 +3714,9 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 .btn-actual-page span {
   color: #ffffff;
 }
-
+.rules-car{
+  height: 20vh!important;
+}
 /*-- Para el carousel de librito de cursos de DP --*/
 .credits-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: var(--theme-color); margin-top: 0px; line-height: 25px; }
 
@@ -3738,10 +3740,36 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
   text-align: center;
 }
 
-.title-content{
-  text-align: center;
-}
 
 .pointer {
   cursor: pointer;
+}
+
+/*-- Para EJEMPLO 2 de carousel --*/
+.carousel-inner .carousel-item {
+  height:  50vh;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
 }
