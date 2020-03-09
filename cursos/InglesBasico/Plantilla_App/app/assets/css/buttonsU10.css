@@ -1,0 +1,217 @@
+.boton-palabra{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    width: 22%;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid gold;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra:hover{
+    background-color: gold;
+}
+
+#texto-boton-encima{
+    margin-bottom: 50px;
+}
+
+
+#boton-palabra-1:hover span{
+    display: none;
+}
+
+#boton-palabra-1:hover:before{
+    content: "Yo";
+}
+
+#boton-palabra-2:hover span{
+    display: none;
+}
+
+#boton-palabra-2:hover:before{
+    content: "Tú";
+}
+
+#boton-palabra-3:hover span{
+    display: none;
+}
+
+#boton-palabra-3:hover:before{
+    content: "Él";
+}
+
+#boton-palabra-4:hover span{
+    display: none;
+}
+
+#boton-palabra-4:hover:before{
+    content: "Ella";
+}
+
+#boton-palabra-5:hover span{
+    display: none;
+}
+
+#boton-palabra-5:hover:before{
+    content: "Eso";
+}
+
+#boton-palabra-6:hover span{
+    display: none;
+}
+
+#boton-palabra-6:hover:before{
+    content: "Nosotros";
+    font-size: 80%;
+}
+
+#boton-palabra-7:hover span{
+    display: none;
+}
+
+#boton-palabra-7:hover:before{
+    content: "Ustedes";
+    font-size: 80%;
+}
+
+#boton-palabra-8:hover span{
+    display: none;
+}
+
+#boton-palabra-8:hover:before{
+    content: "Ellos";
+}
+
+#boton-palabra-9:hover span{
+    display: none;
+}
+
+#boton-palabra-9:hover:before{
+    content: "me";
+}
+
+#boton-palabra-10:hover span{
+    display: none;
+}
+
+#boton-palabra-10:hover:before{
+    content: "te";
+}
+
+#boton-palabra-11:hover span{
+    display: none;
+}
+
+#boton-palabra-11:hover:before{
+    content: "le";
+}
+
+#boton-palabra-12:hover span{
+    display: none;
+}
+
+#boton-palabra-12:hover:before{
+    content: "le";
+}
+
+#boton-palabra-13:hover span{
+    display: none;
+}
+
+#boton-palabra-13:hover:before{
+    content: "lo/la";
+}
+
+#boton-palabra-14:hover span{
+    display: none;
+}
+
+#boton-palabra-14:hover:before{
+    content: "nos";
+}
+
+#boton-palabra-15:hover span{
+    display: none;
+}
+
+#boton-palabra-15:hover:before{
+    content: "les";
+}
+
+#boton-palabra-16:hover span{
+    display: none;
+}
+
+#boton-palabra-16:hover:before{
+    content: "les";
+}
+
+#boton-palabra-17:hover span{
+    display: none;
+}
+
+#boton-palabra-17:hover:before{
+    content: "Yo tengo";
+}
+
+#boton-palabra-18:hover span{
+    display: none;
+}
+
+#boton-palabra-18:hover:before{
+    content: "Tú tienes";
+}
+
+#boton-palabra-19:hover span{
+    display: none;
+}
+
+#boton-palabra-19:hover:before{
+    content: "Él tiene";
+}
+
+#boton-palabra-20:hover span{
+    display: none;
+}
+
+#boton-palabra-20:hover:before{
+    content: "Ella tiene";
+}
+
+#boton-palabra-21:hover span{
+    display: none;
+}
+
+#boton-palabra-21:hover:before{
+    content: "Eso tiene";
+}
+
+#boton-palabra-22:hover span{
+    display: none;
+}
+
+#boton-palabra-22:hover:before{
+    content: "Nosotros tenemos";
+}
+
+#boton-palabra-23:hover span{
+    display: none;
+}
+
+#boton-palabra-23:hover:before{
+    content: "Ustedes tienen";
+}
+
+#boton-palabra-24:hover span{
+    display: none;
+}
+
+#boton-palabra-24:hover:before{
+    content: "Ellos tienen";
+}
