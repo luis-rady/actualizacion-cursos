@@ -27,7 +27,7 @@
 }
 
 #boton-palabra-1:hover:before{
-    content: "Palabra1";
+    content: "Sacapuntas";
 }
 
 #boton-palabra-2:hover span{
@@ -35,7 +35,7 @@
 }
 
 #boton-palabra-2:hover:before{
-    content: "Palabra2";
+    content: "Formulario";
 }
 
 #boton-palabra-3:hover span{
@@ -43,7 +43,7 @@
 }
 
 #boton-palabra-3:hover:before{
-    content: "Palabra3";
+    content: "Vacuna";
 }
 
 #boton-palabra-4:hover span{
@@ -51,7 +51,7 @@
 }
 
 #boton-palabra-4:hover:before{
-    content: "Palabra4";
+    content: "Vecindario";
 }
 
 #boton-palabra-5:hover span{
@@ -59,7 +59,7 @@
 }
 
 #boton-palabra-5:hover:before{
-    content: "Palabra5";
+    content: "Materia";
 }
 
 #boton-palabra-6:hover span{
@@ -67,7 +67,7 @@
 }
 
 #boton-palabra-6:hover:before{
-    content: "Palabra6";
+    content: "Inyecciones";
 }
 
 #boton-palabra-7:hover span{
@@ -75,7 +75,7 @@
 }
 
 #boton-palabra-7:hover:before{
-    content: "Palabra7";
+    content: "Recibo de teléfono";
 }
 
 #boton-palabra-8:hover span{
@@ -83,7 +83,7 @@
 }
 
 #boton-palabra-8:hover:before{
-    content: "Palabra8";
+    content: "Amigo";
 }
 
 #boton-palabra-9:hover span{
@@ -91,7 +91,7 @@
 }
 
 #boton-palabra-9:hover:before{
-    content: "Palabra9";
+    content: "Tengo un problema";
 }
 
 #boton-palabra-10:hover span{
@@ -99,7 +99,7 @@
 }
 
 #boton-palabra-10:hover:before{
-    content: "Palabra10";
+    content: "Tengo una pregunta";
 }
 
 #boton-palabra-11:hover span{
@@ -107,7 +107,7 @@
 }
 
 #boton-palabra-11:hover:before{
-    content: "Palabra11";
+    content: "Hacer una fila";
 }
 
 #boton-palabra-12:hover span{
@@ -115,5 +115,21 @@
 }
 
 #boton-palabra-12:hover:before{
-    content: "Palabra12";
+    content: "De nada";
+}
+
+#boton-palabra-13:hover span{
+    display: none;
+}
+
+#boton-palabra-13:hover:before{
+    content: "Gracias";
+}
+
+#boton-palabra-14:hover span{
+    display: none;
+}
+
+#boton-palabra-14:hover:before{
+    content: "Ciencias sociales";
 }

@@ -1,0 +1,119 @@
+.boton-palabra{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    width: 22%;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid gold;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra:hover{
+    background-color: gold;
+}
+
+#texto-boton-encima{
+    margin-bottom: 50px;
+}
+
+
+#boton-palabra-1:hover span{
+    display: none;
+}
+
+#boton-palabra-1:hover:before{
+    content: "Artista";
+}
+
+#boton-palabra-2:hover span{
+    display: none;
+}
+
+#boton-palabra-2:hover:before{
+    content: "Taxista";
+}
+
+#boton-palabra-3:hover span{
+    display: none;
+}
+
+#boton-palabra-3:hover:before{
+    content: "Carpintero";
+}
+
+#boton-palabra-4:hover span{
+    display: none;
+}
+
+#boton-palabra-4:hover:before{
+    content: "Jardinero";
+}
+
+#boton-palabra-5:hover span{
+    display: none;
+}
+
+#boton-palabra-5:hover:before{
+    content: "Oficial de policía";
+}
+
+#boton-palabra-6:hover span{
+    display: none;
+}
+
+#boton-palabra-6:hover:before{
+    content: "Maestro, a";
+}
+
+#boton-palabra-7:hover span{
+    display: none;
+}
+
+#boton-palabra-7:hover:before{
+    content: "Dibuja/Pinta";
+}
+
+#boton-palabra-8:hover span{
+    display: none;
+}
+
+#boton-palabra-8:hover:before{
+    content: "Manejar un taxi";
+}
+
+#boton-palabra-9:hover span{
+    display: none;
+}
+
+#boton-palabra-9:hover:before{
+    content: "Construir";
+}
+
+#boton-palabra-10:hover span{
+    display: none;
+}
+
+#boton-palabra-10:hover:before{
+    content: "Plantar";
+}
+
+#boton-palabra-11:hover span{
+    display: none;
+}
+
+#boton-palabra-11:hover:before{
+    content: "Proteger";
+}
+
+#boton-palabra-12:hover span{
+    display: none;
+}
+
+#boton-palabra-12:hover:before{
+    content: "Enseñar";
+}
