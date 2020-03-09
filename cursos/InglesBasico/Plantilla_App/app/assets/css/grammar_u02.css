@@ -1,0 +1,165 @@
+.boton-palabra-full {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: 100%;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra-fit-content {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: fit-content;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra-full:hover {
+    cursor: pointer;
+    border-color: #55a2fe;
+}
+.boton-palabra-full:hover svg {
+    fill: #55a2fe;
+}
+
+.boton-palabra-fit-content:hover {
+    cursor: pointer;
+    border-color: #55a2fe;
+}
+.boton-palabra-fit-content:hover svg {
+    fill: #55a2fe;
+}
+
+#u01-palabra-1:hover span{
+    display: none;
+}
+
+#u01-palabra-1:hover:before{
+    content: "Vivir";
+}
+
+#u01-palabra-2:hover span{
+    display: none;
+}
+
+#u01-palabra-2:hover:before{
+    content: "Preguntar";
+}
+
+#u01-palabra-3:hover span{
+    display: none;
+}
+
+#u01-palabra-3:hover:before{
+    content: "Jugar";
+}
+
+#u01-palabra-4:hover span{
+    display: none;
+}
+
+#u01-palabra-4:hover:before{
+    content: "Querer";
+}
+
+#u01-palabra-5:hover span{
+    display: none;
+}
+
+#u01-palabra-5:hover:before{
+    content: "Mirar/Buscar";
+}
+
+#u01-palabra-6:hover span{
+    display: none;
+}
+
+#u01-palabra-6:hover:before{
+    content: "Entrevistar";
+}
+
+#u01-palabra-7:hover span{
+    display: none;
+}
+
+#u01-palabra-7:hover:before{
+    content: "Observar/Vigilar";
+}
+
+#u01-palabra-8:hover span{
+    display: none;
+}
+
+#u01-palabra-8:hover:before{
+    content: "Permanecer";
+}
+
+#u01-palabra-9:hover span{
+    display: none;
+}
+
+#u01-palabra-9:hover:before{
+    content: "Llamar";
+}
+
+#u01-palabra-10:hover span{
+    display: none;
+}
+
+#u01-palabra-10:hover:before{
+    content: "Necesitar";
+}
+
+#u01-palabra-11:hover span{
+    display: none;
+}
+
+#u01-palabra-11:hover:before{
+    content: "Aprender";
+}
+
+#u01-palabra-12:hover span{
+    display: none;
+}
+
+#u01-palabra-12:hover:before{
+    content: "Componer";
+}
+
+#u01-palabra-13:hover span{
+    display: none;
+}
+
+#u01-palabra-13:hover:before{
+    content: "Ayudar";
+}
+
+#u01-palabra-14:hover span{
+    display: none;
+}
+
+#u01-palabra-14:hover:before{
+    content: "Amar";
+}
+
+#u01-palabra-15:hover span{
+    display: none;
+}
+
+#u01-palabra-15:hover:before{
+    content: "Cerrar";
+}

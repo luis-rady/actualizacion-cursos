@@ -1,0 +1,293 @@
+.boton-palabra-full {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra-fit-content {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: fit-content;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+#u01-palabra-1:hover span{
+    display: none;
+}
+
+#u01-palabra-1:hover:before{
+    content: "Yo";
+}
+
+#u01-palabra-2:hover span{
+    display: none;
+}
+
+#u01-palabra-2:hover:before{
+    content: "Tú";
+}
+
+#u01-palabra-3:hover span{
+    display: none;
+}
+
+#u01-palabra-3:hover:before{
+    content: "Él";
+}
+
+#u01-palabra-4:hover span{
+    display: none;
+}
+
+#u01-palabra-4:hover:before{
+    content: "Ella";
+}
+
+#u01-palabra-5:hover span{
+    display: none;
+}
+
+#u01-palabra-5:hover:before{
+    content: "Eso";
+}
+
+#u01-palabra-6:hover span{
+    display: none;
+}
+
+#u01-palabra-6:hover:before{
+    content: "Nosotros";
+}
+
+#u01-palabra-7:hover span{
+    display: none;
+}
+
+#u01-palabra-7:hover:before{
+    content: "Ustedes";
+}
+
+#u01-palabra-8:hover span{
+    display: none;
+}
+
+#u01-palabra-8:hover:before{
+    content: "Ellos(as)";
+}
+
+#u01-palabra-9:hover span{
+    display: none;
+}
+
+#u01-palabra-9:hover:before{
+    content: "Yo soy / Yo estoy";
+}
+
+#u01-palabra-10:hover span{
+    display: none;
+}
+
+#u01-palabra-10:hover:before{
+    content: "Tú eres / Tú estás";
+}
+
+#u01-palabra-11:hover span{
+    display: none;
+}
+
+#u01-palabra-11:hover:before{
+    content: "Él/Ella/Eso es/está";
+}
+
+#u01-palabra-12:hover span{
+    display: none;
+}
+
+#u01-palabra-12:hover:before{
+    content: "Nostros somos / Nosotros estamos";
+}
+
+#u01-palabra-13:hover span{
+    display: none;
+}
+
+#u01-palabra-13:hover:before{
+    content: "Ustedes son / Ustedes están";
+}
+
+#u01-palabra-14:hover span{
+    display: none;
+}
+
+#u01-palabra-14:hover:before{
+    content: "Ellos(as) son / Ellos(as) están";
+}
+
+#u01-palabra-15:hover span{
+    display: none;
+}
+
+#u01-palabra-15:hover:before{
+    content: "Soy un plomero.";
+}
+
+#u01-palabra-16:hover span{
+    display: none;
+}
+
+#u01-palabra-16:hover:before{
+    content: "Estoy pintando.";
+}
+
+#u01-palabra-17:hover span{
+    display: none;
+}
+
+#u01-palabra-17:hover:before{
+    content: "Soy de Guadalajara.";
+}
+
+#u01-palabra-18:hover span{
+    display: none;
+}
+
+#u01-palabra-18:hover:before{
+    content: "Tú eres un abogado.";
+}
+
+#u01-palabra-19:hover span{
+    display: none;
+}
+
+#u01-palabra-19:hover:before{
+    content: "Tú estás en la escuela.";
+}
+
+#u01-palabra-20:hover span{
+    display: none;
+}
+
+#u01-palabra-20:hover:before{
+    content: "Tú estás riendo.";
+}
+
+#u01-palabra-21:hover span{
+    display: none;
+}
+
+#u01-palabra-21:hover:before{
+    content: "Él es alto.";
+}
+
+#u01-palabra-22:hover span{
+    display: none;
+}
+
+#u01-palabra-22:hover:before{
+    content: "Ella es de México.";
+}
+
+#u01-palabra-23:hover span{
+    display: none;
+}
+
+#u01-palabra-23:hover:before{
+    content: "Eso es un perro.";
+}
+
+#u01-palabra-24:hover span{
+    display: none;
+}
+
+#u01-palabra-24:hover:before{
+    content: "Nosotros somos una famila.";
+}
+
+#u01-palabra-25:hover span{
+    display: none;
+}
+
+#u01-palabra-25:hover:before{
+    content: "Ustedes son estudiantes.";
+}
+
+#u01-palabra-26:hover span{
+    display: none;
+}
+
+#u01-palabra-26:hover:before{
+    content: "Ellos están jugando.";
+}
+
+#u01-palabra-27:hover span{
+    display: none;
+}
+
+#u01-palabra-27:hover:before{
+    content: "I'm";
+}
+
+#u01-palabra-28:hover span{
+    display: none;
+}
+
+#u01-palabra-28:hover:before{
+    content: "You're";
+}
+
+#u01-palabra-29:hover span{
+    display: none;
+}
+
+#u01-palabra-29:hover:before{
+    content: "He's";
+}
+
+#u01-palabra-30:hover span{
+    display: none;
+}
+
+#u01-palabra-30:hover:before{
+    content: "She's";
+}
+
+#u01-palabra-31:hover span{
+    display: none;
+}
+
+#u01-palabra-31:hover:before{
+    content: "It's";
+}
+
+#u01-palabra-32:hover span{
+    display: none;
+}
+
+#u01-palabra-32:hover:before{
+    content: "We're";
+}
+
+#u01-palabra-33:hover span{
+    display: none;
+}
+
+#u01-palabra-33:hover:before{
+    content: "They're";
+}

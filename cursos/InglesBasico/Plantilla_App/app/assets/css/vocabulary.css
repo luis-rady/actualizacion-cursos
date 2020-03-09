@@ -27,7 +27,7 @@ svg {
 }
 
 .vocabulary-card {
-    width: 13rem;
+    /* width: 13rem; */
     height: 11.5rem;
     border-width: 0.2rem;
     margin: 0 auto;
