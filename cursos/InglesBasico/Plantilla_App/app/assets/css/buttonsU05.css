@@ -133,3 +133,109 @@
 #boton-palabra-14:hover:before{
     content: "Ciencias sociales";
 }
+
+#boton-palabra-15:hover span{
+    display: none;
+}
+
+#boton-palabra-15:hover:before{
+    content: "Shots";
+}
+
+#boton-palabra-16:hover span{
+    display: none;
+}
+
+#boton-palabra-16:hover:before{
+    content: "I have a question";
+}
+
+#boton-palabra-17:hover span{
+    display: none;
+}
+
+#boton-palabra-17:hover:before{
+    content: "Friend";
+}
+
+#boton-palabra-18:hover span{
+    display: none;
+}
+
+#boton-palabra-18:hover:before{
+    content: "Line up";
+}
+
+#boton-palabra-19:hover span{
+    display: none;
+}
+
+#boton-palabra-19:hover:before{
+    content: "You're welcome";
+}
+
+#boton-palabra-20:hover span{
+    display: none;
+}
+
+#boton-palabra-20:hover:before{
+    content: "Neighborhood";
+}
+
+#boton-palabra-21:hover span{
+    display: none;
+}
+
+#boton-palabra-21:hover:before{
+    content: "Subject";
+}
+
+#boton-palabra-22:hover span{
+    display: none;
+}
+
+#boton-palabra-22:hover:before{
+    content: "Pencil sharpener";
+}
+#boton-palabra-23:hover span{
+    display: none;
+}
+
+#boton-palabra-23:hover:before{
+    content: "Form";
+}
+#boton-palabra-24:hover span{
+    display: none;
+}
+
+#boton-palabra-24:hover:before{
+    content: "Immunization";
+}
+#boton-palabra-25:hover span{
+    display: none;
+}
+
+#boton-palabra-25:hover:before{
+    content: "I have a problem";
+}
+#boton-palabra-26:hover span{
+    display: none;
+}
+
+#boton-palabra-26:hover:before{
+    content: "Telephone bill";
+}
+#boton-palabra-27:hover span{
+    display: none;
+}
+
+#boton-palabra-27:hover:before{
+    content: "Social studies";
+}
+#boton-palabra-28:hover span{
+    display: none;
+}
+
+#boton-palabra-28:hover:before{
+    content: "Thank you";
+}

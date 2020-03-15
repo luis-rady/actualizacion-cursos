@@ -20,6 +20,7 @@ svg {
     width: 5.5rem;
     height: 5.5rem;
     transition: .5s ease;
+    /* margin-top: 0.50rem; */
 }
 
 .vocabulary-section-title {

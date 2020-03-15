@@ -809,26 +809,37 @@
                 <!-- Content Wrapper START -->
                 <div class="main-content">
                     <div class="container-fluid">
+                        <!-- Banner START -->
+                        <div class="card">
+                            <div class="" style="background-image: url('../../assets/images/Banner_Food_U13.jpg');                                            
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+                                                object-fit: cover">
+                                <div class="card-block">
+                                    <div class="mrg-btm-30">
+                                        <h1 class="card-title"
+                                            style="font-size:40px; color:white; text-shadow: 5px 5px 8px black;">
+                                            <b> Vocabulary </b>
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Banner END -->
+
                         <!-- Your content goes here -->
                         <div class="card">
                             <div class="card-horizon">
-                                <div class="image-container col-md-4">
-                                    <div class="background-holder has-content"
-                                        style="background-image: url('../../assets/images/shutterstock_740173564 (1).jpg')">
-                                    </div>
-                                </div>
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-md-7 ml-auto">
-                                            <div class="pdd-vertical-30 pdd-horizon-25">
-                                                <h1 class="mrg-btm-20 card-title">Vocabulary</h1>
-                                                <p>En esta seccion encontrarás:</p>
-                                                <ul class="list dash bullet-stars">
-                                                    <li> Una lista de palabras y su significado en español </li>
-                                                    <li>Algunas expresiones utilizadas en diálogos anteriores y su traducción</li>
-                                                </ul>
-                                                <p>Lee y practica el uso de estas palabras y ejercita su correcta pronunciación.</p>
-                                            </div>
+                                        <div class="pdd-vertical-30 pdd-horizon-25">
+                                            <h1 class="mrg-btm-20 card-title">Introducción</h1>
+                                            <p>En esta seccion encontrarás:</p>
+                                            <ul class="list dash bullet-stars">
+                                                <li> Una lista de palabras y su significado en español </li>
+                                                <li>Algunas expresiones utilizadas en diálogos anteriores y su traducción</li>
+                                            </ul>
+                                            <p>Lee y practica el uso de estas palabras y ejercita su correcta pronunciación.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -890,10 +901,8 @@
                             <div class="col-md-12">
                                 <div class="card">
                                     <div class="col-md-12">
-
                                         <div class="padding-20">
-                                            <h4 class="card-title no-mrg-btm">Vocabulary Basics
-                                            </h4>
+                                            <h2 class="card-title no-mrg-btm">Vocabulary Basics</h2>
                                         </div>
                                         <div class="pill-success">
                                             <ul class="nav nav-pills" style="padding-left: 15px;" role="tablist">
@@ -927,8 +936,8 @@
                                                             <!-- Para agregar una nueva tarjeta, agrega un col-3 seguido de la vocabulary-card  -->
                                                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                                                 <div class="card vocabulary-card">
-                                                                    <!-- Para agregar el archivo de sonido, agrega su id -->
                                                                     <a onclick="document.getElementById('1-1').play()">
+                                                                    <!-- Para agregar el archivo de sonido, agrega su id -->
                                                                         <div class="svg-wrapper">
                                                                             <svg aria-hidden="true" focusable="false"
                                                                                 data-prefix="far"
@@ -3256,47 +3265,79 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    
+                    <div class="card widget-feed">
                         <div class="row">
-                            <div class="card widget-feed col-md-12">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <h1 class="feed-title tag tag-info">Unidad 6</h1>
-                                        <h3 class="feed-subtitle">Tu Progreso</h3>
-                                        <div class="progress" style="height: 20px;" id="bar">
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25"
-                                                aria-valuemin="0" aria-valuemax="100" style="max-width: 71%">57%
-                                            </div>
-                                        </div>
-                                    </div>
-
+                            <div class="col-lg-8">
+                                <h1 class="feed-title tag tag-info">Unidad 5</h1>
+                                <h3 class="feed-subtitle">Tu Progreso</h3>
+                                <div class="progress" style="height: 20px;" id="bar">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100" style="max-width: 30%">30%</div>
                                 </div>
-                                <!-- <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="row">
-                                            <div class="col">
-                                                <div id="circlecontainer"></div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col text-center">
-                                                <h3 class="feed-subtitle">Progreso General del
-                                                    Curso</h3>
-                                            </div>
-                                        </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="circlecontainer"></div>
                                     </div>
-                                </div> -->
+                                </div>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h3 class="feed-subtitle">Progreso General del Curso</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col text-center">
-                                <div class="btn-group">
-                                    <a class="btn btn-default" role="button" href="modulo6-grammar.html">
-                                        <span>Atrás</span>
-                                    </a>
-                                    <a class="btn btn-default" role="button" href="modulo6-reading-1.html">
-                                        <span>Siguiente</span>
-                                    </a>
-                                </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col text-center">
+                            <div class="btn-group">
+                                <a class="btn btn-default" role="button" href="modulo6-grammar.html">
+                                    <span>Atrás</span>
+                                </a>
+
+                                <a class="btn btn-default" role="button" href="modulo6-listening.html">
+                                    <span>1</span>
+                                </a>
+        
+                                <a class="btn btn-default" role="button" href="modulo6-grammar.html">
+                                    <span>2</span>
+                                </a>
+        
+                                <a class="btn btn-default" role="button" href="modulo6-vocabulary.html">
+                                    <span>3</span>
+                                </a>
+        
+                                <a class="btn btn-default" role="button" href="modulo6-reading-1.html">
+                                    <span>4</span>
+                                </a>
+        
+                                <a class="btn btn-default" role="button" href="modulo6-reading-2.html">
+                                    <span>5</span>
+                                </a>
+        
+                                <a class="btn btn-default" role="button" href="modulo6-resume.html">
+                                    <span>6</span>
+                                </a>
+        
+                                <a class="btn btn-default" role="button" href="modulo6-writing-1.html">
+                                    <span>7</span>
+                                </a>
+        
+                                <a class="btn btn-default" role="button" href="modulo6-writing-2.html">
+                                    <span>8</span>
+                                </a>
+        
+                                <a class="btn btn-default" role="button" href="modulo6-writing-3.html">
+                                    <span>9</span>
+                                </a>
+
+                                <a class="btn btn-default" role="button" href="modulo6-reading-1.html">
+                                    <span>Siguiente</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -3350,7 +3391,7 @@
 
 
     <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
-    <script type="text/javascript">show(0.57)</script>
+    <script type="text/javascript">show(0.0)</script>
 
     <!-- endbuild -->
 
