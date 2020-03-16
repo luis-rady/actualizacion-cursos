@@ -198,6 +198,7 @@
 
 #boton-palabra-22:hover:before{
     content: "Nosotros tenemos";
+    font-size: 80%;
 }
 
 #boton-palabra-23:hover span{

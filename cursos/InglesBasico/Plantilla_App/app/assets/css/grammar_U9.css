@@ -1,0 +1,413 @@
+.boton-palabra-full {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: 100%;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra-fit-content {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: fit-content;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra-full:hover {
+    cursor: pointer;
+    border-color: #55a2fe;
+}
+.boton-palabra-full:hover svg {
+    fill: #55a2fe;
+}
+
+.boton-palabra-fit-content:hover {
+    cursor: pointer;
+    border-color: #55a2fe;
+}
+.boton-palabra-fit-content:hover svg {
+    fill: #55a2fe;
+}
+
+#u01-palabra-1:hover span{
+    display: none;
+}
+
+#u01-palabra-1:hover:before{
+    content: "one";
+}
+
+#u01-palabra-2:hover span{
+    display: none;
+}
+
+#u01-palabra-2:hover:before{
+    content: "two";
+}
+
+#u01-palabra-3:hover span{
+    display: none;
+}
+
+#u01-palabra-3:hover:before{
+    content: "three";
+}
+
+#u01-palabra-4:hover span{
+    display: none;
+}
+
+#u01-palabra-4:hover:before{
+    content: "four";
+}
+
+#u01-palabra-5:hover span{
+    display: none;
+}
+
+#u01-palabra-5:hover:before{
+    content: "five";
+}
+
+#u01-palabra-6:hover span{
+    display: none;
+}
+
+#u01-palabra-6:hover:before{
+    content: "six";
+}
+
+#u01-palabra-7:hover span{
+    display: none;
+}
+
+#u01-palabra-7:hover:before{
+    content: "seven";
+}
+
+#u01-palabra-8:hover span{
+    display: none;
+}
+
+#u01-palabra-8:hover:before{
+    content: "eight";
+}
+
+#u01-palabra-9:hover span{
+    display: none;
+}
+
+#u01-palabra-9:hover:before{
+    content: "nine";
+}
+
+#u01-palabra-10:hover span{
+    display: none;
+}
+
+#u01-palabra-10:hover:before{
+    content: "ten";
+}
+
+#u01-palabra-11:hover span{
+    display: none;
+}
+
+#u01-palabra-11:hover:before{
+    content: "eleven";
+}
+
+#u01-palabra-12:hover span{
+    display: none;
+}
+
+#u01-palabra-12:hover:before{
+    content: "twelve";
+}
+
+#u01-palabra-13:hover span{
+    display: none;
+}
+
+#u01-palabra-13:hover:before{
+    content: "thirteen";
+}
+
+#u01-palabra-14:hover span{
+    display: none;
+}
+
+#u01-palabra-14:hover:before{
+    content: "fourteen";
+}
+
+#u01-palabra-15:hover span{
+    display: none;
+}
+
+#u01-palabra-15:hover:before{
+    content: "fifteen";
+}
+
+#u01-palabra-16:hover span{
+    display: none;
+}
+
+#u01-palabra-16:hover:before{
+    content: "sixteen";
+}
+
+#u01-palabra-17:hover span{
+    display: none;
+}
+
+#u01-palabra-17:hover:before{
+    content: "seventeen";
+}
+
+#u01-palabra-18:hover span{
+    display: none;
+}
+
+#u01-palabra-18:hover:before{
+    content: "eighteen";
+}
+
+#u01-palabra-19:hover span{
+    display: none;
+}
+
+#u01-palabra-19:hover:before{
+    content: "nineteen";
+}
+
+#u01-palabra-20:hover span{
+    display: none;
+}
+
+#u01-palabra-20:hover:before{
+    content: "twenty";
+}
+
+#u01-palabra-21:hover span{
+    display: none;
+}
+
+#u01-palabra-21:hover:before{
+    content: "twenty-one";
+}
+
+#u01-palabra-22:hover span{
+    display: none;
+}
+
+#u01-palabra-22:hover:before{
+    content: "twenty-two";
+}
+
+#u01-palabra-23:hover span{
+    display: none;
+}
+
+#u01-palabra-23:hover:before{
+    content: "twenty-three";
+}
+
+#u01-palabra-24:hover span{
+    display: none;
+}
+
+#u01-palabra-24:hover:before{
+    content: "twenty-four";
+}
+
+#u01-palabra-25:hover span{
+    display: none;
+}
+
+#u01-palabra-25:hover:before{
+    content: "twenty-five";
+}
+
+#u01-palabra-26:hover span{
+    display: none;
+}
+
+#u01-palabra-26:hover:before{
+    content: "twenty-six";
+}
+
+#u01-palabra-27:hover span{
+    display: none;
+}
+
+#u01-palabra-27:hover:before{
+    content: "twenty-seven";
+}
+
+#u01-palabra-28:hover span{
+    display: none;
+}
+
+#u01-palabra-28:hover:before{
+    content: "twenty-eight";
+}
+
+#u01-palabra-29:hover span{
+    display: none;
+}
+
+#u01-palabra-29:hover:before{
+    content: "twenty-nine";
+}
+
+#u01-palabra-30:hover span{
+    display: none;
+}
+
+#u01-palabra-30:hover:before{
+    content: "thirty";
+}
+
+#u01-palabra-40:hover span{
+    display: none;
+}
+
+#u01-palabra-40:hover:before{
+    content: "forty";
+}
+
+#u01-palabra-50:hover span{
+    display: none;
+}
+
+#u01-palabra-50:hover:before{
+    content: "fifty";
+}
+
+#u01-palabra-60:hover span{
+    display: none;
+}
+
+#u01-palabra-60:hover:before{
+    content: "sixty";
+}
+
+#u01-palabra-70:hover span{
+    display: none;
+}
+
+#u01-palabra-70:hover:before{
+    content: "seventy";
+}
+
+#u01-palabra-80:hover span{
+    display: none;
+}
+
+#u01-palabra-80:hover:before{
+    content: "eighty";
+}
+
+#u01-palabra-90:hover span{
+    display: none;
+}
+
+#u01-palabra-90:hover:before{
+    content: "ninety";
+}
+
+#u01-palabra-34:hover span{
+    display: none;
+}
+
+#u01-palabra-34:hover:before{
+    content: "thirty-four";
+}
+
+#u01-palabra-47:hover span{
+    display: none;
+}
+
+#u01-palabra-47:hover:before{
+    content: "forty-seven";
+}
+
+#u01-palabra-52:hover span{
+    display: none;
+}
+
+#u01-palabra-52:hover:before{
+    content: "fifty-two";
+}
+
+#u01-palabra-66:hover span{
+    display: none;
+}
+
+#u01-palabra-66:hover:before{
+    content: "sixty-six";
+}
+
+#u01-palabra-85:hover span{
+    display: none;
+}
+
+#u01-palabra-85:hover:before{
+    content: "eighty-five";
+}
+
+#u01-palabra-100:hover span{
+    display: none;
+}
+
+#u01-palabra-100:hover:before{
+    content: "one hundred";
+}
+
+#u01-palabra-200:hover span{
+    display: none;
+}
+
+#u01-palabra-200:hover:before{
+    content: "two hundred";
+}
+
+#u01-palabra-1000:hover span{
+    display: none;
+}
+
+#u01-palabra-1000:hover:before{
+    content: "one thousand";
+}
+
+#u01-palabra-2000:hover span{
+    display: none;
+}
+
+#u01-palabra-2000:hover:before{
+    content: "two thousand";
+}
+
+#u01-palabra-1000000:hover span{
+    display: none;
+}
+
+#u01-palabra-1000000:hover:before{
+    content: "one million";
+}

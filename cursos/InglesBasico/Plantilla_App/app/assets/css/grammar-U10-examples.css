@@ -1,0 +1,173 @@
+.boton-palabra-full {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: 100%;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra-fit-content {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: fit-content;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra-full:hover {
+    cursor: pointer;
+    border-color: #55a2fe;
+}
+.boton-palabra-full:hover svg {
+    fill: #55a2fe;
+}
+
+.boton-palabra-fit-content:hover {
+    cursor: pointer;
+    border-color: #55a2fe;
+}
+.boton-palabra-fit-content:hover svg {
+    fill: #55a2fe;
+}
+
+#u01-palabra-1:hover span{
+    display: none;
+}
+
+#u01-palabra-1:hover:before{
+    content: "Dame la aspirina";
+}
+
+#u01-palabra-2:hover span{
+    display: none;
+}
+
+#u01-palabra-2:hover:before{
+    content: "Dime la verdad";
+}
+
+#u01-palabra-3:hover span{
+    display: none;
+}
+
+#u01-palabra-3:hover:before{
+    content: "Dile que vaya a la cama";
+}
+
+#u01-palabra-4:hover span{
+    display: none;
+}
+
+#u01-palabra-4:hover:before{
+    content: "Pregúntale donde está el termómetro";
+}
+
+#u01-palabra-5:hover span{
+    display: none;
+}
+
+#u01-palabra-5:hover:before{
+    content: "Ponla en la mesa";
+}
+
+#u01-palabra-6:hover span{
+    display: none;
+}
+
+#u01-palabra-6:hover:before{
+    content: "Dinos donde está el hospital";
+}
+
+#u01-palabra-7:hover span{
+    display: none;
+}
+
+#u01-palabra-7:hover:before{
+    content: "Llévalos a la farmacia";
+}
+
+#u01-palabra-8:hover span{
+    display: none;
+}
+
+#u01-palabra-8:hover:before{
+    content: "Tengo dolor de cabeza";
+}
+
+#u01-palabra-9:hover span{
+    display: none;
+}
+
+#u01-palabra-9:hover:before{
+    content: "Yo tengo una manzana";
+}
+
+#u01-palabra-10:hover span{
+    display: none;
+}
+
+#u01-palabra-10:hover:before{
+    content: "Tienes dolor de estómago";
+}
+
+#u01-palabra-11:hover span{
+    display: none;
+}
+
+#u01-palabra-11:hover:before{
+    content: "¡Tú tienes la respuesta!";
+}
+
+#u01-palabra-12:hover span{
+    display: none;
+}
+
+#u01-palabra-12:hover:before{
+    content: "Él tiene que ir al doctor";
+}
+
+#u01-palabra-13:hover span{
+    display: none;
+}
+
+#u01-palabra-13:hover:before{
+    content: "Ella tiene calentura";
+}
+
+#u01-palabra-14:hover span{
+    display: none;
+}
+
+#u01-palabra-14:hover:before{
+    content: "Nosotros tenemos una fiesta en la noche";
+}
+
+#u01-palabra-15:hover span{
+    display: none;
+}
+
+#u01-palabra-15:hover:before{
+    content: "Ustedes tienen un resfriado";
+}
+
+#u01-palabra-16:hover span{
+    display: none;
+}
+
+#u01-palabra-16:hover:before{
+    content: "Ellos tienen que ir al hospital";
+}
