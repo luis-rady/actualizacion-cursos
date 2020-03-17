@@ -1,0 +1,109 @@
+.boton-palabra-full {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: 100%;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra-fit-content {
+    float: left;
+    /* margin-left: 10%; */
+    margin-bottom: 1%;
+    width: fit-content;
+    height: fit-content;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid #daa520;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.boton-palabra-full:hover {
+    cursor: pointer;
+    border-color: #55a2fe;
+}
+.boton-palabra-full:hover svg {
+    fill: #55a2fe;
+}
+
+.boton-palabra-fit-content:hover {
+    cursor: pointer;
+    border-color: #55a2fe;
+}
+.boton-palabra-fit-content:hover svg {
+    fill: #55a2fe;
+}
+
+#u01-palabra-1:hover span{
+    display: none;
+}
+
+#u01-palabra-1:hover:before{
+    content: "Me gustaría cambiar este cheque.";
+}
+
+#u01-palabra-2:hover span{
+    display: none;
+}
+
+#u01-palabra-2:hover:before{
+    content: "Me gustaría hacer un depósito.";
+}
+
+#u01-palabra-3:hover span{
+    display: none;
+}
+
+#u01-palabra-3:hover:before{
+    content: "Me gustaría retirar dinero de mi cuenta.";
+}
+
+#u01-palabra-4:hover span{
+    display: none;
+}
+
+#u01-palabra-4:hover:before{
+    content: "Me gustaría abrir una cuenta.";
+}
+
+#u01-palabra-5:hover span{
+    display: none;
+}
+
+#u01-palabra-5:hover:before{
+    content: "Te voy a tomar la temperatura.";
+}
+
+#u01-palabra-6:hover span{
+    display: none;
+}
+
+#u01-palabra-6:hover:before{
+    content: "Estoy sangrando. Necesito una curita.";
+}
+
+#u01-palabra-7:hover span{
+    display: none;
+}
+
+#u01-palabra-7:hover:before{
+    content: "Tengo tos. Necesito jarabe.";
+}
+
+#u01-palabra-8:hover span{
+    display: none;
+}
+
+#u01-palabra-8:hover:before{
+    content: "¿Dónde está la farmacia?";
+}
