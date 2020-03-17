@@ -8,7 +8,7 @@ function getPreguntas() {
             p1.push($(this).attr("value"));
         });
 
-        if (p1.length == 1 && p1[0] == 'Hardware') {
+        if (p1.length == 1 && p1[0] == 'Herramientas de acceso rápido') {
             $("#ans1").css("color", "green")
             $("#ans1").text("¡Correcto!").show();
             
@@ -24,7 +24,7 @@ function getPreguntas() {
             p2.push($(this).attr("value"));
         });
 
-        if (p2.length == 1 && p2[0] == 'Hardware') {
+        if (p2.length == 1 && p2[0] == 'Barra de desplazamiento') {
             $("#ans2").css("color", "green")
             $("#ans2").text("¡Correcto!").show();
             
@@ -40,7 +40,7 @@ function getPreguntas() {
             p3.push($(this).attr("value"));
         });
 
-        if (p3.length == 1 && p3[0] == 'Software') {
+        if (p3.length == 1 && p3[0] == 'Barra de estado') {
             $("#ans3").css("color", "green")
             $("#ans3").text("¡Correcto!").show();
             
@@ -56,7 +56,7 @@ function getPreguntas() {
             p4.push($(this).attr("value"));
         });
 
-        if (p4.length == 1 && p4[0] == 'Hardware' ) {
+        if (p4.length == 1 && p4[0] == 'Botón de zoom' ) {
             $("#ans4").css("color", "green")
             $("#ans4").text("¡Correcto!").show();
             
@@ -72,7 +72,7 @@ function getPreguntas() {
             p5.push($(this).attr("value"));
         });
 
-        if (p5.length == 1 && p5[0] == 'Software') {
+        if (p5.length == 1 && p5[0] == 'Ayuda') {
             $("#ans5").css("color", "green")
             $("#ans5").text("¡Correcto!").show();
             
@@ -88,7 +88,7 @@ function getPreguntas() {
             p6.push($(this).attr("value"));
         });
 
-        if (p6.length == 1 && p6[0] == 'Hardware') {
+        if (p6.length == 1 && p6[0] == 'Menú inicio') {
             $("#ans6").css("color", "green")
             $("#ans6").text("¡Correcto!").show();
             
@@ -104,7 +104,7 @@ function getPreguntas() {
             p7.push($(this).attr("value"));
         });
 
-        if (p7.length == 1 && p7[0] == 'Software') {
+        if (p7.length == 1 && p7[0] == 'Menú diseño página') {
             $("#ans7").css("color", "green")
             $("#ans7").text("¡Correcto!").show();
             
@@ -120,7 +120,7 @@ function getPreguntas() {
             p8.push($(this).attr("value"));
         });
 
-        if (p8.length == 1 && p8[0] == 'Hardware') {
+        if (p8.length == 1 && p8[0] == 'Menú vistas') {
             $("#ans8").css("color", "green")
             $("#ans8").text("¡Correcto!").show();
             
@@ -136,7 +136,7 @@ function getPreguntas() {
             p9.push($(this).attr("value"));
         });
 
-        if (p9.length == 1 && p9[0] == 'Software') {
+        if (p9.length == 1 && p9[0] == 'Menú revisar') {
             $("#ans9").css("color", "green")
             $("#ans9").text("¡Correcto!").show();
             
@@ -144,22 +144,6 @@ function getPreguntas() {
         else {
             $("#ans9").css("color", "red")
             $("#ans9").text("Incorrecto, intenta de nuevo.").show();
-        }
-
-        // Get pregunta10
-        let p10 = [];
-        $("input[type=checkbox][name=pregunta10]:checked").each(function() {
-            p10.push($(this).attr("value"));
-        });
-
-        if (p10.length == 1 && p10[0] == 'Software') {
-            $("#ans10").css("color", "green")
-            $("#ans10").text("¡Correcto!").show();
-            
-        }
-        else {
-            $("#ans10").css("color", "red")
-            $("#ans10").text("Incorrecto, intenta de nuevo.").show();
         }
     })
 }

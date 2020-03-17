@@ -49,17 +49,142 @@
                 <div class="main-content">
                     <div class="container-fluid">
 
-                    <!-- Your content goes here -->
-                    <div class="card">
-                        <div class="pdd-vertical-30 pdd-horizon-25">
-                            <h1 class="mrg-btm-20 card-title" align="center">Ejercicio: Herramientas Generales para el Manejo de Documentos</h1>
-
-
-                            <!-- AQUI VA EL EJERICIO -->
-
-
+                        <div class="card">
+                            <div class="pdd-vertical-30 pdd-horizon-25">
+                                <h1 class="mrg-btm-20 card-title" align="center">Ejercicio: Herramientas Generales para el Manejo de Documentos</h1>
+                                <p>
+                                    <strong>Objetivo: </strong> Identificar con qué menú y/o herramienta se realizan las acciones más comunes en el manejo de documentos.<br>
+                                    <strong>Instrucciones: </strong>
+                                    <ol>
+                                        <li>
+                                           Relacione el enuciado con <strong>UNA </strong> de las acciones en las opciones en cada una de las preguntas. <strong> (En la pregunta 2 son DOS acciones)</strong>
+                                        </li>
+                                        <li>
+                                            Al finalizar para revisar sus respuestas haga clic en el botón “Revisar”.
+                                        </li>
+                                    </ol> 
+                                </p>
+                            </div>
                         </div>
-                    </div>
+    
+                        <div class="card">
+                            <div class="pdd-vertical-30 pdd-horizon-25">
+                                <form id="ejercicio">
+                                    <fieldset>
+                                    <!-- Multiple Checkboxes (inline) -->
+                                    <div class="form-group">
+                                      <label class="col control-label" for="pregunta1">1. Si seleccionamos el botón de "Guardar" ¿Qué acción vamos a hacer?</label>
+                                      <div class="col">
+                                        <p id="ans1"></p>
+                                        <label class="checkbox-inline" for="pregunta1-0">
+                                            <input type="checkbox" name="pregunta1" id="pregunta1-0" value="Nuevo"> Nuevo
+                                        </label>
+                                        <label class="checkbox-inline" for="pregunta1-1">
+                                            <input type="checkbox" name="pregunta1" id="pregunta1-1" value="Guardar Documento"> Guardar Documento
+                                        </label>
+                                        <label class="checkbox-inline" for="pregunta1-2">
+                                            <input type="checkbox" name="pregunta1" id="pregunta1-2" value="Cerrar Documento"> Cerrar Documento
+                                        </label>
+                                        <label class="checkbox-inline" for="pregunta1-3">
+                                            <input type="checkbox" name="pregunta1" id="pregunta1-3" value="Abrir Documento"> Abrir Documento
+                                        </label>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="col control-label" for="pregunta2">2. Cuando terminamos de trabajar con un documento, ¿Qué debemos hacer? (Seleccionar las dos respuestas correctas)</label>
+                                        <div class="col">
+                                            <p id="ans2"></p>
+                                          <label class="checkbox-inline" for="pregunta2-0">
+                                              <input type="checkbox" name="pregunta2" id="pregunta2-0" value="Cerrar Documento"> Cerrar Documento
+                                          </label>
+                                          <label class="checkbox-inline" for="pregunta2-1">
+                                              <input type="checkbox" name="pregunta2" id="pregunta2-1" value="Guardar Documento"> Guardar Documento
+                                          </label>
+                                          <label class="checkbox-inline" for="pregunta2-2">
+                                            <input type="checkbox" name="pregunta2" id="pregunta2-2" value="Abrir Documento"> Abrir Documento
+                                        </label>
+                                        <label class="checkbox-inline" for="pregunta2-3">
+                                            <input type="checkbox" name="pregunta2" id="pregunta2-3" value="Nuevo"> Nuevo
+                                        </label>
+                                        </div>
+                                      </div>
+                                    
+                                      <div class="form-group">
+                                        <label class="col control-label" for="pregunta3">3. Para trabajar con un documento ya creado, ¿Qué debemos hacer?</label>
+                                        <div class="col">
+                                            <p id="ans3"></p>
+                                          <label class="checkbox-inline" for="pregunta3-0">
+                                              <input type="checkbox" name="pregunta3" id="pregunta3-0" value="Abrir Documento"> Abrir Documento
+                                          </label>
+                                          <label class="checkbox-inline" for="pregunta3-1">
+                                              <input type="checkbox" name="pregunta3" id="pregunta3-1" value="Nuevo"> Nuevo
+                                          </label>
+                                          <label class="checkbox-inline" for="pregunta3-2">
+                                            <input type="checkbox" name="pregunta3" id="pregunta3-2"  value="Cerrar Documento"> Cerrar Documento
+                                        </label>
+                                        <label class="checkbox-inline" for="pregunta3-3">
+                                            <input type="checkbox" name="pregunta3" id="pregunta3-3" value="Guardar Documento"> Guardar Documento
+                                        </label>
+                                        </div>
+                                      </div>
+                                    
+                                      <div class="form-group">
+                                        <label class="col control-label" for="pregunta4">4. ¿Qué botón debemos seleccionar para crear un documento nuevo?</label>
+                                        <div class="col">
+                                            <p id="ans4"></p>
+                                          <label class="checkbox-inline" for="pregunta4-0">
+                                              <input type="checkbox" name="pregunta4" id="pregunta4-0" value="Guardar Documento"> Guardar Documento
+                                          </label>
+                                          <label class="checkbox-inline" for="pregunta4-1">
+                                              <input type="checkbox" name="pregunta4" id="pregunta4-1" value="Cerrar Documento"> Cerrar Documento
+                                          </label>
+                                          <label class="checkbox-inline" for="pregunta4-2">
+                                            <input type="checkbox" name="pregunta4" id="pregunta4-2" value="Nuevo"> Nuevo
+                                        </label>
+                                        <label class="checkbox-inline" for="pregunta4-3">
+                                            <input type="checkbox" name="pregunta4" id="pregunta4-3" value="Abrir Documento"> Abrir Documento
+                                        </label>
+                                        </div>
+                                      </div>
+    
+                                      
+                                      <div class="form-group row">
+                                        <div class="col" align="center">
+                                          <button type="submit" class="button" >Revisar</button>
+                                        </div>
+                                      </div>
+                    
+                                    </fieldset>
+                                    </form>   
+                                </div>
+                            </div>
+    
+                        <div class="card widget-feed">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h1 class="feed-title tag tag-info">Módulo 3</h1>
+                                    <h3 class="feed-subtitle">Tu Progreso</h3>
+                                    <div class="progress" style="height: 20px;" id="bar">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 2.4%"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div id="circlecontainer"></div>
+                                        </div>
+                                    </div>
+    
+    
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <h3 class="feed-subtitle">Progreso General del Curso</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     <div class="card widget-feed">
                         <div class="row">
@@ -266,6 +391,8 @@
 <script src="../../assets/js/progressbar.js"></script>
 <script src="../../assets/js/progress-circle.js"></script>
 
+<!-- Ejercicio JS -->
+<script src="../../assets/js/scripts/modulo3/unidad1-18.js"></script>
 <!-- endbuild -->
 
 <!-- build:js assets/js/app.min.js -->
