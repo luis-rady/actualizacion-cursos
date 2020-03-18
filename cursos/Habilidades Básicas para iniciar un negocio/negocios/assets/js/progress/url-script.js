@@ -1,337 +1,429 @@
-function getstr(str){
+
+
+function getstr(str) {
     return str.substring(str.search("src"));
 }
-function getfilename(){
+
+function getfilename() {
     var url = window.location.href;
-    var filename = url.substring(url.lastIndexOf('/')+1);
-    if(filename==""){
+    var filename = url.substring(url.lastIndexOf('/') + 1);
+    if (filename == "") {
         return "index.html";
-    }else{
-        return filename;
-    }
-    return "";
+    } 
+
+    return filename;
 }
-p2={
-    "src/modulo1/parte2/tema1/continue.html" : 52.38,
-    "src/modulo1/parte2/tema1/continue1.html" : 57.14,
-    "src/modulo1/parte2/tema1/" : 47.62,
-    "src/modulo1/parte2/tema2/continue.html" : 71.43,
-    "src/modulo1/parte2/tema2/continue1.html" : 73.02,
-    "src/modulo1/parte2/tema2/continue10.html" : 88.1,
-    "src/modulo1/parte2/tema2/continue11.html" : 90.48,
-    "src/modulo1/parte2/tema2/continue12.html" : 92.86,
-    "src/modulo1/parte2/tema2/continue13.html" : 95.24,
-    "src/modulo1/parte2/tema2/continue14.html" : 100,
-    "src/modulo1/parte2/tema2/continue15.html" : 97.62,
-    "src/modulo1/parte2/tema2/continue2.html" : 74.6,
-    "src/modulo1/parte2/tema2/continue3.html" : 76.19,
-    "src/modulo1/parte2/tema2/continue4.html" : 77.78,
-    "src/modulo1/parte2/tema2/continue5.html" : 79.37,
-    "src/modulo1/parte2/tema2/continue6.html" : 80.95,
-    "src/modulo1/parte2/tema2/continue7.html" : 82.54,
-    "src/modulo1/parte2/tema2/continue8.html" : 84.13,
-    "src/modulo1/parte2/tema2/continue9.html" : 85.71,
-    "src/modulo1/parte2/tema2/" : 64.29,
-    "src/modulo1/tema1/continue.html" : 4.76,
-    "src/modulo1/tema1/continue1.html" : 7.14,
-    "src/modulo1/tema1/continue2.html" : 9.52,
-    "src/modulo1/tema1/continue3.html" : 11.9,
-    "src/modulo1/tema1/continue4.html" : 14.29,
-    "src/modulo1/tema1/" : 2.38,
-    "src/modulo1/tema2/continue.html" : 15.48,
-    "src/modulo1/tema2/continue1.html" : 16.07,
-    "src/modulo1/tema2/continue10.html" : 21.43,
-    "src/modulo1/tema2/continue11.html" : 22.02,
-    "src/modulo1/tema2/continue12.html" : 22.62,
-    "src/modulo1/tema2/continue13.html" : 23.21,
-    "src/modulo1/tema2/continue14.html" : 23.81,
-    "src/modulo1/tema2/continue15.html" : 24.4,
-    "src/modulo1/tema2/continue16.html" : 25,
-    "src/modulo1/tema2/continue17.html" : 25.6,
-    "src/modulo1/tema2/continue18.html" : 26.19,
-    "src/modulo1/tema2/continue19.html" : 26.79,
-    "src/modulo1/tema2/continue2.html" : 16.67,
-    "src/modulo1/tema2/continue20.html" : 27.38,
-    "src/modulo1/tema2/continue21.html" : 27.98,
-    "src/modulo1/tema2/continue22.html" : 28.57,
-    "src/modulo1/tema2/continue3.html" : 17.26,
-    "src/modulo1/tema2/continue4.html" : 17.86,
-    "src/modulo1/tema2/continue5.html" : 18.45,
-    "src/modulo1/tema2/continue6.html" : 19.05,
-    "src/modulo1/tema2/continue7.html" : 19.64,
-    "src/modulo1/tema2/continue8.html" : 20.24,
-    "src/modulo1/tema2/continue9.html" : 20.83,
-    "src/modulo1/tema2/" : 14.88,
-    "src/modulo1/tema3/continue.html" : 30.77,
-    "src/modulo1/tema3/continue1.html" : 31.87,
-    "src/modulo1/tema3/continue10.html" : 41.76,
-    "src/modulo1/tema3/continue11.html" : 42.86,
-    "src/modulo1/tema3/continue2.html" : 32.97,
-    "src/modulo1/tema3/continue3.html" : 34.07,
-    "src/modulo1/tema3/continue4.html" : 35.16,
-    "src/modulo1/tema3/continue5.html" : 36.26,
-    "src/modulo1/tema3/continue6.html" : 37.36,
-    "src/modulo1/tema3/continue7.html" : 38.46,
-    "src/modulo1/tema3/continue8.html" : 39.56,
-    "src/modulo1/tema3/continue9.html" : 40.66,
-    "src/modulo1/tema3/" : 29.67,
-    "src/modulo2/tema1/activity.html" : 8.33,
-    "src/modulo2/tema1/continue.html" : 12.5,
-    "src/modulo2/tema1/continue1.html" : 16.67,
-    "src/modulo2/tema1/continue2.html" : 20.83,
-    "src/modulo2/tema1/continue3.html" : 25,
-    "src/modulo2/tema1/" : 4.17,
-    "src/modulo2/tema2/continue.html" : 35,
-    "src/modulo2/tema2/continue1.html" : 40,
-    "src/modulo2/tema2/continue2.html" : 45,
-    "src/modulo2/tema2/continue3.html" : 50,
-    "src/modulo2/tema2/" : 30,
-    "src/modulo2/tema3/continue.html" : 60,
-    "src/modulo2/tema3/continue1.html" : 65,
-    "src/modulo2/tema3/continue2.html" : 70,
-    "src/modulo2/tema3/continue3.html" : 75,
-    "src/modulo2/tema3/" : 55,
-    "src/modulo2/tema4/continue.html" : 78.57,
-    "src/modulo2/tema4/continue1.html" : 80.36,
-    "src/modulo2/tema4/continue10.html" : 96.43,
-    "src/modulo2/tema4/continue11.html" : 98.21,
-    "src/modulo2/tema4/continue12.html" : 100,
-    "src/modulo2/tema4/continue2.html" : 82.14,
-    "src/modulo2/tema4/continue3.html" : 83.93,
-    "src/modulo2/tema4/continue4.html" : 85.71,
-    "src/modulo2/tema4/continue5.html" : 87.5,
-    "src/modulo2/tema4/continue6.html" : 89.29,
-    "src/modulo2/tema4/continue7.html" : 91.07,
-    "src/modulo2/tema4/continue8.html" : 92.86,
-    "src/modulo2/tema4/continue9.html" : 94.64,
-    "src/modulo2/tema4/" : 78.57,
-    "src/modulo3/autoevaluacion/continue.html" : 89.29,
-    "src/modulo3/autoevaluacion/continue1.html" : 91.07,
-    "src/modulo3/autoevaluacion/continue2.html" : 92.86,
-    "src/modulo3/autoevaluacion/continue3.html" : 94.64,
-    "src/modulo3/autoevaluacion/continue4.html" : 96.43,
-    "src/modulo3/autoevaluacion/continue5.html" : 98.21,
-    "src/modulo3/autoevaluacion/continue6.html" : 100,
-    "src/modulo3/autoevaluacion/" : 87.5,
-    "src/modulo3/tema1/continue.html" : 14.29,
-    "src/modulo3/tema1/" : 7.14,
-    "src/modulo3/tema2/continue.html" : 20,
-    "src/modulo3/tema2/continue1.html" : 22.86,
-    "src/modulo3/tema2/continue2.html" : 25.71,
-    "src/modulo3/tema2/continue3.html" : 28.57,
-    "src/modulo3/tema2/" : 17.14,
-    "src/modulo3/tema3/continue.html" : 35.71,
-    "src/modulo3/tema3/continue1.html" : 39.29,
-    "src/modulo3/tema3/continue2.html" : 42.86,
-    "src/modulo3/tema3/" : 32.14,
-    "src/modulo3/tema4/continue.html" : 50,
-    "src/modulo3/tema4/continue1.html" : 53.57,
-    "src/modulo3/tema4/continue2.html" : 57.14,
-    "src/modulo3/tema4/" : 46.43,
-    "src/modulo3/tema5/continue.html" : 59.34,
-    "src/modulo3/tema5/continue1.html" : 60.44,
-    "src/modulo3/tema5/continue10.html" : 70.33,
-    "src/modulo3/tema5/continue11.html" : 71.43,
-    "src/modulo3/tema5/continue2.html" : 61.54,
-    "src/modulo3/tema5/continue3.html" : 62.64,
-    "src/modulo3/tema5/continue4.html" : 63.74,
-    "src/modulo3/tema5/continue5.html" : 64.84,
-    "src/modulo3/tema5/continue6.html" : 65.93,
-    "src/modulo3/tema5/continue7.html" : 67.03,
-    "src/modulo3/tema5/continue8.html" : 68.13,
-    "src/modulo3/tema5/continue9.html" : 69.23,
-    "src/modulo3/tema5/" : 58.24,
-    "src/modulo3/tema6/continue.html" : 78.57,
-    "src/modulo3/tema6/continue1.html" : 82.14,
-    "src/modulo3/tema6/continue2.html" : 85.71,
-    "src/modulo3/tema6/" : 75,
-    "src/modulo4/tema1/continue.html" : 4,
-    "src/modulo4/tema1/continue1.html" : 6,
-    "src/modulo4/tema1/continue2.html" : 8,
-    "src/modulo4/tema1/continue3.html" : 10,
-    "src/modulo4/tema1/" : 2,
-    "src/modulo4/tema10/continue.html" : 95,
-    "src/modulo4/tema10/" : 100,
-    "src/modulo4/tema2/continue.html" : 20,
-    "src/modulo4/tema2/" : 15,
-    "src/modulo4/tema3/continue.html" : 30,
-    "src/modulo4/tema3/" : 25,
-    "src/modulo4/tema4/continue.html" : 36.67,
-    "src/modulo4/tema4/continue1.html" : 40,
-    "src/modulo4/tema4/" : 33.33,
-    "src/modulo4/tema5/continue.html" : 46.67,
-    "src/modulo4/tema5/continue1.html" : 50,
-    "src/modulo4/tema5/" : 43.33,
-    "src/modulo4/tema6/continue.html" : 56.67,
-    "src/modulo4/tema6/continue1.html" : 60,
-    "src/modulo4/tema6/" : 53.33,
-    "src/modulo4/tema7/continue.html" : 70,
-    "src/modulo4/tema7/" : 65,
-    "src/modulo4/tema8/continue.html" : 80,
-    "src/modulo4/tema8/" : 75,
-    "src/modulo4/tema9/continue.html" : 86.67,
-    "src/modulo4/tema9/continue1.html" : 90,
-    "src/modulo4/tema9/" : 83.33,
-};
-p1 = {
-    "src/modulo1/parte2/tema1/continue.html" : 0.130952381,
-    "src/modulo1/parte2/tema1/continue1.html" : 0.142857143,
-    "src/modulo1/parte2/tema1/" : 0.119047619,
-    "src/modulo1/parte2/tema2/continue.html" : 0.178571429,
-    "src/modulo1/parte2/tema2/continue1.html" : 0.182539683,
-    "src/modulo1/parte2/tema2/continue10.html" : 0.220238095,
-    "src/modulo1/parte2/tema2/continue11.html" : 0.226190476,
-    "src/modulo1/parte2/tema2/continue12.html" : 0.232142857,
-    "src/modulo1/parte2/tema2/continue13.html" : 0.238095238,
-    "src/modulo1/parte2/tema2/continue14.html" : 0.25,
-    "src/modulo1/parte2/tema2/continue15.html" : 0.244047619,
-    "src/modulo1/parte2/tema2/continue2.html" : 0.186507937,
-    "src/modulo1/parte2/tema2/continue3.html" : 0.19047619,
-    "src/modulo1/parte2/tema2/continue4.html" : 0.194444444,
-    "src/modulo1/parte2/tema2/continue5.html" : 0.198412698,
-    "src/modulo1/parte2/tema2/continue6.html" : 0.202380952,
-    "src/modulo1/parte2/tema2/continue7.html" : 0.206349206,
-    "src/modulo1/parte2/tema2/continue8.html" : 0.21031746,
-    "src/modulo1/parte2/tema2/continue9.html" : 0.214285714,
-    "src/modulo1/parte2/tema2/" : 0.160714286,
-    "src/modulo1/tema1/continue.html" : 0.011904762,
-    "src/modulo1/tema1/continue1.html" : 0.017857143,
-    "src/modulo1/tema1/continue2.html" : 0.023809524,
-    "src/modulo1/tema1/continue3.html" : 0.029761905,
-    "src/modulo1/tema1/continue4.html" : 0.035714286,
-    "src/modulo1/tema1/" : 0.005952381,
-    "src/modulo1/tema2/continue.html" : 0.038690476,
-    "src/modulo1/tema2/continue1.html" : 0.040178571,
-    "src/modulo1/tema2/continue10.html" : 0.053571429,
-    "src/modulo1/tema2/continue11.html" : 0.055059524,
-    "src/modulo1/tema2/continue12.html" : 0.056547619,
-    "src/modulo1/tema2/continue13.html" : 0.058035714,
-    "src/modulo1/tema2/continue14.html" : 0.05952381,
-    "src/modulo1/tema2/continue15.html" : 0.061011905,
-    "src/modulo1/tema2/continue16.html" : 0.0625,
-    "src/modulo1/tema2/continue17.html" : 0.063988095,
-    "src/modulo1/tema2/continue18.html" : 0.06547619,
-    "src/modulo1/tema2/continue19.html" : 0.066964286,
-    "src/modulo1/tema2/continue2.html" : 0.041666667,
-    "src/modulo1/tema2/continue20.html" : 0.068452381,
-    "src/modulo1/tema2/continue21.html" : 0.069940476,
-    "src/modulo1/tema2/continue22.html" : 0.071428571,
-    "src/modulo1/tema2/continue3.html" : 0.043154762,
-    "src/modulo1/tema2/continue4.html" : 0.044642857,
-    "src/modulo1/tema2/continue5.html" : 0.046130952,
-    "src/modulo1/tema2/continue6.html" : 0.047619048,
-    "src/modulo1/tema2/continue7.html" : 0.049107143,
-    "src/modulo1/tema2/continue8.html" : 0.050595238,
-    "src/modulo1/tema2/continue9.html" : 0.052083333,
-    "src/modulo1/tema2/" : 0.037202381,
-    "src/modulo1/tema3/continue.html" : 0.076923077,
-    "src/modulo1/tema3/continue1.html" : 0.07967033,
-    "src/modulo1/tema3/continue10.html" : 0.104395604,
-    "src/modulo1/tema3/continue11.html" : 0.107142857,
-    "src/modulo1/tema3/continue2.html" : 0.082417582,
-    "src/modulo1/tema3/continue3.html" : 0.085164835,
-    "src/modulo1/tema3/continue4.html" : 0.087912088,
-    "src/modulo1/tema3/continue5.html" : 0.090659341,
-    "src/modulo1/tema3/continue6.html" : 0.093406593,
-    "src/modulo1/tema3/continue7.html" : 0.096153846,
-    "src/modulo1/tema3/continue8.html" : 0.098901099,
-    "src/modulo1/tema3/continue9.html" : 0.101648352,
-    "src/modulo1/tema3/" : 0.074175824,
-    "src/modulo2/tema1/activity.html" : 0.270833333,
-    "src/modulo2/tema1/continue.html" : 0.28125,
-    "src/modulo2/tema1/continue1.html" : 0.291666667,
-    "src/modulo2/tema1/continue2.html" : 0.302083333,
-    "src/modulo2/tema1/continue3.html" : 0.3125,
-    "src/modulo2/tema1/" : 0.260416667,
-    "src/modulo2/tema2/continue.html" : 0.3375,
-    "src/modulo2/tema2/continue1.html" : 0.35,
-    "src/modulo2/tema2/continue2.html" : 0.3625,
-    "src/modulo2/tema2/continue3.html" : 0.375,
-    "src/modulo2/tema2/" : 0.325,
-    "src/modulo2/tema3/continue.html" : 0.4,
-    "src/modulo2/tema3/continue1.html" : 0.4125,
-    "src/modulo2/tema3/continue2.html" : 0.425,
-    "src/modulo2/tema3/continue3.html" : 0.4375,
-    "src/modulo2/tema3/" : 0.3875,
-    "src/modulo2/tema4/continue.html" : 0.446428571,
-    "src/modulo2/tema4/continue1.html" : 0.450892857,
-    "src/modulo2/tema4/continue10.html" : 0.491071429,
-    "src/modulo2/tema4/continue11.html" : 0.495535714,
-    "src/modulo2/tema4/continue12.html" : 0.5,
-    "src/modulo2/tema4/continue2.html" : 0.455357143,
-    "src/modulo2/tema4/continue3.html" : 0.459821429,
-    "src/modulo2/tema4/continue4.html" : 0.464285714,
-    "src/modulo2/tema4/continue5.html" : 0.46875,
-    "src/modulo2/tema4/continue6.html" : 0.473214286,
-    "src/modulo2/tema4/continue7.html" : 0.477678571,
-    "src/modulo2/tema4/continue8.html" : 0.482142857,
-    "src/modulo2/tema4/continue9.html" : 0.486607143,
-    "src/modulo2/tema4/" : 0.446428571,
-    "src/modulo3/autoevaluacion/continue.html" : 0.723214286,
-    "src/modulo3/autoevaluacion/continue1.html" : 0.727678571,
-    "src/modulo3/autoevaluacion/continue2.html" : 0.732142857,
-    "src/modulo3/autoevaluacion/continue3.html" : 0.736607143,
-    "src/modulo3/autoevaluacion/continue4.html" : 0.741071429,
-    "src/modulo3/autoevaluacion/continue5.html" : 0.745535714,
-    "src/modulo3/autoevaluacion/continue6.html" : 0.75,
-    "src/modulo3/autoevaluacion/" : 0.71875,
-    "src/modulo3/tema1/continue.html" : 0.535714286,
-    "src/modulo3/tema1/" : 0.517857143,
-    "src/modulo3/tema2/continue.html" : 0.55,
-    "src/modulo3/tema2/continue1.html" : 0.557142857,
-    "src/modulo3/tema2/continue2.html" : 0.564285714,
-    "src/modulo3/tema2/continue3.html" : 0.571428571,
-    "src/modulo3/tema2/" : 0.542857143,
-    "src/modulo3/tema3/continue.html" : 0.589285714,
-    "src/modulo3/tema3/continue1.html" : 0.598214286,
-    "src/modulo3/tema3/continue2.html" : 0.607142857,
-    "src/modulo3/tema3/" : 0.580357143,
-    "src/modulo3/tema4/continue.html" : 0.625,
-    "src/modulo3/tema4/continue1.html" : 0.633928571,
-    "src/modulo3/tema4/continue2.html" : 0.642857143,
-    "src/modulo3/tema4/" : 0.616071429,
-    "src/modulo3/tema5/continue.html" : 0.648351648,
-    "src/modulo3/tema5/continue1.html" : 0.651098901,
-    "src/modulo3/tema5/continue10.html" : 0.675824176,
-    "src/modulo3/tema5/continue11.html" : 0.678571429,
-    "src/modulo3/tema5/continue2.html" : 0.653846154,
-    "src/modulo3/tema5/continue3.html" : 0.656593407,
-    "src/modulo3/tema5/continue4.html" : 0.659340659,
-    "src/modulo3/tema5/continue5.html" : 0.662087912,
-    "src/modulo3/tema5/continue6.html" : 0.664835165,
-    "src/modulo3/tema5/continue7.html" : 0.667582418,
-    "src/modulo3/tema5/continue8.html" : 0.67032967,
-    "src/modulo3/tema5/continue9.html" : 0.673076923,
-    "src/modulo3/tema5/" : 0.645604396,
-    "src/modulo3/tema6/continue.html" : 0.696428571,
-    "src/modulo3/tema6/continue1.html" : 0.705357143,
-    "src/modulo3/tema6/continue2.html" : 0.714285714,
-    "src/modulo3/tema6/" : 0.6875,
-    "src/modulo4/tema1/continue.html" : 0.76,
-    "src/modulo4/tema1/continue1.html" : 0.765,
-    "src/modulo4/tema1/continue2.html" : 0.77,
-    "src/modulo4/tema1/continue3.html" : 0.775,
-    "src/modulo4/tema1/" : 0.755,
-    "src/modulo4/tema10/continue.html" : 0.9875,
-    "src/modulo4/tema10/" : 1,
-    "src/modulo4/tema2/continue.html" : 0.8,
-    "src/modulo4/tema2/" : 0.7875,
-    "src/modulo4/tema3/continue.html" : 0.825,
-    "src/modulo4/tema3/" : 0.8125,
-    "src/modulo4/tema4/continue.html" : 0.841666667,
-    "src/modulo4/tema4/continue1.html" : 0.85,
-    "src/modulo4/tema4/" : 0.833333333,
-    "src/modulo4/tema5/continue.html" : 0.866666667,
-    "src/modulo4/tema5/continue1.html" : 0.875,
-    "src/modulo4/tema5/" : 0.858333333,
-    "src/modulo4/tema6/continue.html" : 0.891666667,
-    "src/modulo4/tema6/continue1.html" : 0.9,
-    "src/modulo4/tema6/" : 0.883333333,
-    "src/modulo4/tema7/continue.html" : 0.925,
-    "src/modulo4/tema7/" : 0.9125,
-    "src/modulo4/tema8/continue.html" : 0.95,
-    "src/modulo4/tema8/" : 0.9375,
-    "src/modulo4/tema9/continue.html" : 0.966666667,
-    "src/modulo4/tema9/continue1.html" : 0.975,
-    "src/modulo4/tema9/" : 0.958333333,
-};
+
+function getModuloPercentage(){
+    var res=0;
+
+    var files=getFiles();
+    var url = window.location.href;
+    url=url.substr(url.indexOf("src/"));
+    var url_split=url.split('/');
+    url_split.shift();
+
+    var numberString; 
+    var jsonTmp=files[url_split.shift()];
+    var totalLevel=100;
+    for(var i=0;i<url_split.length;i++){
+        if(jsonTmp.hasOwnProperty(url_split[i])){
+            totalLevel=totalLevel/Object.keys(jsonTmp).length;
+            numberString=parseInt(url_split[i].replace( /^\D+/g, ''));
+            res+=(numberString-1)*(totalLevel);
+            jsonTmp=jsonTmp[url_split[i]];
+        }else{
+            if(i!=url_split.length-1){break;}
+            if(url_split[i]==""){url_split[i]="index.html";}
+            for(var idtmp in jsonTmp){
+                if(jsonTmp[idtmp]==url_split[i]){
+                    totalLevel=totalLevel/Object.keys(jsonTmp).length;
+                    res+=(idtmp)*(totalLevel);
+                    break;
+                }
+            }
+        }
+    }
+    
+    return res.toFixed(2);
+}
+function getTotalPercentage(){
+    var res=0;
+
+    var files=getFiles();
+    var url = window.location.href;
+    url=url.substr(url.indexOf("src/"));
+    var url_split=url.split('/');
+    url_split.shift();
+
+    var numberString; 
+    var jsonTmp=files;
+    var totalLevel=100;
+    for(var i=0;i<url_split.length;i++){
+        if(jsonTmp.hasOwnProperty(url_split[i])){
+            totalLevel=totalLevel/Object.keys(jsonTmp).length;
+            numberString=parseInt(url_split[i].replace( /^\D+/g, ''));
+            res+=(numberString-1)*(totalLevel);
+            jsonTmp=jsonTmp[url_split[i]];
+        }else{
+            if(i!=url_split.length-1){break;}
+            if(url_split[i]==""){url_split[i]="index.html";}
+            for(var idtmp in jsonTmp){
+                if(jsonTmp[idtmp]==url_split[i]){
+                    totalLevel=totalLevel/Object.keys(jsonTmp).length;
+                    res+=(idtmp)*(totalLevel);
+                    break;
+                }
+            }
+        }
+    }
+    return res.toFixed(2);
+}
+
+function generatePage(name,count){
+    var html="";
+    
+    if(name=="index.html"){name="";}
+    if(count=="Atrás" || count== "Siguiente"){
+        html+='<a class="btn btn-default" role="button" href="./'+name+'">';
+    }else{
+        html+='<a class="btn btn-default" role="button" id="'+(name==""?"index.html":name)+'" href="./'+name+'">';
+    }
+    html+='<span>'+count+'</span>';
+    html+='</a>';
+    return html;
+}
+
+function getLast(){
+    var url = window.location.href;
+    url=url.substr(url.indexOf("src/"));
+    var url_split=url.split('/');
+    url_split.pop();url_split.pop();
+    var res="";var flag=false;
+    for(var i=url_split.length-1;i>=0;i--){
+        if(url_split[i].indexOf("modulo")!=-1){
+            flag=true;
+            res+="../";
+            break;
+        }else{
+            res+="../";
+        }
+    }
+    if(!flag){
+        res+="temario/";
+    }
+    return res;
+}
+function getMovementBar(){
+    var res=0;
+
+    var files=getFiles();
+    var url = window.location.href;
+    url=url.substr(url.indexOf("src/"));
+    var url_split=url.split('/');
+    url_split.shift();
+    var jsonTmp=files;
+    var idtmp;
+    
+    //Get Id
+    for(var i=0;i<url_split.length;i++){
+        if(!jsonTmp.hasOwnProperty(url_split[i])){
+            if(i!=url_split.length-1){break;}
+            if(url_split[i]==""){url_split[i]="index.html";}
+            for(idtmp in jsonTmp){
+                if(jsonTmp[idtmp]==url_split[i]){
+                    break;
+                }
+            }
+        }else{
+            jsonTmp=jsonTmp[url_split[i]];
+        }
+    }
+    
+    var filescount=Object.keys(jsonTmp).length;
+    
+    var html="";var html_back="";
+    var count=0;
+    //before button
+    if(parseInt(idtmp)-1>=0){
+        html_back+=generatePage(jsonTmp[parseInt(idtmp)-1],"Atrás");
+    }else{
+        html_back+=generatePage(getLast(),"Atrás");
+    }
+    //before overall max 5
+    var rightmax=filescount-1-parseInt(idtmp);
+    var leftmax=parseInt(idtmp);
+    leftmax=leftmax>=2?2:leftmax;
+    leftmax=rightmax>=2?leftmax:4-rightmax;
+    
+    for(var left=parseInt(idtmp)-1;left>=0 && count<leftmax;left--){
+        html=generatePage(jsonTmp[left],left+1)+html;
+        count++;
+    }
+    html=html_back+html;
+    if(getLast().indexOf("temario")==-1){
+        html=html+generatePage(jsonTmp[idtmp],parseInt(idtmp)+1);count++;
+    }
+    //after overall max 5
+    for(var right=parseInt(idtmp)+1;right<filescount && count<5;right++){
+        
+        html=html+generatePage(jsonTmp[right],right+1);
+        count++;
+    }
+    //after button
+    if(parseInt(idtmp)+1<filescount){
+        html+=generatePage(jsonTmp[parseInt(idtmp)+1],"Siguiente");
+    }else{
+        html+=generatePage(getLast(),"Siguiente");
+    }
+
+    return html;
+}
+
+function getFiles() {
+    var files = {
+        modulo4: {
+            tema1: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+                4: "continue3.html",
+            },
+            tema2: {
+                0: "index.html",
+                1: "continue.html",
+            },
+            tema3: {
+                0: "index.html",
+                1: "continue.html",
+            },
+            tema4: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+            },
+            tema5: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+            },
+            tema6: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+            },
+            tema7: {
+                0: "index.html",
+                1: "continue.html",
+            },
+
+            tema8: {
+                0: "index.html",
+                1: "continue.html",
+            },
+            tema9: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+            },
+            tema10: {
+                0: "index.html",
+                1: "continue.html",
+            },
+
+        },
+        modulo3: {
+            tema1: {
+                0: "index.html",
+                1: "continue.html",
+            },
+            tema2: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+                4: "continue3.html",
+            },
+            tema3: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+            },
+            tema4: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+            },
+            tema5: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+                4: "continue3.html",
+                5: "continue4.html",
+                6: "continue5.html",
+                7: "continue6.html",
+                8: "continue7.html",
+                9: "continue8.html",
+                10: "continue9.html",
+                11: "continue10.html",
+                12: "continue11.html",
+            },
+            tema6: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+            },
+            autoevaluacion: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+                4: "continue3.html",
+                5: "continue4.html",
+                6: "continue5.html",
+                7: "continue6.html",
+            },
+        },
+        modulo2: {
+            tema1: {
+                0: "index.html",
+                1: "activity.html",
+                2: "continue.html",
+                3: "continue1.html",
+                4: "continue2.html",
+                5: "continue3.html",
+            },
+            tema2: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+                4: "continue3.html",
+            },
+            tema3: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+                4: "continue3.html",
+            },
+            tema4: {
+                0: "index.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+                4: "continue3.html",
+                5: "continue4.html",
+                6: "continue5.html",
+                7: "continue6.html",
+                8: "continue7.html",
+                9: "continue8.html",
+                10: "continue9.html",
+                11: "continue10.html",
+                12: "continue11.html",
+                13: "continue12.html",
+            },
+
+        },
+        modulo1: {
+            parte1: {
+                tema1: {
+                    0: "index.html",
+                    1: "continue.html",
+                    2: "continue1.html",
+                    3: "continue2.html",
+                    4: "continue3.html",
+                },
+
+                tema2: {
+                    0: "index.html",
+                    1: "continue.html",
+                    2: "continue1.html",
+                    3: "continue2.html",
+                    4: "continue3.html",
+                    5: "continue5.html",
+                    6: "continue6.html",
+                    7: "continue7.html",
+                    8: "continue8.html",
+                    9: "continue9.html",
+                    10: "continue10.html",
+                    11: "continue11.html",
+                    12: "continue12.html",
+                    13: "continue13.html",
+                    14: "continue14.html",
+                    15: "continue15.html",
+                    16: "continue16.html",
+                    17: "continue17.html",
+                    18: "continue18.html",
+                    19: "continue22.html",
+                },
+
+                tema3: {
+                    0: "index.html",
+                    1: "continue.html",
+                    2: "continue1.html",
+                    3: "continue2.html",
+                    4: "continue3.html",
+                    5: "continue4.html",
+                    6: "continue5.html",
+                    7: "continue6.html",
+                    8: "continue7.html",
+                    9: "continue8.html",
+                    10: "continue9.html",
+                    11: "continue10.html",
+                    12: "continue11.html",
+                },
+            },
+            parte2: {
+                tema1: {
+                    0: "index.html",
+                    1: "continue.html",
+                    2: "continue1.html",
+                },
+                tema2: {
+                    0: "index.html",
+                    1: "continue.html",
+                },
+                tema3: {
+                    0: "index.html",
+                    1: "continue.html",
+                    2: "continue1.html",
+                    3: "continue2.html",
+                    4: "continue3.html",
+                    5: "continue4.html",
+                    6: "continue5.html",
+                    7: "continue6.html",
+                    8: "continue7.html",
+                },
+                tema4: {
+                    0: "index.html",
+                    1: "continue.html",
+                    2: "continue1.html",
+                    3: "continue2.html",
+                    4: "continue3.html",
+                    5: "continue4.html",
+                },
+            },
+        },
+    };
+    return files;
+}
+
+
+$(document).ready(function(){
+    $(".btn-group").html(getMovementBar()); 
+    setTimeout(function(){
+        document.getElementById(getfilename()).classList.remove("btn-default");
+        document.getElementById(getfilename()).classList.add("btn-actual-page");
+    },250);
+    show(getTotalPercentage()/100); 
+    document.getElementsByClassName("progress-bar")[0].innerHTML = getModuloPercentage() + "%";
+    document.getElementsByClassName("progress-bar")[0].style.maxWidth = "" + getModuloPercentage() + "%";
+    document.getElementsByClassName("progress-bar")[0].style.minWidth = "" + 5 + "%";
+
+});
