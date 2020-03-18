@@ -57,63 +57,68 @@
                                         <div class="pdd-vertical-30 pdd-horizon-25">
                                             <h1 class="mrg-btm-20 card-title text-center">Características del presupuesto personal</h1>
                                             <p>
-                                                Los <b>gatos</b> se refieren a todo el dinero que desembolsamos. También se 
-                                                les llama salidas de dinero o egresos.
+                                                Veamos otros ejemplos de gastos divididos por categoría. Al leer identifica cuál 
+                                                es la columna que corresponde a los gastos fijos y cuál a los variables.
                                             </p>
-                                            <p><b>Caso de Vicente y familia</b></p>
+                                            <p>Recuerda que la clasificación puede variar de acuerdo a las necesidades particulares.</p>
 
-                                            <table class="table table-bordered">
-                                                <tbody>
-                                                    <tr>
-                                                        <th scope="row">Vicente Santos</th>
-                                                        <td>
-                                                            <p>
-                                                                Vicente paga la renta de su departamento, los servicios de luz, agua 
-                                                                y gas; compra sus alimentos, útiles escolares para sus hijos y a veces 
-                                                                compra boletos para ir a la feria.
-                                                            </p>
-                                                            <p>
-                                                                Como podrás ver, hay algunos gastos que siempre debe hacer, pero algunos 
-                                                                otros, sólo los realiza de vez en cuando. Por eso, al igual que los ingresos, 
-                                                                los gastos también pueden ser fijos o variables.
-                                                            </p>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                            <!-- Modales -->
+                                            <div class="row" style="margin-bottom: 15px;">
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-vivienda"
+                                                        class="btn btn-sm btn-credits">Vivienda</button>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-educacion"
+                                                        class="btn btn-sm btn-credits">Educación</button>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-transporte"
+                                                        class="btn btn-sm btn-credits">Transporte</button>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-seguros"
+                                                        class="btn btn-sm btn-credits">Seguros</button>
+                                                </div>
+                                            </div>
 
-                                            <table class="table table-bordered">
-                                                <thead>
-                                                <tr>
-                                                    <th scope="col" class="table-primary">Gastos fijos</th>
-                                                    <th scope="col" class="table-primary">Gastos variables</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td>
-                                                        Los gastos fijos son aquellos que desembolsamos de forma periódica, es decir, 
-                                                        que debemos pagar cada mes. Además, la cantidad generalmente permanece constante 
-                                                        o presenta pocas variaciones.
-                                                    </td>
-                                                    <td>
-                                                        Los gastos variables son aquellos que no se presentan siempre o de presentarse, 
-                                                        su cantidad siempre es distinta.
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <b>Por ejemplo:</b> Vicente paga la renta de la casa, el pago de servicios (agua, luz, 
-                                                        teléfono), despensa (comida),  entre otras cosas. Estos gastos los debe hacer 
-                                                        cada mes o cada 2 meses.
-                                                    </td>
-                                                    <td>
-                                                        <b>Por ejemplo:</b> Vicente gasta también en ropa, libros para la escuela, regalos de cumpleaños, 
-                                                        idas a la feria o al palenque, entre otros conceptos que cada mes son distintos.
-                                                    </td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
+                                            <div class="row" style="margin-bottom: 15px;">
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-pago-de-deudas"
+                                                        class="btn btn-sm btn-credits">Pago de deudas</button>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-familia"
+                                                        class="btn btn-sm btn-credits">Familia</button>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-comida"
+                                                        class="btn btn-sm btn-credits">Comida</button>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-ahorro"
+                                                        class="btn btn-sm btn-credits">Ahorro</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-impuestos"
+                                                        class="btn btn-sm btn-credits">Impuestos</button>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-salud"
+                                                        class="btn btn-sm btn-credits">Salud</button>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-personal"
+                                                        class="btn btn-sm btn-credits">Personal</button>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <button data-toggle="modal" data-target="#modal-recreacion"
+                                                        class="btn btn-sm btn-credits">Recreación</button>
+                                                </div>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -121,18 +126,374 @@
                             </div>
                         </div>
 
+                     <!--Pop Up Vivienda-->
+                     <div class="modal fade" id="modal-vivienda">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Vivienda</h1>
+                                                <p>Renta de casa, teléfono, agua, gas, luz.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Educación-->
+                    <div class="modal fade" id="modal-educacion">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Educación</h1>
+                                                <p>Colegiatura, inscripción, cursos, libros y cuadernos, útiles escolares, etc.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Transporte-->
+                    <div class="modal fade" id="modal-transporte">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Transporte</h1>
+                                                <p>Transportación pública (pasaje), gasolina, mantenimiento del carro, etc.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Seguros-->
+                    <div class="modal fade" id="modal-seguros">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Seguros</h1>
+                                                <p>Seguro de gastos médicos, seguro de vida, seguro de automóvil, etc.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Pago de deudas-->
+                    <div class="modal fade" id="modal-pago-de-deudas">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Pago de deudas</h1>
+                                                <p>Préstamos a familiares y amigos, crédito de automóvil, crédito de casa o terreno, etc.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Familia-->
+                    <div class="modal fade" id="modal-familia">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Familia</h1>
+                                                <p>Dinero enviado a familiares que viven en otros países (si la cantidad es la misma cada mes).</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Comida-->
+                    <div class="modal fade" id="modal-comida">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Comida</h1>
+                                                <p>Despensa (compras en mercados, tiendas de abarrotes y supermercados).</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Ahorro-->
+                    <div class="modal fade" id="modal-ahorro">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Ahorro</h1>
+                                                <p>
+                                                    Dinero que guardamos, que debe de ser como hábito, para una compra mayor 
+                                                    en el futuro o para una contingencia. Los expertos recomiendan que guardemos 
+                                                    el 10% de nuestros ingresos.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Impuestos-->
+                    <div class="modal fade" id="modal-impuestos">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Impuestos</h1>
+                                                <p>
+                                                    Como puede ser el Impuesto sobre la renta**: impuesto que pagamos por recibir cualquier tipo 
+                                                    de ingreso a cambio de realizar algún trabajo, o por la renta de un bien inmueble (sueldo, salario, 
+                                                    honorarios, venta, renta, etc); Impuesto vehicular (Refrendo y tenencia): impuesto que pagamos 
+                                                    por tener un automóvil. Impuesto predial: impuesto que pagamos por ser propietarios de una casa o terreno.
+                                                </p>
+                                                <div>
+                                                    <small class="text-muted">
+                                                        *generalmente se pagan anualmente.
+                                                    </small>
+                                                </div>
+                                                <div>
+                                                    <small class="text-muted">
+                                                        ** éste se paga mensualmente y sólo se hace un ajuste anual.
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Salud-->
+                    <div class="modal fade" id="modal-salud">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Salud</h1>
+                                                <p>Consultas de doctor, dentista, medicinas, lentes, etc.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Personal-->
+                    <div class="modal fade" id="modal-personal">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Personal</h1>
+                                                <p>Artículos personales (cepillo, shampoo, pasta de dientes, etc.); ropa, regalos de cumpleaños, etc.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pop Up Recreación-->
+                    <div class="modal fade" id="modal-recreacion">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="padding-15">
+                                        <div class="row">
+                                            <div class=col>
+                                                <h1 class="card-title">Recreación</h1>
+                                                <p>
+                                                    Ir al cine, teatro, eventos deportivos, renta de videos, comidas fuera de 
+                                                    casa, parque de diversiones, vacaciones, etc.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=col>
+                                                <div class="mrg-top-20 text-center">
+                                                    <a href="" data-dismiss="modal"
+                                                        class="btn btn-info">Regresar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                         <!-- libro-->
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-horizon">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div>
+                                                <div class="pdd-vertical-30 pdd-horizon-25">
+                                                    <p>
+                                                        Como te diste cuenta, hay varios gastos que la mayoría de la gente clasifica como fijos
+                                                        como la vivienda, la educación y el transporte, pero también hay variables como la salud,
+                                                        personal y recreación.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row mrg-btm-20">
                         <div class="col text-center">
                             <div class="btn-group">
-                                <a class="btn btn-default" role="button" href="modulo4-ejercicio-ingresos.html">
+                                <a class="btn btn-default" role="button" href="modulo4-8.html">
                                     <span>Atrás</span>
                                 </a>
                                 <a class="btn btn-default" role="button" href="modulo4-1.html">
                                     <span>1</span>
                                 </a>
-                                <a class="btn btn-default" role="button" href="modulo4-ejercicio-ingresos.html">
+                                <a class="btn btn-default" role="button" href="modulo4-8.html">
                                     <span>8</span>
                                 </a>
                                 <a class="btn btn-actual-page" role="button" href="modulo4-9.html">
