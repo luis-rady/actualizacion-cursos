@@ -1,0 +1,24 @@
+fieldset p, fieldset input, fieldset textarea {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  fieldset p, fieldset input {
+    margin: 0 auto;
+    font-size: .7rem;
+  }
+  
+  @media (min-width: 600px) and (max-width: 990px) {
+    fieldset p, fieldset input {
+      margin: 0 auto;
+      font-size: .9rem;
+    }
+  }
+  
+  @media (min-width: 991px) {
+    fieldset p, fieldset input {
+      margin: 0 auto;
+      font-size: 1rem;
+    }
+  }
