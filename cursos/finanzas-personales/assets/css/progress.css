@@ -70,7 +70,8 @@
     left: 5%;
   }
   #circle.progress.blue .progress-bar{
-    border-color: #40803E;
+    border-color: #161746;
+    ;
   }
   #circle.progress.blue .progress-left .progress-bar{
     animation: loading-2 1.0s linear forwards 1.05s;
