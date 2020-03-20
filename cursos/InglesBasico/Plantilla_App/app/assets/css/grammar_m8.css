@@ -2,7 +2,7 @@
     float: left;
     margin-left: 10%;
     margin-bottom: 50px;
-    width: 22%;
+    width: 40%;
     height: 60px;
     font-size: 1.2vw;
     border-radius: 15px;
@@ -11,6 +11,27 @@
     transition-property: background-color;
     transition-duration: 0.2s;
     transition-timing-function: linear;
+}
+.boton-texto{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    width: 90%;
+    height: fit-content;
+    font-size: 1.2vw;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid gold;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+#boton-texto-1:hover span{
+    display: none;
+}
+#boton-texto-1:hover:before{
+    content: "Very y too van antes de los adjetivos. No tienen el mismo significado. En el primer ejemplo, 'muy lejos' (very far) es posible pero difícil caminar al banco. En el segundo ejemplo 'Demasiado lejos (too far) es imposible caminar al banco.'";
+    font-size: 1.2vw;
 }
 
 .boton-palabra:hover{
@@ -27,7 +48,7 @@
 }
 
 #boton-palabra-1:hover:before{
-    content: "Tengo dinero. Puedo comprar un libro.";
+    content: "El banco esta muy lejos, pero puedo caminar a el.";
     font-size: 1.2vw;
 }
 
@@ -36,8 +57,8 @@
 }
 
 #boton-palabra-2:hover:before{
-    content: "Tenemos tiempo. Podemos ir al cine.";
-    font-size: 1.2vw;
+    content: "El banco esta demasiado lejos, no puedo caminar a el.";
+    font-size: 1.1vw;
 }
 
 #boton-palabra-3:hover span{

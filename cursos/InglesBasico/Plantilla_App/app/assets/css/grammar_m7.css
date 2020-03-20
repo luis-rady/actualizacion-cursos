@@ -54,7 +54,7 @@
 }
 
 #boton-palabra-4:hover:before{
-    content: "Ana habla español. Ella puede hablar con la nueva estudiante española.";
+    content: "Ella puede hablar con la nueva estudiante española.";
     font-size: 1.0vw;
 }
 
@@ -82,7 +82,7 @@
 
 #boton-palabra-7:hover:before{
     content: "Tom dijo que él podía montar una bicicleta cuando era joven.";
-    font-size: 1.2vw;
+    font-size: 1.0vw;
 }
 
 #boton-palabra-8:hover span{
