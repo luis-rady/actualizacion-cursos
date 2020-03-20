@@ -17,7 +17,7 @@
 
 :root {
   /* Cambiar el valor de la variable según la temática del curso.*/
-  --theme-color: #2a5769;
+  --theme-color: #ffa500;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,500,700");
@@ -3165,7 +3165,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .nav-tabs > li > a.active:hover, .nav-tabs > li > a.active:focus { border: 0px; background-color: transparent; border-bottom: 2px solid #7774e7; opacity: 1; }
 
-.nav-tabs > li > a.active.nav-link { border-bottom: 2px solid #7774e7; color: #515365; background-color: transparent; }
+.nav-tabs > li > a.active.nav-link { border-bottom: 2px solid var(--theme-color); color: #515365; background-color: transparent; }
 
 .nav-tabs .nav-link { border-color:var(--theme-color); }
 
@@ -3771,5 +3771,17 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
-  color: red;
+  color: black;
+}
+
+.header-container{
+  background-color: #ffa500;
+}
+
+.table-color{
+  background-color: var(--theme-color);
+}
+
+.table-color .txt{
+  color: white;
 }
