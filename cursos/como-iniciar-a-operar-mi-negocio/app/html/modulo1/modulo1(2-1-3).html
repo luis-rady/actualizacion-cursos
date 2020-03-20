@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
         <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+
         <!-- page plugins css -->
 
         <!-- core css -->
@@ -22,9 +23,6 @@
         <link href="../../assets/css/app.css" rel="stylesheet">
         <link href="../../assets/css/progress.css" rel="stylesheet">
         <link href="../../assets/css/progress-circle.css" rel="stylesheet">
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet">
     </head>
 
     <body class="header-info side-nav-dark">
@@ -67,46 +65,73 @@
                                 <!-- Your content goes here -->
                                 <div class="card">
                                     <div class="card-block">
-                                        <div class="card-heading">
-                                            <h1 class="card-title">Trabaja en tu proyecto y define lo que te gustaría hacer</h1>
-                                        </div>
-                                        <div class="card-body">
-                                            <ul>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p>Al igual que Clara, identifica las restricciones que tienes para desarrollar tu idea de negocio. Para ello recuerda los pasos que realizó.</p>
-                                                        <p class="no-mrg">Pasos para identificar restricciones:</p>
-                                                        <ol>
-                                                            <li>Reflexión sobre capacidades.</li>
-                                                            <li>Identificación de limitaciones.</li>
-                                                            <li>Análisis y decisión.</li>
-                                                        </ol>
+                                        <h1 class="card-title">Haz la actividad</h1>
+                                        <p>Realiza la siguiente actividad que te permitirá reforzar tu conocimiento sobre el tema de <strong>socios</strong>.</p>
+                                    </div>
+                                </div>
+
+                                <div id="answer" class="alert alert-danger hide" role="alert">
+                                </div>
+
+                                <!-- Card Prueba: Pregunta -->
+                                <div class="card">
+                                    <div class="card-block">
+                                        <div class="card widget-feed">
+                                            <form id="form" name="preguntaCasoClara">
+                                                <fieldset> 
+                                                    <!-- Pregunta 1 -->
+                                                    <h1 class="card-title">Pregunta 1</h1>
+                                                    <h3 class="">Para que un negocio tenga éxito, el dueño debe:</h3>
+                                                    <div class="mrg-left-30">
+                                                        <input class="inputs" type="radio" name="opt" value="1" id="opt_1">
+                                                        <label for="opt_1">Contar con al menos un socio</label>
                                                     </div>
-                                                    <div class="col-md-6">
-                                                        <div class="postit fixed-height" style="overflow: auto;">
-                                                            <i class="pin"></i>
-                                                            <div class="mrg-left-10">
-                                                                <div class="mrg-vertical-20 text-left text-red">Recuerda</div>
-                                                                <div class="text-left">Mantener una postura de éxito cuando realices tu idea de negocio.</div>
-                                                            </div>
-                                                        </div>
+                                                    <div class="mrg-left-30">
+                                                        <input class="inputs" type="radio" name="opt" value="2" id="opt_2">
+                                                        <label for="opt_2">Contar con al menos dos socios</label>
                                                     </div>
-                                                </div>
-                                            </ul>
+                                                    <div class="mrg-left-30">
+                                                        <input class="inputs" type="radio" name="opt" value="3" id="opt_3">
+                                                        <label for="opt_3">No necesariamente debe de asociarse con alguien</label>
+                                                    </div>
+                                                    <div class="mrg-left-30">
+                                                        <input class="inputs" type="radio" name="opt" value="4" id="opt_4">
+                                                        <label for="opt_4">Asociarse con un familiar, no con un amigo</label>
+                                                    </div>
+                                                    <!-- Termina pregunta 1 -->
+
+                                                    <!-- Boton de submit -->
+                                                    <div>
+                                                        <input id="submit" type="submit" class="btn btn-primary btn-rounded pull-right" value="Verificar"> 
+                                                    </div>
+                                                    <!-- Termina boto de submit -->
+                                                </fieldset>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Termina Card Prueba -->
+
 
                                 <div class="row mrg-btm-20">
                                     <div class="col text-center">
                                         <div class="btn-group">
-                                            <a class="btn btn-default" role="button" href="modulo1-3-4.html">
+                                            <a class="btn btn-default" role="button" href="modulo1(2-1-2).html">
                                                 <span>Atrás</span>
                                             </a>
-                                            <a class="btn btn-actual-page" role="button" href="modulo1-3-5.html">
-                                                <span>13</span>
-                                            </a>
                                             <a class="btn btn-default" role="button" href="modulo1(2-1-1).html">
+                                                <span>1</span>
+                                            </a>
+                                            <a class="btn btn-default" role="button" href="modulo1(2-1-2).html">
+                                                <span>2</span>
+                                            </a>
+                                            <a class="btn btn-actual-page" role="button" href="modulo1(2-1-3).html">
+                                                <span>3</span>
+                                            </a>
+                                            <a class="btn btn-default" role="button" href="modulo1(2-1-4).html">
+                                                <span>4</span>
+                                            </a>
+                                            <a class="btn btn-default" role="button" href="modulo1(2-1-4).html">
                                                 <span>Siguiente</span>
                                             </a>
                                         </div>
@@ -171,6 +196,7 @@
         <!-- build:js assets/js/app.min.js -->
         <!-- core js -->
         <script src="../../assets/js/app.js"></script>
+        <script src="./modulo1(2-1-3).js"></script>
 
 
         <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
