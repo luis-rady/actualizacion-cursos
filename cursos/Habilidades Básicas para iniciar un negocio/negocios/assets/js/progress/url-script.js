@@ -3,6 +3,10 @@
 function getstr(str) {
     return str.substring(str.search("src"));
 }
+function isValid() {
+    var url = window.location.href;
+    return(url.indexOf("src")!=-1);
+}
 
 function getfilename() {
     var url = window.location.href;
@@ -416,14 +420,19 @@ function getFiles() {
 
 
 $(document).ready(function(){
-    $(".btn-group").html(getMovementBar()); 
-    setTimeout(function(){
-        document.getElementById(getfilename()).classList.remove("btn-default");
-        document.getElementById(getfilename()).classList.add("btn-actual-page");
-    },250);
-    show(getTotalPercentage()/100); 
-    document.getElementsByClassName("progress-bar")[0].innerHTML = getModuloPercentage() + "%";
-    document.getElementsByClassName("progress-bar")[0].style.maxWidth = "" + getModuloPercentage() + "%";
-    document.getElementsByClassName("progress-bar")[0].style.minWidth = "" + 5 + "%";
+    if(isValid()){
+        
+        $(".btn-group").html(getMovementBar()); 
+        setTimeout(function(){
+            document.getElementById(getfilename()).classList.remove("btn-default");
+            document.getElementById(getfilename()).classList.add("btn-actual-page");
+        },250);
+    
+        show(getTotalPercentage()/100); 
+        document.getElementsByClassName("progress-bar")[0].innerHTML = getModuloPercentage() + "%";
+        document.getElementsByClassName("progress-bar")[0].style.maxWidth = "" + getModuloPercentage() + "%";
+        document.getElementsByClassName("progress-bar")[0].style.minWidth = "" + 5 + "%";
+
+    }
 
 });

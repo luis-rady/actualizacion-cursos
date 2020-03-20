@@ -1,3 +1,4 @@
+
 function getPath(){
     var str=window.location.href;
     var str_array=str.split('/');
