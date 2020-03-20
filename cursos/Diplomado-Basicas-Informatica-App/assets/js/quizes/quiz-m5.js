@@ -13,7 +13,7 @@ $(function(){
     var q = [
         {'Q':'Algunas características del correo electrónico son:', 'A':3,'C':['Es interactivo, lento y no confiable','Es eficiente, productivo y fácil','Es rápido, seguro y económico']},
         {'Q':'Un proveedor de correo electrónico da servicios para', 'A':3,'C':['Recibir mensajes electrónicos','Almacenar mensajes electrónicos', 'Todos los anteriores']},
-        {'Q':'Algunos de los proveedores más populares de correo electrónico son:', 'A':1,'C':['Outlool, Gmail y Yahoo','Bing y Facebook','Twitter y WhatsApp']},
+        {'Q':'Algunos de los proveedores más populares de correo electrónico son:', 'A':1,'C':['Outlook, Gmail y Yahoo','Bing y Facebook','Twitter y WhatsApp']},
         {'Q':'Para acceder a una cuenta de correo electrónico es necesario:', 'A':2,'C':['Fecha de nacimiento y contraseña','Nombre de usuario y contraseña','Apellidos y edad']},
         {'Q':'Todos los mensajes recibidos en el correo electrónico llegan automáticamente a', 'A':3,'C':['Home','Correo no deseado','Inbox']}
     ];
