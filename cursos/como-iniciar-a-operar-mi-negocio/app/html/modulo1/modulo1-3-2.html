@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
         <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
-
         <!-- page plugins css -->
 
         <!-- core css -->
@@ -24,6 +23,8 @@
         <link href="../../assets/css/progress.css" rel="stylesheet">
         <link href="../../assets/css/progress-circle.css" rel="stylesheet">
 
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet">
     </head>
 
     <body class="header-info side-nav-dark">
@@ -73,10 +74,14 @@
                                         </div>
                                         <div class="container-fluid">
                                             <div class="row">
-                                                <div class="col-md-7 ml-auto">
+                                                <div class="col-md-8 ml-auto">
                                                     <div class="pdd-vertical-30 pdd-horizon-25">
-                                                        <p>Antes de iniciar un negocio, es importante buscar si alguien más está ofreciendo el producto o servicio que se desea poner a la venta. Si alguien más ya lo hiciera, vale la pena reflexionar si podemos dar un valor adicional que nos haga diferentes o agregar algo novedoso que de un valor adicional.</p>
-                                                        <p>Es muy importante realizar un estudio de la competencia y analizar la forma en que puede reaccionar esta, cuando inicies tu negocio.  Esta reacción puede no ser inmediata, pero en algún momento acabarás por sentir la presión de tus competidores, quienes tratarán de ofrecer algo adicional con tal de que sus clientes no se vayan contigo.</p>
+                                                        <h1 class="mrg-btm-20 card-title">Restricciones</h1>
+                                                        <p>Como se ha comentado es necesario identificar las <strong>restricciones</strong> iniciales para enfocar tus esfuerzos y así tener un buen arranque y operación de tu negocio.</p>
+                                                        <p>Por su importancia, revisa tu <strong>diccionario de negocios</strong> para conocer la definición de <strong>restricciones</strong>.</p>
+                                                        <div class="text-center">
+                                                            <button data-toggle="modal" data-target="#modal-importante" class="btn btn-sm btn-primary">Diccionario de negocios</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -85,81 +90,78 @@
                                 </div>
                                 <!-- Termina card 1 -->
 
-                                <!-- Card 3 -->
-                                <div class="row">
-                                    <div class=col>
-                                        <div class="card">
-                                            <div class="card-block">
-                                                <h4>De click en la leyenda para leer la información</h4>
-                                                <div class="mrg-top-20">
-                                                    <div id="accordion">
-                                                        <div class="row">
-                                                            <!-- Tarjeta 1: Situación actual -->
-                                                            <div class="col-md-6">
-                                                                <div class="card collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id="headingOne">
-                                                                    <div class="overlay-dark bg pointer" style="background-image: url('../../assets/images/course/modulo1/control-biologico/shutterstock_368382554.jpg')">
-                                                                        <div class="card-block">
-                                                                            <div class="mrg-top-170">
-                                                                                <h2>Competidores directos</h2>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                                                        <div class="card-body">
-                                                                            <p class="card-text">Son aquellos negocios cuya razón de ser es principalmente <strong>la venta de los mismos productos o servicios en el mismo mercado que el tuyo.</strong> Sirven a unos mismos clientes y satisfacen unas mismas necesidades.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!-- Fin tarjeta 1 -->
-
-                                                            <!-- Tarjeta 2: Problema -->
-                                                            <div class="col-md-6">
-                                                                <div class="card collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
-                                                                    <div class="overlay-dark bg pointer" id="headingTwo" style="background-image: url('../../assets/images/course/modulo1/control-biologico/shutterstock_437800651.jpg')">
-                                                                        <div class="card-block">
-                                                                            <div class="mrg-top-170">
-                                                                                <h2>Competidores indirectos</h2>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                                                        <div class="card-body">
-                                                                            <p class="card-text">Son aquellos negocios que <strong>venden productos o servicios similares, pero su éxito no depende de las ventas de este producto o servicio.</strong> Por ejemplo las grandes tiendas donde venden muchos productos diferentes.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!-- Fin tarjeta 2 -->
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                <!-- Modal: Importante -->
+                                <div class="modal fade" tabindex="-1" role="dialog" id="modal-importante">
+                                    <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <h1 class="card-title text-center">Restricciones</h1>
+                                                <p>Son los problemas o retos que podemos enfrentar al iniciar un negocio.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Termina card 3 -->
+                                <!-- Termina modal importante -->
 
+                                <div class="card">
+                                    <div class="card-block">
+                                        <div class="card-heading">
+                                            <h1 class="card-title">Ejemplos de restricciones</h1>
+                                            <p>Para concretar tu idea de negocio, tienes que considerar algunos problemas en el arranque o posibles restricciones, tales como:</p>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <li>Falta de experiencia para hacer los productos que se pretenden vender.</li>
+                                                        <li>Pocos clientes.</li>
+                                                        <li>Falta de recursos financieros ($).</li>
+                                                        <li>Falta de organización en el grupo, si el negocio es dirigido por varias personas.</li>
+                                                        <li>Falta de conocimiento de a quién le puedo comprar el material necesario para realizar el producto o servicio que voy a ofrecer.</li>
+                                                        <li>Falta de conocimiento sobre trámites oficiales para iniciar cualquier tipo de negocio.</li>
+                                                        <li>Falta de conocimiento sobre permisos y trámites oficiales necesarios para el tipo de negocio a emprender.</li>
+                                                        <li>Dificultad para administrar el tiempo requerido por el negocio con el tiempo requerido para cumplir con sus obligaciones familiares.</li>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="postit" style="overflow: auto;">
+                                                            <i class="pin"></i>
+                                                            <div>La mayoría de las personas no alzanzan a lograr sus sueños por temor a fracasar.</div>
+                                                            <div class="mrg-vertical-15">
+                                                                <div>Para vencer este temor, debes:</div>
+                                                                <ol>
+                                                                    <li>Creer en tu sueño.</li>
+                                                                    <li>Confiar que puedes realizarlo.</li>
+                                                                    <li>Pensar que tendrás muchas ventajas.</li>
+                                                                </ol>
+                                                            </div>
+                                                            <div>Se recomienda comentar el sueño con otras personas para que te ayuden con tu proposito.</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <div class="row mrg-btm-20">
                                     <div class="col text-center">
                                         <div class="btn-group">
-                                            <a class="btn btn-default" role="button" href="modulo1-2-1.html">
+                                            <a class="btn btn-default" role="button" href="modulo1-3-1.html">
                                                 <span>Atrás</span>
                                             </a>
-                                            <a class="btn btn-actual-page" role="button" href="modulo1-2-2.html">
-                                                <span>5</span>
+                                            <a class="btn btn-default" role="button" href="modulo1-3-1.html">
+                                                <span>9</span>
                                             </a>
-                                            <a class="btn btn-default" role="button" href="modulo1-2-3.html">
-                                                <span>6</span>
+                                            <a class="btn btn-actual-page" role="button" href="modulo1-3-2.html">
+                                                <span>10</span>
                                             </a>
-                                            <a class="btn btn-default" role="button" href="modulo1-2-4.html">
-                                                <span>7</span>
+                                            <a class="btn btn-default" role="button" href="modulo1-3-3.html">
+                                                <span>11</span>
                                             </a>
-                                            <a class="btn btn-default" role="button" href="modulo1-2-5.html">
-                                                <span>8</span>
+                                            <a class="btn btn-default" role="button" href="modulo1-3-4.html">
+                                                <span>12</span>
                                             </a>
-                                            <a class="btn btn-default" role="button" href="modulo1-2-3.html">
+                                            <a class="btn btn-default" role="button" href="modulo1-3-3.html">
                                                 <span>Siguiente</span>
                                             </a>
                                         </div>

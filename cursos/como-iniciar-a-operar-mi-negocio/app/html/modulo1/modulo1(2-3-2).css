@@ -1,0 +1,24 @@
+
+  .size {
+      margin-top: 20px;
+  }
+
+  .border p {
+      border-bottom: 1px #c4c4c4 solid;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: #c4c4c4;
+  }
+
+  @media (min-width: 600px) and (max-width: 990px) {
+      .size {
+          margin-top: 0;
+      }
+  }
+  
+  @media (min-width: 991px) {
+    .size {
+        margin-top: 0;
+    }
+  }

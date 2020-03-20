@@ -1,0 +1,11 @@
+div.border {
+    color: black;
+}
+
+.par {
+    background-color: #fff9d9;
+}
+
+.impar {
+    background-color:  rgb(255, 254, 168);
+}
