@@ -3765,13 +3765,16 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 {
   content: '>';
   font-size: 55px;
-  color: red;
+  color: black;
+  font-weight: 100;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
   color: black;
+  font-weight: 100;
+
 }
 
 .header-container{
