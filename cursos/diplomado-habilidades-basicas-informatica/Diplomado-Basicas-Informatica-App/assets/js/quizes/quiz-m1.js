@@ -7,7 +7,7 @@ $(function(){
     }).ajaxStop(function () {
     	loading.hide();
     });
-    
+
     var questionNo = 0;
     var correctCount = 0;
     var q = [
@@ -18,26 +18,26 @@ $(function(){
         {'Q':'Tipo de software que sirve como enlace entre la computadora y el usuario ya que indica cómo utilizar sus componentes.', 'A':2,'C':['Software de aplicación','Software de sistema','Software de desarrollo']}
     ];
 
- 
+
     $(document.body).on('click',"label.element-animation",function (e) {
     //ripple start
-        var parent, ink, d, x, y;    	
+        var parent, ink, d, x, y;
          parent = $(this);
         if(parent.find(".ink").length == 0)
             parent.prepend("<span class='ink'></span>");
-            
+
         ink = parent.find(".ink");
         ink.removeClass("animate");
-        
+
         if(!ink.height() && !ink.width())
         {
             d = Math.max(parent.outerWidth(), parent.outerHeight());
             ink.css({height: "100px", width: "100px"});
         }
-        
+
          x = e.pageX - parent.offset().left - ink.width()/2;
         y = e.pageY - parent.offset().top - ink.height()/2;
-        
+
         ink.css({top: y+'px', left: x+'px'}).addClass("animate");
     //ripple end
 
@@ -46,16 +46,16 @@ $(function(){
         if (choice == 1) an = $('label[for="f-option"]').html();
         else if (choice == 2) an = $('label[for=s-option').html();
         else if (choice == 3) an = $('label[for=t-option').html();
-        
+
         console.log(choice);
-    	var anscheck =  $(this).checking(questionNo, choice);//$( "#answer" ).html(  );      
+    	var anscheck =  $(this).checking(questionNo, choice);//$( "#answer" ).html(  );
         q[questionNo].UC = choice;
         q[questionNo].UA = an;
         if(anscheck){
             correctCount++;
-            q[questionNo].result = "Correct";
+            q[questionNo].result = "Correcto";
         } else {
-            q[questionNo].result = "Incorrect";        
+            q[questionNo].result = "Incorrecto";
         }
         console.log("CorrectCount:" + correctCount);
         setTimeout(function(){
@@ -98,14 +98,14 @@ $(function(){
         }, 1000);
     });
 
-    
+
     $.fn.checking = function(qstn, ck) {
         var ans = q[questionNo].A;
         if (ck != ans)
             return false;
-        else 
+        else
             return true;
-    }; 
+    };
 
 // chartMake();
     function chartMake(){
@@ -115,12 +115,12 @@ $(function(){
             "type": "serial",
             "theme": "dark",
             "dataProvider": [{
-                "name": "Correct",
+                "name": "Correcto",
                 "points": correctCount,
                 "color": "#00FF00",
                 "bullet": "http://i2.wp.com/img2.wikia.nocookie.net/__cb20131006005440/strategy-empires/images/8/8e/Check_mark_green.png?w=250"
             }, {
-                "name": "Incorrect",
+                "name": "Incorrecto",
                 "points":q.length-correctCount,
                 "color": "red",
                 "bullet": "http://4vector.com/i/free-vector-x-wrong-cross-no-clip-art_103115_X_Wrong_Cross_No_clip_art_medium.png"
@@ -159,4 +159,4 @@ $(function(){
             }
         });
     }
-});	
+});
