@@ -5,7 +5,7 @@
   Reglas individuales de cada curso (personalización): agregarlas en sección 2
   al final del archivo.
 
-  Para cambiar alguna regla, comentar la regla correspondiente en la sección general 
+  Para cambiar alguna regla, comentar la regla correspondiente en la sección general
   y agregar la modificada en la sección 2, indicando el número de línea donde se encuentra
   la regla que reemplaza. En caso de que no reemplaze a ninguna, no poner nada.
 ----------------------------------------------------------------------------*/
@@ -53,7 +53,7 @@ p, li { font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lu
   left: 0;
   top: 0;
   z-index: 10;
-  color: #fff; 
+  color: #fff;
   text-align: center;
   background: rgba(0,0,0,0.4);
 }
@@ -3191,6 +3191,9 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 .tab-success .nav-tabs > li > a.active:hover, .tab-success .nav-tabs > li > a.active:focus { border-bottom: 2px solid #37c936; }
 
 .tab-info .nav-tabs > li > a.active { border-bottom: 2px solid var(--theme-color); }
+/* #tab-1{ border: none; color: var(--theme-color); font-weight: bold;} */
+a#tab-1.nav-link.active {border-radius: 0px; border-color: var(--theme-color); background-color: var(--theme-color); color: white;}
+a#tab-1.nav-link.active.show {border-radius: 0px; border-color: var(--theme-color); background-color: var(--theme-color); color: white;}
 
 .tab-info .nav-tabs > li > a.active:hover, .tab-info .nav-tabs > li > a.active:focus { border-bottom: 2px solid var(--theme-color); }
 
@@ -3720,8 +3723,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
     border-color: var(--theme-color);
     color: #ffffff;
   }
-  
+
   .btn-actual-page span {
     color: #ffffff;
   }
-  
