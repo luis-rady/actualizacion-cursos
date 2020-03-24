@@ -17,7 +17,7 @@
 
 :root {
   /* Cambiar el valor de la variable según la temática del curso.*/
-  --theme-color: #f4d03f;
+  --theme-color: #a0522d;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,500,700");
@@ -3213,7 +3213,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .nav-pills > li > a.active.nav-link { color: #ffffff; background-color: #7774e7; border-color: #7774e7; }
 
-.nav-vertical .nav-pills { float: left; width: 160px; padding: 0px 15px; display: block; }
+.nav-vertical .nav-pills { float: left; width: 175px; padding: 0px 15px; display: block; }
 
 .nav-vertical .nav-pills > li { margin-bottom: 15px; }
 
