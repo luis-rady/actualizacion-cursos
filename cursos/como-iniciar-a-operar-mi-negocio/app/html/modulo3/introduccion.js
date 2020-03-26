@@ -1,3 +1,10 @@
+function removeCredits() {
+    let buttons = document.getElementsByTagName("input")
+    for (let i = 0 ; i < buttons.length ; i++) {
+        buttons[i].classList.remove("btn-credits");
+    }
+}
+
 function watchP1() {
     let p1 = document.getElementById("p1");
     let text = document.getElementById("text");
@@ -17,6 +24,8 @@ function watchP1() {
                                     </div>
                                 </div>
                             </div>`;
+        removeCredits();
+        document.getElementById("p1").classList.add("btn-credits");
     });
 }
 function watchP2() {
@@ -38,6 +47,8 @@ function watchP2() {
                                     </div>
                                 </div>
                             </div>`;
+        removeCredits();
+        document.getElementById("p2").classList.add("btn-credits");
     });
 }
 function watchP3() {
@@ -59,6 +70,9 @@ function watchP3() {
                                     </div>
                                 </div>
                             </div>`;
+        removeCredits();
+        document.getElementById("p3").classList.add("btn-credits");
+
     });
 }
 function watchP4() {
@@ -89,6 +103,8 @@ function watchP4() {
                                     </div>
                                 </div>
                             </div>`;
+        removeCredits();
+        document.getElementById("p4").classList.add("btn-credits");
     });
 }
 function watchP5() {
@@ -111,6 +127,8 @@ function watchP5() {
                                     </div>
                                 </div>
                             </div>`;
+        removeCredits();
+        document.getElementById("p5").classList.add("btn-credits");
     });
 }
 function watchP6() {
@@ -133,6 +151,8 @@ function watchP6() {
                                     </div>
                                 </div>
                             </div>`;
+        removeCredits();
+        document.getElementById("p6").classList.add("btn-credits");
     });
 }
 function watchP7() {
@@ -155,6 +175,8 @@ function watchP7() {
                                     </div>
                                 </div>
                             </div>`;
+        removeCredits();
+        document.getElementById("p7").classList.add("btn-credits");
     });
 }
 
