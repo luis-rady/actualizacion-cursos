@@ -24,6 +24,12 @@
         <link href="../../assets/css/progress.css" rel="stylesheet">
         <link href="../../assets/css/progress-circle.css" rel="stylesheet">
         <link rel="stylesheet" href="./modulo1-2-4.css">
+
+        <style>
+            input, ::placeholder {
+                color: white;
+            }
+        </style>
     </head>
 
     <body class="header-info side-nav-dark">
@@ -66,7 +72,7 @@
                                 <!-- Your content goes here -->
                                 <div class="card">
                                     <div class="card-block">
-                                        <h1 class="card-title">Haz la actividad</h1>
+                                        <h1 class="card-title">Haz el ejercicio</h1>
                                         <p>Realiza la siguiente actividad para reforzar tu conocimiento sobre el concepto competencia que implica dar respuesta a la pregunta <strong>¿Quién más lo hace?</strong></p>
                                         <p class="no-mrg">Instrucciones:</p>
                                         <ol>
@@ -88,196 +94,134 @@
                                             <form id="form" name="negocios">
                                                 <fieldset>
                                                     <!-- Row 1 -->
-                                                    <div class="row text-center">
-                                                        <div class="col-3 border"></div>
-                                                        <div class="col-3 border">
+                                                    <div class="row text-center border bottom" style="background-color: #ffa500;">
+                                                        <div class="col-4 "></div>
+                                                        <div class="col-4 ">
                                                             <div class="row">
                                                                 <div class="col-12">
-                                                                    <p>Negocio 1</p>
+                                                                    <p style="color: white;"><strong>Negocio 1</strong></p>
                                                                 </div>
                                                             </div>
                                                             <div class="row">
                                                                 <div class="col-12">
-                                                                    <input class="negocio width-100" type="text">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-3 border">
-                                                            <div class="row">
-                                                                <div class="col-12">
-                                                                    <p>Negocio 2</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-12">
-                                                                    <input class="negocio width-100" type="text">
+                                                                    <input class="negocio width-100 text-center" placeholder="Ingrese el nombre del negocio 1" type="text" style="background-color: transparent;">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-3 border">
-                                                            <p>Comentarios</p>
-                                                            <p>(opcionales)</p>
+                                                        <div class="col-4">
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p style="color: white;"><strong>Negocio 2</strong></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <input class="negocio width-100 text-center" placeholder="Ingrese el nombre del negocio 2" type="text" style="background-color: transparent;">
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- Termina row 1 -->
 
                                                     <!-- Row 2 -->
-                                                    <div class="row text-center">
-                                                        <div class="col border">
+                                                    <div class="row text-center border bottom">
+                                                        <div class="col">
                                                             <p>Mejor calidad</p>
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="mejor-calidad">
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="mejor-calidad" id="">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <textarea name="" id="" class="width-100"></textarea>
                                                         </div>
                                                     </div>
                                                     <!-- Termina row 2 -->
 
                                                     <!-- Row 3 -->
-                                                    <div class="row text-center">
-                                                        <div class="col border">
+                                                    <div class="row text-center border bottom">
+                                                        <div class="col">
                                                             <p>Mejor precio</p>
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="mejor-precio">
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="mejor-precio" id="">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <textarea name="" id="" class="width-100"></textarea>
                                                         </div>
                                                     </div>
                                                     <!-- Termina row 3 -->
 
                                                     <!-- Row 4 -->
-                                                    <div class="row text-center">
-                                                        <div class="col border">
+                                                    <div class="row text-center border bottom">
+                                                        <div class="col">
                                                             <p>Mejor ubicación</p>
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="mejor-ubicacion">
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="mejor-ubicacion" id="">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <textarea name="" id="" class="width-100"></textarea>
                                                         </div>
                                                     </div>
                                                     <!-- Termina row 4 -->
 
                                                     <!-- Row 5 -->
-                                                    <div class="row text-center">
-                                                        <div class="col border">
+                                                    <div class="row text-center border bottom">
+                                                        <div class="col">
                                                             <p>Atienden mejor</p>
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="atienden-mejor">
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="atienden-mejor" id="">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <textarea name="" id="" class="width-100"></textarea>
                                                         </div>
                                                     </div>
                                                     <!-- Termina row 5 -->
 
                                                     <!-- Row 6 -->
-                                                    <div class="row text-center">
-                                                        <div class="col border">
+                                                    <div class="row text-center border bottom">
+                                                        <div class="col">
                                                             <p>Son rápidos en brindarme el producto o servicio</p>
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="son-rapidos">
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="son-rapidos" id="">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <textarea name="" id="" class="width-100"></textarea>
                                                         </div>
                                                     </div>
                                                     <!-- Termina row 6 -->
 
                                                     <!-- Row 7 -->
-                                                    <div class="row text-center">
-                                                        <div class="col border">
+                                                    <div class="row text-center border bottom">
+                                                        <div class="col">
                                                             <p>El dueño es conocido, son mis amigos</p>
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="el-dueno">
                                                         </div>
-                                                        <div class="col border">
+                                                        <div class="col">
                                                             <input type="radio" name="el-dueno" id="">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <textarea name="" id="" class="width-100"></textarea>
                                                         </div>
                                                     </div>
                                                     <!-- Termina row 7 -->
 
-                                                    <!-- Row 8 -->
-                                                    <div class="row text-center">
-                                                        <div class="col border">
-                                                            <div>
-                                                                <p>Indica otra característica</p>
-                                                                <input class="width-100" type="text" name="" id="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col border">
-                                                            <input type="radio" name="otra-1">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <input type="radio" name="otra-1" id="">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <textarea name="" id="" class="width-100"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Termina row 8 -->
-
-                                                    <!-- Row 9 -->
-                                                    <div class="row text-center">
-                                                        <div class="col border">
-                                                            <div>
-                                                                <p>Indica otra característica</p>
-                                                                <input class="width-100" type="text" name="" id="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col border">
-                                                            <input type="radio" name="otra-2">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <input type="radio" name="otra-2" id="">
-                                                        </div>
-                                                        <div class="col border">
-                                                            <textarea name="" id="" class="width-100"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Termina row 9 -->
-
                                                     <!-- Row 10 -->
-                                                    <div class="row text-center">
-                                                        <div class="col-3 border">
+                                                    <div class="row text-center border bottom">
+                                                        <div class="col-4">
                                                             <div>
                                                                 <p>Negocio seleccionado:</p>
                                                                 <p>¿por qué?</p>
                                                             </div>
                                                         </div>
-                                                        <div class="col-9 border">
+                                                        <div class="col-8">
                                                             <textarea class="width-100" name="" id="negocioSeleccionado"></textarea>
                                                         </div>
                                                     </div>
                                                     <!-- Termina row 10 -->
                                                     <div>
-                                                        <input id="submit" type="submit" class="btn btn-primary btn-rounded pull-right mrg-top-10" value="Revisar"> 
+                                                        <input id="submit" type="submit" class="btn btn-credits btn-rounded pull-right mrg-top-10" value="Revisar"> 
                                                     </div>
                                                 </fieldset>
                                             </form>

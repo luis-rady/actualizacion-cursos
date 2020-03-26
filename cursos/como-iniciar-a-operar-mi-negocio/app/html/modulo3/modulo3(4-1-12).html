@@ -60,39 +60,104 @@
 
 
                                 <!-- Your content goes here -->
-
                                 <div class="card card-block">
-                                    <!-- <div class="card card-block"> -->
-                                        <p class="card-title">Costos fijos</p>
-                                        <div class="row">
-                                            <div class="col-sm-12 col-md-6">
-                                                <div class="card card-block height">
-                                                    <p class="card-title">Costos de financiamiento</p>
-                                                    <p class="card-text">Estos costos se consideran fijos, ya que no importa la cantidad de productos o servicios que se realicen, los pagos a la deuda serán siempre iguales, es decir los intereses que se pagan por haber pedido dinero prestado, será igual.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                                <div class="card card-block height">
-                                                    <p class="card-title">Costos de gastos indirectos de fabricación</p>
-                                                    <p class="card-text">Estos costos como lo vimos son aquellos que van en el producto pero no directamente, como la luz, renta del local, uso de la estufa, horno o máquina. La gran mayoría de los GIF son Costos fijos, pues no importa la cantidad de productos o servicios la cantidad de estos costos será fija.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                                <div class="card card-block height">
-                                                    <p class="card-title">Costos de distribución o ventas</p>
-                                                    <p class="card-text">En una empresa grande estos costos suelen ser variables pues a mayor cantidad de ventas, se requiere más personas (vendedoras) para vender y distribuir los productos o servicios. En un negocio pequeño que inicia, el sueldo de la persona de ventas se puede juntar con la función de administrar, que suele ser una de las socias o dueñas la que desempeña la función de vender y administrar. Por lo anterior el sueldo de una de las socias se pondrá como Fijo para las funciones unidas de administrar y vender. En la medida que crezca el negocio éste puede ser variable.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                                <div class="card card-block height">
-                                                    <p class="card-title">Costos de administración</p>
-                                                    <p class="card-text">Estos se consideran fijos, pues no importa la cantidad de productos o servicios que se realicen el costo de administración y venta es el mismo, pues será el sueldo de una persona que realiza esta función.</p>
-                                                </div>
-                                            </div>
+                                    <h1 class="card-title no-mrg">Costos fijos</h1>
+                                    <div class="row text-center">
+                                        <div class="col-12 col-sm-6 col-lg-3 mrg-top-10">
+                                            <button data-toggle="modal" data-target="#1" class="button" style="width: 100%; height: 100%;">Costos de financiamiento</button>
                                         </div>
-                                    <!-- </div> -->
+                                        <div class="col-12 col-sm-6 col-lg-3 mrg-top-10" style="height: 10%;">
+                                            <button data-toggle="modal" data-target="#2" class="button" style="width: 100%; height: 100%;">Costos de gastos indirectos de fabricación</button>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3 mrg-top-10">
+                                            <button data-toggle="modal" data-target="#3" class="button" style="width: 100%; height: 100%;">Costos de distribución o ventas</button>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3 mrg-top-10">
+                                            <button data-toggle="modal" data-target="#4" class="button" style="width: 100%; height: 100%;">Costos de administración</button>
+                                        </div>
+                                    </div>
                                 </div>
 
+                                <!--Modals begin-->
+                                <div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle"><b>Costos de financiamiento</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Estos costos se consideran fijos, ya que no importa la cantidad de productos o servicios que se realicen, los pagos a la deuda serán siempre iguales, es decir los intereses que se pagan por haber pedido dinero prestado, será igual.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-dismiss="modal">Regresar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle"><b>Costos de gastos indirectos de fabricación</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Estos costos como lo vimos son aquellos que van en el producto pero no directamente, como la luz, renta del local, uso de la estufa, horno o máquina. La gran mayoría de los GIF son Costos fijos, pues no importa la cantidad de productos o servicios la cantidad de estos costos será fija.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-dismiss="modal">Regresar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle"><b>Costos de distribución o ventas</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>En una empresa grande estos costos suelen ser variables pues a mayor cantidad de ventas, se requiere más personas (vendedoras) para vender y distribuir los productos o servicios. En un negocio pequeño que inicia, el sueldo de la persona de ventas se puede juntar con la función de administrar, que suele ser una de las socias o dueñas la que desempeña la función de vender y administrar. Por lo anterior el sueldo de una de las socias se pondrá como Fijo para las funciones unidas de administrar y vender. En la medida que crezca el negocio éste puede ser variable.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-dismiss="modal">Regresar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle"><b>Costos de administración</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Estos se consideran fijos, pues no importa la cantidad de productos o servicios que se realicen el costo de administración y venta es el mismo, pues será el sueldo de una persona que realiza esta función.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-dismiss="modal">Regresar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 
                                 <div class="row mrg-btm-20">
                                     <div class="col text-center">

@@ -60,61 +60,72 @@
 
 
                                 <!-- Your content goes here -->
-
                                 <div class="card card-block">
                                     <p>Si organizáramos los costos que ya teníamos de acuerdo a la clasificación y a su comportamiento quedarían de la siguiente forma.</p>
-                                    <p class="card-title">Costos variables</p>
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-6">
-                                            <div class="card card-block height">
-                                                <p class="card-title">Costos de materia prima</p>
-                                                <p class="card-text">La materia prima, es decir los materiales directos en la fabricación de los productos o servicios son <strong>costos variables</strong> ya que a mayor cantidad de productos o servicios mayor costo pues requerirás mayor cantidad.</p>
-                                                <p class="no-mrg card-text">Ejemplos:</p>
-                                                <ul>
-                                                    <li class="card-text"><strong>Fabricación de vestidos:</strong> Mayor cantidad de vestidos – mayor cantidad de tela, hilo, botones y listones.</li>
-                                                    <li class="card-text"><strong>Fabricación de pasteles:</strong> Mayor cantidad de pasteles – mayor cantidad de leche, azúcar, huevos, etc.</li>
-                                                    <li class="card-text"><strong>Pensemos en un servicio:</strong> (Una estética) Mayor cantidad de tintes – mayor cantidad de material para teñir el cabello.</li>
-                                                </ul>
-                                            </div>
+                                    <h1 class="card-title no-mrg">Costos variables</h1>
+                                    <div class="row mrg-top-10 mrg-btm-10 align-items-center text-center">
+                                        <div class="col-12 col-sm-6 mrg-top-10">
+                                            <button data-toggle="modal" data-target="#1" class="button">Costos de materia prima</button>
                                         </div>
-                                        <div class="col-sm-12 col-md-6">
-                                            <div class="card card-block height">
-                                                <p class="card-title">Costos de mano de obra</p>
-                                                <p class="card-text">La mano de obra, es decir el costo de los sueldos de los o las empleados(as) que están en la realización de los productos o servicios son <strong>costos variables</strong>, ya que a mayor cantidad de productos o servicios mayor costo pues necesitarás más personal (personas trabajadoras) para la realización de los productos o servicios.</p>
+                                        <div class="col-12 col-sm-6 mrg-top-10">
+                                            <button data-toggle="modal" data-target="#2" class="button">Costos de mano de obra</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Modals begin-->
+                                <div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle"><b>Costos de materia prima</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>La materia prima, es decir los materiales directos en la fabricación de los productos o servicios son <strong>costos variables</strong> ya que a mayor cantidad de productos o servicios mayor costo pues requerirás mayor cantidad.</p>
                                                 <p class="no-mrg">Ejemplos:</p>
                                                 <ul>
-                                                    <li class="card-text"><strong>Fabricación de vestidos:</strong> Mayor cantidad de vestidos – mayor cantidad de personas que confeccionen los vestidos (no es lo mismo hacer 1 vestido a hacer 100 vestidos).</li>
-                                                    <li class="card-text"><strong>Fabricación de pasteles:</strong> Mayor cantidad de pasteles – mayor cantidad de personas que los hagan (no es lo mismo hacer 1 pastel a 100 pasteles).</li>
-                                                    <li class="card-text"><strong>Pensemos en un servicio:</strong> (Una estética) Mayor cantidad de aplicaciones de tinte – mayor cantidad de personas que los hagan (no es lo mismo hacer un tinte a 30 tintes, por eso cuando en una estética aumentan los clientes contratan a otro empleado).</li>
+                                                    <li><strong>Fabricación de vestidos:</strong> Mayor cantidad de vestidos – mayor cantidad de tela, hilo, botones y listones.</li>
+                                                    <li><strong>Fabricación de pasteles:</strong> Mayor cantidad de pasteles – mayor cantidad de leche, azúcar, huevos, etc.</li>
+                                                    <li><strong>Pensemos en un servicio:</strong> (Una estética) Mayor cantidad de tintes – mayor cantidad de material para teñir el cabello.</li>
                                                 </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-dismiss="modal">Regresar</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <!-- <div class="card card-block">
-                                    <div align="left"><br>
-                                        Haz clic sobre cada costo  para conocer su explicación. <strong></strong><br>
-                                        
-                                        <img src="./../../assets/images/course/modulo3/modulo3(4-1-11)/graficos_clasif_costos2.jpg" width="500" height="327" usemap="#Map3">
-                                        
-                                            <map name="Map3" id="Map3">
-                                              
-                                              <area shape="rect" coords="218,240,386,322" href="#" onclick="window.open('tema1_pag14_4.htm','costos','width=600,height=150, toolbars=no,scrollbar=no')" return="return" false;="false;">
-                                              
-                                              <area shape="rect" coords="8,237,176,319" href="#" onclick="window.open('tema1_pag14_3.htm','costos','width=600,height=200, toolbars=no,scrollbar=no')" return="return" false;="false;">
-                                              
-                                              <area shape="rect" coords="7,34,175,116" href="#" onclick="window.open('tema1_pag14_1.htm','costos','width=600,height=310, toolbars=no,scrollbar=no')" return="" false;="">
-                                              
-                                              <area shape="rect" coords="9,144,182,224" href="#" onclick="window.open('tema1_pag14_5.htm','costos','width=600,height=150, toolbars=no,scrollbar=no')" return="" false;="">
-                                              <area shape="rect" coords="213,36,389,142" href="#" onclick="window.open('tema1_pag14_2.htm','costos','width=600,height=310, toolbars=no,scrollbar=no')" return="" false;="">
-                                              
-                                              <area shape="rect" coords="216,153,401,235" href="#" onclick="window.open('tema1_pag14_6.htm','costos','width=600,height=150, toolbars=no,scrollbar=no')" return="" false;="">
-                                            </map>
-                                      </div>
-                                </div> -->
 
-                                
+                                <div class="modal fade" id="2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle"><b>Costos de mano de obra</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>La mano de obra, es decir el costo de los sueldos de los o las empleados(as) que están en la realización de los productos o servicios son <strong>costos variables</strong>, ya que a mayor cantidad de productos o servicios mayor costo pues necesitarás más personal (personas trabajadoras) para la realización de los productos o servicios.</p>
+                                                <p class="no-mrg">Ejemplos:</p>
+                                                <ul>
+                                                    <li><strong>Fabricación de vestidos:</strong> Mayor cantidad de vestidos – mayor cantidad de personas que confeccionen los vestidos (no es lo mismo hacer 1 vestido a hacer 100 vestidos).</li>
+                                                    <li><strong>Fabricación de pasteles:</strong> Mayor cantidad de pasteles – mayor cantidad de personas que los hagan (no es lo mismo hacer 1 pastel a 100 pasteles).</li>
+                                                    <li><strong>Pensemos en un servicio:</strong> (Una estética) Mayor cantidad de aplicaciones de tinte – mayor cantidad de personas que los hagan (no es lo mismo hacer un tinte a 30 tintes, por eso cuando en una estética aumentan los clientes contratan a otro empleado).</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-dismiss="modal">Regresar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="row mrg-btm-20">
                                     <div class="col text-center">
                                         <div class="btn-group">

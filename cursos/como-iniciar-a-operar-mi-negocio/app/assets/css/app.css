@@ -2450,9 +2450,9 @@ button.disabled, button:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .btn-warning.disabled:hover, .btn-warning.disabled:focus { background-color: #ffcc00; border-color: #ffcc00; }
 
-.btn-danger { color: #ffffff; background-color: #ff3c7e; border-color: #ff3c7e; }
+.btn-danger { color: #ffffff; background-color: #ff0000; border-color: #ff0000; }
 
-.btn-danger:hover, .btn-danger:focus { color: #ffffff; background-color: #ff568f; border-color: #ff568f; }
+.btn-danger:hover, .btn-danger:focus { color: #ffffff; background-color: #ff2323b9; border-color: #ff2323b9; }
 
 .btn-danger:active { background-color: #ff236d; border-color: #ff236d; }
 
