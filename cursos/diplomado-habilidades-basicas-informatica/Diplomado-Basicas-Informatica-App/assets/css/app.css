@@ -3724,6 +3724,23 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
     color: #ffffff;
   }
 
-  .btn-actual-page span {
-    color: #ffffff;
-  }
+.btn-actual-page span {
+  color: #ffffff;
+}
+
+
+
+/*------ Button Styles -----*/
+.btn-1 {
+  border: 2px solid #093b8b;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px 0 grey;
+  margin: 1%;
+}
+
+a#tab-1.nav-link.active {border-radius: 0px; border-color: var(--theme-color); background-color: var(--theme-color); color: white;}
+a#tab-1.nav-link.active.show {border-radius: 0px; border-color: var(--theme-color); background-color: var(--theme-color); color: white;}
+
+.btn-2 {
+  border-style: outset;
+}
