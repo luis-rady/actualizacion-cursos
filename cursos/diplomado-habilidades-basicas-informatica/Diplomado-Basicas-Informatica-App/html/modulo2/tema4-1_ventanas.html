@@ -404,6 +404,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="card">
+                              <div class="card-block">
                               <div class="row no-gutters">
                                     <div class="card-body">
                                       <h1 class="card-title">4.1 Uso básico de los componentes de Windows</h1>
@@ -412,87 +413,128 @@
                                             <p>
                                                 Trabajar con varias ventanas al mismo tiempo es una de las ventajas que ofrece el Sistema Operativo Windows, en cualquiera de sus versiones.
                                             </p>
-                                            <p style="text-align: center;">
+                                            <p><br>
                                                 <b>¿Por qué es útil aprender a trabajar con varias ventanas?</b>
                                             </p>
                                             <p>
                                                 Saber cómo se pueden mover de lugar a otro o interactuar entre las ventanas abiertas nos permitirá aprovechar los beneficios que tiene Windows. En ambas versiones de Windows se pueden realizar las sigiuentes acciones, veamos cómo funcionan.
-                                            </p>
+                                            <br><br>
+                                          </p>
                                       </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="row">
 
-                        <div style="width: 100; margin: auto">
-                            <button onclick="show1()" class="btn btn-dark btn-lg" type="button">
-                                <h3 style="color: white; vertical-align: middle">Mover una ventana</h3>
-                            </button>
-                            <button onclick="show2()" class="btn btn-dark btn-lg" type="button">
-                                <h3 style="color: white; vertical-align: middle">Moverse entre ventanas</h3>
-                            </button>
-                            <button onclick="show3()" class="btn btn-dark btn-lg" type="button">
-                                <h3 style="color: white; vertical-align: middle">Funcionalidad Flip y Flip 3D</h3>
-                            </button>
-                        </div>
-                        <div id="moverVentana" class="w-100">
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <div class="card-body">
-                                        <h2 class="card-title" style="text-align:center">Mover una ventana de un lugar a otro</h2>
-                                        <ol class="card-text pl-5">
-                                            <li>Coloque el apuntador del ratón sobre la barra de título.</li>
-                                            <li>Haga clic izquierdo y sin dejar de presionar el botón, arrastre el apuntador del ratón hacia donde quiere ubicar la ventana.</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="moverEntreVentana" class="w-100">
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <div class="card-body">
-                                        <h2 class="card-title" style="text-align:center">Moverse entre ventanas</h2>
-                                        <ol class="card-text pl-5">
-                                            <li>Presione la tecla ALT + la tecla Tab. (Ver teclado)</li>
-                                            <li>Aparecerá una caja de diálogo o mensaje al centro indicando con algún color la ventana que está activa.</li>
-                                            <li>Sin dejar de presionar la tecla ALT, suelte la tecla Tab y presione de nuevo TAB para seleccionar la ventana deseada.</li>
-                                            <li>Una vez haya seleccionado la ventana, suelte las dos teclas para que se visualice en pantalla completa.</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="flip" class="w-100">
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <div class="card-body">
-                                        <h2 class="card-title" style="text-align:center">Funcionalidad Flip y Flip 3D</h2>
-                                        <p class="pl-3">
-                                            En Windows Vista y 7, la administración de las ventanas también se puede hacer con el sistema Flip y Flip 3D. Veamos cuáles cómo funcionan y cuáles son sus diferencias.
-                                        </p>
-                                        <p class="pl-3">
-                                            <b>Flip</b> permite ver las ventanas abiertas (mediante Alt+Tab) y proporciona una vista en miniatura, cada una en lugar de un icono y un nombre de archivo genérico.
+                                      <!--Tarjeta con botones laterales START-->
+                                      <div class="row justify-content-center mrg-top-20">
+                                          <div class="pill-info">
+                                          <ul class="nav nav-pills nav-fill justify-content-center">
+                                            <!--Botones laterales START-->
+                                                <li class="nav-item btn-1">
+                                                    <a href="#procesamiento-1" class="nav-link active" role="tab" data-toggle="tab">Mover una ventana</a>
+                                                </li>
+                                                <li class="nav-item btn-1">
+                                                    <a href="#procesamiento-2" class="nav-link" role="tab" data-toggle="tab">Moverse entre ventanas</a>
+                                                </li>
+                                                <li class="nav-item btn-1">
+                                                    <a href="#procesamiento-3" class="nav-link" role="tab" data-toggle="tab">Flip y Flip 3D</a>
+                                                </li>
+                                                </li>
+                                            </ul>
+                                            <!--Botones laterales FIN-->
 
-                                            Las vistas en miniatura facilitan la identificación rápida de la ventana que desea, especialmente cuando hay varias ventanas del mismo tipo abiertas.
-                                        </p>
-                                        <p class="pl-3">
-                                            Con el <b>Flip 3D</b>, se puede utilizar la rueda de desplazamiento del ratón para ver las ventanas abiertas en forma apilada, y localizar y seleccionar rápidamente aquella con la que desea trabajar.
-                                        </p>
-                                        <p class="pl-3">
-                                            Instrucciones para usar esta funcionalidad:
-                                        </p>
-                                        <ol class="card-text pl-5">
-                                            <li>Mantenga presionada la tecla del logotipo de Windows del teclado y la tecla TAB para abrir Flip 3D.</li>
-                                            <li>Después, presione la tecla del logotipo de Windows y la tecla TAB repetidamente o bien, girar la rueda del ratón (mouse) para desplazarse por las ventanas abiertas.</li>
-                                            <li>Cuando se desea dejar una pantalla en la parte superior (apilar), hay que liberar la tecla del logotipo de Windows o bien, hacer clic en cualquier parte de cualquier ventana que se está moviendo.</li>
-                                        </ol>
-                                    </div>
+                                            <!--Contenido de tarjeta START-->
+                                            <div class="tab-content">
+                                                <!--Dispositivo Entrada 1 START-->
+                                                <div role="tabpanel" class="tab-pane fade in active" id="procesamiento-1">
+                                                    <div class="pdd-horizon-15">
+                                                        <div class="row">
+                                                                <div class="card">
+                                                                    <div class="card-block">
+
+                                                                      <h2 class="mrg-btm-20 no-mrg-top">Mover una ventana</h2>
+                                                                      <p>
+                                                                        <ol class="card-text">
+                                                                            <li>Coloque el apuntador del ratón sobre la barra de título.</li>
+                                                                            <li>Haga clic izquierdo y sin dejar de presionar el botón, arrastre el apuntador del ratón hacia donde quiere ubicar la ventana.</li>
+                                                                        </ol>
+                                                                      </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                                <!--Dispositivo Entrada 1 FIN-->
+
+                                                <!--Dispositivo Entrada 2 START-->
+                                                <div role="tabpanel" class="tab-pane fade in" id="procesamiento-2">
+                                                    <div class="pdd-horizon-15">
+                                                        <div class="row">
+                                                                <div class="card">
+                                                                    <div class="card-block">
+
+                                                                      <h2 class="mrg-btm-20 no-mrg-top">Moverse entre ventanas</h2>
+                                                                      <p>
+                                                                        <ol class="card-text">
+                                                                            <li>Presione la tecla ALT + la tecla Tab. (Ver teclado)</li>
+                                                                            <li>Aparecerá una caja de diálogo o mensaje al centro indicando con algún color la ventana que está activa.</li>
+                                                                            <li>Sin dejar de presionar la tecla ALT, suelte la tecla Tab y presione de nuevo TAB para seleccionar la ventana deseada.</li>
+                                                                            <li>Una vez haya seleccionado la ventana, suelte las dos teclas para que se visualice en pantalla completa.</li>
+                                                                        </ol>
+                                                                      </p>
+                                                                  </div>
+
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Dispositivo Entrada 2 FIN-->
+
+                                                <!--Dispositivo Entrada 3 START-->
+                                                <div role="tabpanel" class="tab-pane fade in" id="procesamiento-3">
+                                                    <div class="pdd-horizon-15">
+                                                        <div class="row">
+                                                                <div class="card">
+                                                                    <div class="card-block">
+
+                                                                      <h2 class="mrg-btm-20 no-mrg-top">Flip y Flip 3D</h2>
+                                                                      <p>
+                                                                        <p>
+                                                                            En Windows Vista y 7, la administración de las ventanas también se puede hacer con el sistema Flip y Flip 3D. Veamos cuáles cómo funcionan y cuáles son sus diferencias.
+                                                                        </p>
+                                                                        <p>
+                                                                            <b>Flip</b> permite ver las ventanas abiertas (mediante Alt+Tab) y proporciona una vista en miniatura, cada una en lugar de un icono y un nombre de archivo genérico.
+
+                                                                            Las vistas en miniatura facilitan la identificación rápida de la ventana que desea, especialmente cuando hay varias ventanas del mismo tipo abiertas.
+                                                                        </p>
+                                                                        <p>
+                                                                            Con el <b>Flip 3D</b>, se puede utilizar la rueda de desplazamiento del ratón para ver las ventanas abiertas en forma apilada, y localizar y seleccionar rápidamente aquella con la que desea trabajar.
+                                                                        </p>
+                                                                        <p>
+                                                                            Instrucciones para usar esta funcionalidad:
+                                                                        </p>
+                                                                        <ol class="card-text pl-5">
+                                                                            <li>Mantenga presionada la tecla del logotipo de Windows del teclado y la tecla TAB para abrir Flip 3D.</li>
+                                                                            <li>Después, presione la tecla del logotipo de Windows y la tecla TAB repetidamente o bien, girar la rueda del ratón (mouse) para desplazarse por las ventanas abiertas.</li>
+                                                                            <li>Cuando se desea dejar una pantalla en la parte superior (apilar), hay que liberar la tecla del logotipo de Windows o bien, hacer clic en cualquier parte de cualquier ventana que se está moviendo.</li>
+                                                                        </ol>
+                                                                      </p>
+                                                                  </div>
+
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Dispositivo Entrada 3 FIN-->
+
+                                            </div>
+                                          </div>
+                                            <!--Contenido de tarjeta FIN-->
+                                        </div>
+                                      <!--Tarjeta con botones laterales FIN-->
+
                                 </div>
                             </div>
                         </div>
+                      </div>
+                    </div>
                     </div>
 
                     <div class="row mrg-btm-20">
