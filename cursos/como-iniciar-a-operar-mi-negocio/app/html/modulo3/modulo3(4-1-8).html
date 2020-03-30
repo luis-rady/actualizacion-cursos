@@ -24,6 +24,16 @@
         <link href="../../assets/css/progress.css" rel="stylesheet">
         <link href="../../assets/css/progress-circle.css" rel="stylesheet">
 
+        <style>
+          .correct {
+            color: green;
+          }
+
+          .incorrect {
+            color: red;
+          }
+        </style>
+
     </head>
 
     <body class="header-info side-nav-dark">
@@ -51,13 +61,176 @@
 
                                 <!-- Your content goes here -->
 
-                                <!-- <div class="card card-block">
-                                    <form id action="">
-
-                                    </form>
-                                </div> -->
-                                
                                 <div class="card card-block">
+                                  <h1 class="card-title no-mrg">Haz el ejercico</h1>
+                                  <p>Realiza el siguiente ejercicio que te permitirá reforzar tu conocimiento sobre el tema de costos.</p>
+                                  <h3 class="no-mrg">Instrucciones:</h3>
+                                  <p>Sobre la siguiente lista de costos elige el costo al que pertenece de acuerdo a la clasificación de costos tipo de negocio.</p>
+                                    <form id="form" action="">
+                                      <ol id="preguntas">
+
+                                        <li>
+                                          <label class="inline" for="1">Tela</label>
+                                          <select name="costos" id="1">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="2">Hilo</label>
+                                          <select name="costos" id="2">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="3">Botones</label>
+                                          <select name="costos" id="3">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="4">Listón</label>
+                                          <select name="costos" id="4">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="5">Etiqueta</label>
+                                          <select name="costos" id="5">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="6">Sueldo de costureras</label>
+                                          <select name="costos" id="6">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="7">Sueldo de una de las socias costureras</label>
+                                          <select name="costos" id="7">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" class="inline" for="8">Sueldo de otra socia que administra y vende</label>
+                                          <select name="costos" id="8">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="9">El costo de la luz del mes</label>
+                                          <select name="costos" id="9">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="10">Una parte del costo de la máquina de coser</label>
+                                          <select name="costos" id="10">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="11">La renta del cuarto</label>
+                                          <select name="costos" id="11">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+
+                                        <li>
+                                          <label class="inline" for="12">El costo del taxi para dejar los productos</label>
+                                          <select name="costos" id="12">
+                                            <option value="none">Selecciona..</option>
+                                            <option value="1">Costo materia prima</option>
+                                            <option value="2">Costo mano de obra</option>
+                                            <option value="3">Costo GIF</option>
+                                            <option value="4">Costo de venta</option>
+                                            <option value="5">Costo de administración</option>
+                                            <option value="6">Costo de financiamiento</option>
+                                          </select>
+                                        </li>
+                                        
+                                      </ol>
+                                      <input type="submit" id="submit" class="btn btn-credits btn-rounded pull-right" value="Revisar">
+                                    </form>
+                                </div>
+                                
+                                <!-- <div class="card card-block">
                                     <form action="#" method="post" name="form" id="form">
 
                                         <table width="75%" border="1" align="center" cellpadding="1" cellspacing="0" bordercolor="CCCCCC" class="txtnormal" style="overflow-x: scroll;">
@@ -581,7 +754,7 @@
                                       <div class="text-center mrg-top-30">
                                         <a class="btn btn-primary" href="./../../assets/answers/modulo3(4-1-8)/Respuesta_ClasificacionDeCostos.doc" download="Respuesta_ClasificacionDeCostos">Respuestas</a>
                                       </div>
-                                </div>
+                                </div> -->
 
 
                                 
@@ -670,6 +843,7 @@
        <!-- build:js assets/js/app.min.js -->
        <!-- core js -->
        <script src="./../../assets/js/app.js"></script>
+       <script src="./modulo3(4-1-8).js"></script>
 
        <!-- endbuild -->
        <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
