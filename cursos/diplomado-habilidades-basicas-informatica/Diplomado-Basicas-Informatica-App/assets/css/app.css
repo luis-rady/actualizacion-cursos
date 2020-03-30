@@ -3744,3 +3744,9 @@ a#tab-1.nav-link.active.show {border-radius: 0px; border-color: var(--theme-colo
 .btn-2 {
   border-style: outset;
 }
+
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
