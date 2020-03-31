@@ -1,7 +1,9 @@
+const buttons = document.getElementsByTagName("input")
+
 function removeCredits() {
-    let buttons = document.getElementsByTagName("input")
     for (let i = 0 ; i < buttons.length ; i++) {
         buttons[i].classList.remove("btn-credits");
+        buttons[i].classList.remove("btn-default");
     }
 }
 
@@ -25,7 +27,14 @@ function watchP1() {
                                 </div>
                             </div>`;
         removeCredits();
-        document.getElementById("p1").classList.add("btn-credits");
+        p1.classList.add("btn-credits");
+        buttons[1].classList.add("btn-default");
+        buttons[2].classList.add("btn-default");
+        buttons[3].classList.add("btn-default");
+        buttons[4].classList.add("btn-default");
+        buttons[5].classList.add("btn-default");
+        buttons[6].classList.add("btn-default");
+
     });
 }
 function watchP2() {
@@ -48,7 +57,14 @@ function watchP2() {
                                 </div>
                             </div>`;
         removeCredits();
-        document.getElementById("p2").classList.add("btn-credits");
+        p2.classList.add("btn-credits");
+        buttons[0].classList.add("btn-default");
+        buttons[2].classList.add("btn-default");
+        buttons[3].classList.add("btn-default");
+        buttons[4].classList.add("btn-default");
+        buttons[5].classList.add("btn-default");
+        buttons[6].classList.add("btn-default");
+
     });
 }
 function watchP3() {
@@ -71,7 +87,13 @@ function watchP3() {
                                 </div>
                             </div>`;
         removeCredits();
-        document.getElementById("p3").classList.add("btn-credits");
+        p3.classList.add("btn-credits");
+        buttons[0].classList.add("btn-default");
+        buttons[1].classList.add("btn-default");
+        buttons[3].classList.add("btn-default");
+        buttons[4].classList.add("btn-default");
+        buttons[5].classList.add("btn-default");
+        buttons[6].classList.add("btn-default");
 
     });
 }
@@ -104,7 +126,14 @@ function watchP4() {
                                 </div>
                             </div>`;
         removeCredits();
-        document.getElementById("p4").classList.add("btn-credits");
+        p4.classList.add("btn-credits");
+        buttons[0].classList.add("btn-default");
+        buttons[1].classList.add("btn-default");
+        buttons[2].classList.add("btn-default");
+        buttons[4].classList.add("btn-default");
+        buttons[5].classList.add("btn-default");
+        buttons[6].classList.add("btn-default");
+
     });
 }
 function watchP5() {
@@ -128,7 +157,14 @@ function watchP5() {
                                 </div>
                             </div>`;
         removeCredits();
-        document.getElementById("p5").classList.add("btn-credits");
+        p5.classList.add("btn-credits");
+        buttons[0].classList.add("btn-default");
+        buttons[1].classList.add("btn-default");
+        buttons[2].classList.add("btn-default");
+        buttons[3].classList.add("btn-default");
+        buttons[5].classList.add("btn-default");
+        buttons[6].classList.add("btn-default");
+
     });
 }
 function watchP6() {
@@ -152,7 +188,13 @@ function watchP6() {
                                 </div>
                             </div>`;
         removeCredits();
-        document.getElementById("p6").classList.add("btn-credits");
+        p6.classList.add("btn-credits");
+        buttons[0].classList.add("btn-default");
+        buttons[1].classList.add("btn-default");
+        buttons[2].classList.add("btn-default");
+        buttons[3].classList.add("btn-default");
+        buttons[4].classList.add("btn-default");
+        buttons[6].classList.add("btn-default");
     });
 }
 function watchP7() {
@@ -177,6 +219,13 @@ function watchP7() {
                             </div>`;
         removeCredits();
         document.getElementById("p7").classList.add("btn-credits");
+        buttons[0].classList.add("btn-default");
+        buttons[1].classList.add("btn-default");
+        buttons[2].classList.add("btn-default");
+        buttons[3].classList.add("btn-default");
+        buttons[4].classList.add("btn-default");
+        buttons[5].classList.add("btn-default");
+
     });
 }
 

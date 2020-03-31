@@ -2,12 +2,13 @@ function removeCredits() {
     let buttons = document.getElementsByTagName("input")
     for (let i = 0 ; i < buttons.length ; i++) {
         buttons[i].classList.remove("btn-credits");
+        buttons[i].classList.remove("btn-default");
     }
 }
 
 function watchCobradores() {
     let text = document.getElementById("text");
-    let cobradores = document.getElementById("cobradores");
+    const cobradores = document.getElementById("cobradores");
     cobradores.addEventListener("click", () => {
         text.innerHTML =    `<div class="card card-block">
                                 <h1 class="card-title">Por medio de cobradores</h1>
@@ -15,13 +16,14 @@ function watchCobradores() {
                             </div>`;
         removeCredits();
         cobradores.classList.add("btn-credits");
+        vendedores.classList.add("btn-default");
 
     });
 }
 
 function watchVendedores() {
     let text = document.getElementById("text");
-    let vendedores = document.getElementById("vendedores");
+    const vendedores = document.getElementById("vendedores");
     vendedores.addEventListener("click", () => {
         text.innerHTML =    `<div class="card card-block">
                                 <h1 class="card-title">Por medio de los vendedores</h1>
@@ -29,6 +31,7 @@ function watchVendedores() {
                             </div>`;
         removeCredits();
         vendedores.classList.add("btn-credits");
+        cobradores.classList.add("btn-default");
     });
 }
 
