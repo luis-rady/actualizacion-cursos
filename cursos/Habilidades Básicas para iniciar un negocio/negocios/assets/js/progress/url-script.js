@@ -33,11 +33,14 @@ function getModuloPercentage(){
     for(var i=0;i<url_split.length;i++){
         if(jsonTmp.hasOwnProperty(url_split[i])){
             totalLevel=totalLevel/Object.keys(jsonTmp).length;
+            if(url_split[i]=="autoevaluacion"){url_split[i]="autoevaluacion7";}
             numberString=parseInt(url_split[i].replace( /^\D+/g, ''));
+            if(url_split[i]=="autoevaluacion7"){url_split[i]="autoevaluacion";}
             res+=(numberString-1)*(totalLevel);
             jsonTmp=jsonTmp[url_split[i]];
         }else{
             if(i!=url_split.length-1){break;}
+            
             if(url_split[i]==""){url_split[i]="index.html";}
             for(var idtmp in jsonTmp){
                 if(jsonTmp[idtmp]==url_split[i]){
@@ -66,7 +69,9 @@ function getTotalPercentage(){
     for(var i=0;i<url_split.length;i++){
         if(jsonTmp.hasOwnProperty(url_split[i])){
             totalLevel=totalLevel/Object.keys(jsonTmp).length;
+            if(url_split[i]=="autoevaluacion"){url_split[i]="autoevaluacion7";}
             numberString=parseInt(url_split[i].replace( /^\D+/g, ''));
+            if(url_split[i]=="autoevaluacion7"){url_split[i]="autoevaluacion";}
             res+=(numberString-1)*(totalLevel);
             jsonTmp=jsonTmp[url_split[i]];
         }else{
@@ -102,7 +107,11 @@ function getLast(){
     var url = window.location.href;
     url=url.substr(url.indexOf("src/"));
     var url_split=url.split('/');
-    url_split.pop();url_split.pop();
+    url_split.pop();
+    // alert(url_split.join('/'));
+    // if(getSpecialLasts().hasOwnProperty(url_split.join('/')))
+    //     return getSpecialLasts().url_split.join('/');
+    url_split.pop();
     var res="";var flag=false;
     for(var i=url_split.length-1;i>=0;i--){
         if(url_split[i].indexOf("modulo")!=-1){
@@ -233,7 +242,9 @@ function getFiles() {
             },
             tema10: {
                 0: "index.html",
-                1: "continue.html",
+                1: "continue2.html",
+                2: "continue1.html",
+                3: "continue.html",
             },
 
         },
@@ -263,18 +274,6 @@ function getFiles() {
             },
             tema5: {
                 0: "index.html",
-                1: "continue.html",
-                2: "continue1.html",
-                3: "continue2.html",
-                4: "continue3.html",
-                5: "continue4.html",
-                6: "continue5.html",
-                7: "continue6.html",
-                8: "continue7.html",
-                9: "continue8.html",
-                10: "continue9.html",
-                11: "continue10.html",
-                12: "continue11.html",
             },
             tema6: {
                 0: "index.html",
@@ -290,24 +289,23 @@ function getFiles() {
                 4: "continue3.html",
                 5: "continue4.html",
                 6: "continue5.html",
-                7: "continue6.html",
+                7: "continue7.html",
+                8: "continue6.html",
             },
         },
         modulo2: {
             tema1: {
                 0: "index.html",
-                1: "activity.html",
-                2: "continue.html",
-                3: "continue1.html",
-                4: "continue2.html",
-                5: "continue3.html",
+                1: "continue.html",
+                2: "continue1.html",
+                3: "continue2.html",
+                4: "continue3.html",
             },
             tema2: {
                 0: "index.html",
                 1: "continue.html",
                 2: "continue1.html",
                 3: "continue2.html",
-                4: "continue3.html",
             },
             tema3: {
                 0: "index.html",
@@ -330,7 +328,7 @@ function getFiles() {
                 10: "continue9.html",
                 11: "continue10.html",
                 12: "continue11.html",
-                13: "continue12.html",
+                13: "continue13.html",
             },
 
         },
@@ -364,7 +362,8 @@ function getFiles() {
                     16: "continue16.html",
                     17: "continue17.html",
                     18: "continue18.html",
-                    19: "continue22.html",
+                    19: "continue19.html",
+                    20: "continue22.html",
                 },
 
                 tema3: {
@@ -409,15 +408,29 @@ function getFiles() {
                     1: "continue.html",
                     2: "continue1.html",
                     3: "continue2.html",
-                    4: "continue3.html",
-                    5: "continue4.html",
+                    4: "continue4.html",
+                    5: "continue5.html",
                 },
             },
         },
     };
+    
     return files;
 }
 
+function getSpecialLasts() {
+    var Lasts = {
+        "src/modulo1/parte1/tema1":"../tema2/",
+        "src/modulo1/parte1/tema2":"src/modulo1/parte1/tema3/",
+        "src/modulo1/parte1/tema3":"src/modulo1/parte2/tema1/",
+        "src/modulo1/parte2/tema1":"src/modulo1/parte2/tema2/",
+        "src/modulo1/parte2/tema2":"src/modulo1/parte2/tema2/",
+        "src/modulo1/parte2/tema3":"src/modulo1/parte2/tema4/",
+        "src/modulo1/parte2/tema4":"src/temario/",
+    };
+    
+    return Lasts;
+}
 
 $(document).ready(function(){
     if(isValid()){
