@@ -53,14 +53,196 @@
                             <div class="card">
                                 <div class="pdd-vertical-30 pdd-horizon-25">
                                     <h1 class="mrg-btm-20 card-title" align="center">Ejercicio: Funciones y Componentes de una Computadora</h1>
+                                    <p>
+                                        <strong>Objetivo: </strong> Identificar las principales funciones de una computadora y los dispositivos de la misma que las realizan. <br>
+                                        <strong>Instrucciones: </strong>
+                                        <ol>
+                                            <li>
+                                                Lea las preguntas sobre las funciones de entrada, procesamiento, almacenamiento y salida.
+                                            </li>
+                                            <li>
+                                                Observe que debajo de cada pregunta se encuentran diversas imágenes.
+                                            </li>
+                                            <li>
+                                                Seleccione la opción u opciones que respondan correctamente a cada pregunta. Puede seleccionar una o varias opciones.
+                                            </li>
+                                            <li>
+                                                Al finalizar el ejercicio verifique las respuestas correcta haciendo clic en el botón "Revisar".
+                                            </li>
+                                        </ol> 
+                                    </p>
+                                </div>
+                            </div>
 
+                            <div class="card">
+                                <div class="pdd-vertical-30 pdd-horizon-25">
+                                    <form id="ejercicio">
+                                        <fieldset>
+                                        <!-- Multiple Checkboxes (inline) -->
+                                        <div class="form-group">
+                                          <label class="col control-label" for="pregunta1">¿Qué dispositivo o dispositivos pertenecen a la etapa de entrada y sirven para introducir datos a la computadora?</label>
+                                          <div class="col">
+                                            <p id="ans1"></p>
+                                            <label class="checkbox-inline" for="pregunta1-0">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-compu.gif"><br>
+                                                <input type="checkbox" name="pregunta1" id="pregunta1-0" value="Monitor"> 
+                                                Monitor
+                                            </label>
+                                            <label class="checkbox-inline" for="pregunta1-1">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-teclado.gif"><br>
+                                                <input type="checkbox" name="pregunta1" id="pregunta1-1" value="Teclado"> Teclado
+                                            </label>
+                                            <label class="checkbox-inline" for="pregunta1-2">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-mouse.gif"><br>
+                                                <input type="checkbox" name="pregunta1" id="pregunta1-2" value="Raton"> Ratón
+                                            </label>
+                                            <label class="checkbox-inline" for="pregunta1-3">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-cpu.gif"><br>
+                                                <input type="checkbox" name="pregunta1" id="pregunta1-3" value="CPU"> CPU / Procesador
+                                            </label>
+                                            <label class="checkbox-inline" for="pregunta1-4">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-bocina.gif"><br>
+                                                <input type="checkbox" name="pregunta1" id="pregunta1-4" value="Bocinas"> Bocinas
+                                            </label>
+                                            <label class="checkbox-inline" for="pregunta1-5">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-cd.gif"><br>
+                                                <input type="checkbox" name="pregunta1" id="pregunta1y-5" value="CD"> CD
+                                            </label>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col control-label" for="pregunta2">¿Qué dispositivo se le conoce como el cerebro de la computadora y pertenece a la etapa de proceso?</label>
+                                            <div class="col">
+                                                <p id="ans2"></p>
+                                              <label class="checkbox-inline" for="pregunta2-0">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-compu.gif"><br>
+                                                  <input type="checkbox" name="pregunta2" id="pregunta2-0" value="Monitor"> Monitor
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta2-1">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-teclado.gif"><br>
+                                                  <input type="checkbox" name="pregunta2" id="pregunta2-1" value="Teclado"> Teclado
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta2-2">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-mouse.gif"><br>
+                                                  <input type="checkbox" name="pregunta2" id="pregunta2-2" value="Raton"> Ratón
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta2-3">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-impresora.gif"><br>
+                                                  <input type="checkbox" name="pregunta2" id="pregunta2-3" value="Impresora"> Impresora
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta2-4">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-bocina.gif"><br>
+                                                  <input type="checkbox" name="pregunta2" id="pregunta2-4" value="Bocinas"> Bocinas
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta2-5">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-cpu.gif"><br>
+                                                  <input type="checkbox" name="pregunta2" id="pregunta2-5" value="CPU"> CPU / Procesador
+                                              </label>
+                                            </div>
+                                          </div>
+                                        
+                                          <div class="form-group">
+                                            <label class="col control-label" for="pregunta3">¿Qué dispositivo o dispositivos guardan los datos que son necesarios para procesar y que pertenecen a la etapa de almacenamiento?</label>
+                                            <div class="col">
+                                                <p id="ans3"></p>
+                                              <label class="checkbox-inline" for="pregunta3-0">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-compu.gif"><br>
+                                                  <input type="checkbox" name="pregunta3" id="pregunta3-0" value="Monitor"> Monitor
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta3-1">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-cd.gif"><br>
+                                                  <input type="checkbox" name="pregunta3" id="pregunta3-1" value="CD"> CD
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta3-2">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-usb.gif"><br>
+                                                  <input type="checkbox" name="pregunta3" id="pregunta3-2" value="USB"> USB
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta3-3">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-discoDuro.gif"><br>
+                                                  <input type="checkbox" name="pregunta3" id="pregunta3-3" value="DiscoDuro"> Disco Duro
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta3-4">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-impresora.gif"><br>
+                                                  <input type="checkbox" name="pregunta3" id="pregunta3-4" value="Impresora"> Impresora
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta3-5">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-mouse.gif"><br>
+                                                  <input type="checkbox" name="pregunta3" id="pregunta3-5" value="Raton"> Ratón
+                                              </label>
+                                            </div>
+                                          </div>
+                                        
+                                          <div class="form-group">
+                                            <label class="col control-label" for="pregunta4">¿Qué dispositivo o dispositivos permiten ver la información o resultado generado por la computadora después de procesar los datos de entrada y pertenecen a la etapa de salida?</label>
+                                            <div class="col">
+                                                <p id="ans4"></p>
+                                              <label class="checkbox-inline" for="pregunta4-0">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-teclado.gif"><br>
+                                                  <input type="checkbox" name="pregunta4" id="pregunta4-0" value="Teclado"> Teclado
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta4-1">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-compu.gif"><br>
+                                                  <input type="checkbox" name="pregunta4" id="pregunta4-1" value="Monitor"> Monitor
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta4-2">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-impresora.gif"><br>
+                                                  <input type="checkbox" name="pregunta4" id="pregunta4-2" value="Impresora"> Impresora
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta4-3">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-usb.gif"><br>
+                                                  <input type="checkbox" name="pregunta4" id="pregunta4-3" value="USB"> USB
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta4-4">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-mouse.gif"><br>
+                                                  <input type="checkbox" name="pregunta4" id="pregunta4-4" value="Raton"> Ratón
+                                              </label>
+                                              <label class="checkbox-inline" for="pregunta4-5">
+                                                <img src="../../assets/images/course/modulo1/la-computadora-y-sus-componentes/ej1-cpu.gif"><br>
+                                                  <input type="checkbox" name="pregunta4" id="pregunta4-5" value="CPU"> CPU / Procesador
+                                              </label>
+                                            </div>
+                                          </div>
 
-                                    <!-- AQUI VA EL EJERICIO -->
-
-
+                                          <div class="form-group row">
+                                            <div class="col" align="center">
+                                              <button type="submit" class="button" >Revisar</button>
+                                            </div>
+                                          </div>
+                                        
+                                        </fieldset>
+                                        </form>                                        
                                 </div>
                             </div>
         
+                            <div class="row mrg-btm-20">
+                              <div class="col text-center">
+                                  <div class="btn-group">
+                                      <a class="btn btn-default" role="button" href="../modulo1/unidad1-5.html">
+                                          <span>Atrás</span>
+                                      </a>
+                                      <a class="btn btn-default" role="button" href="../modulo1/unidad1-4.html">
+                                          <span>4</span>
+                                      </a>
+                                      <a class="btn btn-default" role="button" href="../modulo1/unidad1-5.html">
+                                          <span>5</span>
+                                      </a>
+                                      <a class="btn btn-actual-page" role="button" href="../modulo1/unidad1-6.html">
+                                          <span>6</span>
+                                      </a>
+                                      <a class="btn btn-default" role="button" href="../modulo1/unidad1-7.html">
+                                          <span>7</span>
+                                      </a>
+                                      <a class="btn btn-default" role="button" href="../modulo1/unidad1-8.html">
+                                          <span>8</span>
+                                      </a>
+                                      <a class="btn btn-default" role="button" href="../modulo1/unidad1-7.html">
+                                          <span>Siguiente</span>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+
                             <div class="card widget-feed">
                                 <div class="row">
                                     <div class="col-lg-8">
@@ -86,65 +268,6 @@
                                     </div>
                                 </div>
                             </div>
-        
-        
-                            <nav aria-label="..." style="text-align: center">
-                                <ul class="pagination justify-content-center">
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-5.html" tabindex="-1">Anterior</a>
-                                    </li>
-        
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-1.html">1</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-2.html">2</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-3.html">3</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-4.html">4</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-5.html">5</a>
-                                    </li>
-                                    <li class="page-item active">
-                                        <a class="page-link" href="../modulo1/unidad1-6.html">6<span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-7.html">7</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-8.html">8</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-9.html">9</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-10.html">10</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-11.html">11</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-12.html">12</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-13.html">13</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-14.html">14</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-15.html">15</a>
-                                    </li>
-                                    
-                                    <li class="page-item">
-                                        <a class="page-link" href="../modulo1/unidad1-7.html">Siguiente</a>
-                                    </li>
-                                </ul>
-                            </nav>
 
                         </div>
                   </div>
@@ -183,6 +306,9 @@
 
         <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
         <script type="text/javascript">show(0.02)</script>
+
+        <!-- Ejercicio JS -->
+        <script src="../../assets/js/scripts/modulo1/unidad1-6.js"></script>
 
         <!-- endbuild -->
 
