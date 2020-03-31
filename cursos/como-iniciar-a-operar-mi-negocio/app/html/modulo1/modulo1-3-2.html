@@ -25,6 +25,14 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+        <style>
+            @media (min-width: 991px) {
+                .emargin {
+                    margin-bottom: 0 !important;
+                }
+            }
+        </style>
     </head>
 
     <body class="header-info side-nav-dark">
@@ -92,11 +100,20 @@
 
                                 <!-- Modal: Importante -->
                                 <div class="modal fade" tabindex="-1" role="dialog" id="modal-importante">
-                                    <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-dialog modal-dialog-centered modal" role="document">
                                         <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title"><b>Diccionario de negocio</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                            </div>
                                             <div class="modal-body">
-                                                <h1 class="card-title text-center">Restricciones</h1>
+                                                <h1 class="card-title no-mrg">Restricciones</h1>
                                                 <p>Son los problemas o retos que podemos enfrentar al iniciar un negocio.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Regresar</button>
                                             </div>
                                         </div>
                                     </div>
@@ -107,12 +124,12 @@
                                     <div class="card-block">
                                         <div class="card-heading">
                                             <h1 class="card-title">Ejemplos de restricciones</h1>
-                                            <p>Para concretar tu idea de negocio, tienes que considerar algunos problemas en el arranque o posibles restricciones, tales como:</p>
                                         </div>
                                         <div class="card-body">
+                                            <p class="no-mrg">Para concretar tu idea de negocio, tienes que considerar algunos problemas en el arranque o posibles restricciones, tales como:</p>
                                             <ul>
                                                 <div class="row">
-                                                    <div class="col-md-6">
+                                                    <div class="emargin col-md-12 col-lg-6 mrg-btm-50">
                                                         <li>Falta de experiencia para hacer los productos que se pretenden vender.</li>
                                                         <li>Pocos clientes.</li>
                                                         <li>Falta de recursos financieros ($).</li>
@@ -122,8 +139,8 @@
                                                         <li>Falta de conocimiento sobre permisos y trámites oficiales necesarios para el tipo de negocio a emprender.</li>
                                                         <li>Dificultad para administrar el tiempo requerido por el negocio con el tiempo requerido para cumplir con sus obligaciones familiares.</li>
                                                     </div>
-                                                    <div class="col-md-6">
-                                                        <div class="postit" style="overflow: auto;">
+                                                    <div class="col-md-12 col-lg-6" style="margin: auto 0;">
+                                                        <div class="postit">
                                                             <i class="pin"></i>
                                                             <div>La mayoría de las personas no alzanzan a lograr sus sueños por temor a fracasar.</div>
                                                             <div class="mrg-vertical-15">
