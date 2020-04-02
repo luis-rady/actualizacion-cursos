@@ -2,5 +2,19 @@
     transition: .3s transform ease-in-out;
   }
   .card-header .collapsed .fa {
-    transform: rotate(90deg); 
+    transform: rotate(90deg);
+  }
+
+  .temario-card{x
+      background-color: #093b8b;
+      border: 0px;
+  }
+  .temario-card h1,h2 {
+      color: white;
+  }
+  .col-4 {
+      flex: 1;
+      margin: 16px;
+      padding: 0px;
+      background-color: #093b8b;
   }
