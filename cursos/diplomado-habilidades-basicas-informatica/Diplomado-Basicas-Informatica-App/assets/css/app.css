@@ -3729,7 +3729,6 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 }
 
 
-
 /*------ Button Styles -----*/
 .btn-1 {
   border: 2px solid #093b8b;
@@ -3749,4 +3748,14 @@ a#tab-1.nav-link.active.show {border-radius: 0px; border-color: var(--theme-colo
    margin-left:auto;
    margin-right:auto;
    display:block;
+}
+
+
+/*------ Temario -----*/
+.temario-card{
+    background-color: #093b8b;
+    border: 0px;
+}
+.temario-card h1,h2 {
+    color: white;
 }
