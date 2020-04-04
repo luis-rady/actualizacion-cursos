@@ -10,6 +10,41 @@
                     <div class=" pdd-vertical-30 pdd-horizon-25">
                         <ol>
 
+                            <!-- Pregunta 1 START -->
+                            <li class="question">
+                                <p>¿Qué sucedió en la inflación?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A1">El espacio se expandió como un globo</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A2">Toda la materia se empezó a alejar mucho</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
                             <!-- Pregunta 2 START -->
                             <li class="question">
                                 <p>Si un protón tiene carga positiva, ¿Cuál es la carga de su antiparticula?</p>
@@ -63,21 +98,21 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">Electrón y protón</label>
+                                                for="U13_Q3_A1">Protón y neutrón</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">Electrón y neutrón</label>
+                                                for="U13_Q3_A2">Electrón y protón</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A3">Protón y neutrón</label>
+                                                for="U13_Q3_A3">Electrón y neutrón</label>
                                         </div>
 
                                     </div>
@@ -99,7 +134,7 @@
 
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿Qué es energía?</p>
+                                <p>¿Cuál de los siguientes es una partícula elemental?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -115,14 +150,21 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">Es la capacidad de mover algo o hacer un cambio.</label>
+                                                for="U13_Q4_A1">Quark</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A2">Es lo que nos motiva.</label>
+                                                for="U13_Q4_A2">Protón</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A3">Neutrón</label>
                                         </div>
 
                                     </div>
@@ -134,7 +176,7 @@
 
                             <!-- Pregunta 5 START -->
                             <li class="question">
-                                <p>¿Cuál es el 0 absoluto?</p>
+                                <p>¿Cuál de las 4 fuerzas que gobiernan el universo es comúnmente la más fuerte?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -150,14 +192,28 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A1">0 Fahrenheit</label>
+                                                for="U13_Q5_A1">La fuerza nuclear fuerte</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A2">0 Kelvin</label>
+                                                for="U13_Q5_A2">La Gravedad</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A3">La fuerza nuclear débil</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A4">La fuerza electromagnética</label>
                                         </div>
 
                                     </div>
@@ -169,7 +225,7 @@
 
                             <!-- Pregunta 6 START -->
                             <li class="question">
-                                <p>¿En qué se mide la densidad de un objeto?</p>
+                                <p>De acuerdo a la fuerza electromagnética, las cargas opuestas se...</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -185,14 +241,14 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A1">kg/J</label>
+                                                for="U13_Q6_A1">Atraen</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A2">kg/m3</label>
+                                                for="U13_Q6_A2">Repelen</label>
                                         </div>
 
                                     </div>

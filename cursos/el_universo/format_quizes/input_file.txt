@@ -1,25 +1,31 @@
 6
+
 1. ¿Qué sucedió en la inflación?
-Toda la materia se empezó a alejar mucho
 El espacio se expandió como un globo
+Toda la materia se empezó a alejar mucho
 
 2. Si un protón tiene carga positiva, ¿Cuál es la carga de su antiparticula?
 Negativa
 Positiva
 
 3. ¿Cuáles son las dos partículas que forman parte del núcleo de un átomo?
+Protón y neutrón
 Electrón y protón
 Electrón y neutrón
-Protón y neutrón
 
-4. ¿Qué es energía?
-Es la capacidad de mover algo o hacer un cambio.
-Es lo que nos motiva.
+4. ¿Cuál de los siguientes es una partícula elemental?
+Quark
+Protón
+Neutrón
 
-5. ¿Cuál es el 0 absoluto?
-0 Fahrenheit
-0 Kelvin
+5. ¿Cuál de las 4 fuerzas que gobiernan el universo es comúnmente la más fuerte?
+La fuerza nuclear fuerte
+La Gravedad
+La fuerza nuclear débil
+La fuerza electromagnética
 
-6. ¿En qué se mide la densidad de un objeto?
-kg/J
-kg/m3
+
+6. De acuerdo a la fuerza electromagnética, las cargas opuestas se...
+Atraen
+Repelen 
+
