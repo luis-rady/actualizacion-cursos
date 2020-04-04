@@ -1,0 +1,223 @@
+
+<!-- card QUIZ -->
+<div class="card">
+    <div class="pdd-horizon-15 pdd-vertical-20">
+        <div class="container-fluid">
+            <div class="row" style="position: relative;">
+
+                <!-- Columna izquierda de preguntas START -->
+                <div class="col-md-6 pl-3 mrg-btm--50">
+                    <div class=" pdd-vertical-30 pdd-horizon-25">
+                        <ol>
+
+                            <!-- Pregunta 2 START -->
+                            <li class="question">
+                                <p>Si un protón tiene carga positiva, ¿Cuál es la carga de su antiparticula?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A1">Negativa</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A2">Positiva</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 3 START -->
+                            <li class="question">
+                                <p>¿Cuáles son las dos partículas que forman parte del núcleo de un átomo?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A1">Electrón y protón</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A2">Electrón y neutrón</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A3">Protón y neutrón</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                        </ol>
+                    </div>
+                </div>
+                <!-- Columna izquierda de preguntas END -->
+
+                <!-- Columna derecha de preguntas START -->
+                <div class="col-md-6 pl-3 mrg-btm-50">
+                    <div class="pdd-vertical-30 pdd-horizon-25">
+                        <ol start="4">
+
+                            <!-- Pregunta 4 START -->
+                            <li class="question">
+                                <p>¿Qué es energía?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A1">Es la capacidad de mover algo o hacer un cambio.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A2">Es lo que nos motiva.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 5 START -->
+                            <li class="question">
+                                <p>¿Cuál es el 0 absoluto?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A1">0 Fahrenheit</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A2">0 Kelvin</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 6 START -->
+                            <li class="question">
+                                <p>¿En qué se mide la densidad de un objeto?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A1">kg/J</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A2">kg/m3</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                        </ol>
+                    </div>
+                </div>
+                <!-- Columna derecha de preguntas END -->
+
+            </div>
+            <div class="submitbutton">
+                <button type="button" class="button" onclick="checkAll()">Revisar</button>
+            </div>
+            <div class="score">
+                <span></span>
+            </div>
+            <div class="msg">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- card QUIZ -->
