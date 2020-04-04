@@ -60,17 +60,17 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A1">Negativa</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
                                                 for="U13_Q2_A2">Positiva</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A1">Negativa</label>
                                         </div>
 
                                     </div>
@@ -95,6 +95,13 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A3">Electrón y neutrón</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
@@ -106,13 +113,6 @@
                                                 class="option">
                                             <label class="custom-control-label"
                                                 for="U13_Q3_A2">Electrón y protón</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A3">Electrón y neutrón</label>
                                         </div>
 
                                     </div>
@@ -157,14 +157,14 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A2">Protón</label>
+                                                for="U13_Q4_A3">Neutrón</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">Neutrón</label>
+                                                for="U13_Q4_A2">Protón</label>
                                         </div>
 
                                     </div>
@@ -189,6 +189,13 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A2">La Gravedad</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
@@ -199,7 +206,7 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A2">La Gravedad</label>
+                                                for="U13_Q5_A4">La fuerza electromagnética</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
@@ -207,13 +214,6 @@
                                                 class="option">
                                             <label class="custom-control-label"
                                                 for="U13_Q5_A3">La fuerza nuclear débil</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A4">La fuerza electromagnética</label>
                                         </div>
 
                                     </div>

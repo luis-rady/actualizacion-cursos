@@ -1,3 +1,5 @@
+import random
+
 kCoreInitial = """
 <!-- card QUIZ -->
 <div class="card">
@@ -83,19 +85,27 @@ kAnswer = """
 
 kCorrectAnswer = " option correct"
 
+def WriteToFileAnswers(output_file, parsed_answers):
+    random.shuffle(parsed_answers)
+    for parsed_answer in parsed_answers:
+        output_file.write(parsed_answer)
+
 def ParseAnswers(output_file, input_file_data, current_line, total_lines, question_number):
     answer_num = 1
+    parsed_answers = list()
     while current_line < total_lines:
         splitted_line = input_file_data[current_line].split(".", 1)
         if(len(splitted_line) > 1 and splitted_line[0].isdigit()):
-            return current_line - 1
+            current_line -= 1
+            break
         elif(input_file_data[current_line].strip()):
             if(answer_num == 1):
-                output_file.write(kAnswer.format(kCorrectAnswer, question_number, answer_num, input_file_data[current_line].lstrip().rstrip()))
+                parsed_answers.append(kAnswer.format(kCorrectAnswer, question_number, answer_num, input_file_data[current_line].lstrip().rstrip()))
             else:
-                output_file.write(kAnswer.format("", question_number, answer_num, input_file_data[current_line].lstrip().rstrip()))
+                parsed_answers.append(kAnswer.format("", question_number, answer_num, input_file_data[current_line].lstrip().rstrip()))
             answer_num += 1
         current_line += 1
+    WriteToFileAnswers(output_file, parsed_answers)
     return current_line
 
 def MaybeNextColumn(output_file, question_number, total_questions):
