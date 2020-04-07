@@ -30,9 +30,18 @@
   flex-grow: 1;
 }
 .pdd-element {
-  border: 1px solid #000000;
+  /* border: 1px solid #000000;
   padding: 15px;
+  margin: 10px; */
+  border: 1px solid #e6ecf5;
+  border-radius: 5px;
+  padding: 30px;
   margin: 10px;
+}
+
+.pdd-element h1{
+  color: var(--theme-color);
+  font-size: 22px;
 }
 
 .heading-table {
@@ -45,7 +54,8 @@
 }
 
 .underline-box-redo {
-  border: 1px solid #000000;
+  border: 1px solid #e6ecf5;
+  border-radius: 5px;
   margin: 10px;
 }
 
@@ -79,12 +89,15 @@
 }
 
 .box-form {
-  border: 1px solid #000000;
-  margin: 10px;
+  border: 2px solid #093b8b;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px 0 grey;
+  margin: 1%;
 }
 
 .underline-box {
-  border: 1px solid #000000;
+  border: 1px solid #e6ecf5;
+  border-radius: 5px;
   margin: 10px;
   padding: 10px;
 }
@@ -93,7 +106,7 @@
   margin: 0px;
 }
 .box-form:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.4s ease;
 }
@@ -116,25 +129,39 @@
 
 
 .box-form-special.selected{
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: var(--theme-color);
+  color: white;
+}
+
+.selected:hover {
+  background-color: var(--theme-color);
+  cursor: pointer;
 }
 
 .selected {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--theme-color);
 }
+
+.selected p.block{
+  background-color: var(--theme-color);
+  color: white;
+}
+
 .hidden {
   display: none;
 }
 
 .card-information {
-  border: 2px dashed #000000;
-  background-color: rgba(0, 0, 0, 0.05);
-  padding: 10px;
+  border: 1px solid #e6ecf5;
+  border-radius: 5px;
+  padding: 30px;
 }
 
 .card-information h1 {
-  text-align: center;
-  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: var(--theme-color);
+  margin-top: 0px; margin-bottom: 15px;
+  font-size: 22px;
 }
 
 .card-information h2 {
@@ -143,12 +170,12 @@
 }
 
 .card-information p {
-  line-height: 1.4;
+  line-height: 1.9;
 }
 
 .remarcar {
-  color: red;
-  font-weight: bold;
+  color: var(--theme-color);
+  font-style: italic;
 }
 
 .center-image {
@@ -157,14 +184,52 @@
   padding: 1rem;
 }
 
-.nav-area-de-trabajo > li {
+/* .nav-area-de-trabajo > li {
   border-bottom: 1px solid #dee2e6;
-}
+} */
 
-.nav-botones-de-comando > li {
+/* .nav-botones-de-comando > li {
   border-bottom: 1px solid #000000;
-}
+} */
 
 .nav-botones-de-comando {
-  border-bottom: 0px; 
+  border-bottom: 0px;
+}
+
+.btn-3 {
+  border-style: outset;
+  margin: 15px;
+  color: #515365;
+  font-size: 14px;
+}
+
+.tab-info .nav-tabs > li > a.active {
+  background-color: var(--theme-color);
+  color: white;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+}
+
+h2 {
+  color: var(--theme-color);
+}
+
+/* Mini Cards */
+.mini-cards {
+  border: 1px solid #e6ecf5;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 10px;
+}
+
+.mini-cards h2 {
+  color: var(--theme-color);
+  font-size: 16px;
+  text-align: left;
+}
+
+.mini-cards p {
+  font-size: 14px;
 }
