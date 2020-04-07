@@ -27,11 +27,8 @@
     <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="../../assets/css/animate.min.css" rel="stylesheet">
     <link href="../../assets/css/app.css" rel="stylesheet">
-<link href="../../assets/css/progress.css" rel="stylesheet">
-<link href="../../assets/css/progress-circle.css" rel="stylesheet">
-<link href="../../assets/css/styles.css" rel="stylesheet">
-<link href="../../assets/css/modulo3/styles.css" rel="stylesheet">
-    <link href="../../assets/css/quiz.css" rel="stylesheet">
+    <link href="../../assets/css/progress.css" rel="stylesheet">
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet">
   </head>
 
   <body class="header-info side-nav-dark">
@@ -53,71 +50,265 @@
             <div class="main-content">
                 <div class="container-fluid">
                 <!-- Your content goes here -->
-                    <div class="container">
-                        <div class="row"><br>
-                            <span class="image-position">
-                            </span>
-                        </div>
-                        <div class="row"><br><br>
-                            <div class="col-sm-8 col-sm-offset-2">
-                                <div class="loader">
-                                    <div>
-                                        <div id="loadbar" style="display: none;">
-                                            <img src="../../assets/images/course/quiz/load.gif" alt="Loading"  height="100%">
+
+                <!-- Your content goes here -->
+                      <div class="row">
+                          <div class="col">
+                              <div class="card">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md ml-auto">
+                                                <div class="pdd-vertical-30 pdd-horizon-25">
+                                                    <h1 class="mrg-btm-20 card-title">Ejercicio 3</h1>
+                                                    <p>Lee con atención cada enunciado y selecciona la opción correcta, al terminar de contestar todas las preguntas da clic en "Revisar" para comprobar tus resultados.
+                                                      Cada pregunta tiene solo 1 respuesta correcta.
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div id="quiz">
+                              </div>
+                          </div>
+                      </div>
 
-                                        <div class="question">
-                                            <h3><span class="label label-warning" id="qid">1</span>
-                                            <span id="question">¿Cómo se llama el programa que utilizamos para leer y escribir documentos?</span>
-                                            </h3>
-                                        </div>
-                                        <ul>
-                                        <li class="quizLi">
-                                            <input type="radio" id="f-option" name="selector" value="1">
-                                            <label for="f-option" class="element-animation">Power point</label>
-                                            <div class="check"></div>
-                                        </li>
+                      <!-- card QUIZ -->
+                      <div class="card">
+                          <div class="pdd-horizon-15 pdd-vertical-20">
+                              <div class="container-fluid">
+                                  <div class="row">
 
-                                        <li class="quizLi">
-                                            <input type="radio" id="s-option" name="selector" value="2">
-                                            <label for="s-option" class="element-animation">Excel</label>
-                                            <div class="check"><div class="inside"></div></div>
-                                        </li>
-
-                                        <li class="quizLi">
-                                            <input type="radio" id="t-option" name="selector" value="3">
-                                            <label for="t-option" class="element-animation">Word</label>
-                                            <div class="check"><div class="inside"></div></div>
-                                        </li>
-                                        </ul>
+                                    <div class="container">
+                                    <div class="row justify-content-center">
+                                      <h1 class="score">
+                                          <span></span>
+                                      </h1>
                                     </div>
-                                </div>
-                                <div class="text-muted">
-                                    <span id="answer"></span>
-                                </div>
+                                      <div class="row justify-content-center">
+                                      <h2 class="msg" style="color: #AAAAAA; font-weight: normal;">
+                                          <span></span>
+                                      </h2>
+                                    </div>
+                                  </div>
 
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-8 col-sm-offset-2">
-                                <div id="result-of-question" class="pulse animated" style="display: none;">
-                                    <span id="totalCorrect" class="pull-left"></span>
-                                    <table class="table table-hover table-responsive" >
-                                        <thead>
-                                            <tr>
-                                                <th>Pregunta #.</th>
-                                                <th>Tu respuesta</th>
-                                                <th>Resultado</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody id="quizResult"></tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                      <!-- Columna izquierda de preguntas START -->
+                                      <div class="row mrg-btm--50">
+                                          <div class=" pdd-vertical-30 pdd-horizon-25">
+                                              <ol>
+
+                                                  <!-- Pregunta 1 START -->
+                                                  <li class="question">
+                                                      <p style="margin-bottom: 1px;"><b>¿Cómo se llama el programa que utilizamos para leer y escribir documentos?</b></p>
+
+                                                      <b class='alertWrong' style="display: none; color:red">
+                                                          Respuesta equivocada, vuélvelo a intentar.
+                                                      </b>
+                                                      <b class='alertCorrect' style="display: none; color:green">
+                                                          ¡Respuesta correcta!
+                                                      </b>
+
+                                                      <div class="row">
+                                                          <div class="pl-3">
+
+                                                              <div class="custom-control custom-radio">
+                                                                  <input type="radio" class="custom-control-input option">
+                                                                  <label class="custom-control-label"
+                                                                      for="U13_Q1_A1">Power Point</label>
+                                                              </div>
+
+                                                              <div class="custom-control custom-radio">
+                                                                  <input type="radio" class="custom-control-input option">
+                                                                  <label class="custom-control-label"
+                                                                      for="U13_Q1_A2">Excel</label>
+                                                              </div>
+
+                                                              <div class="custom-control custom-radio">
+                                                                  <input type="radio" class="custom-control-input option correct">
+                                                                  <label class="custom-control-label"
+                                                                      for="U13_Q1_A1">Word</label>
+                                                              </div>
+
+                                                          </div>
+                                                      </div>
+
+
+                                                  </li>
+                                                  <!-- Pregunta 1 END -->
+
+                                                  <!-- Pregunta 2 START -->
+                                                  <li class="question" style="padding-top: 25px;">
+                                                      <p style="margin-bottom: 1px;"><b>¿Cómo se llama el programa que utilizamos para realizar tablas con base en números?</b></p>
+
+                                                      <b class='alertWrong' style="display: none; color:red">
+                                                          Respuesta equivocada, vuélvelo a intentar.
+                                                      </b>
+                                                      <b class='alertCorrect' style="display: none; color:green">
+                                                          ¡Respuesta correcta!
+                                                      </b>
+
+                                                      <div class="row">
+                                                          <div class="pl-3">
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A1">Power Point</label>
+                                                            </div>
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option correct">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A2">Excel</label>
+                                                            </div>
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A1">Word</label>
+                                                            </div>
+
+                                                          </div>
+                                                      </div>
+
+
+                                                  </li>
+                                                  <!-- Pregunta 2 END -->
+
+                                                  <!-- Pregunta 3 START -->
+                                                  <li class="question" style="padding-top: 25px;">
+                                                      <p style="margin-bottom: 1px;"><b>¿Cómo se llama el programa que utilizamos para hacer presentaciones?</b></p>
+
+                                                      <b class='alertWrong' style="display: none; color:red">
+                                                          Respuesta equivocada, vuélvelo a intentar.
+                                                      </b>
+                                                      <b class='alertCorrect' style="display: none; color:green">
+                                                          ¡Respuesta correcta!
+                                                      </b>
+
+                                                      <div class="row">
+                                                          <div class="pl-3">
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option correct">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A1">Power Point</label>
+                                                            </div>
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A2">Excel</label>
+                                                            </div>
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A1">Word</label>
+                                                            </div>
+
+                                                          </div>
+                                                      </div>
+
+
+                                                  </li>
+                                                  <!-- Pregunta 3 END -->
+
+                                                  <!-- Pregunta 4 START -->
+                                                  <li class="question" style="padding-top: 25px;">
+                                                      <p style="margin-bottom: 1px;"><b>Es un ejemplo de una plantilla de Word que vimos en este módulo:</b></p>
+
+                                                      <b class='alertWrong' style="display: none; color:red">
+                                                          Respuesta equivocada, vuélvelo a intentar.
+                                                      </b>
+                                                      <b class='alertCorrect' style="display: none; color:green">
+                                                          ¡Respuesta correcta!
+                                                      </b>
+
+                                                      <div class="row">
+                                                          <div class="pl-3">
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option correct">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A1">Curriculo Vitae</label>
+                                                            </div>
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A2">Tabla con gastos personales</label>
+                                                            </div>
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A1">Linea de tiempo</label>
+                                                            </div>
+
+                                                          </div>
+                                                      </div>
+                                                  </li>
+                                                  <!-- Pregunta 4 END -->
+
+                                                  <!-- Pregunta 5 START -->
+                                                  <li class="question" style="padding-top: 25px;">
+                                                      <p style="margin-bottom: 1px;"><b>En los gráficos de Excel, ¿qué tipo de gráfico no vimos en el módulo?</b></p>
+
+                                                      <b class='alertWrong' style="display: none; color:red">
+                                                          Respuesta equivocada, vuélvelo a intentar.
+                                                      </b>
+                                                      <b class='alertCorrect' style="display: none; color:green">
+                                                          ¡Respuesta correcta!
+                                                      </b>
+
+                                                      <div class="row">
+                                                          <div class="pl-3">
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A1">Pastel o Pie</label>
+                                                            </div>
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A2">Barras</label>
+                                                            </div>
+
+                                                            <div class="custom-control custom-radio">
+                                                                <input type="radio" class="custom-control-input option correct">
+                                                                <label class="custom-control-label"
+                                                                    for="U13_Q1_A1">Caja y bigotes</label>
+                                                            </div>
+
+                                                          </div>
+                                                      </div>
+                                                  </li>
+                                                  <!-- Pregunta 5 END -->
+
+                                              </ol>
+                                          </div>
+                                      </div>
+                                      <!-- Columna izquierda de preguntas END -->
+
+                                      <div class="container">
+                                        <div class="row justify-content-center">
+                                          <div class="submitbutton">
+                                              <button type="button" class="button" onclick="checkAll()">Revisar</button>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- card QUIZ -->
+
+
+                      <div class="row justify-content-center" style="padding: 30px;">
+                        <a href="actividades_3.html" class="button">Regresar a actividades</a>
+                      </div>
+
                 </div>
             </div>
           <!-- Content Wrapper END -->
@@ -126,25 +317,71 @@
           <footer class="content-footer">
           </footer>
           <!-- Footer END -->
-          </div>
-          <!-- Page Container END -->
-          </div>
-          </div>
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
 
 
-          <!-- plugins js -->
-          <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
-          <script src="../../assets/js/recycled/navigationbar.js"></script>
-          <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
-          <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
-          <script src="../../assets/vendors/PACE/pace.min.js"></script>
-          <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-          <script src="../../assets/js/quizes/quiz-m3.js"></script>
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
 
-          <!-- endbuild -->
+    <!-- endbuild -->
 
-          <!-- core js -->
-          <script src="../../assets/js/app.js"></script>
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
 
-          </body>
-          </html>
+    <script>
+        $(".custom-control-label").on("click",function(){
+            if($(this).siblings().is(":checked")){
+                $(this).siblings().removeAttr("checked");
+
+            }else{
+                $(this).siblings().prop("checked",true);
+
+            }
+        });
+        //radio input "Correct" Class
+        function checkAll() {
+            var correct=0;
+            var count=0;
+            $("li.question").each(function(){
+                count++;
+                var elem=$(this);
+                $(this).find(".alertCorrect").css("display","none");
+                $(this).find(".alertWrong").css("display","none");
+                var isCorrect=true;
+                $(this).find("input.custom-control-input").each(function(){
+                    if($(this).hasClass("correct")){
+                        if(!$(this).is(":checked")){
+                            isCorrect=false;
+                        }
+                    }else{
+                        if($(this).is(":checked")){
+                            isCorrect=false;
+                        }
+                    }
+                });
+                if(isCorrect==true){
+                    correct++;
+                    $(this).find(".alertCorrect").css("display","block");
+                }else{
+                    $(this).find(".alertWrong").css("display","block");
+                }
+            });
+            $(".score > span").html("Resultado: "+parseInt(correct*100/count)+"/100");
+            if(parseInt(correct*100/count) >= 90){
+                $(".msg > span").html("¡Excelente!");
+            }else if(parseInt(correct*100/count) <= 30){
+                $(".msg > span").html('Te invitamos a regresar al contenido para tu aprendizaje.');
+            }
+        }
+    </script>
+
+  </body>
+</html>
