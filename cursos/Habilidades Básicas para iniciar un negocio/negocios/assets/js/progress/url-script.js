@@ -164,19 +164,25 @@ function getMovementBar(){
         html_back+=generatePage(getLast(),"Atrás");
     }
     //before overall max 5
+    console.log(idtmp);
     var rightmax=filescount-1-parseInt(idtmp);
     var leftmax=parseInt(idtmp);
     leftmax=leftmax>=2?2:leftmax;
     leftmax=rightmax>=2?leftmax:4-rightmax;
-    
+    console.log(rightmax);
+    console.log(leftmax);
+
     for(var left=parseInt(idtmp)-1;left>=0 && count<leftmax;left--){
+        console.log(left + " left ")
         html=generatePage(jsonTmp[left],left+1)+html;
         count++;
     }
+    console.log("count= " + count);
     html=html_back+html;
     if(getLast().indexOf("temario")==-1){
         html=html+generatePage(jsonTmp[idtmp],parseInt(idtmp)+1);count++;
     }
+    
     //after overall max 5
     for(var right=parseInt(idtmp)+1;right<filescount && count<5;right++){
         
