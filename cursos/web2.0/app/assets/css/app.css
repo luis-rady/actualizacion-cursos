@@ -5,7 +5,7 @@
   Reglas individuales de cada curso (personalización): agregarlas en sección 2
   al final del archivo.
 
-  Para cambiar alguna regla, comentar la regla correspondiente en la sección general
+  Para cambiar alguna regla, comentar la regla correspondiente en la sección general 
   y agregar la modificada en la sección 2, indicando el número de línea donde se encuentra
   la regla que reemplaza. En caso de que no reemplaze a ninguna, no poner nada.
 ----------------------------------------------------------------------------*/
@@ -30,6 +30,8 @@ h1, h2, h3, h4, h5, h6 { color: #000000; font-family: 'Lucida Sans', 'Lucida San
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-weight: 300; color: #5c5f73; }
+
+.text-hyperlink { color: var(--theme-color) !important;}
 
 h1 { font-size: 26px; }
 
@@ -99,7 +101,7 @@ hr { border-top: 1px solid #e6ecf5; }
 
 .bg-primary { background-color: #7774e7 !important; }
 
-.bg-info { background-color: #40803E !important; }
+.bg-info { background-color: var(--theme-color) !important; }
 
 .bg-success { background-color: #37c936 !important; }
 
@@ -2904,7 +2906,7 @@ label.success { color: #37c936; }
 
 .tag-success { background-color: #37c936; color: #ffffff; }
 
-.tag-info { background-color: #40803E; color: #ffffff; }
+.tag-info { background-color: var(--theme-color); color: #ffffff; }
 
 .tag-warning { background-color: #ffcc00; color: #ffffff; }
 
@@ -3241,11 +3243,11 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .accordion .panel-default { background-color: #ffffff; margin-bottom: 15px; border: 1px solid #e6ecf5; }
 
-.accordion .panel-default > .panel-heading { color: #515365; background-color: #093b8b; border-color: #e6ecf5; }
+.accordion .panel-default > .panel-heading { color: #515365; background-color: var(--theme-color); border-color: #e6ecf5; }
 
-.accordion .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #093b8b; padding: 10px 20px 20px 20px; }
+.accordion .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #e6ecf5; padding: 10px 20px 20px 20px; }
 
-.accordion.border-less .panel-default { border: 0px; border-bottom: 1px solid #093b8b; margin-bottom: 0px; }
+.accordion.border-less .panel-default { border: 0px; border-bottom: 1px solid #e6ecf5; margin-bottom: 0px; }
 
 .accordion .panel-heading { padding: 0px; border-bottom: 0px; border-top-left-radius: 0px; border-top-right-radius: 0px; }
 
@@ -3692,6 +3694,23 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 --------- 2. Personalización ---------
 ----------------------------*/
 
+/* Para cambiar el color de los botones de regresar en los modales */
+button.close {
+  color: #f00;
+}
+
+button.close:hover {
+  color: #f00;
+}
+
+.btn-secondary {
+  background-color: #f00;
+}
+
+.btn-secondary:hover {
+  background-color: #f00;
+}
+
 /*-- Para el carousel de librito de cursos de DP --*/
 .carousel-item{
   height: 80vh;
@@ -3716,3 +3735,82 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 
 /*-- Para los botones de creditos --*/
 .btn-credits { background-color: var(--theme-color); border-color: var(--theme-color); color: #ffffff; }
+
+/*-- Para el carousel del modulo 2 pagina 7 --*/
+.carousel-inner .carousel-item {
+  height: 100vh;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+/*-- Fin del carousel --*/
+
+
+/* Modulo 2 */
+
+.blogger img {
+  /* max-height: 100%;
+  max-width: 100%; */
+  width: 20px;
+  height: 20px;
+}
+
+
+
+/*QUIZ CSS*/
+.score{
+  position: absolute;
+  right: 5%;
+  font-size: 17px;
+  font-weight: bold;
+  top:0px;
+}
+.msg{
+  position: absolute;
+  left:5%;
+  font-size: 17px;
+  font-weight: bold;
+  top:0px;
+  color: red;
+}
+.submitbutton{
+  position: absolute;
+  right:18%;
+  font-size: 22px;
+  font-weight: bold;
+  bottom:0px;
+  z-index: 1;
+}
+
+b.alertWrong{
+  margin-top: -20px;
+}
+b.alertCorrect{
+  margin-top: -20px;
+}
+.mrg-btm--50{
+  margin-bottom: -50px;
+}
+
