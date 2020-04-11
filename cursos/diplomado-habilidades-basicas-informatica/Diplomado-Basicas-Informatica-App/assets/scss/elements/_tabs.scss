@@ -1,9 +1,9 @@
 .nav-tabs {
 	border-bottom: 1px solid $border-color;
-	
+
 	>li {
 		margin-bottom: -2px;
-		
+
 		>a {
 			margin-right: 0px;
 			line-height: 2;
@@ -14,21 +14,21 @@
 			border-bottom: 2px solid transparent;
 			display: block;
     		padding: 10px 15px;
-    		@include transition(all 0.3s ease-in-out); 
-			
+    		@include transition(all 0.3s ease-in-out);
+
 			&:hover {
 				border-color: transparent;
 			}
-			
+
 			&:hover,
 			&:focus {
 				background-color: transparent;
 				opacity: 1;
 			}
 		}
-		
-		
-		
+
+
+
 		> a {
 
 			&.active {
@@ -36,7 +36,7 @@
 				background-color: transparent;
 				border-bottom: 2px solid $default-primary;
 				opacity: 1;
-				
+
 				&:hover,
 				&:focus {
 					border: 0px;
@@ -52,8 +52,8 @@
 				}
 			}
 		}
-		
-	}	
+
+	}
 
 	.nav-link {
 		border-top: 0px;
@@ -76,7 +76,7 @@
 
 				&.active {
 					border-bottom: 2px solid $default-success;
-				
+
 					&:hover,
 					&:focus {
 						border-bottom: 2px solid $default-success;
@@ -95,7 +95,7 @@
 
 				&.active {
 					border-bottom: 2px solid $default-info;
-				
+
 					&:hover,
 					&:focus {
 						border-bottom: 2px solid $default-info;
@@ -114,7 +114,7 @@
 
 				&.active {
 					border-bottom: 2px solid $default-warning;
-				
+
 					&:hover,
 					&:focus {
 						border-bottom: 2px solid $default-warning;
@@ -133,7 +133,7 @@
 
 				&.active {
 					border-bottom: 2px solid $default-danger;
-				
+
 					&:hover,
 					&:focus {
 						border-bottom: 2px solid $default-danger;
@@ -152,7 +152,7 @@
 	    -webkit-justify-content: center!important;
 	    -ms-flex-pack: center!important;
 	    justify-content: center!important;
-		
+
 		>li {
 			float: none;
 			display: inline-block;
@@ -164,7 +164,7 @@
 
 	.nav-tabs {
 		width: 100%;
-		
+
 		>li {
 			display: table-cell;
 			width: 1%;
@@ -175,13 +175,13 @@
 }
 
 .nav-pills {
-	
+
 	>li {
-		
+
 		+li {
 			margin-left: 5px;
 		}
-		
+
 		>a {
 			border-radius: 3px;
 			opacity: 0.75;
@@ -191,16 +191,16 @@
 			color: $default-dark;
 			border: 1px solid transparent;
 			padding: 5px 15px;
-			
+
 			&:hover,
 			&:focus {
 				background-color: transparent;
 				opacity: 1;
 			}
 		}
-		
-		
-		
+
+
+
 		>a {
 			&.active {
 				color: $default-white;
@@ -208,7 +208,7 @@
 				background-color: $default-primary;
 				border: 1px solid $default-primary;
 				opacity: 1;
-				
+
 				&:hover,
 				&:focus {
 					color: $default-white;
@@ -225,12 +225,12 @@
 				}
 			}
 		}
-		
+
 	}
 }
 
 .nav-vertical {
-	
+
 	.nav-pills {
 		float: left;
 		width: 160px;
@@ -245,7 +245,7 @@
 			}
 		}
 	}
-	
+
 	.tab-content {
 		float: left;
 		width: 70%;
@@ -260,7 +260,7 @@
 					border-color: $default-success;
 					background-color: $default-success;
 					border: 1px solid $default-success;
-					
+
 					&:hover,
 					&:focus {
 						border-color: $default-success;
@@ -275,7 +275,7 @@
 				}
 			}
 		}
-	}	
+	}
 }
 
 .pill-info {
@@ -286,7 +286,7 @@
 					border-color: $default-info;
 					background-color: $default-info;
 					border: 1px solid $default-info;
-					
+
 					&:hover,
 					&:focus {
 						border-color: $default-info;
@@ -312,7 +312,7 @@
 					border-color: $default-warning;
 					background-color: $default-warning;
 					border: 1px solid $default-warning;
-					
+
 					&:hover,
 					&:focus {
 						border-color: $default-warning;
@@ -338,7 +338,7 @@
 					border-color: $default-danger;
 					background-color: $default-danger;
 					border: 1px solid $default-danger;
-					
+
 					&:hover,
 					&:focus {
 						border-color: $default-danger;
@@ -353,5 +353,5 @@
 				}
 			}
 		}
-	}	
+	}
 }
