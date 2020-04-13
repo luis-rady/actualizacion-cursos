@@ -57,8 +57,61 @@
                   <div class="row">
                     <div class="col">
                       <!-- CONTENT START -->
+                      <h2 class="card-title">¿Cómo transferir los datos de la hoja de cálculos?</h2>
+                      <p>
+                        Cuando estemos trabajando con alguna lista de nombres, a veces es de mucha utilidad tomar información de una hoja o varias. Una de las funciones de Excel es transferir cierta información entre varias hojas, así cuando cambiemos el dato en la hoja principal, los cambios se verán reflejados en las demás hojas. 
+                      </p>
+                      <p>
 
 
+Veamos cómo se realiza este proceso con un ejemplo, donde tenemos una lista de asistencia y tomaremos los datos de varias hojas para contabilizar las faltas de los alumnos. 
+                      </p>
+                                      <table class="table" width="80%" cellpadding="0" cellspacing="10" border="0" align="center">
+                  <tr>
+                    <p>
+                      <b>1. </b>Abra el archivo de Excel: <a href="./../../assets/attachments/m3/referencias.xls">referencias</a>. 
+                    </p>
+                  </tr>
+                  <tr>
+                    <p>
+                      <b>2. </b> Note que las hojas tienen algunos cambios en colores para diferenciar entre una y otra. 
+                    </p>
+                  </tr>
+                  <tr>
+                    <p>
+                      <b>3. </b>Vamos a sumar las faltas del primer alumno, haciendo referencia a la hoja 1 de la semana. Utilice la siguiente fórmula: 
+                    </p>
+                    <ol>
+                      <li>Ubíquese en la celda D8</li>
+                      <li>Escriba la siguiente fórmula <b>=SUMA('Hoja 1'!D8:H8)</b>
+                        <ol>
+                          <li>= es para iniciar una fórmula </li>
+                          <li>SUMA para indicarle a Excel que operación realizaremos. Si el Excel lo tiene en inglés, en lugar de SUMA, debe utilizar SUM. </li>
+                          <li>( ) para indicar donde inicia y termina el proceso de la suma. /li>
+                          <li>'Hoja 1' para indicar de que hoja se tomarán los datos. </li>
+                          <li>!D8:H8 para indicar de que celda a que celda se realizará la suma. </li>
+                        </ol>
+                      </li>
+                      <li>De esta forma se obtiene los datos de las faltas que tiene el primer alumno. </li>
+                    </ol>
+                  </tr>
+                  <tr>
+                    <p>
+                      <b>4. </b> Obtenga el mismo dato para cada uno de los alumnos. 
+                    </p>
+                  </tr>
+                  <tr>
+                    <p>
+                      <b>5. </b> Ahora el dato de la hoja 2 para cada uno de los alumnos, utilizando la misma fórmula, pero ubicándose en la Celda <b>E8</b>
+                    </p>
+                  </tr>
+                  <tr>
+                    <p>
+                      <b>6. </b> En la columna <b>F</b>, realice la suma de las faltas de cada alumno con la fórmula de AutoSum.
+                    </p>
+                  </tr>
+                  
+                </table>
                       <!-- CONTENT END -->
                     </div>
                   </div>
