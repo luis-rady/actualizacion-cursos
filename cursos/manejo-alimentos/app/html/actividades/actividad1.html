@@ -65,16 +65,190 @@
 
                                 <div class="card">
                                     <div class="card-horizon">
-                                        <div class="image-container col-md-4">
-                                            <div class="background-holder has-content" style="background-image: url('../../assets/images/course/modulo1/modulo1-1/modulo1-1-1.jpg'); background-position-x: 20%"></div>
-                                        </div>
                                         <div class="container-fluid">
                                             <div class="row">
-                                                <div class="col-md-7 ml-auto">
+                                                <div class="col">
                                                     <div class="pdd-vertical-30 pdd-horizon-25">
-                                                        <h1 class="mrg-btm-20 card-title">Sample Title</h1>
-                                                        <p>Sample paragraph.</p>
+                                                        <p>Lee los enunciados de cada fila de la tabla y escoge la enfermedad correcta.</p>
+                                                        <form>
+                                                            <div class="feed-body form-group">
+                                                                <div class="form-check" id="selectElem" style="color:black">
+                                                                    <table class="table table-bordered" style="text-align: center">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" width="20%">Enfermedad</th>
+                                                                                <th scope="col" width="20%">Síntomas</th>
+                                                                                <th scope="col" width="20%">Periodo de incubación</th>
+                                                                                <th scope="col" width="20%">Alimento</th>
+                                                                                <th scope="col" width="20%">Prevención</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr class="table-active">
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <label class="form-check-label mb-2">
+                                                                                            <select id="Q1">
+                                                                                                <option value="Wrong">...</option>
+                                                                                                <option value="Wrong">Vibrion Cholerae</option>
+                                                                                                <option value="Wrong">Shigella</option>
+                                                                                                <option value="Wrong">Staphylococcus Aureus</option>
+                                                                                                <option value="Wrong">E. Coli 157-H7</option>
+                                                                                                <option value="Wrong">Campilobacter jejuni</option>
+                                                                                                <option value="Wrong">Clostridium Perfringes</option>
+                                                                                                <option value="correct">Salmonella</option>
+                                                                                            </select>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>Fiebre, diarrea, vómito, calambres.</td>
+                                                                                <td>Entre 7 horas y 3 días después de haber ingerido el alimento contaminado. Duración de la enfermedad de 2 a 3 días.</td>
+                                                                                <td>Aves crudas, huevo, cerdo, frutas y verduras crudas como melón jitomate y germen de alfalfa.</td>
+                                                                                <td>Evitar contaminación cruzada. Cocinar la carne  y pollo, nuca comer huevo crudo, Refrigeración adecuada de productos procesados.</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <label class="form-check-label mb-2">
+                                                                                            <select id="Q2">
+                                                                                                <option value="Wrong">...</option>
+                                                                                                <option value="Wrong">Vibrion Cholerae</option>
+                                                                                                <option value="Wrong">Shigella</option>
+                                                                                                <option value="Wrong">Staphylococcus Aureus</option>
+                                                                                                <option value="Wrong">E. Coli 157-H7</option>
+                                                                                                <option value="correct">Campilobacter jejuni</option>
+                                                                                                <option value="Wrong">Clostridium Perfringes</option>
+                                                                                                <option value="Wrong">Salmonella</option>
+                                                                                            </select>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>Diarrea asociada con fiebre, dolor abdominal, de cabeza y muscular.</td>
+                                                                                <td>De 2 a 5 días después de haber comido el alimento contaminado. Duración de la enfermedad de 7 a 10 días.</td>
+                                                                                <td>Carne y pollo crudo y leche sin pasteurizar.</td>
+                                                                                <td>Evitar la contaminación cruzada, cocinar carnes y pollo adecuadamente y no consumir leche sin pasteurizar.</td>
+                                                                            </tr>
+                                                                            <tr class="table-active">
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <label class="form-check-label mb-2">
+                                                                                            <select id="Q3">
+                                                                                                <option value="Wrong">...</option>
+                                                                                                <option value="Wrong">Vibrion Cholerae</option>
+                                                                                                <option value="Wrong">Shigella</option>
+                                                                                                <option value="correct">Staphylococcus Aureus</option>
+                                                                                                <option value="Wrong">E. Coli 157-H7</option>
+                                                                                                <option value="Wrong">Campilobacter jejuni</option>
+                                                                                                <option value="Wrong">Clostridium Perfringes</option>
+                                                                                                <option value="Wrong">Salmonella</option>
+                                                                                            </select>
+                                                                                        </label>
+                                                                                    </div>          
+                                                                                </td>
+                                                                                <td>Náusea, vómito, dolor abdominal, cansancio.</td>
+                                                                                <td>De 3 a 8 horas después de haber comido el alimento contaminado. Duración de la enfermedad 2 días.</td>
+                                                                                <td>Carne, pollo, huevo, ensaladas de huevo, atún, papa, macarrón, pays rellenos de crema, productos lácteos.</td>
+                                                                                <td>Carne, pollo, huevo, ensaladas de huevo, atún, papa, macarrón, pays rellenos de crema, productos lácteos.</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <label class="form-check-label mb-2">
+                                                                                            <select id="Q4">
+                                                                                                <option value="Wrong">...</option>
+                                                                                                <option value="Wrong">Vibrion Cholerae</option>
+                                                                                                <option value="Wrong">Shigella</option>
+                                                                                                <option value="Wrong">Staphylococcus Aureus</option>
+                                                                                                <option value="correct">E. Coli 157-H7</option>
+                                                                                                <option value="Wrong">Campilobacter jejuni</option>
+                                                                                                <option value="Wrong">Clostridium Perfringes</option>
+                                                                                                <option value="Wrong">Salmonella</option>
+                                                                                            </select>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>Diarrea y vómito severos.</td>
+                                                                                <td>De 1 a 10 días después de haber comido el alimento contaminado y dura de 3 a 4 días.</td>
+                                                                                <td>Carne cruda, frutas y verduras regadas con aguas negras, leche sin pasteurizar.</td>
+                                                                                <td>Cocinar las carnes a temperaturas adecuadas, lavar y desinfectar frutas y verduras, pasteurizar leche y jugos.</td>
+                                                                            </tr>
+                                                                            <tr class="table-active">
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <label class="form-check-label mb-2">
+                                                                                            <select id="Q5">
+                                                                                                <option value="Wrong">...</option>
+                                                                                                <option value="Wrong">Vibrion Cholerae</option>
+                                                                                                <option value="correct">Shigella</option>
+                                                                                                <option value="Wrong">Staphylococcus Aureus</option>
+                                                                                                <option value="Wrong">E. Coli 157-H7</option>
+                                                                                                <option value="Wrong">Campilobacter jejuni</option>
+                                                                                                <option value="Wrong">Clostridium Perfringes</option>
+                                                                                                <option value="Wrong">Salmonella</option>
+                                                                                            </select>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>Fiebre y dolor estomacal, diarrea con sangrado.</td>
+                                                                                <td>Entre 12 horas y dos días. La enfermedad dura entre 3 a 7 días.</td>
+                                                                                <td>Verduras y frutas regadas con aguas negras, agua contaminad.</td>
+                                                                                <td>Lavarse las manos adecuadamente antes de la preparación de los alimentos, después de ir al baño, al cambiar de actividad, lavar y desinfectar frutas y verduras.</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <label class="form-check-label mb-2">
+                                                                                            <select id="Q6">
+                                                                                                <option value="Wrong">...</option>
+                                                                                                <option value="correct">Vibrion Cholerae</option>
+                                                                                                <option value="Wrong">Shigella</option>
+                                                                                                <option value="Wrong">Staphylococcus Aureus</option>
+                                                                                                <option value="Wrong">E. Coli 157-H7</option>
+                                                                                                <option value="Wrong">Campilobacter jejuni</option>
+                                                                                                <option value="Wrong">Clostridium Perfringes</option>
+                                                                                                <option value="Wrong">Salmonella</option>
+                                                                                            </select>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>Diarrea, vómito, dolor de piernas, infección intestinal, deshidratación</td>
+                                                                                <td>De 6 horas a 5 días. La enfermedad dura de 6 a 7 días</td>
+                                                                                <td>Pescados y mariscos sin refrigerar y crudos, o que provengan de mares y ríos contaminado</td>
+                                                                                <td>Mantener pescados y mariscos refrigerados y evitar consumirlos crudos.</td>
+                                                                            </tr>
+                                                                            <tr class="table-active">
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <label class="form-check-label mb-2">
+                                                                                            <select id="Q7">
+                                                                                                <option value="Wrong">...</option>
+                                                                                                <option value="Wrong">Vibrion Cholerae</option>
+                                                                                                <option value="Wrong">Shigella</option>
+                                                                                                <option value="Wrong">Staphylococcus Aureus</option>
+                                                                                                <option value="Wrong">E. Coli 157-H7</option>
+                                                                                                <option value="Wrong">Campilobacter jejuni</option>
+                                                                                                <option value="correct">Clostridium Perfringes</option>
+                                                                                                <option value="Wrong">Salmonella</option>
+                                                                                            </select>
+                                                                                        </label>
+                                                                                    </div>         
+                                                                                </td>
+                                                                                <td>Diarrea, dolor abdominal, Náuseas, Vómitos, dolor de  cabeza, fiebre, escalofrío</td>
+                                                                                <td>De 8 a22 horas después de haber comido el alimento contaminado. La enfermedad dura de 1 a 2 días.</td>
+                                                                                <td>Alimentos cocinados a las temperaturas no adecuadas y mal conservados.</td>
+                                                                                <td>Mantener los alimentos calientes a más de 63°C y refrigerarlos rápidamente a menos de 4°C, si no van a ser consumidos inmediatamente.</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </form>
                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="row text-center">
+                                                <div class="col-12">
+                                                    <input type="button" class="btn btn-primary " id="act_1" value="Verificar">
                                                 </div>
                                             </div>
                                         </div>
@@ -128,7 +302,7 @@
         <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
         <script src="../../assets/js/recycled/navigationbar.js"></script>
         <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
-<script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
         <script src="../../assets/vendors/PACE/pace.min.js"></script>
         <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
 
@@ -141,6 +315,7 @@
         <!-- endbuild -->
 
         <!-- Insert your dependencies here -->
+        <script src="../../assets/js/scripts/actividad1.js"></script>
 
     </body>
 </html>
