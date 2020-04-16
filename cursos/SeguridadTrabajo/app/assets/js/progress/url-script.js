@@ -203,6 +203,7 @@ function getMovementBar(){
     return html;
 }
 
+//Control de index en el navigation bar 
 function getFiles() {
     var files = {
         modulo1: {
@@ -210,12 +211,11 @@ function getFiles() {
             2: "modulo1-2.html",
             3: "modulo1-3.html",
             4: "modulo1-4.html",
-            5: "flip-cards.html",
-            6: "carousel.html",
-            7: "carousel2.html",
-            8: "select-ejemplo-actividad.html",
-            9: "actividad.html",
-            10: "CARD-QUIZ.html",
+            5: "modulo1-5.html",
+            6: "modulo1-6.html",
+            7: "modulo1-7.html",
+            8: "modulo1-8.html",
+            9: "modulo1-9.html",
         },
         modulo2: {
             1: "modulo2-1.html",
