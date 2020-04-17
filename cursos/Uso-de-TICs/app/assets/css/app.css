@@ -3696,6 +3696,76 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 --------- 2. Personalización ---------
 ----------------------------*/
 
+.nav > li.nav-item > a.nav-link  {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  padding: 1em 2.6em;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 350;
+
+  border-color: var(--theme-color);
+  color: #000;
+  box-shadow: 0 0 40px 40px var(--theme-color), inset, 0 0 0 0 var(--theme-color);;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+
+  /* display: table; */
+  /* margin: 1 auto */
+}
+
+.nav > li.nav-item > a.nav-link.active  {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  padding: 1em 2.6em;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 350;
+
+  border-color: var(--theme-color);
+  color: #ffffff;
+  box-shadow: 0 0 40px 40px var(--theme-color) inset, 0 0 0 0 var(--theme-color);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+
+  /* display: table; */
+  /* margin: 1 auto */
+}
+
 /*-- Para el carousel de librito de cursos de DP --*/
 .carousel-item{
   height: 80vh;
