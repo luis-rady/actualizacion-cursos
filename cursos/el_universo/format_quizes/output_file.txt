@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Qué sucedió en la inflación?</p>
+                                <p>¿De qué está compuesto un átomo?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -25,17 +25,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A3">De un núcleo que está compuesto de protones y electrones, y órbitas compuestas de neutrones.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">El espacio se expandió como un globo</label>
+                                                for="U13_Q1_A1">De un núcleo que está compuesto de protones y neutrones, y órbitas compuestas de electrones.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A2">Toda la materia se empezó a alejar mucho</label>
+                                                for="U13_Q1_A2">De un núcleo que está compuesto de electrones y neutrones, y órbitas compuestas de protones.</label>
                                         </div>
 
                                     </div>
@@ -47,7 +54,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>Si un protón tiene carga positiva, ¿Cuál es la carga de su antiparticula?</p>
+                                <p>¿Qué determina en cuál órbita estará el electrón?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -63,14 +70,14 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">Positiva</label>
+                                                for="U13_Q2_A2">No es el electrón, es el protón y se basa en la cantidad de energía que posee.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A1">Negativa</label>
+                                                for="U13_Q2_A1">La cantidad de energía que posee</label>
                                         </div>
 
                                     </div>
@@ -82,7 +89,7 @@
 
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>¿Cuáles son las dos partículas que forman parte del núcleo de un átomo?</p>
+                                <p>¿Qué es la radiación electromagnética? y ¿Qué provoca en un átomo?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -98,21 +105,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A3">Electrón y neutrón</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A1">Protón y neutrón</label>
+                                                for="U13_Q3_A2">Es la liberación de fotones, y provoca que un protón caiga a una órbita más cercana al núcleo.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">Electrón y protón</label>
+                                                for="U13_Q3_A3">Es la liberación de electrones, y provoca que un protón caiga a una órbita más cercana al núcleo.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A1">Es la liberación de fotones, y provoca que un electrón caiga a una órbita más cercana al núcleo.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A4">Es la liberación de protones, y provoca que un electrón caiga a una órbita más cercana al núcleo.</label>
                                         </div>
 
                                     </div>
@@ -134,7 +148,7 @@
 
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿Cuál de los siguientes es una partícula elemental?</p>
+                                <p>Un fotón se comporta como...</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -150,21 +164,21 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">Quark</label>
+                                                for="U13_Q4_A1">Una partícula y una onda a la vez.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">Neutrón</label>
+                                                for="U13_Q4_A2">Como una partícula</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A2">Protón</label>
+                                                for="U13_Q4_A3">Como una onda</label>
                                         </div>
 
                                     </div>
@@ -176,7 +190,7 @@
 
                             <!-- Pregunta 5 START -->
                             <li class="question">
-                                <p>¿Cuál de las 4 fuerzas que gobiernan el universo es comúnmente la más fuerte?</p>
+                                <p>¿En qué se descompone el espectro electromagnético?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -189,31 +203,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A2">La Gravedad</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A1">La fuerza nuclear fuerte</label>
+                                                for="U13_Q5_A1">En tipos de ondas por su longitud</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A4">La fuerza electromagnética</label>
+                                                for="U13_Q5_A2">En tipos de ondas por su color</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A3">La fuerza nuclear débil</label>
+                                                for="U13_Q5_A3">En tipos de ondas por su amplitud</label>
                                         </div>
 
                                     </div>
@@ -225,7 +232,7 @@
 
                             <!-- Pregunta 6 START -->
                             <li class="question">
-                                <p>De acuerdo a la fuerza electromagnética, las cargas opuestas se...</p>
+                                <p>¿Cuáles son las ondas que están en los extremos del espectro electromagnético?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -238,17 +245,31 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
+                                            <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A1">Atraen</label>
+                                                for="U13_Q6_A2">Las ondas de mayor frecuencia y menor longitud son los Ondas de Radio, mientras que las de menor frecuencia y mayor longitud son las Rayos Gamma.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A2">Repelen</label>
+                                                for="U13_Q6_A4">Las ondas de menor frecuencia y menor longitud son los Rayos Gamma, mientras que las de mayor frecuencia y mayor longitud son las Ondas de Radio.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A3">Las ondas de mayor frecuencia y mayor longitud son los Rayos Gamma, mientras que las de menor frecuencia y menor longitud son las Ondas de Radio.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A1">Las ondas de mayor frecuencia y menor longitud son los Rayos Gamma, mientras que las de menor frecuencia y mayor longitud son las Ondas de Radio.</label>
                                         </div>
 
                                     </div>

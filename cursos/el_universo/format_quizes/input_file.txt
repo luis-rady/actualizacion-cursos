@@ -1,31 +1,33 @@
 6
 
-1. ¿Qué sucedió en la inflación?
-El espacio se expandió como un globo
-Toda la materia se empezó a alejar mucho
+1. ¿De qué está compuesto un átomo?
+De un núcleo que está compuesto de protones y neutrones, y órbitas compuestas de electrones.
+De un núcleo que está compuesto de electrones y neutrones, y órbitas compuestas de protones.
+De un núcleo que está compuesto de protones y electrones, y órbitas compuestas de neutrones.
 
-2. Si un protón tiene carga positiva, ¿Cuál es la carga de su antiparticula?
-Negativa
-Positiva
+2. ¿Qué determina en cuál órbita estará el electrón?
+La cantidad de energía que posee
+No es el electrón, es el protón y se basa en la cantidad de energía que posee.
 
-3. ¿Cuáles son las dos partículas que forman parte del núcleo de un átomo?
-Protón y neutrón
-Electrón y protón
-Electrón y neutrón
+3. ¿Qué es la radiación electromagnética? y ¿Qué provoca en un átomo?
+Es la liberación de fotones, y provoca que un electrón caiga a una órbita más cercana al núcleo.
+Es la liberación de fotones, y provoca que un protón caiga a una órbita más cercana al núcleo.
+Es la liberación de electrones, y provoca que un protón caiga a una órbita más cercana al núcleo.
+Es la liberación de protones, y provoca que un electrón caiga a una órbita más cercana al núcleo.
 
-4. ¿Cuál de los siguientes es una partícula elemental?
-Quark
-Protón
-Neutrón
+4. Un fotón se comporta como...
+Una partícula y una onda a la vez.
+Como una partícula
+Como una onda
 
-5. ¿Cuál de las 4 fuerzas que gobiernan el universo es comúnmente la más fuerte?
-La fuerza nuclear fuerte
-La Gravedad
-La fuerza nuclear débil
-La fuerza electromagnética
+5. ¿En qué se descompone el espectro electromagnético?
+En tipos de ondas por su longitud
+En tipos de ondas por su color
+En tipos de ondas por su amplitud
 
-
-6. De acuerdo a la fuerza electromagnética, las cargas opuestas se...
-Atraen
-Repelen 
+6. ¿Cuáles son las ondas que están en los extremos del espectro electromagnético?
+Las ondas de mayor frecuencia y menor longitud son los Rayos Gamma, mientras que las de menor frecuencia y mayor longitud son las Ondas de Radio.
+Las ondas de mayor frecuencia y menor longitud son los Ondas de Radio, mientras que las de menor frecuencia y mayor longitud son las Rayos Gamma.
+Las ondas de mayor frecuencia y mayor longitud son los Rayos Gamma, mientras que las de menor frecuencia y menor longitud son las Ondas de Radio.
+Las ondas de menor frecuencia y menor longitud son los Rayos Gamma, mientras que las de mayor frecuencia y mayor longitud son las Ondas de Radio.
 
