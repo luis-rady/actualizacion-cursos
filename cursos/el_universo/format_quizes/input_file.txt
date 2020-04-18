@@ -1,24 +1,29 @@
-4
+5
 
-1. ¿Qué es una nebulosa?
-Una estructura en el espacio con apariencia difusa.
-Es una estrella que no se ve difusa.
-Son las nubes que vemos en el planeta tierra.
+1. ¿Cómo se llama la Galaxia en la que nuestro sistema solar se encuentra?
+La Vía Láctea.
+Andrómeda.
+Virgo.
 
-2. ¿Cuáles son dos tipos de nebulosas? Y ¿Cuál es su diferencia?
-Planetarias y Objetos HH. La de Objetos HH rodean a estrellas de reciente formación y las Planetarias son las que rodean a las estrellas en las últimas etapas de su evolución.
-Objetos HH y Planetarias. Las Planetarias rodean a estrellas de reciente formación y las de Objetos HH son las que rodean a las estrellas en las últimas etapas de su evolución.
-Objetos HH y Galácticas. La de Objetos HH rodean a estrellas de reciente formación y las Galácticas son las que rodean a las estrellas en las últimas etapas de su evolución.
-Planetarias y Galácticas. Las Planetarias rodean a estrellas de reciente formación y las de Galácticas son las que rodean a las estrellas en las últimas etapas de su evolución.
+2. ¿En qué parte de la Galaxia se encuentra nuestro sistema solar?
+En los Brazos, específicamente en el Brazo de Orión.
+En el Halo, cerca de donde están las estrellas más viejas.
+En los Brazos, específicamente en el Brazo de Andrómeda.
+En el Halo, lejos de donde están las estrellas más viejas.
 
-3. ¿Cuánto duran las nebulosas planetarias? Y ¿Qué sucede con ellas después?
-De 10 mil a 20 mil años; después de este tiempo se dispersan en el espacio.
-De 10 mil a 20 mil años; después de este tiempo se reabsorben por la estrella.
-Menos de 10 mil años; después de este tiempo se dispersan en el espacio.
-Menos de 10 mil años; después de este tiempo se reabsorben por la estrella.
+3. ¿Qué se estima que se encuentra en el centro de una Galaxia?
+Un agujero negro.
+Nada, que está vacío y por eso consigue la forma circular.
+Un exoplaneta.
 
-4. ¿Está vacío el resto del espacio interestelar?
-No, porque contiene pequeñas cantidades de solamente gases.
-Sí, porque no contiene nada.
-No, porque contiene pequeñas cantidades de solamente sólidos.
-No, porque contiene pequeñas cantidades partículas en distintos estados de la materia.
+4. ¿Cómo se llama el Cúmulo al que pertenece nuestra Galaxia?
+Grupo Local.
+Cúmulo Local.
+Cúmulo de Virgo.
+Grupo de Virgo.
+
+5. ¿Cómo se llama el Supercúmulo al que pertenece nuestro Cúmulo?
+Cúmulo de Virgo.
+Supercúmulo Local.
+Supergrupo Local.
+Supergrupo de Virgo.

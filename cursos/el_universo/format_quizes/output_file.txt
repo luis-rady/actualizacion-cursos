@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Qué es una nebulosa?</p>
+                                <p>¿Cómo se llama la Galaxia en la que nuestro sistema solar se encuentra?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -28,21 +28,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A3">Son las nubes que vemos en el planeta tierra.</label>
+                                                for="U13_Q1_A2">Andrómeda.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A2">Es una estrella que no se ve difusa.</label>
+                                                for="U13_Q1_A3">Virgo.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">Una estructura en el espacio con apariencia difusa.</label>
+                                                for="U13_Q1_A1">La Vía Láctea.</label>
                                         </div>
 
                                     </div>
@@ -54,7 +54,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿Cuáles son dos tipos de nebulosas? Y ¿Cuál es su diferencia?</p>
+                                <p>¿En qué parte de la Galaxia se encuentra nuestro sistema solar?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -70,28 +70,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A3">Objetos HH y Galácticas. La de Objetos HH rodean a estrellas de reciente formación y las Galácticas son las que rodean a las estrellas en las últimas etapas de su evolución.</label>
+                                                for="U13_Q2_A2">En el Halo, cerca de donde están las estrellas más viejas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A1">Planetarias y Objetos HH. La de Objetos HH rodean a estrellas de reciente formación y las Planetarias son las que rodean a las estrellas en las últimas etapas de su evolución.</label>
+                                                for="U13_Q2_A1">En los Brazos, específicamente en el Brazo de Orión.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A4">Planetarias y Galácticas. Las Planetarias rodean a estrellas de reciente formación y las de Galácticas son las que rodean a las estrellas en las últimas etapas de su evolución.</label>
+                                                for="U13_Q2_A3">En los Brazos, específicamente en el Brazo de Andrómeda.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">Objetos HH y Planetarias. Las Planetarias rodean a estrellas de reciente formación y las de Objetos HH son las que rodean a las estrellas en las últimas etapas de su evolución.</label>
+                                                for="U13_Q2_A4">En el Halo, lejos de donde están las estrellas más viejas.</label>
                                         </div>
 
                                     </div>
@@ -113,7 +113,7 @@
 
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>¿Cuánto duran las nebulosas planetarias? Y ¿Qué sucede con ellas después?</p>
+                                <p>¿Qué se estima que se encuentra en el centro de una Galaxia?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -126,31 +126,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A2">Nada, que está vacío y por eso consigue la forma circular.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A3">Un exoplaneta.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">De 10 mil a 20 mil años; después de este tiempo se dispersan en el espacio.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A3">Menos de 10 mil años; después de este tiempo se dispersan en el espacio.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A2">De 10 mil a 20 mil años; después de este tiempo se reabsorben por la estrella.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A4">Menos de 10 mil años; después de este tiempo se reabsorben por la estrella.</label>
+                                                for="U13_Q3_A1">Un agujero negro.</label>
                                         </div>
 
                                     </div>
@@ -162,7 +155,56 @@
 
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿Está vacío el resto del espacio interestelar?</p>
+                                <p>¿Cómo se llama el Cúmulo al que pertenece nuestra Galaxia?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A1">Grupo Local.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A3">Cúmulo de Virgo.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A2">Cúmulo Local.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A4">Grupo de Virgo.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 5 START -->
+                            <li class="question">
+                                <p>¿Cómo se llama el Supercúmulo al que pertenece nuestro Cúmulo?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -178,28 +220,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">No, porque contiene pequeñas cantidades de solamente sólidos.</label>
+                                                for="U13_Q5_A3">Supergrupo Local.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A2">Sí, porque no contiene nada.</label>
+                                                for="U13_Q5_A2">Supercúmulo Local.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A4">Supergrupo de Virgo.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">No, porque contiene pequeñas cantidades de solamente gases.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A4">No, porque contiene pequeñas cantidades partículas en distintos estados de la materia.</label>
+                                                for="U13_Q5_A1">Cúmulo de Virgo.</label>
                                         </div>
 
                                     </div>
