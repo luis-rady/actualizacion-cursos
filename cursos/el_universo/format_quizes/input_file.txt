@@ -1,33 +1,25 @@
-6
+4
 
-1. ¿De qué está compuesto un átomo?
-De un núcleo que está compuesto de protones y neutrones, y órbitas compuestas de electrones.
-De un núcleo que está compuesto de electrones y neutrones, y órbitas compuestas de protones.
-De un núcleo que está compuesto de protones y electrones, y órbitas compuestas de neutrones.
+1. ¿Qué ocasionó que se comenzara a iluminar el universo?
+Que los electrones dejaron de rondar libremente y empezaron a estar atados a los núcleos de los átomos. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.
+Que los protones dejaron de rondar libremente y empezaron a estar atados a los núcleos de los átomos. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.
+Que los electrones dejaron de rondar libremente y empezaron a estar atados a los otros electrones. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.
+Que los protones dejaron de rondar libremente y empezaron a estar atados a los otros protones. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.
 
-2. ¿Qué determina en cuál órbita estará el electrón?
-La cantidad de energía que posee
-No es el electrón, es el protón y se basa en la cantidad de energía que posee.
+2. ¿Cuál es el átomo más ligero?
+Hidrógeno
+Deuterio
+Helio
+Litio
 
-3. ¿Qué es la radiación electromagnética? y ¿Qué provoca en un átomo?
-Es la liberación de fotones, y provoca que un electrón caiga a una órbita más cercana al núcleo.
-Es la liberación de fotones, y provoca que un protón caiga a una órbita más cercana al núcleo.
-Es la liberación de electrones, y provoca que un protón caiga a una órbita más cercana al núcleo.
-Es la liberación de protones, y provoca que un electrón caiga a una órbita más cercana al núcleo.
+3. ¿Cómo comenzaron las ondas y cómo las estamos percibiendo ahora?
+Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido alargando y ahora las percibimos en el rango de las Ondas de Radio.
+Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido acortando y ahora las percibimos en el rango de las Ondas de Radio.
+Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido alargando y ahora las percibimos en el rango de los Rayos Gamma.
+Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido acortando y ahora las percibimos en el rango de los Rayos Gamma.
 
-4. Un fotón se comporta como...
-Una partícula y una onda a la vez.
-Como una partícula
-Como una onda
-
-5. ¿En qué se descompone el espectro electromagnético?
-En tipos de ondas por su longitud
-En tipos de ondas por su color
-En tipos de ondas por su amplitud
-
-6. ¿Cuáles son las ondas que están en los extremos del espectro electromagnético?
-Las ondas de mayor frecuencia y menor longitud son los Rayos Gamma, mientras que las de menor frecuencia y mayor longitud son las Ondas de Radio.
-Las ondas de mayor frecuencia y menor longitud son los Ondas de Radio, mientras que las de menor frecuencia y mayor longitud son las Rayos Gamma.
-Las ondas de mayor frecuencia y mayor longitud son los Rayos Gamma, mientras que las de menor frecuencia y menor longitud son las Ondas de Radio.
-Las ondas de menor frecuencia y menor longitud son los Rayos Gamma, mientras que las de mayor frecuencia y mayor longitud son las Ondas de Radio.
-
+4. ¿Cómo se le conoce a esta radiación del origen del universo?
+Radiación de fondo de microondas
+Radiación inicial
+Radiación de Ondas de Radio
+Radiación Electromagnética
