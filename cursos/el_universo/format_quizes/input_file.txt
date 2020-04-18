@@ -1,34 +1,24 @@
-7
+4
 
-1. ¿Qué limita la fusión de elementos hasta el hierro?
-El calor que se produce dentro de las estrellas.
-La falta de particulas para producirlo.
+1. ¿Qué es una nebulosa?
+Una estructura en el espacio con apariencia difusa.
+Es una estrella que no se ve difusa.
+Son las nubes que vemos en el planeta tierra.
 
-2. ¿De qué depende la vida de las estrellas? Y ¿Cómo le afecta?
-De su masa, mientras mayor sea la masa, más corta será su vida porque tiene que quemar más combustible para contrarrestar la fuerza gravitacional.
-De su masa, mientras mayor sea la masa, más larga será su vida porque tiene tiene más combustible y le ayuda a contrarrestar mejor la fuerza gravitacional.
+2. ¿Cuáles son dos tipos de nebulosas? Y ¿Cuál es su diferencia?
+Planetarias y Objetos HH. La de Objetos HH rodean a estrellas de reciente formación y las Planetarias son las que rodean a las estrellas en las últimas etapas de su evolución.
+Objetos HH y Planetarias. Las Planetarias rodean a estrellas de reciente formación y las de Objetos HH son las que rodean a las estrellas en las últimas etapas de su evolución.
+Objetos HH y Galácticas. La de Objetos HH rodean a estrellas de reciente formación y las Galácticas son las que rodean a las estrellas en las últimas etapas de su evolución.
+Planetarias y Galácticas. Las Planetarias rodean a estrellas de reciente formación y las de Galácticas son las que rodean a las estrellas en las últimas etapas de su evolución.
 
-3. ¿Cuáles estrellas se convierten en supergigantes rojas?
-Aquellas que tienen una masa de 8 veces o mayor a la de nuestro sol.
-Aquellas que tienen de una a 8 veces la masa de nuestro sol.
-Aquellas que tienen una masa menor a la de nuestro sol.
+3. ¿Cuánto duran las nebulosas planetarias? Y ¿Qué sucede con ellas después?
+De 10 mil a 20 mil años; después de este tiempo se dispersan en el espacio.
+De 10 mil a 20 mil años; después de este tiempo se reabsorben por la estrella.
+Menos de 10 mil años; después de este tiempo se dispersan en el espacio.
+Menos de 10 mil años; después de este tiempo se reabsorben por la estrella.
 
-4. ¿De dónde provienen los elementos más pesados que el hierro?
-De la explosión de las supernovas, crea tanto calor que permite fusionar los elementos más pesados.
-Del origen del universo, cuando hacía tanto calor se crearon esos elementos y han durado tanto tiempo.
-
-5. ¿En qué puede terminar una supernova?
-En una estrella de neutrones o un agujero negro.
-En nada, todo se destruye.
-En una enana blanca o enana marrón.
-En una estrella de neutrones o una enana blanca.
-
-6. ¿Qué es un agujero negro?
-Es una región increíblemente densa, donde la fuerza gravitacional es tan fuerte que ni la luz puede escapar.
-Es una región que no produce luz. Sería como un planeta, pero todo negro.
-Es una región increíblemente ligera, donde la fuerza gravitacional es tan débil que la luz lo atraviesa fácilmente.
-
-7. ¿A qué se le llama viento estelar?
-A la corriente de partículas, especialmente protones y electrones, que escapan de las estrellas.
-A la corriente de partículas, especialmente protones y electrones, que escapan de los agujeros negros.
-Al viento que recorre el universo.
+4. ¿Está vacío el resto del espacio interestelar?
+No, porque contiene pequeñas cantidades de solamente gases.
+Sí, porque no contiene nada.
+No, porque contiene pequeñas cantidades de solamente sólidos.
+No, porque contiene pequeñas cantidades partículas en distintos estados de la materia.

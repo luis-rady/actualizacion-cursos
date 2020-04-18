@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Qué limita la fusión de elementos hasta el hierro?</p>
+                                <p>¿Qué es una nebulosa?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -28,14 +28,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A2">La falta de particulas para producirlo.</label>
+                                                for="U13_Q1_A3">Son las nubes que vemos en el planeta tierra.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A2">Es una estrella que no se ve difusa.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">El calor que se produce dentro de las estrellas.</label>
+                                                for="U13_Q1_A1">Una estructura en el espacio con apariencia difusa.</label>
                                         </div>
 
                                     </div>
@@ -47,7 +54,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿De qué depende la vida de las estrellas? Y ¿Cómo le afecta?</p>
+                                <p>¿Cuáles son dos tipos de nebulosas? Y ¿Cuál es su diferencia?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -60,59 +67,31 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A1">De su masa, mientras mayor sea la masa, más corta será su vida porque tiene que quemar más combustible para contrarrestar la fuerza gravitacional.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">De su masa, mientras mayor sea la masa, más larga será su vida porque tiene tiene más combustible y le ayuda a contrarrestar mejor la fuerza gravitacional.</label>
+                                                for="U13_Q2_A3">Objetos HH y Galácticas. La de Objetos HH rodean a estrellas de reciente formación y las Galácticas son las que rodean a las estrellas en las últimas etapas de su evolución.</label>
                                         </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 1 END -->
-
-                            <!-- Pregunta 3 START -->
-                            <li class="question">
-                                <p>¿Cuáles estrellas se convierten en supergigantes rojas?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">Aquellas que tienen una masa de 8 veces o mayor a la de nuestro sol.</label>
+                                                for="U13_Q2_A1">Planetarias y Objetos HH. La de Objetos HH rodean a estrellas de reciente formación y las Planetarias son las que rodean a las estrellas en las últimas etapas de su evolución.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">Aquellas que tienen de una a 8 veces la masa de nuestro sol.</label>
+                                                for="U13_Q2_A4">Planetarias y Galácticas. Las Planetarias rodean a estrellas de reciente formación y las de Galácticas son las que rodean a las estrellas en las últimas etapas de su evolución.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A3">Aquellas que tienen una masa menor a la de nuestro sol.</label>
+                                                for="U13_Q2_A2">Objetos HH y Planetarias. Las Planetarias rodean a estrellas de reciente formación y las de Objetos HH son las que rodean a las estrellas en las últimas etapas de su evolución.</label>
                                         </div>
 
                                     </div>
@@ -130,11 +109,60 @@
                 <!-- Columna derecha de preguntas START -->
                 <div class="col-md-6 pl-3 mrg-btm-50">
                     <div class="pdd-vertical-30 pdd-horizon-25">
-                        <ol start="4">
+                        <ol start="3">
+
+                            <!-- Pregunta 3 START -->
+                            <li class="question">
+                                <p>¿Cuánto duran las nebulosas planetarias? Y ¿Qué sucede con ellas después?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A1">De 10 mil a 20 mil años; después de este tiempo se dispersan en el espacio.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A3">Menos de 10 mil años; después de este tiempo se dispersan en el espacio.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A2">De 10 mil a 20 mil años; después de este tiempo se reabsorben por la estrella.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A4">Menos de 10 mil años; después de este tiempo se reabsorben por la estrella.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
 
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿De dónde provienen los elementos más pesados que el hierro?</p>
+                                <p>¿Está vacío el resto del espacio interestelar?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -150,147 +178,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A2">Del origen del universo, cuando hacía tanto calor se crearon esos elementos y han durado tanto tiempo.</label>
+                                                for="U13_Q4_A3">No, porque contiene pequeñas cantidades de solamente sólidos.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A2">Sí, porque no contiene nada.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">De la explosión de las supernovas, crea tanto calor que permite fusionar los elementos más pesados.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 1 END -->
-
-                            <!-- Pregunta 5 START -->
-                            <li class="question">
-                                <p>¿En qué puede terminar una supernova?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A3">En una enana blanca o enana marrón.</label>
+                                                for="U13_Q4_A1">No, porque contiene pequeñas cantidades de solamente gases.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A4">En una estrella de neutrones o una enana blanca.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A1">En una estrella de neutrones o un agujero negro.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A2">En nada, todo se destruye.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 1 END -->
-
-                            <!-- Pregunta 6 START -->
-                            <li class="question">
-                                <p>¿Qué es un agujero negro?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q6_A2">Es una región que no produce luz. Sería como un planeta, pero todo negro.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q6_A3">Es una región increíblemente ligera, donde la fuerza gravitacional es tan débil que la luz lo atraviesa fácilmente.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q6_A1">Es una región increíblemente densa, donde la fuerza gravitacional es tan fuerte que ni la luz puede escapar.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 1 END -->
-
-                            <!-- Pregunta 7 START -->
-                            <li class="question">
-                                <p>¿A qué se le llama viento estelar?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q7_A1">A la corriente de partículas, especialmente protones y electrones, que escapan de las estrellas.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q7_A2">A la corriente de partículas, especialmente protones y electrones, que escapan de los agujeros negros.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q7_A3">Al viento que recorre el universo.</label>
+                                                for="U13_Q4_A4">No, porque contiene pequeñas cantidades partículas en distintos estados de la materia.</label>
                                         </div>
 
                                     </div>
