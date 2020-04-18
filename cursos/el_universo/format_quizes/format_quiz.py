@@ -109,7 +109,10 @@ def ParseAnswers(output_file, input_file_data, current_line, total_lines, questi
     return current_line
 
 def MaybeNextColumn(output_file, question_number, total_questions):
-    if(question_number*2 == total_questions):
+    if(total_questions%2 == 0 and question_number*2 == total_questions):
+        output_file.write(kFirstColumnEnd)
+        output_file.write(kSecondColumnBegin.format(question_number+1))
+    if(total_questions%2 == 1 and question_number*2 == total_questions-1):
         output_file.write(kFirstColumnEnd)
         output_file.write(kSecondColumnBegin.format(question_number+1))
 

@@ -1,44 +1,34 @@
-8
+7
 
-1. ¿Qué es una estrella?
-Son esferas de gas que irradian grandes cantidades de luz y calor.
-Son esferas de líquidas que irradian grandes cantidades de luz y calor.
-Son esferas de sólidas que irradian grandes cantidades de luz y calor.
+1. ¿Qué limita la fusión de elementos hasta el hierro?
+El calor que se produce dentro de las estrellas.
+La falta de particulas para producirlo.
 
-2. ¿Cuándo nace una estrella?
-Cuando la temperatura de una protoestrella supera la de los 100 millones de grados, que da lugar a las reacciones nucleares que suceden en su núcleo.
-Cuando la temperatura de una protoestrella supera la de los 200 millones de grados, que da lugar a las reacciones nucleares que suceden en su núcleo.
-Cuando la temperatura de una protoestrella supera la de los 100 millones de grados, que da lugar a las reacciones nucleares que suceden en su corteza.
+2. ¿De qué depende la vida de las estrellas? Y ¿Cómo le afecta?
+De su masa, mientras mayor sea la masa, más corta será su vida porque tiene que quemar más combustible para contrarrestar la fuerza gravitacional.
+De su masa, mientras mayor sea la masa, más larga será su vida porque tiene tiene más combustible y le ayuda a contrarrestar mejor la fuerza gravitacional.
 
-3. ¿Qué es una protoestrella?
-Son las regiones contraídas de nubes gigantescas de gas.
-Son las regiones esparcidas de nubes gigantescas de gas.
-Son las regiones contraídas de varias estrellas.
-Es lo que queda cuando una estrella muere.
+3. ¿Cuáles estrellas se convierten en supergigantes rojas?
+Aquellas que tienen una masa de 8 veces o mayor a la de nuestro sol.
+Aquellas que tienen de una a 8 veces la masa de nuestro sol.
+Aquellas que tienen una masa menor a la de nuestro sol.
 
-4. ¿Qué mantiene la forma de una estrella?
-La combinación de la fuerza de la gravedad que la comprime y la fuerza de la fusión nuclear que la expande.
-La combinación de la fuerza de la gravedad que la expande y la fuerza de la fusión nuclear que la comprime.
-La combinación de la fuerza de la gravedad que la comprime y la fuerza de rotación que la expande.
-La combinación de la fuerza de rotación que la comprime y la fuerza de la gravedad que la expande.
+4. ¿De dónde provienen los elementos más pesados que el hierro?
+De la explosión de las supernovas, crea tanto calor que permite fusionar los elementos más pesados.
+Del origen del universo, cuando hacía tanto calor se crearon esos elementos y han durado tanto tiempo.
 
-5. ¿Cuáles son los primeros pasos de la fusión nuclear dentro de las estrellas?
-Primero colisionan dos protones formando un núcleo de deuterio, luego colisiona con otro protón formando un núcleo de helio 3. Seguido colisiona con otro núcleo semejante y forma un núcleo de helio 4, que libera dos protones. 
-Primero colisionan dos neutrones formando un núcleo de deuterio, luego colisiona con otro neutrón formando un núcleo de helio 3. Seguido colisiona con otro núcleo semejante y forma un núcleo de helio 4, que libera dos neutrones. 
-Primero colisionan dos neutrones formando un núcleo de deuterio, luego colisiona con otro neutrón formando un núcleo de helio 3. Seguido colisiona con varios núcleos semejante y forma un núcleo de carbono 12, que libera dos neutrones. 
-Primero colisionan dos protones formando un núcleo de deuterio, luego colisiona con otro protón formando un núcleo de helio 3. Seguido colisiona con varios núcleos semejante y forma un núcleo de carbono 12, que libera dos protones.
-6. ¿El resultado del núcleo final tiene la misma masa que sus componentes originales?
-No, porque parte de la masa se transforma en energía.
-Sí, porque la masa se conserva.
-Sí, porque se recupera la energía que se pierde al unirse.
-No, porque por el paso del tiempo se pierde energía aún sin hacer nada.
+5. ¿En qué puede terminar una supernova?
+En una estrella de neutrones o un agujero negro.
+En nada, todo se destruye.
+En una enana blanca o enana marrón.
+En una estrella de neutrones o una enana blanca.
 
-7. ¿Hasta qué momento vive una estrella?
-Hasta que la fusión nuclear se termina y termina venciendo la fuerza gravitacional.
-Hasta que la fusión nuclear se vuelve mayor a la gravitacional y explota por lo mismo.
-Una estrella es eterna.
+6. ¿Qué es un agujero negro?
+Es una región increíblemente densa, donde la fuerza gravitacional es tan fuerte que ni la luz puede escapar.
+Es una región que no produce luz. Sería como un planeta, pero todo negro.
+Es una región increíblemente ligera, donde la fuerza gravitacional es tan débil que la luz lo atraviesa fácilmente.
 
-8. ¿En qué puede terminar transformándose una estrella?
-En una estrella de neutrones, en un agujero negro, o en una enana blanca que termina en una enana marrón.
-En una estrella de neutrones, en un agujero negro, o en una enana marrón que termina en una enana blanca.
-Una estrella es eterna.
+7. ¿A qué se le llama viento estelar?
+A la corriente de partículas, especialmente protones y electrones, que escapan de las estrellas.
+A la corriente de partículas, especialmente protones y electrones, que escapan de los agujeros negros.
+Al viento que recorre el universo.
