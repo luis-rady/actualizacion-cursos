@@ -1,24 +1,44 @@
-4
+8
 
-1. ¿Qué es una galaxia?
-Son un conglomerado de miles de millones de estrellas, de planetas, de nubes de gases y polvo y de agujeros negros
-Son un conglomerado de miles de millones de protones, neutrones y electrones, sin ninguna formación en particular.
-Son un conglomerado de varios planetas orbitando alrededor de una estrella.
-Son un conglomerado de unos cuantos planetas, estrellas y agujeros negros.
+1. ¿Qué es una estrella?
+Son esferas de gas que irradian grandes cantidades de luz y calor.
+Son esferas de líquidas que irradian grandes cantidades de luz y calor.
+Son esferas de sólidas que irradian grandes cantidades de luz y calor.
 
-2. ¿Qué facilitó la formación de las galaxias?
-La fuerza de la gravedad.
-La fuerza nuclear fuerte.
-La fuerza nuclear débil.
-La fuerza electromagnética.
+2. ¿Cuándo nace una estrella?
+Cuando la temperatura de una protoestrella supera la de los 100 millones de grados, que da lugar a las reacciones nucleares que suceden en su núcleo.
+Cuando la temperatura de una protoestrella supera la de los 200 millones de grados, que da lugar a las reacciones nucleares que suceden en su núcleo.
+Cuando la temperatura de una protoestrella supera la de los 100 millones de grados, que da lugar a las reacciones nucleares que suceden en su corteza.
 
-3. ¿Cuáles son los tipos de galaxias que existen?
-Las galaxias espirales, elípticas, e irregulares.
-Las galaxias espirales, elípticas, y planas.
-Las galaxias esféricas, elípticas, e irregulares.
-Las galaxias esféricas, espirales, y elípticas.
+3. ¿Qué es una protoestrella?
+Son las regiones contraídas de nubes gigantescas de gas.
+Son las regiones esparcidas de nubes gigantescas de gas.
+Son las regiones contraídas de varias estrellas.
+Es lo que queda cuando una estrella muere.
 
-4. ¿Qué son los supercúmulos?
-Son una conglomeración de cúmulos, que son una conglomeración de galaxias.
-Son una conglomeración de galaxias, que son una conglomeración de miles de millones de estrellas, de planetas, de nubes de gases y polvo y de agujeros negros.
-Son como un cúmulo normal, pero que en el centro cuentan con un agujero negro.
+4. ¿Qué mantiene la forma de una estrella?
+La combinación de la fuerza de la gravedad que la comprime y la fuerza de la fusión nuclear que la expande.
+La combinación de la fuerza de la gravedad que la expande y la fuerza de la fusión nuclear que la comprime.
+La combinación de la fuerza de la gravedad que la comprime y la fuerza de rotación que la expande.
+La combinación de la fuerza de rotación que la comprime y la fuerza de la gravedad que la expande.
+
+5. ¿Cuáles son los primeros pasos de la fusión nuclear dentro de las estrellas?
+Primero colisionan dos protones formando un núcleo de deuterio, luego colisiona con otro protón formando un núcleo de helio 3. Seguido colisiona con otro núcleo semejante y forma un núcleo de helio 4, que libera dos protones. 
+Primero colisionan dos neutrones formando un núcleo de deuterio, luego colisiona con otro neutrón formando un núcleo de helio 3. Seguido colisiona con otro núcleo semejante y forma un núcleo de helio 4, que libera dos neutrones. 
+Primero colisionan dos neutrones formando un núcleo de deuterio, luego colisiona con otro neutrón formando un núcleo de helio 3. Seguido colisiona con varios núcleos semejante y forma un núcleo de carbono 12, que libera dos neutrones. 
+Primero colisionan dos protones formando un núcleo de deuterio, luego colisiona con otro protón formando un núcleo de helio 3. Seguido colisiona con varios núcleos semejante y forma un núcleo de carbono 12, que libera dos protones.
+6. ¿El resultado del núcleo final tiene la misma masa que sus componentes originales?
+No, porque parte de la masa se transforma en energía.
+Sí, porque la masa se conserva.
+Sí, porque se recupera la energía que se pierde al unirse.
+No, porque por el paso del tiempo se pierde energía aún sin hacer nada.
+
+7. ¿Hasta qué momento vive una estrella?
+Hasta que la fusión nuclear se termina y termina venciendo la fuerza gravitacional.
+Hasta que la fusión nuclear se vuelve mayor a la gravitacional y explota por lo mismo.
+Una estrella es eterna.
+
+8. ¿En qué puede terminar transformándose una estrella?
+En una estrella de neutrones, en un agujero negro, o en una enana blanca que termina en una enana marrón.
+En una estrella de neutrones, en un agujero negro, o en una enana marrón que termina en una enana blanca.
+Una estrella es eterna.

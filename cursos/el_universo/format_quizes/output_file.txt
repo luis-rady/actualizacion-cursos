@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Qué es una galaxia?</p>
+                                <p>¿Qué es una estrella?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -25,31 +25,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A3">Son un conglomerado de varios planetas orbitando alrededor de una estrella.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A4">Son un conglomerado de unos cuantos planetas, estrellas y agujeros negros.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A2">Son un conglomerado de miles de millones de protones, neutrones y electrones, sin ninguna formación en particular.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">Son un conglomerado de miles de millones de estrellas, de planetas, de nubes de gases y polvo y de agujeros negros</label>
+                                                for="U13_Q1_A1">Son esferas de gas que irradian grandes cantidades de luz y calor.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A2">Son esferas de líquidas que irradian grandes cantidades de luz y calor.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A3">Son esferas de sólidas que irradian grandes cantidades de luz y calor.</label>
                                         </div>
 
                                     </div>
@@ -61,7 +54,49 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿Qué facilitó la formación de las galaxias?</p>
+                                <p>¿Cuándo nace una estrella?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A3">Cuando la temperatura de una protoestrella supera la de los 100 millones de grados, que da lugar a las reacciones nucleares que suceden en su corteza.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A1">Cuando la temperatura de una protoestrella supera la de los 100 millones de grados, que da lugar a las reacciones nucleares que suceden en su núcleo.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A2">Cuando la temperatura de una protoestrella supera la de los 200 millones de grados, que da lugar a las reacciones nucleares que suceden en su núcleo.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 3 START -->
+                            <li class="question">
+                                <p>¿Qué es una protoestrella?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -77,28 +112,77 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A1">La fuerza de la gravedad.</label>
+                                                for="U13_Q3_A1">Son las regiones contraídas de nubes gigantescas de gas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">La fuerza nuclear fuerte.</label>
+                                                for="U13_Q3_A4">Es lo que queda cuando una estrella muere.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A4">La fuerza electromagnética.</label>
+                                                for="U13_Q3_A2">Son las regiones esparcidas de nubes gigantescas de gas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A3">La fuerza nuclear débil.</label>
+                                                for="U13_Q3_A3">Son las regiones contraídas de varias estrellas.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 4 START -->
+                            <li class="question">
+                                <p>¿Qué mantiene la forma de una estrella?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A1">La combinación de la fuerza de la gravedad que la comprime y la fuerza de la fusión nuclear que la expande.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A4">La combinación de la fuerza de rotación que la comprime y la fuerza de la gravedad que la expande.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A2">La combinación de la fuerza de la gravedad que la expande y la fuerza de la fusión nuclear que la comprime.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A3">La combinación de la fuerza de la gravedad que la comprime y la fuerza de rotación que la expande.</label>
                                         </div>
 
                                     </div>
@@ -116,11 +200,11 @@
                 <!-- Columna derecha de preguntas START -->
                 <div class="col-md-6 pl-3 mrg-btm-50">
                     <div class="pdd-vertical-30 pdd-horizon-25">
-                        <ol start="3">
+                        <ol start="5">
 
-                            <!-- Pregunta 3 START -->
+                            <!-- Pregunta 5 START -->
                             <li class="question">
-                                <p>¿Cuáles son los tipos de galaxias que existen?</p>
+                                <p>¿Cuáles son los primeros pasos de la fusión nuclear dentro de las estrellas?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -133,31 +217,31 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A2">Primero colisionan dos neutrones formando un núcleo de deuterio, luego colisiona con otro neutrón formando un núcleo de helio 3. Seguido colisiona con otro núcleo semejante y forma un núcleo de helio 4, que libera dos neutrones.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">Las galaxias espirales, elípticas, e irregulares.</label>
+                                                for="U13_Q5_A1">Primero colisionan dos protones formando un núcleo de deuterio, luego colisiona con otro protón formando un núcleo de helio 3. Seguido colisiona con otro núcleo semejante y forma un núcleo de helio 4, que libera dos protones.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">Las galaxias espirales, elípticas, y planas.</label>
+                                                for="U13_Q5_A4">Primero colisionan dos protones formando un núcleo de deuterio, luego colisiona con otro protón formando un núcleo de helio 3. Seguido colisiona con varios núcleos semejante y forma un núcleo de carbono 12, que libera dos protones.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A4">Las galaxias esféricas, espirales, y elípticas.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A3">Las galaxias esféricas, elípticas, e irregulares.</label>
+                                                for="U13_Q5_A3">Primero colisionan dos neutrones formando un núcleo de deuterio, luego colisiona con otro neutrón formando un núcleo de helio 3. Seguido colisiona con varios núcleos semejante y forma un núcleo de carbono 12, que libera dos neutrones.</label>
                                         </div>
 
                                     </div>
@@ -167,9 +251,9 @@
                             </li>
                             <!-- Pregunta 1 END -->
 
-                            <!-- Pregunta 4 START -->
+                            <!-- Pregunta 6 START -->
                             <li class="question">
-                                <p>¿Qué son los supercúmulos?</p>
+                                <p>¿El resultado del núcleo final tiene la misma masa que sus componentes originales?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -185,21 +269,112 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A2">Son una conglomeración de galaxias, que son una conglomeración de miles de millones de estrellas, de planetas, de nubes de gases y polvo y de agujeros negros.</label>
+                                                for="U13_Q6_A4">No, porque por el paso del tiempo se pierde energía aún sin hacer nada.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">Son una conglomeración de cúmulos, que son una conglomeración de galaxias.</label>
+                                                for="U13_Q6_A1">No, porque parte de la masa se transforma en energía.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">Son como un cúmulo normal, pero que en el centro cuentan con un agujero negro.</label>
+                                                for="U13_Q6_A3">Sí, porque se recupera la energía que se pierde al unirse.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A2">Sí, porque la masa se conserva.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 7 START -->
+                            <li class="question">
+                                <p>¿Hasta qué momento vive una estrella?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A1">Hasta que la fusión nuclear se termina y termina venciendo la fuerza gravitacional.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A2">Hasta que la fusión nuclear se vuelve mayor a la gravitacional y explota por lo mismo.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A3">Una estrella es eterna.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 8 START -->
+                            <li class="question">
+                                <p>¿En qué puede terminar transformándose una estrella?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q8_A3">Una estrella es eterna.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q8_A1">En una estrella de neutrones, en un agujero negro, o en una enana blanca que termina en una enana marrón.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q8_A2">En una estrella de neutrones, en un agujero negro, o en una enana marrón que termina en una enana blanca.</label>
                                         </div>
 
                                     </div>
