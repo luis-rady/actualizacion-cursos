@@ -1,29 +1,42 @@
-5
+7
 
-1. ¿Cómo se llama la Galaxia en la que nuestro sistema solar se encuentra?
-La Vía Láctea.
-Andrómeda.
-Virgo.
+1. ¿Cuándo fue formado nuestro Sistema Solar?
+Hace 5 mil millones de años.
+Hace 5 millones de años.
+Hace 5 mil años.
+Hace 50 mil millones de años.
 
-2. ¿En qué parte de la Galaxia se encuentra nuestro sistema solar?
-En los Brazos, específicamente en el Brazo de Orión.
-En el Halo, cerca de donde están las estrellas más viejas.
-En los Brazos, específicamente en el Brazo de Andrómeda.
-En el Halo, lejos de donde están las estrellas más viejas.
+2. ¿Por qué se cree que proviene de una supernova nuestro Sistema Solar?
+Porque existen materiales muy pesados que solamente se generan en una supernova.
+Porque existen materiales muy ligeros que solamente se generan en una supernova.
+Porque la cantidad de masa que existe en el sistema solar solamente proviene de una supernova.
+Esto es falso, no se proviene de una supernova.
 
-3. ¿Qué se estima que se encuentra en el centro de una Galaxia?
-Un agujero negro.
-Nada, que está vacío y por eso consigue la forma circular.
-Un exoplaneta.
+3. ¿Qué conforma a nuestro Sistema Solar?
+Un sol, 8 planetas, más de 100 satélites naturales, y otros cuerpos celestes.
+Un sol, 8 planetas, menos de 100 satélites naturales, y otros cuerpos celestes.
+Un sol, 9 planetas, más de 100 satélites naturales, y otros cuerpos celestes.
+Un sol, 9 planetas, menos de 100 satélites naturales, y otros cuerpos celestes.
 
-4. ¿Cómo se llama el Cúmulo al que pertenece nuestra Galaxia?
-Grupo Local.
-Cúmulo Local.
-Cúmulo de Virgo.
-Grupo de Virgo.
+4. ¿Cómo se puede dividir los planetas de nuestro Sistema Solar?
+Los primeros 4 en sólidos y el resto en gaseosos.
+Los primeros 4 en gaseosos y el resto en sólidos.
+Los últimos 4 en sólidos y el resto en gaseosos.
+Los primeros 4 en sólidos y el resto en liquidos.
 
-5. ¿Cómo se llama el Supercúmulo al que pertenece nuestro Cúmulo?
-Cúmulo de Virgo.
-Supercúmulo Local.
-Supergrupo Local.
-Supergrupo de Virgo.
+5. ¿A qué se le conoce como el Cinturón de Kuiper?
+A  la multitud de cuerpos helados más pequeños que los planetas que existen más allá de Neptuno.
+A la región de miles de asteroides que existe entre Marte y Júpiter.
+Es otro nombre para el cinturón de Orión.
+
+6. ¿Cuál es el ciclo del famoso cometa Halley y cuándo lo volveremos a ver?
+76 años y en 2062.
+76 años y en 2072.
+67 años y en 2026.
+67 años y en 2062.
+
+7. ¿Cuánto se estima que seguirá vivo nuestro sol y qué sucederá después?
+Más de 5 mil millones de años. Se estima que se convertirá en una gigante roja y luego en una enana blanca.
+Menos de 5 mil millones de años. Se estima que se convertirá en una gigante roja y luego en una enana blanca.
+Menos de 5 millones de años. Se estima que se convertirá en una gigante roja y luego en una enana blanca.
+Más de 5 mil millones de años. Se estima que se convertirá en una gigante roja y luego en un agujero negro.

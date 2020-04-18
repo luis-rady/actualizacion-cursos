@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Cómo se llama la Galaxia en la que nuestro sistema solar se encuentra?</p>
+                                <p>¿Cuándo fue formado nuestro Sistema Solar?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -28,21 +28,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A2">Andrómeda.</label>
+                                                for="U13_Q1_A2">Hace 5 millones de años.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A3">Virgo.</label>
+                                                for="U13_Q1_A4">Hace 50 mil millones de años.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">La Vía Láctea.</label>
+                                                for="U13_Q1_A1">Hace 5 mil millones de años.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A3">Hace 5 mil años.</label>
                                         </div>
 
                                     </div>
@@ -54,7 +61,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿En qué parte de la Galaxia se encuentra nuestro sistema solar?</p>
+                                <p>¿Por qué se cree que proviene de una supernova nuestro Sistema Solar?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -70,28 +77,77 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">En el Halo, cerca de donde están las estrellas más viejas.</label>
+                                                for="U13_Q2_A3">Porque la cantidad de masa que existe en el sistema solar solamente proviene de una supernova.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A2">Porque existen materiales muy ligeros que solamente se generan en una supernova.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A4">Esto es falso, no se proviene de una supernova.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A1">En los Brazos, específicamente en el Brazo de Orión.</label>
+                                                for="U13_Q2_A1">Porque existen materiales muy pesados que solamente se generan en una supernova.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 3 START -->
+                            <li class="question">
+                                <p>¿Qué conforma a nuestro Sistema Solar?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A3">Un sol, 9 planetas, más de 100 satélites naturales, y otros cuerpos celestes.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A3">En los Brazos, específicamente en el Brazo de Andrómeda.</label>
+                                                for="U13_Q3_A2">Un sol, 8 planetas, menos de 100 satélites naturales, y otros cuerpos celestes.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A1">Un sol, 8 planetas, más de 100 satélites naturales, y otros cuerpos celestes.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A4">En el Halo, lejos de donde están las estrellas más viejas.</label>
+                                                for="U13_Q3_A4">Un sol, 9 planetas, menos de 100 satélites naturales, y otros cuerpos celestes.</label>
                                         </div>
 
                                     </div>
@@ -109,53 +165,11 @@
                 <!-- Columna derecha de preguntas START -->
                 <div class="col-md-6 pl-3 mrg-btm-50">
                     <div class="pdd-vertical-30 pdd-horizon-25">
-                        <ol start="3">
-
-                            <!-- Pregunta 3 START -->
-                            <li class="question">
-                                <p>¿Qué se estima que se encuentra en el centro de una Galaxia?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A2">Nada, que está vacío y por eso consigue la forma circular.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A3">Un exoplaneta.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A1">Un agujero negro.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 1 END -->
+                        <ol start="4">
 
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿Cómo se llama el Cúmulo al que pertenece nuestra Galaxia?</p>
+                                <p>¿Cómo se puede dividir los planetas de nuestro Sistema Solar?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -171,28 +185,28 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">Grupo Local.</label>
+                                                for="U13_Q4_A1">Los primeros 4 en sólidos y el resto en gaseosos.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">Cúmulo de Virgo.</label>
+                                                for="U13_Q4_A2">Los primeros 4 en gaseosos y el resto en sólidos.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A2">Cúmulo Local.</label>
+                                                for="U13_Q4_A3">Los últimos 4 en sólidos y el resto en gaseosos.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A4">Grupo de Virgo.</label>
+                                                for="U13_Q4_A4">Los primeros 4 en sólidos y el resto en liquidos.</label>
                                         </div>
 
                                     </div>
@@ -204,7 +218,49 @@
 
                             <!-- Pregunta 5 START -->
                             <li class="question">
-                                <p>¿Cómo se llama el Supercúmulo al que pertenece nuestro Cúmulo?</p>
+                                <p>¿A qué se le conoce como el Cinturón de Kuiper?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A1">A  la multitud de cuerpos helados más pequeños que los planetas que existen más allá de Neptuno.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A2">A la región de miles de asteroides que existe entre Marte y Júpiter.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A3">Es otro nombre para el cinturón de Orión.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 6 START -->
+                            <li class="question">
+                                <p>¿Cuál es el ciclo del famoso cometa Halley y cuándo lo volveremos a ver?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -220,28 +276,77 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A3">Supergrupo Local.</label>
+                                                for="U13_Q6_A4">67 años y en 2062.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A2">Supercúmulo Local.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A4">Supergrupo de Virgo.</label>
+                                                for="U13_Q6_A3">67 años y en 2026.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A1">Cúmulo de Virgo.</label>
+                                                for="U13_Q6_A1">76 años y en 2062.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A2">76 años y en 2072.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 1 END -->
+
+                            <!-- Pregunta 7 START -->
+                            <li class="question">
+                                <p>¿Cuánto se estima que seguirá vivo nuestro sol y qué sucederá después?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A3">Menos de 5 millones de años. Se estima que se convertirá en una gigante roja y luego en una enana blanca.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A2">Menos de 5 mil millones de años. Se estima que se convertirá en una gigante roja y luego en una enana blanca.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A1">Más de 5 mil millones de años. Se estima que se convertirá en una gigante roja y luego en una enana blanca.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A4">Más de 5 mil millones de años. Se estima que se convertirá en una gigante roja y luego en un agujero negro.</label>
                                         </div>
 
                                     </div>
