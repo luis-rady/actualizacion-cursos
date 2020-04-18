@@ -1,25 +1,24 @@
 4
 
-1. ¿Qué ocasionó que se comenzara a iluminar el universo?
-Que los electrones dejaron de rondar libremente y empezaron a estar atados a los núcleos de los átomos. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.
-Que los protones dejaron de rondar libremente y empezaron a estar atados a los núcleos de los átomos. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.
-Que los electrones dejaron de rondar libremente y empezaron a estar atados a los otros electrones. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.
-Que los protones dejaron de rondar libremente y empezaron a estar atados a los otros protones. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.
+1. ¿Qué es una galaxia?
+Son un conglomerado de miles de millones de estrellas, de planetas, de nubes de gases y polvo y de agujeros negros
+Son un conglomerado de miles de millones de protones, neutrones y electrones, sin ninguna formación en particular.
+Son un conglomerado de varios planetas orbitando alrededor de una estrella.
+Son un conglomerado de unos cuantos planetas, estrellas y agujeros negros.
 
-2. ¿Cuál es el átomo más ligero?
-Hidrógeno
-Deuterio
-Helio
-Litio
+2. ¿Qué facilitó la formación de las galaxias?
+La fuerza de la gravedad.
+La fuerza nuclear fuerte.
+La fuerza nuclear débil.
+La fuerza electromagnética.
 
-3. ¿Cómo comenzaron las ondas y cómo las estamos percibiendo ahora?
-Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido alargando y ahora las percibimos en el rango de las Ondas de Radio.
-Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido acortando y ahora las percibimos en el rango de las Ondas de Radio.
-Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido alargando y ahora las percibimos en el rango de los Rayos Gamma.
-Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido acortando y ahora las percibimos en el rango de los Rayos Gamma.
+3. ¿Cuáles son los tipos de galaxias que existen?
+Las galaxias espirales, elípticas, e irregulares.
+Las galaxias espirales, elípticas, y planas.
+Las galaxias esféricas, elípticas, e irregulares.
+Las galaxias esféricas, espirales, y elípticas.
 
-4. ¿Cómo se le conoce a esta radiación del origen del universo?
-Radiación de fondo de microondas
-Radiación inicial
-Radiación de Ondas de Radio
-Radiación Electromagnética
+4. ¿Qué son los supercúmulos?
+Son una conglomeración de cúmulos, que son una conglomeración de galaxias.
+Son una conglomeración de galaxias, que son una conglomeración de miles de millones de estrellas, de planetas, de nubes de gases y polvo y de agujeros negros.
+Son como un cúmulo normal, pero que en el centro cuentan con un agujero negro.

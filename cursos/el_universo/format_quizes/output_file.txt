@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Qué ocasionó que se comenzara a iluminar el universo?</p>
+                                <p>¿Qué es una galaxia?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -28,28 +28,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A3">Que los electrones dejaron de rondar libremente y empezaron a estar atados a los otros electrones. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.</label>
+                                                for="U13_Q1_A3">Son un conglomerado de varios planetas orbitando alrededor de una estrella.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A4">Que los protones dejaron de rondar libremente y empezaron a estar atados a los otros protones. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.</label>
+                                                for="U13_Q1_A4">Son un conglomerado de unos cuantos planetas, estrellas y agujeros negros.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A2">Son un conglomerado de miles de millones de protones, neutrones y electrones, sin ninguna formación en particular.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">Que los electrones dejaron de rondar libremente y empezaron a estar atados a los núcleos de los átomos. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A2">Que los protones dejaron de rondar libremente y empezaron a estar atados a los núcleos de los átomos. Lo que le permitió a los fotones atravesar mayores distancias sin chocar.</label>
+                                                for="U13_Q1_A1">Son un conglomerado de miles de millones de estrellas, de planetas, de nubes de gases y polvo y de agujeros negros</label>
                                         </div>
 
                                     </div>
@@ -61,7 +61,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿Cuál es el átomo más ligero?</p>
+                                <p>¿Qué facilitó la formación de las galaxias?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -74,31 +74,31 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A4">Litio</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A2">Deuterio</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A3">Helio</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A1">Hidrógeno</label>
+                                                for="U13_Q2_A1">La fuerza de la gravedad.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A2">La fuerza nuclear fuerte.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A4">La fuerza electromagnética.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A3">La fuerza nuclear débil.</label>
                                         </div>
 
                                     </div>
@@ -120,7 +120,7 @@
 
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>¿Cómo comenzaron las ondas y cómo las estamos percibiendo ahora?</p>
+                                <p>¿Cuáles son los tipos de galaxias que existen?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -136,28 +136,28 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido alargando y ahora las percibimos en el rango de las Ondas de Radio.</label>
+                                                for="U13_Q3_A1">Las galaxias espirales, elípticas, e irregulares.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A4">Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido acortando y ahora las percibimos en el rango de los Rayos Gamma.</label>
+                                                for="U13_Q3_A2">Las galaxias espirales, elípticas, y planas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido acortando y ahora las percibimos en el rango de las Ondas de Radio.</label>
+                                                for="U13_Q3_A4">Las galaxias esféricas, espirales, y elípticas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A3">Con bastante energía y por el paso del tiempo la han perdido, por ende se han ido alargando y ahora las percibimos en el rango de los Rayos Gamma.</label>
+                                                for="U13_Q3_A3">Las galaxias esféricas, elípticas, e irregulares.</label>
                                         </div>
 
                                     </div>
@@ -169,7 +169,7 @@
 
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿Cómo se le conoce a esta radiación del origen del universo?</p>
+                                <p>¿Qué son los supercúmulos?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -185,28 +185,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A2">Radiación inicial</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A3">Radiación de Ondas de Radio</label>
+                                                for="U13_Q4_A2">Son una conglomeración de galaxias, que son una conglomeración de miles de millones de estrellas, de planetas, de nubes de gases y polvo y de agujeros negros.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">Radiación de fondo de microondas</label>
+                                                for="U13_Q4_A1">Son una conglomeración de cúmulos, que son una conglomeración de galaxias.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A4">Radiación Electromagnética</label>
+                                                for="U13_Q4_A3">Son como un cúmulo normal, pero que en el centro cuentan con un agujero negro.</label>
                                         </div>
 
                                     </div>
