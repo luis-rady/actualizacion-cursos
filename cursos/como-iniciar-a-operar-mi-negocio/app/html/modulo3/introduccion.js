@@ -15,7 +15,7 @@ function watchP1() {
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
                                         <div class="text-center">
-                                            <img src="../../assets/images/course/modulo2/1630857844.jpg" alt="" width="75%">
+                                            <img src="../../assets/images/course/ilustraciones/5.jpg" alt="" width="50%"">
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-6">
@@ -45,7 +45,7 @@ function watchP2() {
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
                                         <div class="text-center">
-                                            <img src="../../assets/images/course/modulo2/1630857844.jpg" alt="" width="75%">
+                                            <img src="../../assets/images/course/ilustraciones/21.jpg" alt="" width="100%">
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-6">
@@ -75,7 +75,7 @@ function watchP3() {
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
                                         <div class="text-center">
-                                            <img src="../../assets/images/course/modulo2/1630857844.jpg" alt="" width="75%">
+                                            <img src="../../assets/images/course/ilustraciones/15.jpg" alt="" width="75%">
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-6">
@@ -105,7 +105,7 @@ function watchP4() {
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
                                         <div class="text-center">
-                                            <img src="../../assets/images/course/modulo2/1630857844.jpg" alt="" width="75%">
+                                            <img src="../../assets/images/course/ilustraciones/25.jpg" alt="" width="75%">
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-6">
@@ -144,7 +144,7 @@ function watchP5() {
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
                                         <div class="text-center">
-                                            <img src="../../assets/images/course/modulo2/1630857844.jpg" alt="" width="75%">
+                                            <img src="../../assets/images/course/ilustraciones/28.jpg" alt="" width="75%">
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-6">
@@ -175,7 +175,7 @@ function watchP6() {
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
                                         <div class="text-center">
-                                            <img src="../../assets/images/course/modulo2/1630857844.jpg" alt="" width="75%">
+                                            <img src="../../assets/images/course/ilustraciones/7.jpg" alt="" width="75%">
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-6">
@@ -205,7 +205,7 @@ function watchP7() {
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
                                         <div class="text-center">
-                                            <img src="../../assets/images/course/modulo2/1630857844.jpg" alt="" width="75%">
+                                            <img src="../../assets/images/course/ilustraciones/9.jpg" alt="" width="75%">
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-6">
