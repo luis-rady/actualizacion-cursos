@@ -260,6 +260,8 @@ function getFiles() {
             15: "modulo4-15.html",
             16: "modulo4-16.html",
             17: "modulo4-17.html",
+            18: "Quiz-m4.html",
+            19: "modulo4-final.html",
             
         },
     };
