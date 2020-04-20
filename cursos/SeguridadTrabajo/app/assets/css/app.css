@@ -4006,6 +4006,18 @@ b.alertCorrect{
   object-fit: cover;
 }
 
+.image-half-div {
+  background-position-y: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: "cover";
+  
+}
+
+.image-half-div img {
+  
+}
+
 .quiz {
   height: 300px;
   width: 400px; 
@@ -4014,4 +4026,33 @@ b.alertCorrect{
 #fin-del-modulo {
   display: none;
   
+}
+
+.titulo-inicio-modulo {
+  font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; 
+  color: var(--theme-color); 
+  margin-top: 15px; 
+  margin-bottom: 15px; 
+  font-weight: bold; 
+}
+
+.inicio-modulo {
+  background-color: var(--p-light); 
+  margin-bottom: 20px; 
+  border: 1px solid #e6ecf5; 
+  border-radius: 5px; 
+}
+
+#white p {
+  color: white;
+}
+
+#white h1 {
+  color: white;
+}
+
+.imagen-mediana {
+  width: 800px;
+  height: 500px;
+  border-radius: 5px;
 }
