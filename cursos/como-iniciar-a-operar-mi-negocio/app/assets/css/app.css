@@ -2946,7 +2946,7 @@ label.success { color: #37c936; }
 
 @media only screen and (max-width: 767px) { .card .card-horizon .background-holder { min-height: 350px; } }
 
-.card .card-horizon .background-holder.has-content { display: table; }
+.card .card-horizon .background-holder.has-content { display: table;}
 
 .card .card-horizon .background-holder.has-content .content { display: table-cell; vertical-align: middle; padding: 0px 15px; }
 
@@ -3903,3 +3903,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 }
 
 .inline { display: inline !important; }
+
+.contain {
+  background-size: contain !important;
+}

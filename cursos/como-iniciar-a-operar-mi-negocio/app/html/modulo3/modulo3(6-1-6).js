@@ -25,7 +25,7 @@ function displayError() {
     error.innerHTML = `<div class="alert alert-danger" role="alert">
                             Por favor seleccione una opción.
                         </div>`;
-    answer.scrollIntoView({behavior: "smooth", block: "center"});
+    error.scrollIntoView({behavior: "smooth", block: "center"});
 }
 
 function validate() {
