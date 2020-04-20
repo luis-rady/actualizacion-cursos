@@ -17,13 +17,19 @@
 
 :root {
   /* Cambiar el valor de la variable según la temática del curso.*/
-  --theme-color: #4caf50; 
-  --primary-color: #4caf50;
+  --theme-color: #FF9800; 
+  --primary-color: #FF9800;
   --secondary-color: #37474f;
-  --p-light: #80e27e;
-  --p-dark: #087f23;
+  --p-light: #FFE0B2;
+  --p-dark: #F57C00;
   --s-light:#62727b;
   --s-dark: #102027;
+  --accent-color: #FFC107;
+  --primary-text: #212121;
+  --secondary-text: #757575;
+  --divider-color: #BDBDBD;
+  
+
   
   
 }
@@ -33,7 +39,7 @@ html, html a, body { -webkit-font-smoothing: antialiased; }
 
 body { font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 14px; background-color: #f6f7fb; color: #888da8; line-height: 1.5; letter-spacing: 0.2px; overflow-x: hidden; }
 
-h1, h2, h3, h4, h5, h6 { color: #000000; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0.5px; font-weight: normal; line-height: 1.5; }
+h1, h2, h3, h4, h5, h6 { color: #000000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; letter-spacing: 0.5px; font-weight: normal; line-height: 1.5; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
 
@@ -53,7 +59,7 @@ h5 { font-size: 16px; }
 
 h6 { font-size: 12px; }
 
-p, li { font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #000000; line-height: 1.9; font-size: 18px }
+p, li { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #000000; line-height: 1.9; font-size: 18px }
 
 .image-auto-size {max-height: 100%; max-width: 100%}
 
@@ -3771,12 +3777,17 @@ b.alertCorrect{
   .cards {
     grid-template-columns: 1fr;
   }
+  
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
+  }
+  .big-li li{
+    margin: 10px 20px 20px 0px;
   }
 }
 
@@ -3785,6 +3796,10 @@ b.alertCorrect{
   .cards {
     grid-template-columns: 1fr 1fr;
   }
+  .big-li li{
+    margin: 20px 20px 20px 0px;
+  }
+
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -3792,12 +3807,16 @@ b.alertCorrect{
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .big-li li{
+    margin: 30px 20px 20px 0px;
   }
 }
 .card-category {
@@ -3858,8 +3877,8 @@ b.alertCorrect{
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: var(--secondary-color);
-  border-color: var(--s-dark);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
@@ -3944,6 +3963,18 @@ b.alertCorrect{
  border-radius: 5px;
 }
 
+.filler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.filler img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
 .big {
   width: 100%;
   height: auto;
@@ -3967,3 +3998,15 @@ b.alertCorrect{
   color: var(--secondary-color);
   font-size: 40px;
 }
+
+.image-fill-div {
+  height: 100%;
+  width: 100%; 
+  background-size: cover;
+  object-fit: cover;
+}
+
+/* .big-li li{
+  margin: 30px 20px 20px 0px;
+} */
+
