@@ -71,7 +71,7 @@ kQuestionEnd = """
 
 
                             </li>
-                            <!-- Pregunta 1 END -->
+                            <!-- Pregunta {} END -->
 """
 
 kAnswer = """
@@ -122,7 +122,7 @@ def ParseQuestionWithAnswer(output_file, input_file_data, current_line, total_li
     output_file.write(kQuestionBegin.format(question_number, question_text.lstrip().rstrip()))
     current_line += 1
     current_line = ParseAnswers(output_file, input_file_data, current_line, total_lines, question_number)
-    output_file.write(kQuestionEnd)
+    output_file.write(kQuestionEnd.format(question_number))
     MaybeNextColumn(output_file, question_number, total_questions)
     return current_line
 
