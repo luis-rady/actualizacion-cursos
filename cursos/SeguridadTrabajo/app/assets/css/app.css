@@ -3690,7 +3690,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 }
 
 /*-- Para el carousel de librito de cursos de DP --*/
-.credits-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: var(--theme-color); margin-top: 0px; line-height: 25px; }
+.credits-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: var(--p-dark); margin-top: 0px; line-height: 25px; }
 
 /*-- Para los botones de creditos --*/
 .btn-credits { background-color: var(--theme-color); border-color: var(--theme-color); color: #ffffff; }
@@ -4051,8 +4051,24 @@ b.alertCorrect{
   color: white;
 }
 
+#white h3 {
+  color: white;
+}
+
+#white ul {
+  color: white;
+}
+
+#white li {
+  color: white;
+}
+
 .imagen-mediana {
   width: 800px;
   height: 500px;
   border-radius: 5px;
+}
+
+.contenedor-imagen {
+  padding: 0px; top: 0px;
 }

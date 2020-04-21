@@ -235,8 +235,8 @@ function getFiles() {
             13: "modulo2-13.html",
             14: "modulo2-14.html",
             15: "modulo2-15.html",
-            16: "modulo2-16-quiz.html",
-            17: "modulo2-17.html",
+            16: "Quiz-m2.html",
+            17: "modulo2-final.html",
         },
         modulo3: {
             1: "modulo3-1.html",
@@ -297,8 +297,9 @@ function getFiles() {
             8: "modulo6-8.html",
             9: "modulo6-9.html",
             10: "modulo6-10.html",
-            11: "Quiz-m6.html",
-            12: "modulo6-final.html",
+            11: "modulo6-11.html",
+            12: "Quiz-m6.html",
+            13: "modulo6-final.html",
             
         },
     };
