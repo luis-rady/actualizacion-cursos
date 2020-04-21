@@ -1,64 +1,16 @@
-11
+3
 
-1. ¿Cuáles son las pruebas que apoyan a la teoría del Big Bang?
-La constante expansión del universo; la radiación del fondo de microondas; la abundancia de los elementos más ligeros.
-La constante expansión del universo; la radiación del fondo de microondas; la abundancia de los elementos más pesados.
-La constante expansión del universo; la formación de las estrellas; la abundancia de los elementos más ligeros.
-La constante expansión del universo; la formación de las estrellas; la abundancia de los elementos más pesados.
+1. ¿Bajo qué condiciones llegará el universo a volver a ser la singularidad que era antes y quedarse como tal?
+Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.
+Si la densidad de la materia equilibra la fuerza de la expansión.
+Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.
 
-2. ¿De dónde provienen la mayoría de nuestros átomos?
-De estrellas.
-De agujeros negros.
-De enanas blancas.
+2. ¿Bajo qué condiciones llegará el universo a volver a expandirse infinitamente?
+Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.
+Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.
+Si la densidad de la materia equilibra la fuerza de la expansión.
 
-3. ¿En qué medida se toman las distancias en el universo?
-En lo que recorre la luz en cierto tiempo.
-En lo que recorre el sonido en cierto tiempo.
-En el sistema Imperial.
-En el sistema Métrico.
-
-4. ¿Cómo se puede saber de qué elementos están formadas las estrellas?
-Por sus rayas características del espectro atómico.
-Por su brillo.
-Por el color de la luz se puede saber.
-Por su calor se sabe los elementos.
-
-5. ¿Por qué pueden los Muones recorrer 20km cuando solamente deberían avanzar hasta 450?
-Porque al ir tan rápido, el espacio se contrae.
-Porque al ir tan rápido, se teletransportan.
-Es un fenómeno físico que sigue siendo un enigma.
-
-
-6. ¿Cómo se le conoce a la energía de un fotón?
-Quantum.
-Energía de un fotón.
-Brillo.
-
-7. ¿Qué es la materia?
-Energía condensada.
-Es solamente materia.
-Es energía antigua.
-
-8. ¿Algo que contiene masa puede alcanzar la velocidad de la luz? ¿Por qué?
-No, porque al acercarse a la velocidad de la luz su masa aumenta y esto significa que necesita más energía para acelerar. Esto se repite indefinidamente, evitando que alcance la velocidad de la luz.
-Sí, porque al acercarse a la velocidad de la luz su masa aumenta y esto significa que tiene más energía para acelerar. Y alcanza la velocidad de la luz.
-No, porque la velocidad de la luz es un límite imaginario, que nada alcanza.
-Sí, porque si el fotón lo logra, cualquier otra partícula también podría.
-
-9. ¿Cómo vemos el sol?
-Lo vemos como era hace 8 minutos.
-Lo vemos como es actualmente.
-Lo vemos como era hace 4 años.
-Lo vemos como será en un futuro próximo.
-
-10. ¿Cuánto porcentaje del universo pertenece a la materia que podemos observar?
-10%
-90%
-20%
-80%
-
-11. ¿Quién diseñó la teoría de la relatividad?
-Albert Einstein.
-Erwin Schrödinger.
-Sir. Isaac Newton.
-Stephen Hawking.
+3. ¿Bajo qué condiciones llegará el universo a volver a ser la singularidad que era antes y volverá a expandirse?
+Si la densidad de la materia equilibra la fuerza de la expansión.
+Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.
+Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.

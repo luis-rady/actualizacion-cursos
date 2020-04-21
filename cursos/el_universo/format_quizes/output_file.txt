@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Cuáles son las pruebas que apoyan a la teoría del Big Bang?</p>
+                                <p>¿Bajo qué condiciones llegará el universo a volver a ser la singularidad que era antes y quedarse como tal?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -25,31 +25,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A2">La constante expansión del universo; la radiación del fondo de microondas; la abundancia de los elementos más pesados.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A4">La constante expansión del universo; la formación de las estrellas; la abundancia de los elementos más pesados.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">La constante expansión del universo; la radiación del fondo de microondas; la abundancia de los elementos más ligeros.</label>
+                                                for="U13_Q1_A1">Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A3">La constante expansión del universo; la formación de las estrellas; la abundancia de los elementos más ligeros.</label>
+                                                for="U13_Q1_A2">Si la densidad de la materia equilibra la fuerza de la expansión.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A3">Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.</label>
                                         </div>
 
                                     </div>
@@ -59,9 +52,19 @@
                             </li>
                             <!-- Pregunta 1 END -->
 
+                        </ol>
+                    </div>
+                </div>
+                <!-- Columna izquierda de preguntas END -->
+
+                <!-- Columna derecha de preguntas START -->
+                <div class="col-md-6 pl-3 mrg-btm-50">
+                    <div class="pdd-vertical-30 pdd-horizon-25">
+                        <ol start="2">
+
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿De dónde provienen la mayoría de nuestros átomos?</p>
+                                <p>¿Bajo qué condiciones llegará el universo a volver a expandirse infinitamente?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -74,24 +77,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A2">De agujeros negros.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A3">De enanas blancas.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A1">De estrellas.</label>
+                                                for="U13_Q2_A1">Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A2">Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A3">Si la densidad de la materia equilibra la fuerza de la expansión.</label>
                                         </div>
 
                                     </div>
@@ -103,7 +106,7 @@
 
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>¿En qué medida se toman las distancias en el universo?</p>
+                                <p>¿Bajo qué condiciones llegará el universo a volver a ser la singularidad que era antes y volverá a expandirse?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -119,28 +122,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">En lo que recorre el sonido en cierto tiempo.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A4">En el sistema Métrico.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A3">En el sistema Imperial.</label>
+                                                for="U13_Q3_A3">Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">En lo que recorre la luz en cierto tiempo.</label>
+                                                for="U13_Q3_A1">Si la densidad de la materia equilibra la fuerza de la expansión.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A2">Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.</label>
                                         </div>
 
                                     </div>
@@ -149,387 +145,6 @@
 
                             </li>
                             <!-- Pregunta 3 END -->
-
-                            <!-- Pregunta 4 START -->
-                            <li class="question">
-                                <p>¿Cómo se puede saber de qué elementos están formadas las estrellas?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A1">Por sus rayas características del espectro atómico.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A3">Por el color de la luz se puede saber.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A2">Por su brillo.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A4">Por su calor se sabe los elementos.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 4 END -->
-
-                            <!-- Pregunta 5 START -->
-                            <li class="question">
-                                <p>¿Por qué pueden los Muones recorrer 20km cuando solamente deberían avanzar hasta 450?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A3">Es un fenómeno físico que sigue siendo un enigma.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A1">Porque al ir tan rápido, el espacio se contrae.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A2">Porque al ir tan rápido, se teletransportan.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 5 END -->
-
-                        </ol>
-                    </div>
-                </div>
-                <!-- Columna izquierda de preguntas END -->
-
-                <!-- Columna derecha de preguntas START -->
-                <div class="col-md-6 pl-3 mrg-btm-50">
-                    <div class="pdd-vertical-30 pdd-horizon-25">
-                        <ol start="6">
-
-                            <!-- Pregunta 6 START -->
-                            <li class="question">
-                                <p>¿Cómo se le conoce a la energía de un fotón?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q6_A3">Brillo.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q6_A2">Energía de un fotón.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q6_A1">Quantum.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 6 END -->
-
-                            <!-- Pregunta 7 START -->
-                            <li class="question">
-                                <p>¿Qué es la materia?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q7_A3">Es energía antigua.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q7_A1">Energía condensada.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q7_A2">Es solamente materia.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 7 END -->
-
-                            <!-- Pregunta 8 START -->
-                            <li class="question">
-                                <p>¿Algo que contiene masa puede alcanzar la velocidad de la luz? ¿Por qué?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q8_A2">Sí, porque al acercarse a la velocidad de la luz su masa aumenta y esto significa que tiene más energía para acelerar. Y alcanza la velocidad de la luz.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q8_A3">No, porque la velocidad de la luz es un límite imaginario, que nada alcanza.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q8_A1">No, porque al acercarse a la velocidad de la luz su masa aumenta y esto significa que necesita más energía para acelerar. Esto se repite indefinidamente, evitando que alcance la velocidad de la luz.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q8_A4">Sí, porque si el fotón lo logra, cualquier otra partícula también podría.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 8 END -->
-
-                            <!-- Pregunta 9 START -->
-                            <li class="question">
-                                <p>¿Cómo vemos el sol?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q9_A1">Lo vemos como era hace 8 minutos.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q9_A3">Lo vemos como era hace 4 años.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q9_A2">Lo vemos como es actualmente.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q9_A4">Lo vemos como será en un futuro próximo.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 9 END -->
-
-                            <!-- Pregunta 10 START -->
-                            <li class="question">
-                                <p>¿Cuánto porcentaje del universo pertenece a la materia que podemos observar?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q10_A4">80%</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q10_A1">10%</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q10_A2">90%</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q10_A3">20%</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 10 END -->
-
-                            <!-- Pregunta 11 START -->
-                            <li class="question">
-                                <p>¿Quién diseñó la teoría de la relatividad?</p>
-
-                                <b class='alertWrong' style="display: none; color:red">
-                                    Respuesta equivocada, vuélvelo a intentar.
-                                </b>
-                                <b class='alertCorrect' style="display: none; color:green">
-                                    ¡Respuesta correcta!
-                                </b>
-
-                                <div class="row">
-                                    <div class="pl-3">
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q11_A2">Erwin Schrödinger.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q11_A1">Albert Einstein.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q11_A4">Stephen Hawking.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q11_A3">Sir. Isaac Newton.</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </li>
-                            <!-- Pregunta 11 END -->
 
                         </ol>
                     </div>
