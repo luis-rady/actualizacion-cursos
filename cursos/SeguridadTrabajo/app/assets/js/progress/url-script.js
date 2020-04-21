@@ -282,7 +282,7 @@ function getFiles() {
             15: "modulo5-15.html",
             16: "modulo5-16.html",
             17: "modulo5-17.html",
-            18: "Quiz-m4.html",
+            18: "Quiz-m5.html",
             19: "modulo5-final.html",
             
         },
@@ -302,6 +302,37 @@ function getFiles() {
             13: "modulo6-final.html",
             
         },
+        modulo7: {
+            1: "modulo7-1.html",
+            2: "modulo7-2.html",
+            3: "modulo7-3.html",
+            4: "modulo7-4.html",
+            5: "modulo7-5.html",
+            6: "modulo7-6.html",
+            7: "modulo7-7.html",
+            8: "modulo7-8.html",
+            9: "modulo7-9.html",
+            10: "modulo7-10.html",
+            11: "modulo7-11.html",
+            12: "Quiz-m7.html",
+            13: "modulo7-final.html",
+            
+        },
+        modulo8: {
+            1: "modulo8-1.html",
+            2: "modulo8-2.html",
+            3: "modulo8-3.html",
+            4: "modulo8-4.html",
+            5: "modulo8-5.html",
+            6: "modulo8-6.html",
+            7: "modulo8-7.html",
+            8: "modulo8-8.html",
+            9: "modulo8-9.html",
+            10: "modulo8-10.html",
+            11: "Quiz-m8.html",
+            12: "modulo8-final.html",
+        },
+
     };
     
     return files;
