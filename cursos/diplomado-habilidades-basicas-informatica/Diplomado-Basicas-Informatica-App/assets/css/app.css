@@ -3743,6 +3743,8 @@ a#tab-1.nav-link.active.show {border-radius: 0px; border-color: var(--theme-colo
 .btn-2 {
   border-style: outset;
 }
+/*-- Para los botones de creditos --*/
+.btn-credits { background-color: var(--theme-color); border-color: var(--theme-color); color: #ffffff; }
 
 .center-block {
    margin-left:auto;

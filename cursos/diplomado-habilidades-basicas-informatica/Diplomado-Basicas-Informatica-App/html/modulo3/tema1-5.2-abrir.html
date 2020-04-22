@@ -1,143 +1,393 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <title>
+      Habilidades Básicas en Informática | CVA - Centro Virtual de Aprendizaje
+    </title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
-  <title>
-    Habilidades Básicas en Informática | CVA - Centro Virtual de Aprendizaje
-  </title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../../assets/images/logo/favicon.png">
+    <!-- plugins css -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
+    />
 
-  <!-- plugins css -->
-  <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
-  <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../assets/css/animate.min.css" rel="stylesheet" />
+    <link href="../../assets/css/app.css" rel="stylesheet" />
+    <link href="../../assets/css/progress.css" rel="stylesheet" />
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
+    <link href="../../assets/css/styles.css" rel="stylesheet" />
+    <link href="../../assets/css/modulo3/styles.css" rel="stylesheet" />
+  </head>
 
-  <!-- core css -->
-  <link href="../../assets/css/ei-icon.css" rel="stylesheet">
-  <link href="../../assets/css/themify-icons.css" rel="stylesheet">
-  <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
-  <link href="../../assets/css/animate.min.css" rel="stylesheet">
-  <link href="../../assets/css/app.css" rel="stylesheet">
-  <link href="../../assets/css/progress.css" rel="stylesheet">
-  <link href="../../assets/css/progress-circle.css" rel="stylesheet">
-  <link href="../../assets/css/styles.css" rel="stylesheet">
-  <link href="../../assets/css/modulo3/styles.css" rel="stylesheet">
-</head>
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav"></div>
+        <!-- Side Nav END -->
 
-<body class="header-info side-nav-dark">
-  <div class="app">
-    <div class="layout">
-      <!-- Side Nav START -->
-      <div class="side-nav" id="sideNav">
-      </div>
-      <!-- Side Nav END -->
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar"></div>
+          <!-- Header END -->
 
-      <!-- Page Container START -->
-      <div class="page-container">
-        <!-- Header START -->
-        <div class="header navbar">
-        </div>
-        <!-- Header END -->
-
-        <!-- Content Wrapper START -->
-        <div class="main-content">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col">
-
-                <div class="card">
-                  <div class="card-block">
-                    <h1 class="card-title">1.5.4 Abrir documentos</h1>
-                    <p>
-                      Al iniciar la aplicación, podemos abrir documentos que ya hemos creado,
-                      esto aplica para cualquiera de las tres aplicaciones. El abrir documentos
-                      es muy común, porque podemos hacerlo para editarlos, consultarlos, imprimirlos,
-                      entre otras cosas.
-                    </p>
-                    <p>
-                      Para abrir un documento existente, se realizan los siguientes pasos:
-                    </p>
-                    <p>
-                      <em>
-                        <img src="../../assets/images/course/modulo3/mouse.gif" alt="">
-                        Seleccione la versión que tiene de Office para ver la explicación de este tema
-                      </em>
-                    </p>
-                    <div class="flex-row">
-                      <div class="flex-row box-form" id="office-2007">
-                        <img src="../../assets/images/course/modulo3/p2_1b.jpg" alt="Office 2007">
-                      </div>
-                      <div class="flex-row box-form" id="office-2010">
-                        <img src="../../assets/images/course/modulo3/p2_1c.jpg" alt="Office 2010">
-                      </div>
-                    </div>
-
-                    <div class="card-information hidden" id="office-2007-section">
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-block">
+                      <h1 class="card-title">Abrir documentos</h1>
                       <p>
-                        Los métodos más comunes son:
+                        Al iniciar la aplicación, podemos abrir documentos que
+                        ya hemos creado, esto aplica para cualquiera de las tres
+                        aplicaciones. El abrir documentos es muy común, porque
+                        podemos hacerlo para editarlos, consultarlos,
+                        imprimirlos, entre otras cosas.
                       </p>
-                      <div class="row justify-content-center mrg-top-20">
-                        <div class="pill-info">
-                          <ul class="nav nav-pills nav-fill justify-content-center">
-                            <li class="nav-item btn-1">
-                              <a href="#boton-office" class="nav-link active" role="tab" data-toggle="tab">Desde el botón Office</a>
-                            </li>
-                            <li class="nav-item btn-1">
-                              <a href="#barra-de-herramientas" class="nav-link" role="tab" data-toggle="tab">Desde la Barra de herramientas de acceso rápido</a>
-                            </li>
-                          </ul>
-                          <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade in active" id="boton-office">
-                              <div class="card">
-                                <div class="pdd-horizon-15 pdd-vertical-20">
-                                  <ol>
-                                    <li>Haga clic en el botón de Office.</li>
-                                    <li>
-                                      Seleccione la opción Abrir (Open)
-                                      <img class="center-image" src="../../assets/images/course/modulo3/boton-office-abrir-1.jpg" alt="">
-                                    </li>
-                                    <li>Aparecerá otra pantalla preguntando por la opción que queremos.</li>
-                                    <li>
-                                      Se desplegará un cuadro de diálogo.
-                                    </li>
-                                    <li>En el espacio donde dice "Buscar en" (Look in), seleccione la unidad de su disco duro, memoria USB, Cd o DVD donde se encuentra el archivo.</li>
-                                    <li>
-                                      Aparecerán los nombres de todas las carpetas y archivos de la unidad seleccionada.
-                                      <img class="center-image" src="../../assets/images/course/modulo3/boton-office-abrir-2.jpg" alt="">
-                                    </li>
-                                    <li>Localice el archivo que se desea abrir.</li>
-                                    <li>Haga doble clic sobre él o bien, selecciónelo y oprima el botón Abrir (Open).</li>
-                                  </ol>
+                      <p>
+                        Para abrir un documento existente, se realizan los
+                        siguientes pasos:
+                      </p>
+                      <p>
+                        <em>
+                          <img
+                            src="../../assets/images/course/modulo3/mouse.gif"
+                            alt=""
+                          />
+                          Seleccione la versión que tiene de Office para ver la
+                          explicación de este tema
+                        </em>
+                      </p>
+                      <div class="flex-row">
+                        <div class="flex-row box-form" id="office-2007">
+                          <img
+                            src="../../assets/images/course/modulo3/p2_1b.jpg"
+                            alt="Office 2007"
+                          />
+                        </div>
+                        <div class="flex-row box-form" id="office-2010">
+                          <img
+                            src="../../assets/images/course/modulo3/p2_1c.jpg"
+                            alt="Office 2010"
+                          />
+                        </div>
+                      </div>
+
+                      <div
+                        class="card-information hidden"
+                        id="office-2007-section"
+                      >
+                        <p>
+                          Los métodos más comunes son:
+                        </p>
+                        <div class="row justify-content-center mrg-top-20">
+                          <div class="pill-info">
+                            <ul
+                              class="nav nav-pills nav-fill justify-content-center"
+                            >
+                              <li class="nav-item btn-1">
+                                <a
+                                  href="#boton-office"
+                                  class="nav-link active"
+                                  role="tab"
+                                  data-toggle="tab"
+                                  >Desde el botón Office</a
+                                >
+                              </li>
+                              <li class="nav-item btn-1">
+                                <a
+                                  href="#barra-de-herramientas"
+                                  class="nav-link"
+                                  role="tab"
+                                  data-toggle="tab"
+                                  >Desde la Barra de herramientas de acceso
+                                  rápido</a
+                                >
+                              </li>
+                            </ul>
+                            <div class="tab-content">
+                              <div
+                                role="tabpanel"
+                                class="tab-pane fade in active"
+                                id="boton-office"
+                              >
+                                <div class="card">
+                                  <div class="pdd-horizon-15 pdd-vertical-20">
+                                    <ol>
+                                      <li>Haga clic en el botón de Office.</li>
+                                      <li>
+                                        Seleccione la opción Abrir (Open)
+                                        <img
+                                          class="center-image"
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-1.jpg"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Aparecerá otra pantalla preguntando por
+                                        la opción que queremos.
+                                      </li>
+                                      <li>
+                                        Se desplegará un cuadro de diálogo.
+                                      </li>
+                                      <li>
+                                        En el espacio donde dice "Buscar en"
+                                        (Look in), seleccione la unidad de su
+                                        disco duro, memoria USB, Cd o DVD donde
+                                        se encuentra el archivo.
+                                      </li>
+                                      <li>
+                                        Aparecerán los nombres de todas las
+                                        carpetas y archivos de la unidad
+                                        seleccionada.
+                                        <img
+                                          class="center-image"
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-2.jpg"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Localice el archivo que se desea abrir.
+                                      </li>
+                                      <li>
+                                        Haga doble clic sobre él o bien,
+                                        selecciónelo y oprima el botón Abrir
+                                        (Open).
+                                      </li>
+                                    </ol>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                role="tabpanel"
+                                class="tab-pane fade"
+                                id="barra-de-herramientas"
+                              >
+                                <div class="card">
+                                  <div class="pdd-horizon-15 pdd-vertical-20">
+                                    <ol>
+                                      <li>
+                                        Identifique el ícono.
+                                        <img
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-3.gif"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Haga clic en él
+                                        <img
+                                          class="center-image"
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-4.jpg"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Automáticamente aparecerá el documento
+                                        nuevo.
+                                      </li>
+                                      <li>
+                                        Se desplegará un cuadro de diálogo.
+                                      </li>
+                                      <li>
+                                        En el espacio donde dice "Buscar en"
+                                        (Look in), seleccione la unidad de su
+                                        disco duro, memoria USB, Cd o DVD donde
+                                        se encuentra el archivo.
+                                      </li>
+                                      <li>
+                                        Aparecerán los nombres de todas las
+                                        carpetas y archivos de la unidad
+                                        seleccionada.
+                                        <img
+                                          class="center-image"
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-2.jpg"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Localice el archivo que se desea abrir.
+                                      </li>
+                                      <li>
+                                        Haga doble clic sobre él o bien,
+                                        selecciónelo y oprima el botón Abrir
+                                        (Open).
+                                      </li>
+                                    </ol>
+                                  </div>
                                 </div>
                               </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade" id="barra-de-herramientas">
-                              <div class="card">
-                                <div class="pdd-horizon-15 pdd-vertical-20">
-                                  <ol>
-                                    <li>Identifique el ícono. <img src="../../assets/images/course/modulo3/boton-office-abrir-3.gif" alt=""> </li>
-                                    <li>Haga clic en él
-                                      <img class="center-image" src="../../assets/images/course/modulo3/boton-office-abrir-4.jpg" alt="">
-                                    </li>
-                                    <li>Automáticamente aparecerá el documento nuevo.</li>
-                                    <li>
-                                      Se desplegará un cuadro de diálogo.
-                                    </li>
-                                    <li>En el espacio donde dice "Buscar en" (Look in), seleccione la unidad de su disco duro, memoria USB, Cd o DVD donde se encuentra el archivo.</li>
-                                    <li>
-                                      Aparecerán los nombres de todas las carpetas y archivos de la unidad seleccionada.
-                                      <img class="center-image" src="../../assets/images/course/modulo3/boton-office-abrir-2.jpg" alt="">
-                                    </li>
-                                    <li>Localice el archivo que se desea abrir.</li>
-                                    <li>Haga doble clic sobre él o bien, selecciónelo y oprima el botón Abrir (Open).</li>
-                                  </ol>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="card-information hidden"
+                        id="office-2010-section"
+                      >
+                        <p>
+                          Los métodos más comunes son:
+                        </p>
+                        <div class="row justify-content-center mrg-top-20">
+                          <div class="pill-info">
+                            <ul
+                              class="nav nav-pills nav-fill justify-content-center"
+                            >
+                              <li class="nav-item btn-1">
+                                <a
+                                  href="#boton-office2"
+                                  class="nav-link active"
+                                  role="tab"
+                                  data-toggle="tab"
+                                  >Desde la pestaña o ficha Archivo</a
+                                >
+                              </li>
+                              <li class="nav-item btn-1">
+                                <a
+                                  href="#barra-de-herramientas2"
+                                  class="nav-link"
+                                  role="tab"
+                                  data-toggle="tab"
+                                  >Desde la Barra de herramientas de acceso
+                                  rápido</a
+                                >
+                              </li>
+                            </ul>
+                            <div class="tab-content">
+                              <div
+                                role="tabpanel"
+                                class="tab-pane fade in active"
+                                id="boton-office2"
+                              >
+                                <div class="card">
+                                  <div class="pdd-horizon-15 pdd-vertical-20">
+                                    <ol>
+                                      <li>Haga clic en la ficha de Archivo.</li>
+                                      <li>
+                                        Seleccione la opción Abrir (Open)
+                                        <img
+                                          class="center-image"
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-5.jpg"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Aparecerá otra pantalla preguntando por
+                                        la opción que queremos.
+                                      </li>
+                                      <li>
+                                        Se desplegará un cuadro de diálogo.
+                                      </li>
+                                      <li>
+                                        En el espacio donde dice "Buscar en"
+                                        (Look in), seleccione la unidad de su
+                                        disco duro, memoria USB, Cd o DVD donde
+                                        se encuentra el archivo.
+                                      </li>
+                                      <li>
+                                        Aparecerán los nombres de todas las
+                                        carpetas y archivos de la unidad
+                                        seleccionada.
+                                        <img
+                                          class="center-image"
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-6.jpg"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Localice el archivo que se desea abrir.
+                                      </li>
+                                      <li>
+                                        Haga doble clic sobre él o bien,
+                                        selecciónelo y oprima el botón Abrir
+                                        (Open).
+                                      </li>
+                                    </ol>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                role="tabpanel"
+                                class="tab-pane fade"
+                                id="barra-de-herramientas2"
+                              >
+                                <div class="card">
+                                  <div class="pdd-horizon-15 pdd-vertical-20">
+                                    <ol>
+                                      <li>
+                                        Identifique el ícono.
+                                        <img
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-7.jpg"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Haga clic en él
+                                        <img
+                                          class="center-image"
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-8.jpg"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Automáticamente aparecerá el documento
+                                        nuevo.
+                                      </li>
+                                      <li>
+                                        Se desplegará un cuadro de diálogo.
+                                      </li>
+                                      <li>
+                                        En el espacio donde dice "Buscar en"
+                                        (Look in), seleccione la unidad de su
+                                        disco duro, memoria USB, Cd o DVD donde
+                                        se encuentra el archivo.
+                                      </li>
+                                      <li>
+                                        Aparecerán los nombres de todas las
+                                        carpetas y archivos de la unidad
+                                        seleccionada.
+                                        <img
+                                          class="center-image"
+                                          src="../../assets/images/course/modulo3/boton-office-abrir-6.jpg"
+                                          alt=""
+                                        />
+                                      </li>
+                                      <li>
+                                        Localice el archivo que se desea abrir.
+                                      </li>
+                                      <li>
+                                        Haga doble clic sobre él o bien,
+                                        selecciónelo y oprima el botón Abrir
+                                        (Open).
+                                      </li>
+                                    </ol>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -145,179 +395,156 @@
                         </div>
                       </div>
                     </div>
+                  </div>
 
-                    <div class="card-information hidden" id="office-2010-section">
-                      <p>
-                        Los métodos más comunes son:
-                      </p>
-                      <div class="row justify-content-center mrg-top-20">
-                        <div class="pill-info">
-                          <ul class="nav nav-pills nav-fill justify-content-center">
-                            <li class="nav-item btn-1">
-                              <a href="#boton-office2" class="nav-link active" role="tab" data-toggle="tab">Desde la pestaña o ficha Archivo</a>
-                            </li>
-                            <li class="nav-item btn-1">
-                              <a href="#barra-de-herramientas2" class="nav-link" role="tab" data-toggle="tab">Desde la Barra de herramientas de acceso rápido</a>
-                            </li>
-                          </ul>
-                          <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade in active" id="boton-office2">
-                              <div class="card">
-                                <div class="pdd-horizon-15 pdd-vertical-20">
-                                  <ol>
-                                    <li>Haga clic en la ficha de Archivo.</li>
-                                    <li>
-                                      Seleccione la opción Abrir (Open)
-                                      <img class="center-image" src="../../assets/images/course/modulo3/boton-office-abrir-5.jpg" alt="">
-                                    </li>
-                                    <li>Aparecerá otra pantalla preguntando por la opción que queremos.</li>
-                                    <li>
-                                      Se desplegará un cuadro de diálogo.
-                                    </li>
-                                    <li>En el espacio donde dice "Buscar en" (Look in), seleccione la unidad de su disco duro, memoria USB, Cd o DVD donde se encuentra el archivo.</li>
-                                    <li>
-                                      Aparecerán los nombres de todas las carpetas y archivos de la unidad seleccionada.
-                                      <img class="center-image" src="../../assets/images/course/modulo3/boton-office-abrir-6.jpg" alt="">
-                                    </li>
-                                    <li>Localice el archivo que se desea abrir.</li>
-                                    <li>Haga doble clic sobre él o bien, selecciónelo y oprima el botón Abrir (Open).</li>
-                                  </ol>
-                                </div>
-                              </div>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="barra-de-herramientas2">
-                              <div class="card">
-                                <div class="pdd-horizon-15 pdd-vertical-20">
-                                  <ol>
-                                    <li>Identifique el ícono. <img src="../../assets/images/course/modulo3/boton-office-abrir-7.jpg" alt=""> </li>
-                                    <li>Haga clic en él
-                                      <img class="center-image" src="../../assets/images/course/modulo3/boton-office-abrir-8.jpg" alt="">
-                                    </li>
-                                    <li>Automáticamente aparecerá el documento nuevo.</li>
-                                    <li>
-                                      Se desplegará un cuadro de diálogo.
-                                    </li>
-                                    <li>En el espacio donde dice "Buscar en" (Look in), seleccione la unidad de su disco duro, memoria USB, Cd o DVD donde se encuentra el archivo.</li>
-                                    <li>
-                                      Aparecerán los nombres de todas las carpetas y archivos de la unidad seleccionada.
-                                      <img class="center-image" src="../../assets/images/course/modulo3/boton-office-abrir-6.jpg" alt="">
-                                    </li>
-                                    <li>Localice el archivo que se desea abrir.</li>
-                                    <li>Haga doble clic sobre él o bien, selecciónelo y oprima el botón Abrir (Open).</li>
-                                  </ol>
-                                </div>
-                              </div>
-                            </div>
+                  <div class="row mrg-btm-20">
+                    <div class="col text-center">
+                      <div class="btn-group">
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.2-guardar.html"
+                        >
+                          <span>Atrás</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.1.html"
+                        >
+                          <span>1</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.2-crear.html"
+                        >
+                          <span>2</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.2-guardar.html"
+                        >
+                          <span>3</span>
+                        </a>
+                        <a
+                          class="btn btn-actual-page"
+                          role="button"
+                          href="tema1-5.2-abrir.html"
+                        >
+                          <span>4</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.2-cerrar.html"
+                        >
+                          <span>5</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.3-herramientas-generales-imprimir.html"
+                        >
+                          <span>6</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.3-configuracion.html"
+                        >
+                          <span>7</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.3-vista-previa.html"
+                        >
+                          <span>8</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.3-imprimir.html"
+                        >
+                          <span>9</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema1-5.2-cerrar.html"
+                        >
+                          <span>Siguiente</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card widget-feed">
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <h1 class="feed-title tag tag-info">Módulo 3</h1>
+                        <h1 class="feed-title tag tag-info">Tema 1</h1>
+                        <h3 class="feed-subtitle">Tu Progreso</h3>
+                        <div class="progress" style="height: 20px;" id="bar">
+                          <div
+                            class="progress-bar bg-info"
+                            role="progressbar"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="max-width: 15%;"
+                          >
+                            15%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="row justify-content-md-center">
+                          <div class="col-md-5">
+                            <div id="circlecontainer"></div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col text-center">
+                            <h3 class="feed-subtitle">Progreso del Módulo</h3>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="row mrg-btm-20">
-                  <div class="col text-center">
-                    <div class="btn-group">
-                      <a class="btn btn-default" role="button" href="tema1-5.2-guardar.html">
-                        <span>Atrás</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema1-5.1.html">
-                        <span>1</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema1-5.2-crear.html">
-                        <span>2</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema1-5.2-guardar.html">
-                        <span>3</span>
-                      </a>
-                      <a class="btn btn-actual-page" role="button" href="tema1-5.2-abrir.html">
-                        <span>4</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema1-5.2-cerrar.html">
-                        <span>5</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema1-5.3-herramientas-generales-imprimir.html">
-                        <span>6</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema1-5.3-configuracion.html">
-                        <span>7</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema1-5.3-vista-previa.html">
-                        <span>8</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema1-5.3-imprimir.html">
-                        <span>9</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema1-5.2-cerrar.html">
-                        <span>Siguiente</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card widget-feed">
-                  <div class="row">
-                    <div class="col-lg-8">
-                      <h1 class="feed-title tag tag-info">Módulo 3</h1>
-                      <h1 class="feed-title tag tag-info">Tema 1</h1>
-                      <h3 class="feed-subtitle">Tu Progreso</h3>
-                      <div class="progress" style="height: 20px;" id="bar">
-                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 15%">15%</div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="row justify-content-md-center">
-                        <div class="col-md-5">
-                          <div id="circlecontainer"></div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col text-center">
-                          <h3 class="feed-subtitle">Progreso del Módulo</h3>
-                        </div>
-                      </div>
-                    </div>
-
-
-                  </div>
-                </div>
-
-
               </div>
             </div>
           </div>
+
+          <!-- Content Wrapper END -->
+
+          <!-- Footer START -->
+          <footer class="content-footer"></footer>
+          <!-- Footer END -->
         </div>
-
-        <!-- Content Wrapper END -->
-
-        <!-- Footer START -->
-        <footer class="content-footer">
-        </footer>
-        <!-- Footer END -->
+        <!-- Page Container END -->
       </div>
-      <!-- Page Container END -->
     </div>
-  </div>
 
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
+    <script src="../../assets/js/modulo3/moduloOffice.js"></script>
+    <script type="text/javascript">
+      show(0.45);
+    </script>
+    <!-- endbuild -->
 
-  <!-- plugins js -->
-  <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
-  <script src="../../assets/js/recycled/navigationbar.js"></script>
-  <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="../../assets/vendors/PACE/pace.min.js"></script>
-  <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-  <script src="../../assets/js/progressbar.js"></script>
-  <script src="../../assets/js/progress-circle.js"></script>
-  <script src="../../assets/js/modulo3/moduloOffice.js"></script>
-  <script type="text/javascript">
-    show(0.45)
-  </script>
-  <!-- endbuild -->
-
-  <!-- core js -->
-  <script src="../../assets/js/app.js"></script>
-
-</body>
-
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+  </body>
 </html>

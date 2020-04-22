@@ -1,395 +1,601 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <title>
+      Habilidades Básicas en Informática | CVA - Centro Virtual de Aprendizaje
+    </title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
-  <title>
-    Habilidades Básicas en Informática | CVA - Centro Virtual de Aprendizaje
-  </title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../../assets/images/logo/favicon.png">
+    <!-- plugins css -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
+    />
 
-  <!-- plugins css -->
-  <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
-  <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../assets/css/animate.min.css" rel="stylesheet" />
+    <link href="../../assets/css/app.css" rel="stylesheet" />
+    <link href="../../assets/css/progress.css" rel="stylesheet" />
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
+    <link href="../../assets/css/styles.css" rel="stylesheet" />
+    <link href="../../assets/css/modulo3/styles.css" rel="stylesheet" />
+  </head>
 
-  <!-- core css -->
-  <link href="../../assets/css/ei-icon.css" rel="stylesheet">
-  <link href="../../assets/css/themify-icons.css" rel="stylesheet">
-  <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
-  <link href="../../assets/css/animate.min.css" rel="stylesheet">
-  <link href="../../assets/css/app.css" rel="stylesheet">
-  <link href="../../assets/css/progress.css" rel="stylesheet">
-  <link href="../../assets/css/progress-circle.css" rel="stylesheet">
-  <link href="../../assets/css/styles.css" rel="stylesheet">
-  <link href="../../assets/css/modulo3/styles.css" rel="stylesheet">
-</head>
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav"></div>
+        <!-- Side Nav END -->
 
-<body class="header-info side-nav-dark">
-  <div class="app">
-    <div class="layout">
-      <!-- Side Nav START -->
-      <div class="side-nav" id="sideNav">
-      </div>
-      <!-- Side Nav END -->
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar"></div>
+          <!-- Header END -->
 
-      <!-- Page Container START -->
-      <div class="page-container">
-        <!-- Header START -->
-        <div class="header navbar">
-        </div>
-        <!-- Header END -->
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid">
+              <div class="card">
+                <div class="card-block">
+                  <h1 class="card-title text-center mrg-btm-30">
+                    Edición de gráficos
+                  </h1>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <!-- CONTENT START -->
+                        <div class="tab-info center-tabs">
+                          <ul
+                            class="nav nav-tabs"
+                            role="tablist"
+                            style="padding-bottom: 13px;"
+                          >
+                            <li class="nav-item btn-1">
+                              <a
+                                href="#tab-centered-1"
+                                class="nav-link active"
+                                role="tab"
+                                data-toggle="tab"
+                                >Cambiar tipo de gráfico</a
+                              >
+                            </li>
+                            <li class="nav-item btn-1">
+                              <a
+                                href="#tab-centered-2"
+                                class="nav-link"
+                                role="tab"
+                                data-toggle="tab"
+                                >Cambiar Datos</a
+                              >
+                            </li>
+                            <li class="nav-item btn-1">
+                              <a
+                                href="#tab-centered-3"
+                                class="nav-link"
+                                role="tab"
+                                data-toggle="tab"
+                                >Cambiar Colores</a
+                              >
+                            </li>
+                            <li class="nav-item btn-1">
+                              <a
+                                href="#tab-centered-4"
+                                class="nav-link"
+                                role="tab"
+                                data-toggle="tab"
+                                >Cambiar Ejes</a
+                              >
+                            </li>
+                            <li class="nav-item btn-1">
+                              <a
+                                href="#tab-centered-5"
+                                class="nav-link"
+                                role="tab"
+                                data-toggle="tab"
+                                >Cambiar rótulos</a
+                              >
+                            </li>
+                            <li class="nav-item btn-1">
+                              <a
+                                href="#tab-centered-6"
+                                class="nav-link"
+                                role="tab"
+                                data-toggle="tab"
+                                >Cambiar fondos</a
+                              >
+                            </li>
+                            <li class="nav-item btn-1">
+                              <a
+                                href="#tab-centered-7"
+                                class="nav-link"
+                                role="tab"
+                                data-toggle="tab"
+                                >Menú contextual</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="tab-content">
+                          <div
+                            role="tabpanel"
+                            class="tab-pane fade in active"
+                            id="tab-centered-1"
+                          >
+                            <div class="pdd-horizon-15 pdd-vertical-20">
+                              <h2 class="card-title">
+                                ¿Cómo cambiar el tipo de gráfico?
+                              </h2>
+                              <img
+                                class="center-image m-auto w-50"
+                                style="border: 2px solid darkblue;"
+                                src="../../assets/images/course/modulo3/xls_p3_4d-1a.gif"
+                                width="10%;"
+                              />
+                              <ol>
+                                <li>
+                                  Seleccione la gráfica con el ratón
+                                </li>
+                                <li>
+                                  Vaya a la pestaña "Diseño" (Design) y
+                                  seleccione "Cambiar tipo de gráfico" (Change
+                                  graph type) para seleccionar otro tipo de
+                                  gráfico.
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-3.gif"
+                                    />
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-6.gif"
+                                    />
+                                  </p>
+                                </li>
+                                <li>
+                                  Inmediatamente cambiará el tipo de gráfico por
+                                  el seleccionado.
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                          <div
+                            role="tabpanel"
+                            class="tab-pane fade"
+                            id="tab-centered-2"
+                          >
+                            <div class="pdd-horizon-15 pdd-vertical-20">
+                              <h2 class="card-title">
+                                ¿Cómo cambiar los datos del gráfico?
+                              </h2>
+                              <img
+                                class="center-image m-auto w-50"
+                                style="border: 2px solid darkblue;"
+                                src="../../assets/images/course/modulo3/xls_p3_4d-1b.gif"
+                                width="10%;"
+                              />
+                              <p>
+                                Al editar un gráfico también podemos cambiar
+                                algún valor o número en la gráfica. Esto se
+                                puede hacer de la siguiente forma:
+                              </p>
+                              <ol>
+                                <li>
+                                  Vaya al menú "Diseño" (Design).
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"
+                                    />
+                                  </p>
+                                </li>
+                                <li>
+                                  Para apreciar los datos que se graficaron,
+                                  haga clic en "Seleccionar datos" (Select
+                                  data).
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-7.gif"
+                                    />
+                                  </p>
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                          <div
+                            role="tabpanel"
+                            class="tab-pane fade"
+                            id="tab-centered-3"
+                          >
+                            <div class="pdd-horizon-15 pdd-vertical-20">
+                              <h2 class="card-title">
+                                ¿Cómo cambiar los colores del gráfico?
+                              </h2>
+                              <img
+                                class="center-image m-auto w-50"
+                                style="border: 2px solid darkblue;"
+                                src="../../assets/images/course/modulo3/xls_p3_4d-1c.gif"
+                                width="10%;"
+                              />
+                              <p>
+                                Puede también cambiar los colores del gráfico.
+                              </p>
+                              <ol>
+                                <li>
+                                  Seleccione la gráfica con el ratón (mouse).
+                                </li>
+                                <li>
+                                  Haga clic en el menú "Diseño" (Design).
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"
+                                    />
+                                  </p>
+                                </li>
+                                <li>
+                                  El submenú "Estilos de diseño" (Chart Styles)
+                                  permite cambiar el estilo del gráfico, el cual
+                                  puede ser en color y forma.
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-8.gif"
+                                    />
+                                  </p>
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                          <div
+                            role="tabpanel"
+                            class="tab-pane fade"
+                            id="tab-centered-4"
+                          >
+                            <div class="pdd-horizon-15 pdd-vertical-20">
+                              <h2 class="card-title">
+                                ¿Cómo cambiar los ejes del gráfico?
+                              </h2>
+                              <img
+                                class="center-image m-auto w-50"
+                                style="border: 2px solid darkblue;"
+                                src="../../assets/images/course/modulo3/xls_p3_4d-1d.gif"
+                                width="10%;"
+                              />
+                              <p>
+                                Los ejes X y Y se pueden cambiar para tener de
+                                diferente forma la gráfica. Esto se hace de la
+                                siguiente forma:
+                              </p>
+                              <ol>
+                                <li>
+                                  Seleccione la gráfica con el ratón (mouse)
+                                </li>
+                                <li>
+                                  Vaya al menú "Presentación" (Layout)
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"
+                                    />
+                                  </p>
+                                </li>
+                                <li>
+                                  En el grupo de "Ejes" (Axes) se podrá decidir
+                                  qué ejes se muestran o bien si se desea
+                                  visualizar la cuadrícula que acompaña a la
+                                  gráfica.
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-9.gif"
+                                    />
+                                  </p>
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                          <div
+                            role="tabpanel"
+                            class="tab-pane fade"
+                            id="tab-centered-5"
+                          >
+                            <div class="pdd-horizon-15 pdd-vertical-20">
+                              <h2 class="card-title">
+                                ¿Cómo cambiar los ejes del gráfico?
+                              </h2>
+                              <img
+                                class="center-image m-auto w-50"
+                                style="border: 2px solid darkblue;"
+                                src="../../assets/images/course/modulo3/xls_p3_4d-1e.gif"
+                                width="10%;"
+                              />
+                              <p>
+                                ¿Recuerda que dentro de la sección rótulos se
+                                encuentran las etiquetas de las categorías,
+                                series y valores? Es decir, si desea que lleve
+                                el nombre de todas las categorías y ver en la
+                                gráfica los valores de cada dato. Bueno, eso
+                                también usted lo puede cambiar.
+                              </p>
+                              <ol>
+                                <li>
+                                  Seleccione la gráfica con el ratón (mouse)
+                                </li>
+                                <li>
+                                  Vaya al menú "Presentación" (Layout).
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"
+                                    />
+                                  </p>
+                                </li>
+                                <li>
+                                  En el grupo de "Etiquetas"(Labels) se
+                                  establece qué etiquetas de texto se
+                                  visualizarán en el gráfico y en qué posición,
+                                  sólo haga clic en "Etiquetas de datos" (Data
+                                  Labels).
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-10.gif"
+                                    />
+                                  </p>
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                          <div
+                            role="tabpanel"
+                            class="tab-pane fade"
+                            id="tab-centered-6"
+                          >
+                            <div class="pdd-horizon-15 pdd-vertical-20">
+                              <h2 class="card-title">
+                                ¿Cómo cambiar los fondos del gráfico?
+                              </h2>
+                              <img
+                                class="center-image m-auto w-50"
+                                style="border: 2px solid darkblue;"
+                                src="../../assets/images/course/modulo3/xls_p3_4d-1f.gif"
+                                width="10%;"
+                              />
+                              <p>
+                                Por default las gráficas se generan con un fondo
+                                blanco, pero usted lo puede cambiar a otro
+                                color. Es muy sencillo, veamos cómo se realiza
+                                el cambio.
+                              </p>
+                              <ol>
+                                <li>
+                                  Seleccione la gráfica con el ratón (mouse)
+                                </li>
+                                <li>
+                                  Vaya al menú "Formato" (Format).
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"
+                                    />
+                                  </p>
+                                </li>
+                                <li>
+                                  Si desea cambiar el contorno del recuadro de
+                                  la gráfica, seleccione "Contorno de forma"
+                                  (Shape outline) y elija el color del contorno
+                                  del recuadro.
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-11.gif"
+                                    />
+                                  </p>
+                                </li>
+                                <li>
+                                  Si desea cambia el fondo del gráfico,
+                                  seleccione "Relleno de forma" (Shape fill) y
+                                  elija el color que desea.
+                                </li>
+                                <li>
+                                  Inmediatamente se verán los cambios.
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                          <div
+                            role="tabpanel"
+                            class="tab-pane fade"
+                            id="tab-centered-7"
+                          >
+                            <div class="pdd-horizon-15 pdd-vertical-20">
+                              <h2 class="card-title">
+                                ¿Cómo ver los Menú Contextual?
+                              </h2>
+                              <img
+                                class="center-image m-auto w-50"
+                                style="border: 2px solid darkblue;"
+                                src="../../assets/images/course/modulo3/xls_p3_4d-1.gif"
+                                width="10%;"
+                              />
+                              <p>
+                                La otra forma es usando el menú contextual del
+                                gráfico.
+                              </p>
+                              <ol>
+                                <li>
+                                  Haga clic derecho del ratón (mouse)
+                                </li>
+                                <li>
+                                  Se despliega el menú contextual.
+                                  <br />
+                                  <p class="text-center">
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-4.gif"
+                                    />
+                                    <img
+                                      class="card-img w-25"
+                                      src="../../assets/images/course/modulo3/xls_p3_4d-12.gif"
+                                    />
+                                  </p>
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
 
-        <!-- Content Wrapper START -->
-        <div class="main-content">
-          <div class="container-fluid">
-
-            <div class="card">
-              <div class="card-block">
-                <h1 class="card-title text-center mrg-btm-30">4.4.4 Edición de gráficos </h1>
-                <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <!-- CONTENT START -->
-                    <div class="tab-info center-tabs">
-                    <ul class="nav nav-tabs" role="tablist" style="padding-bottom: 13px;">
-                      <li class="nav-item btn-1">
-                        <a href="#tab-centered-1" class="nav-link active" role="tab" data-toggle="tab">Cambiar tipo de gráfico</a>
-                      </li>
-                      <li class="nav-item btn-1">
-                        <a href="#tab-centered-2" class="nav-link" role="tab" data-toggle="tab">Cambiar Datos</a>
-                      </li>
-                      <li class="nav-item btn-1">
-                        <a href="#tab-centered-3" class="nav-link" role="tab" data-toggle="tab">Cambiar Colores</a>
-                      </li>
-                      <li class="nav-item btn-1">
-                        <a href="#tab-centered-4" class="nav-link" role="tab" data-toggle="tab">Cambiar Ejes</a>
-                      </li>
-                      <li class="nav-item btn-1">
-                        <a href="#tab-centered-5" class="nav-link" role="tab" data-toggle="tab">Cambiar rótulos</a>
-                      </li>
-                      <li class="nav-item btn-1">
-                        <a href="#tab-centered-6" class="nav-link" role="tab" data-toggle="tab">Cambiar fondos</a>
-                      </li>
-                      <li class="nav-item btn-1">
-                        <a href="#tab-centered-7" class="nav-link" role="tab" data-toggle="tab">Menú contextual</a>
-                      </li>
-                    </ul>
+                        <!-- CONTENT END -->
+                      </div>
+                    </div>
                   </div>
-                  <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade in active" id="tab-centered-1">
-                      <div class="pdd-horizon-15 pdd-vertical-20">
-                        <h2 class="card-title">¿Cómo cambiar el tipo de gráfico?</h2>
-                       <img
-                        class="center-image m-auto w-50"
-                        style="
-                          border: 2px solid darkblue;
-                        "
-                        src="../../assets/images/course/modulo3/xls_p3_4d-1a.gif"
-                        width="10%;"
-                      />
-                      <ol>
-                        <li>
-                          Seleccione la gráfica con el ratón
-                        </li>
-                        <li>
-                          Vaya a la pestaña  "Diseño" (Design)  y seleccione "Cambiar tipo de gráfico" (Change graph type) para seleccionar otro tipo de gráfico.
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-3.gif">
-                          <img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-6.gif"></p>
-                        </li>
-                        <li>
-                            Inmediatamente cambiará el tipo de gráfico por el seleccionado.
-                        </li>
-                      </ol>
-                      </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="tab-centered-2">
-                      <div class="pdd-horizon-15 pdd-vertical-20">
-                        <h2 class="card-title">¿Cómo cambiar los datos del gráfico?</h2>
-                       <img
-                        class="center-image m-auto w-50"
-                        style="
-                          border: 2px solid darkblue;
-                        "
-                        src="../../assets/images/course/modulo3/xls_p3_4d-1b.gif"
-                        width="10%;"
-                      />
-                      <p>
-                        Al editar un gráfico también podemos cambiar algún valor o número en la gráfica. Esto se puede hacer de la siguiente forma:
-                      </p>
-                      <ol>
-                        <li>
-                         Vaya al menú "Diseño" (Design).
-                        <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"></p>
-                        </li>
-                        <li>
-                          Para apreciar los datos que se graficaron, haga clic en "Seleccionar datos" (Select data).
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-7.gif"></p>
-                        </li>
-                      </ol>
-                      </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade " id="tab-centered-3">
-                      <div class="pdd-horizon-15 pdd-vertical-20">
-                        <h2 class="card-title">¿Cómo cambiar los colores del gráfico?</h2>
-                       <img
-                        class="center-image m-auto w-50"
-                        style="
-                          border: 2px solid darkblue;
-                        "
-                        src="../../assets/images/course/modulo3/xls_p3_4d-1c.gif"
-                        width="10%;"
-                      />
-                      <p>
-                        Puede también cambiar los colores del gráfico.
-                      </p>
-                      <ol>
-                        <li>
-                         Seleccione la gráfica con el ratón (mouse).
-                        </li>
-                        <li>
-                          Haga clic en el menú "Diseño" (Design).
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"></p>
-                        </li>
-                        <li>
-                          El submenú "Estilos de diseño" (Chart Styles) permite cambiar el estilo del gráfico, el cual puede ser en color y forma.
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-8.gif"></p>
-                        </li>
-                      </ol>
-                      </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade " id="tab-centered-4">
-                      <div class="pdd-horizon-15 pdd-vertical-20">
-                        <h2 class="card-title">¿Cómo cambiar los ejes del gráfico?</h2>
-                       <img
-                        class="center-image m-auto w-50"
-                        style="
-                          border: 2px solid darkblue;
-                        "
-                        src="../../assets/images/course/modulo3/xls_p3_4d-1d.gif"
-                        width="10%;"
-                      />
-                      <p>
-                        Los ejes X y Y se pueden cambiar para tener de diferente forma la gráfica. Esto se hace de la siguiente forma:
-                      </p>
-                      <ol>
-                        <li>
-                         Seleccione la gráfica con el ratón (mouse)
-                        </li>
-                        <li>
-                          Vaya al menú "Presentación" (Layout)
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"></p>
-                        </li>
-                        <li>
-                          En el grupo de "Ejes" (Axes) se podrá decidir qué ejes se muestran o bien si se desea visualizar la cuadrícula que acompaña a la gráfica.
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-9.gif"></p>
-                        </li>
-                      </ol>
-                      </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade " id="tab-centered-5">
-                      <div class="pdd-horizon-15 pdd-vertical-20">
-                        <h2 class="card-title">¿Cómo cambiar los ejes del gráfico?</h2>
-                       <img
-                        class="center-image m-auto w-50"
-                        style="
-                          border: 2px solid darkblue;
-                        "
-                        src="../../assets/images/course/modulo3/xls_p3_4d-1e.gif"
-                        width="10%;"
-                      />
-                      <p>
-                        ¿Recuerda que dentro de la sección rótulos se encuentran las etiquetas de las categorías, series y valores? Es decir, si desea que lleve el nombre de todas las categorías y ver en la gráfica los valores de cada dato. Bueno, eso también usted lo puede cambiar.
-                      </p>
-                      <ol>
-                        <li>
-                         Seleccione la gráfica con el ratón (mouse)
-                        </li>
-                        <li>
-                          Vaya al menú "Presentación" (Layout). 
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"></p>
-                        </li>
-                        <li>
-                          En el grupo de "Etiquetas"(Labels) se establece qué etiquetas de texto se visualizarán en el gráfico y en qué posición, sólo haga clic en "Etiquetas de datos" (Data Labels).
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-10.gif"></p>
-                        </li>
-                      </ol>
-                      </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade " id="tab-centered-6">
-                      <div class="pdd-horizon-15 pdd-vertical-20">
-                        <h2 class="card-title">¿Cómo cambiar los fondos del gráfico?</h2>
-                       <img
-                        class="center-image m-auto w-50"
-                        style="
-                          border: 2px solid darkblue;
-                        "
-                        src="../../assets/images/course/modulo3/xls_p3_4d-1f.gif"
-                        width="10%;"
-                      />
-                      <p>
-                        Por default las gráficas se generan con un fondo blanco, pero usted lo puede cambiar a otro color. Es muy sencillo, veamos cómo se realiza el cambio.
-                      </p>
-                      <ol>
-                        <li>
-                         Seleccione la gráfica con el ratón (mouse)
-                        </li>
-                        <li>
-                          Vaya al menú "Formato" (Format).
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-5.gif"></p>
-                        </li>
-                        <li>
-                          Si desea cambiar el contorno del recuadro de la gráfica, seleccione "Contorno de forma" (Shape outline) y elija el color del contorno del recuadro.
-                          <br>
-                          <p class="text-center"><img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-11.gif"></p>
-                        </li>
-                        <li>
-                          Si desea cambia el fondo del gráfico, seleccione "Relleno de forma" (Shape fill) y elija el color que desea. 
-                        </li>
-                        <li>
-                          Inmediatamente se verán los cambios.
+                </div>
+              </div>
 
-                        </li>
-                      </ol>
-                      </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="tab-centered-7">
-                      <div class="pdd-horizon-15 pdd-vertical-20">
-                        <h2 class="card-title">¿Cómo ver los Menú Contextual?</h2>
-                       <img
-                        class="center-image m-auto w-50"
-                        style="
-                          border: 2px solid darkblue;
-                        "
-                        src="../../assets/images/course/modulo3/xls_p3_4d-1.gif"
-                        width="10%;"
-                      />
-                      <p>
-                        La otra forma es usando el menú contextual del gráfico.
-                      </p>
-                      <ol>
-                        <li>
-                         Haga clic derecho del ratón (mouse) 
-                        </li>
-                        <li>
-                          Se despliega el menú contextual.
-                          <br>
-                          <p class="text-center">
-                            <img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-4.gif">
-                            <img class="card-img w-25" src="../../assets/images/course/modulo3/xls_p3_4d-12.gif">
-                          </p>
-                        </li>
-                      </ol>
+              <div class="row mrg-btm-20">
+                <div class="col text-center">
+                  <div class="btn-group">
+                    <a
+                      class="btn btn-default"
+                      role="button"
+                      href="tema4-4.3.html"
+                    >
+                      <span>Atrás</span>
+                    </a>
+                    <a
+                      class="btn btn-default"
+                      role="button"
+                      href="tema4-4.1.html"
+                    >
+                      <span>1</span>
+                    </a>
+                    <a
+                      class="btn btn-default"
+                      role="button"
+                      href="tema4-4.2.html"
+                    >
+                      <span>2</span>
+                    </a>
+                    <a
+                      class="btn btn-default"
+                      role="button"
+                      href="tema4-4.3.html"
+                    >
+                      <span>3</span>
+                    </a>
+                    <a
+                      class="btn btn-actual-page"
+                      role="button"
+                      href="tema4-4.4.html"
+                    >
+                      <span>4</span>
+                    </a>
+                    <a
+                      class="btn btn-default"
+                      role="button"
+                      href="tema4-5.1.html"
+                    >
+                      <span>Siguiente</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card widget-feed">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h1 class="feed-title tag tag-info">Módulo 3</h1>
+                    <h1 class="feed-title tag tag-info">Tema 2</h1>
+                    <h3 class="feed-subtitle">Tu Progreso</h3>
+                    <div class="progress" style="height: 20px;" id="bar">
+                      <div
+                        class="progress-bar bg-info"
+                        role="progressbar"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="max-width: 98%;"
+                      >
+                        98%
                       </div>
                     </div>
                   </div>
-
-                      <!-- CONTENT END -->
+                  <div class="col-lg-4">
+                    <div class="row justify-content-md-center">
+                      <div class="col-md-5">
+                        <div id="circlecontainer"></div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-center">
+                        <h3 class="feed-subtitle">Progreso del Módulo</h3>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="row mrg-btm-20">
-              <div class="col text-center">
-                <div class="btn-group">
-                  <a class="btn btn-default" role="button" href="tema4-4.3.html">
-                    <span>Atrás</span>
-                  </a>
-                  <a class="btn btn-default" role="button" href="tema4-4.1.html">
-                    <span>1</span>
-                  </a>
-                  <a class="btn btn-default" role="button" href="tema4-4.2.html">
-                    <span>2</span>
-                  </a>
-                  <a class="btn btn-default" role="button" href="tema4-4.3.html">
-                    <span>3</span>
-                  </a>
-                  <a class="btn btn-actual-page" role="button" href="tema4-4.4.html">
-                    <span>4</span>
-                  </a>
-                  <a class="btn btn-default" role="button" href="tema4-5.1.html">
-                    <span>Siguiente</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card widget-feed">
-              <div class="row">
-                <div class="col-lg-8">
-                  <h1 class="feed-title tag tag-info">Módulo 3</h1>
-                  <h1 class="feed-title tag tag-info">Tema 2</h1>
-                  <h3 class="feed-subtitle">Tu Progreso</h3>
-                  <div class="progress" style="height: 20px;" id="bar">
-                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 98%">98%</div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="row justify-content-md-center">
-                    <div class="col-md-5">
-                      <div id="circlecontainer"></div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col text-center">
-                      <h3 class="feed-subtitle">Progreso del Módulo</h3>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-
           </div>
-        </div>
 
-        <!-- Footer START -->
-        <footer class="content-footer">
-        </footer>
+          <!-- Footer START -->
+          <footer class="content-footer"></footer>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Content Wrapper END -->
+    <!-- Content Wrapper END -->
 
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
+    <script src="../../assets/js/modulo3/moduloOffice.js"></script>
+    <script type="text/javascript">
+      show(0.6);
+    </script>
+    <!-- endbuild -->
 
-  <!-- plugins js -->
-  <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
-  <script src="../../assets/js/recycled/navigationbar.js"></script>
-  <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="../../assets/vendors/PACE/pace.min.js"></script>
-  <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-  <script src="../../assets/js/progressbar.js"></script>
-  <script src="../../assets/js/progress-circle.js"></script>
-  <script src="../../assets/js/modulo3/moduloOffice.js"></script>
-  <script type="text/javascript">
-    show(0.6)
-  </script>
-  <!-- endbuild -->
-
-  <!-- core js -->
-  <script src="../../assets/js/app.js"></script>
-
-</body>
-
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+  </body>
 </html>

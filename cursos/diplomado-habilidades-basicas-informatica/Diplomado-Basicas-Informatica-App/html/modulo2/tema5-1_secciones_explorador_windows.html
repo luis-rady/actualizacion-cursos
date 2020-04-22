@@ -1,207 +1,479 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <title>
+      Habilidades Básicas en Informática | CVA - Centro Virtual de Aprendizaje
+    </title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
-  <title>
-    Habilidades Básicas en Informática | CVA - Centro Virtual de Aprendizaje
-  </title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../../assets/images/logo/favicon.png">
+    <!-- plugins css -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
+    />
 
-  <!-- plugins css -->
-  <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
-  <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../assets/css/animate.min.css" rel="stylesheet" />
+    <link href="../../assets/css/app.css" rel="stylesheet" />
+    <link href="../../assets/css/progress.css" rel="stylesheet" />
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
+  </head>
 
-  <!-- core css -->
-  <link href="../../assets/css/ei-icon.css" rel="stylesheet">
-  <link href="../../assets/css/themify-icons.css" rel="stylesheet">
-  <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
-  <link href="../../assets/css/animate.min.css" rel="stylesheet">
-  <link href="../../assets/css/app.css" rel="stylesheet">
-  <link href="../../assets/css/progress.css" rel="stylesheet">
-  <link href="../../assets/css/progress-circle.css" rel="stylesheet">
-</head>
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav"></div>
+        <!-- Side Nav END -->
 
-<body class="header-info side-nav-dark">
-  <div class="app">
-    <div class="layout">
-      <!-- Side Nav START -->
-      <div class="side-nav" id="sideNav">
-      </div>
-      <!-- Side Nav END -->
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar"></div>
+          <!-- Header END -->
 
-      <!-- Page Container START -->
-      <div class="page-container">
-        <!-- Header START -->
-        <div class="header navbar">
-        </div>
-        <!-- Header END -->
-
-        <!-- Content Wrapper START -->
-        <div class="main-content">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col">
-                <div class="card">
-                  <div class="row no-gutters">
-                    <div class="card-block">
-                      <h1 class="card-title">5.1 Secciones del explorador de Windows</h1>
-                      <div class="mrg-top-20">
-                        <p>
-                          El Explorador de Windows (Windows Explorer) consta principalmente de cuatro secciones: barra de títulos, menú e iconos; árbol de directorios; barra de estado, y sección donde se ven las carpetas y archivos.
-                          <br><br>
-                        </p>
-                        <div class="row justify-content-center" style="padding-left: 5%;">
-                          <div class="pill-info nav-vertical nav-stacked">
-                            <ul class="nav nav-pills" role="tablist">
-                              <li class="nav-item btn-2">
-                                <a href="#area-de-trabajo-1" class="nav-link active" role="tab" data-toggle="tab">Árbol de directorios</a>
-                              </li>
-                              <li class="nav-item btn-2">
-                                <a href="#area-de-trabajo-2" class="nav-link" role="tab" data-toggle="tab">Carpetas y Archivos</a>
-                              </li>
-                              <li class="nav-item btn-2">
-                                <a href="#area-de-trabajo-3" class="nav-link" role="tab" data-toggle="tab">Títulos</a>
-                              </li>
-                              <li class="nav-item btn-2">
-                                <a href="#area-de-trabajo-4" class="nav-link" role="tab" data-toggle="tab">Menús</a>
-                              </li>
-                              <li class="nav-item btn-2">
-                                <a href="#area-de-trabajo-5" class="nav-link" role="tab" data-toggle="tab">Íconos</a>
-                              </li>
-                              <li class="nav-item btn-2">
-                                <a href="#area-de-trabajo-6" class="nav-link" role="tab" data-toggle="tab">Dirección</a>
-                              </li>
-                              <li class="nav-item btn-2">
-                                <a href="#area-de-trabajo-7" class="nav-link" role="tab" data-toggle="tab">Barra de Estado</a>
-                              </li>
-                            </ul>
-                            <div class="tab-content">
-                              <div role="tabpanel" class="tab-pane fade in active" id="area-de-trabajo-1">
-                                <div class="card p-3">
-                                  <h2 class="card-title">Árbol de directorios</h2>
-                                  <p>
-                                    En esta sección sólo se despliegan las unidades y carpetas que existen en la computadora, no los archivos.<br>
-                                    La estructura de archivos es como un árbol genealógico. Primero muestra la carpeta general, que en nuestro caso es el <b>Escritorio</b> (Desktop). Dentro de él encontramos a <b>Mi Computadora</b> (My Computer) que
-                                    a su vez tiene las distintas unidades que tenemos (A,C,D,E,H), al pulsar sobre el símbolo Windows XP ó Windows Vista que está a la izquierda de una unidad, se desplegarán las carpetas que hay en su interior, así
-                                    hasta llegar al último nivel de detalle.
-                                  </p>
-                                  <p>
-                                    Al desplegar la carpeta el símbolo <img src="../../assets/images/course/modulo2/symbolPlus.gif"> ó <img src="../../assets/images/course/modulo2/symbolCollapseArrow.gif"> se convierte en un <img
-                                      src="../../assets/images/course/modulo2/symbolMinus.gif"> ó <img src="../../assets/images/course/modulo2/symbolCollapseClose.gif">.<br>
-                                    Si quiere ocultar una rama del árbol de directorios tendrá que hacer clic sobre el símbolo menos (<img src="../../assets/images/course/modulo2/symbolMinus.gif"> ó <img
-                                      src="../../assets/images/course/modulo2/symbolCollapseClose.gif">).
-                                  </p>
-                                  <div class="row text-center">
-                                    <div class="col-md">
-                                      <h3><b>Subcarpetas escondidas</b></h3>
-                                      <img src="../../assets/images/course/modulo2/subfoldersHidden.jpg" alt="SubcarpetasEscondidas">
-                                      <img src="../../assets/images/course/modulo2/subfoldersHiddenW7.jpg" alt="SubcarpetasEscondidas">
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="row no-gutters">
+                      <div class="card-block">
+                        <h1 class="card-title">
+                          Secciones del explorador de Windows
+                        </h1>
+                        <div class="mrg-top-20">
+                          <p>
+                            El Explorador de Windows (Windows Explorer) consta
+                            principalmente de cuatro secciones: barra de
+                            títulos, menú e iconos; árbol de directorios; barra
+                            de estado, y sección donde se ven las carpetas y
+                            archivos.
+                            <br /><br />
+                          </p>
+                          <div
+                            class="row justify-content-center"
+                            style="padding-left: 5%;"
+                          >
+                            <div class="pill-info nav-vertical nav-stacked">
+                              <ul class="nav nav-pills" role="tablist">
+                                <li class="nav-item btn-2">
+                                  <a
+                                    href="#area-de-trabajo-1"
+                                    class="nav-link active"
+                                    role="tab"
+                                    data-toggle="tab"
+                                    >Árbol de directorios</a
+                                  >
+                                </li>
+                                <li class="nav-item btn-2">
+                                  <a
+                                    href="#area-de-trabajo-2"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-toggle="tab"
+                                    >Carpetas y Archivos</a
+                                  >
+                                </li>
+                                <li class="nav-item btn-2">
+                                  <a
+                                    href="#area-de-trabajo-3"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-toggle="tab"
+                                    >Títulos</a
+                                  >
+                                </li>
+                                <li class="nav-item btn-2">
+                                  <a
+                                    href="#area-de-trabajo-4"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-toggle="tab"
+                                    >Menús</a
+                                  >
+                                </li>
+                                <li class="nav-item btn-2">
+                                  <a
+                                    href="#area-de-trabajo-5"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-toggle="tab"
+                                    >Íconos</a
+                                  >
+                                </li>
+                                <li class="nav-item btn-2">
+                                  <a
+                                    href="#area-de-trabajo-6"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-toggle="tab"
+                                    >Dirección</a
+                                  >
+                                </li>
+                                <li class="nav-item btn-2">
+                                  <a
+                                    href="#area-de-trabajo-7"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-toggle="tab"
+                                    >Barra de Estado</a
+                                  >
+                                </li>
+                              </ul>
+                              <div class="tab-content">
+                                <div
+                                  role="tabpanel"
+                                  class="tab-pane fade in active"
+                                  id="area-de-trabajo-1"
+                                >
+                                  <div class="card p-3">
+                                    <h2 class="card-title">
+                                      Árbol de directorios
+                                    </h2>
+                                    <p>
+                                      En esta sección sólo se despliegan las
+                                      unidades y carpetas que existen en la
+                                      computadora, no los archivos.<br />
+                                      La estructura de archivos es como un árbol
+                                      genealógico. Primero muestra la carpeta
+                                      general, que en nuestro caso es el
+                                      <b>Escritorio</b> (Desktop). Dentro de él
+                                      encontramos a <b>Mi Computadora</b> (My
+                                      Computer) que a su vez tiene las distintas
+                                      unidades que tenemos (A,C,D,E,H), al
+                                      pulsar sobre el símbolo Windows XP ó
+                                      Windows Vista que está a la izquierda de
+                                      una unidad, se desplegarán las carpetas
+                                      que hay en su interior, así hasta llegar
+                                      al último nivel de detalle.
+                                    </p>
+                                    <p>
+                                      Al desplegar la carpeta el símbolo
+                                      <img
+                                        src="../../assets/images/course/modulo2/symbolPlus.gif"
+                                      />
+                                      ó
+                                      <img
+                                        src="../../assets/images/course/modulo2/symbolCollapseArrow.gif"
+                                      />
+                                      se convierte en un
+                                      <img
+                                        src="../../assets/images/course/modulo2/symbolMinus.gif"
+                                      />
+                                      ó
+                                      <img
+                                        src="../../assets/images/course/modulo2/symbolCollapseClose.gif"
+                                      />.<br />
+                                      Si quiere ocultar una rama del árbol de
+                                      directorios tendrá que hacer clic sobre el
+                                      símbolo menos (<img
+                                        src="../../assets/images/course/modulo2/symbolMinus.gif"
+                                      />
+                                      ó
+                                      <img
+                                        src="../../assets/images/course/modulo2/symbolCollapseClose.gif"
+                                      />).
+                                    </p>
+                                    <div class="row text-center">
+                                      <div class="col-md">
+                                        <h3><b>Subcarpetas escondidas</b></h3>
+                                        <img
+                                          src="../../assets/images/course/modulo2/subfoldersHidden.jpg"
+                                          alt="SubcarpetasEscondidas"
+                                        />
+                                        <img
+                                          src="../../assets/images/course/modulo2/subfoldersHiddenW7.jpg"
+                                          alt="SubcarpetasEscondidas"
+                                        />
+                                      </div>
+                                      <div class="col-md">
+                                        <h3><b>Subcarpetas desplegadas</b></h3>
+                                        <img
+                                          align="middle;"
+                                          src="../../assets/images/course/modulo2/subfoldersShown.jpg"
+                                          alt="SubcarpetasDesplegadas"
+                                        />
+                                        <img
+                                          align="middle;"
+                                          src="../../assets/images/course/modulo2/subfoldersShownW7.jpg"
+                                          alt="SubcarpetasDesplegadas"
+                                        />
+                                      </div>
                                     </div>
-                                    <div class="col-md">
-                                      <h3><b>Subcarpetas desplegadas</b></h3>
-                                      <img align="middle;" src="../../assets/images/course/modulo2/subfoldersShown.jpg" alt="SubcarpetasDesplegadas">
-                                      <img align="middle;" src="../../assets/images/course/modulo2/subfoldersShownW7.jpg" alt="SubcarpetasDesplegadas">
+                                  </div>
+                                </div>
+                                <div
+                                  role="tabpanel"
+                                  class="tab-pane fade"
+                                  id="area-de-trabajo-2"
+                                >
+                                  <div class="card p-3">
+                                    <h2 class="card-title">
+                                      Carpetas y Archivos
+                                    </h2>
+                                    <div>
+                                      <p>
+                                        Del lado derecho se despliegan todos los
+                                        archivos que tenemos, incluyendo las
+                                        carpetas en las que están organizados.
+                                      </p>
+                                      <img
+                                        src="../../assets/images/course/modulo2/foldersFiles.jpg"
+                                        alt="carpetasArchivos"
+                                      />
+                                      <img
+                                        src="../../assets/images/course/modulo2/foldersFilesW7.jpg"
+                                        alt="carpetasArchivos"
+                                      />
                                     </div>
                                   </div>
                                 </div>
-                              </div>
-                              <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-2">
-                                <div class="card p-3">
-                                  <h2 class="card-title">Carpetas y Archivos</h2>
-                                  <div>
-                                    <p>Del lado derecho se despliegan todos los archivos que tenemos, incluyendo las carpetas en las que están organizados.</p>
-                                    <img src="../../assets/images/course/modulo2/foldersFiles.jpg" alt="carpetasArchivos">
-                                    <img src="../../assets/images/course/modulo2/foldersFilesW7.jpg" alt="carpetasArchivos">
+                                <div
+                                  role="tabpanel"
+                                  class="tab-pane fade"
+                                  id="area-de-trabajo-3"
+                                >
+                                  <div class="card p-3">
+                                    <h2 class="card-title">Títulos</h2>
+                                    <div>
+                                      <p>
+                                        Como en cualquier ventana de Windows, se
+                                        tiene la barra del título que muestra el
+                                        nombre de la carpeta en la que se
+                                        encuentra.
+                                      </p>
+                                      <img
+                                        src="../../assets/images/course/modulo2/titleBarXp.jpg"
+                                        alt="titulo"
+                                      /><br />
+                                      <img
+                                        class="pt-4"
+                                        src="../../assets/images/course/modulo2/titleBarW7.jpg"
+                                        alt="titulo"
+                                      />
+                                    </div>
                                   </div>
                                 </div>
-                              </div>
-                              <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-3">
-                                <div class="card p-3">
-                                  <h2 class="card-title">Títulos</h2>
-                                  <div>
-                                    <p>Como en cualquier ventana de Windows, se tiene la barra del título que muestra el nombre de la carpeta en la que se encuentra.</p>
-                                    <img src="../../assets/images/course/modulo2/titleBarXp.jpg" alt="titulo"><br>
-                                    <img class="pt-4" src="../../assets/images/course/modulo2/titleBarW7.jpg" alt="titulo">
+                                <div
+                                  role="tabpanel"
+                                  class="tab-pane fade"
+                                  id="area-de-trabajo-4"
+                                >
+                                  <div class="card p-3">
+                                    <h2 class="card-title">Menús</h2>
+                                    <div>
+                                      <p>
+                                        La barra de menú contiene los menús que
+                                        permiten acceder a todas las operaciones
+                                        que se pueden realizar sobre un archivo
+                                        o carpeta, como: <b>Archivo</b> (File),
+                                        <b>Editar</b> (Edit), <b>Ver</b> (View),
+                                        entre otras. Al hacer clic en cada menú
+                                        se abrirán las opciones que lo componen.
+                                      </p>
+                                      <br />
+                                      <img
+                                        class="pb-5"
+                                        src="../../assets/images/course/modulo2/menuBarXp.jpg"
+                                        alt="barraMenus"
+                                      />
+                                      <p>
+                                        Los menús están disponibles en la
+                                        versión de Windows Vista pero están
+                                        ocultos de manera predeterminada. Puede
+                                        mostrar menús si los necesita, aunque
+                                        muchas de las mismas tareas que
+                                        realizaría empleando menú están ahora
+                                        disponibles en la barra de herramientas
+                                        o en el menú que aparece cuando hace con
+                                        el botón secundario en un archivo o una
+                                        carpeta.
+                                      </p>
+                                      <img
+                                        class="pb-5"
+                                        src="../../assets/images/course/modulo2/menuBarVista.jpg"
+                                        alt="barraMenus"
+                                      />
+                                      <p>
+                                        Para mostrar menús, presione la tecla
+                                        <b>Alt</b> y la barra de menús aparecerá
+                                        encima de la barra de herramientas.
+                                      </p>
+                                      <p>
+                                        En Windows 7 la barra de menú no aparece
+                                        de inicio, pero para que pueda aparecer,
+                                        debes oprimir la tecla F10.
+                                      </p>
+                                      <img
+                                        src="../../assets/images/course/modulo2/menuBarW7.jpg"
+                                        alt="barraMenus"
+                                      />
+                                    </div>
                                   </div>
                                 </div>
-                              </div>
-                              <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-4">
-                                <div class="card p-3">
-                                  <h2 class="card-title">Menús</h2>
-                                  <div>
-                                    <p>La barra de menú contiene los menús que permiten acceder a todas las operaciones que se pueden realizar sobre un archivo o carpeta, como: <b>Archivo</b> (File), <b>Editar</b> (Edit), <b>Ver</b> (View), entre
-                                      otras. Al hacer clic en cada menú se abrirán las opciones que lo componen.</p>
-                                    <br>
-                                    <img class="pb-5" src="../../assets/images/course/modulo2/menuBarXp.jpg" alt="barraMenus">
-                                    <p>
-                                      Los menús están disponibles en la versión de Windows Vista pero están ocultos de manera predeterminada. Puede mostrar menús si los necesita, aunque muchas de las mismas tareas que realizaría empleando menú están
-                                      ahora disponibles en la barra de herramientas o en el menú que aparece cuando hace con el botón secundario en un archivo o una carpeta.
-                                    </p>
-                                    <img class="pb-5" src="../../assets/images/course/modulo2/menuBarVista.jpg" alt="barraMenus">
-                                    <p>
-                                      Para mostrar menús, presione la tecla <b>Alt</b> y la barra de menús aparecerá encima de la barra de herramientas.
-                                    </p>
-                                    <p>
-                                      En Windows 7 la barra de menú no aparece de inicio, pero para que pueda aparecer, debes oprimir la tecla F10.
-                                    </p>
-                                    <img src="../../assets/images/course/modulo2/menuBarW7.jpg" alt="barraMenus">
-
+                                <div
+                                  role="tabpanel"
+                                  class="tab-pane fade"
+                                  id="area-de-trabajo-5"
+                                >
+                                  <div class="card p-3">
+                                    <h2 class="card-title">Íconos</h2>
+                                    <div>
+                                      <p>
+                                        Contiene los iconos de las operaciones
+                                        más utilizadas, de esta forma agiliza
+                                        las funciones del sistema operativo. Si
+                                        no está visible esta barra, seleccione
+                                        del menú Ver (View), la opción Barra de
+                                        Herramientas (toolbar), y después
+                                        seleccione la opción Estándar (Standard
+                                        buttons).
+                                      </p>
+                                      <br />
+                                      <img
+                                        class="pb-3"
+                                        src="../../assets/images/course/modulo2/iconBarVista.jpg"
+                                        alt="iconBar"
+                                      />
+                                      <img
+                                        class="pb-3"
+                                        src="../../assets/images/course/modulo2/iconBarW7.jpg"
+                                        alt="iconBar"
+                                      />
+                                      <ul>
+                                        <li>
+                                          El botón Atrás (Back) le permite ir a
+                                          la última página que se haya visto.<br /><img
+                                            src="../../assets/images/course/modulo2/backicon.jpg"
+                                          />
+                                        </li>
+                                        <li>
+                                          El botón Adelante (Forward) le permite
+                                          ir una página hacia adelante.<br /><img
+                                            src="../../assets/images/course/modulo2/fwdicon.jpg"
+                                          />
+                                        </li>
+                                        <li>
+                                          El botón Arriba (Up) le permitirá
+                                          subir de nivel, es decir, situarse en
+                                          la carpeta que contiene el archivo que
+                                          está buscando.
+                                        </li>
+                                        <li>
+                                          El botón de Búsqueda (search) muestra
+                                          una ventana en la que se puede buscar
+                                          el archivo que se elija.<br /><img
+                                            src="../../assets/images/course/modulo2/searchicon.jpg"
+                                          />
+                                        </li>
+                                        <li>
+                                          El botón Carpetas (folders) hace que
+                                          en la parte izquierda de la ventana se
+                                          vea la estructura de las carpetas
+                                          (Explorador de Windows).
+                                        </li>
+                                        <li>
+                                          El último botón, el botón Vistas
+                                          (folder view) permite cambiar las
+                                          vistas de las carpetas.<br /><img
+                                            src="../../assets/images/course/modulo2/vistasicon.jpg"
+                                          />
+                                        </li>
+                                      </ul>
+                                    </div>
                                   </div>
                                 </div>
-                              </div>
-                              <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-5">
-                                <div class="card p-3">
-                                  <h2 class="card-title">Íconos</h2>
-                                  <div>
-                                    <p>Contiene los iconos de las operaciones más utilizadas, de esta forma agiliza las funciones del sistema operativo. Si no está visible esta barra, seleccione del menú Ver (View), la opción Barra de Herramientas
-                                      (toolbar), y después seleccione la opción Estándar (Standard buttons).</p>
-                                    <br>
-                                    <img class="pb-3" src="../../assets/images/course/modulo2/iconBarVista.jpg" alt="iconBar">
-                                    <img class="pb-3" src="../../assets/images/course/modulo2/iconBarW7.jpg" alt="iconBar">
-                                    <ul>
-                                      <li>El botón Atrás (Back) le permite ir a la última página que se haya visto.<br><img src="../../assets/images/course/modulo2/backicon.jpg"></li>
-                                      <li>El botón Adelante (Forward) le permite ir una página hacia adelante.<br><img src="../../assets/images/course/modulo2/fwdicon.jpg"></li>
-                                      <li>El botón Arriba (Up) le permitirá subir de nivel, es decir, situarse en la carpeta que contiene el archivo que está buscando.</li>
-                                      <li>El botón de Búsqueda (search) muestra una ventana en la que se puede buscar el archivo que se elija.<br><img src="../../assets/images/course/modulo2/searchicon.jpg"></li>
-                                      <li>El botón Carpetas (folders) hace que en la parte izquierda de la ventana se vea la estructura de las carpetas (Explorador de Windows).</li>
-                                      <li>El último botón, el botón Vistas (folder view) permite cambiar las vistas de las carpetas.<br><img src="../../assets/images/course/modulo2/vistasicon.jpg"></li>
-                                    </ul>
+                                <div
+                                  role="tabpanel"
+                                  class="tab-pane fade"
+                                  id="area-de-trabajo-6"
+                                >
+                                  <div class="card p-3">
+                                    <h2 class="card-title">Dirección</h2>
+                                    <div>
+                                      <p>
+                                        Indica la ruta en donde se encuentra ese
+                                        archivo, empezando por la unidad de
+                                        almacenamiento, después la carpeta o las
+                                        carpetas y luego el archivo.
+                                      </p>
+                                      <p>
+                                        <i>Ejemplo:</i><br />
+                                        La carpeta "Documentos", se encuentra
+                                        dentro de la carpeta "My Computer", y
+                                        todavía hay más carpetas hacia arriba.
+                                      </p>
+                                      <img
+                                        class="pb-5"
+                                        src="../../assets/images/course/modulo2/addressBarVista.jpg"
+                                        alt="Dirección"
+                                      />
+                                      <img
+                                        src="../../assets/images/course/modulo2/addressBarW7.jpg"
+                                        alt="Dirección"
+                                      />
+                                    </div>
                                   </div>
                                 </div>
-                              </div>
-                              <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-6">
-                                <div class="card p-3">
-                                  <h2 class="card-title">Dirección</h2>
-                                  <div>
-                                    <p>Indica la ruta en donde se encuentra ese archivo, empezando por la unidad de almacenamiento, después la carpeta o las carpetas y luego el archivo.</p>
-                                    <p>
-                                      <i>Ejemplo:</i><br>
-                                      La carpeta "Documentos", se encuentra dentro de la carpeta "My Computer", y todavía hay más carpetas hacia arriba.
-                                    </p>
-                                    <img class="pb-5" src="../../assets/images/course/modulo2/addressBarVista.jpg" alt="Dirección">
-                                    <img src="../../assets/images/course/modulo2/addressBarW7.jpg" alt="Dirección">
-                                  </div>
-                                </div>
-                              </div>
-                              <div role="tabpanel" class="tab-pane fade" id="area-de-trabajo-7">
-                                <div class="card p-3">
-                                  <h2 class="card-title">Barra de Estado</h2>
-                                  <div>
-                                    <p>Muestra información adicional sobre los elementos que tenemos seleccionados. Esta barra es opcional, para activarla, vaya al menú Ver (View), y haga clic en Barra de estado (Status Bar).</p>
-                                    <p>
-                                      En Windows Vista se modificó la barra de estado y se convierte en panel de detalle, donde se muestra la información sobre el archivo seleccionado. Se encuentra activada de manera predeterminada, para
-                                      desactivarla, vaya al menu Organizar (Organize) y haga clic en Diseño (Design) y Panel de Detalles (Status Bar).
-                                    </p>
-                                    <img class="pb-5" src="../../assets/images/course/modulo2/statusbarVista.jpg" alt="status">
-                                    <img src="../../assets/images/course/modulo2/statusbarW7.jpg" alt="status">
+                                <div
+                                  role="tabpanel"
+                                  class="tab-pane fade"
+                                  id="area-de-trabajo-7"
+                                >
+                                  <div class="card p-3">
+                                    <h2 class="card-title">Barra de Estado</h2>
+                                    <div>
+                                      <p>
+                                        Muestra información adicional sobre los
+                                        elementos que tenemos seleccionados.
+                                        Esta barra es opcional, para activarla,
+                                        vaya al menú Ver (View), y haga clic en
+                                        Barra de estado (Status Bar).
+                                      </p>
+                                      <p>
+                                        En Windows Vista se modificó la barra de
+                                        estado y se convierte en panel de
+                                        detalle, donde se muestra la información
+                                        sobre el archivo seleccionado. Se
+                                        encuentra activada de manera
+                                        predeterminada, para desactivarla, vaya
+                                        al menu Organizar (Organize) y haga clic
+                                        en Diseño (Design) y Panel de Detalles
+                                        (Status Bar).
+                                      </p>
+                                      <img
+                                        class="pb-5"
+                                        src="../../assets/images/course/modulo2/statusbarVista.jpg"
+                                        alt="status"
+                                      />
+                                      <img
+                                        src="../../assets/images/course/modulo2/statusbarW7.jpg"
+                                        alt="status"
+                                      />
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -211,102 +483,133 @@
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="row mrg-btm-20">
-                  <div class="col text-center">
-                    <div class="btn-group">
-                      <a class="btn btn-default" role="button" href="tema5_a-explorador-de-windows.html">
-                        <span>Atrás</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema5-explorador-de-windows.html">
-                        <span>1</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema5_a-explorador-de-windows.html">
-                        <span>2</span>
-                      </a>
-                      <a class="btn btn-actual-page" role="button" href="tema5-1_secciones_explorador_windows.html">
-                        <span>3</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema5-2_funciones-explorador.html">
-                        <span>4</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="m2-autoevaluacion.html">
-                        <span>5</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="actividades_2.html">
-                        <span>6</span>
-                      </a>
-                      <a class="btn btn-default" role="button" href="tema5-2_funciones-explorador.html">
-                        <span>Siguiente</span>
-                      </a>
+                  <div class="row mrg-btm-20">
+                    <div class="col text-center">
+                      <div class="btn-group">
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema5_a-explorador-de-windows.html"
+                        >
+                          <span>Atrás</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema5-explorador-de-windows.html"
+                        >
+                          <span>1</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema5_a-explorador-de-windows.html"
+                        >
+                          <span>2</span>
+                        </a>
+                        <a
+                          class="btn btn-actual-page"
+                          role="button"
+                          href="tema5-1_secciones_explorador_windows.html"
+                        >
+                          <span>3</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema5-2_funciones-explorador.html"
+                        >
+                          <span>4</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="m2-autoevaluacion.html"
+                        >
+                          <span>5</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="actividades_2.html"
+                        >
+                          <span>6</span>
+                        </a>
+                        <a
+                          class="btn btn-default"
+                          role="button"
+                          href="tema5-2_funciones-explorador.html"
+                        >
+                          <span>Siguiente</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card widget-feed">
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <h1 class="feed-title tag tag-info">Módulo 2</h1>
+                        <h1 class="feed-title tag tag-info">Tema 5</h1>
+                        <h3 class="feed-subtitle">Tu Progreso</h3>
+                        <div class="progress" style="height: 20px;" id="bar">
+                          <div
+                            class="progress-bar bg-info"
+                            role="progressbar"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="max-width: 94%;"
+                          >
+                            94%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="row justify-content-md-center">
+                          <div class="col-md-5">
+                            <div id="circlecontainer"></div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col text-center">
+                            <h3 class="feed-subtitle">Progreso del Módulo</h3>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-
-                <div class="card widget-feed">
-                  <div class="row">
-                    <div class="col-lg-8">
-                      <h1 class="feed-title tag tag-info">Módulo 2</h1>
-                      <h1 class="feed-title tag tag-info">Tema 5</h1>
-                      <h3 class="feed-subtitle">Tu Progreso</h3>
-                      <div class="progress" style="height: 20px;" id="bar">
-                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 94%">94%</div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="row justify-content-md-center">
-                        <div class="col-md-5">
-                          <div id="circlecontainer"></div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col text-center">
-                          <h3 class="feed-subtitle">Progreso del Módulo</h3>
-                        </div>
-                      </div>
-                    </div>
-
-
-                  </div>
-                </div>
-
-
               </div>
             </div>
           </div>
+
+          <!-- Content Wrapper END -->
+
+          <!-- Footer START -->
+          <footer class="content-footer"></footer>
+          <!-- Footer END -->
         </div>
-
-        <!-- Content Wrapper END -->
-
-        <!-- Footer START -->
-        <footer class="content-footer">
-        </footer>
-        <!-- Footer END -->
+        <!-- Page Container END -->
       </div>
-      <!-- Page Container END -->
     </div>
-  </div>
 
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
+    <script type="text/javascript">
+      show(0.39);
+    </script>
+    <!-- endbuild -->
 
-  <!-- plugins js -->
-  <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
-  <script src="../../assets/js/recycled/navigationbar.js"></script>
-  <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="../../assets/vendors/PACE/pace.min.js"></script>
-  <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-  <script src="../../assets/js/progressbar.js"></script>
-  <script src="../../assets/js/progress-circle.js"></script>
-  <script type="text/javascript">
-    show(0.39)
-  </script>
-  <!-- endbuild -->
-
-  <!-- core js -->
-  <script src="../../assets/js/app.js"></script>
-
-</body>
-
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+  </body>
 </html>
