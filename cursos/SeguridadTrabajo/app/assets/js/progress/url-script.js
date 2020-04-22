@@ -206,6 +206,7 @@ function getMovementBar(){
 //Control de index en el navigation bar 
 function getFiles() {
     var files = {
+        
         modulo1: {
             1: "modulo1-1.html",
             2: "modulo1-2.html",
@@ -216,7 +217,9 @@ function getFiles() {
             7: "modulo1-7.html",
             8: "modulo1-8.html",
             9: "modulo1-9.html",
-
+            10: "modulo1-10.html",
+            11: "Quiz-m1.html",
+            12: "modulo1-final.html",
 
         },
         modulo2: {
@@ -241,6 +244,17 @@ function getFiles() {
         modulo3: {
             1: "modulo3-1.html",
             2: "modulo3-2.html",
+            3: "modulo3-3.html",
+            4: "modulo3-4.html",
+            5: "modulo3-5.html",
+            6: "modulo3-6.html",
+            7: "modulo3-7.html",
+            8: "modulo3-8.html",
+            9: "modulo3-9.html",
+            10: "modulo3-10.html",
+            11: "Quiz-m3.html",
+            12: "modulo3-final.html",
+
         },
         modulo4: {
             1: "modulo4-1.html",
@@ -281,9 +295,8 @@ function getFiles() {
             14: "modulo5-14.html",
             15: "modulo5-15.html",
             16: "modulo5-16.html",
-            17: "modulo5-17.html",
-            18: "Quiz-m5.html",
-            19: "modulo5-final.html",
+            17: "Quiz-m5.html",
+            18: "modulo5-final.html",
             
         },
         modulo6: {
@@ -312,10 +325,8 @@ function getFiles() {
             7: "modulo7-7.html",
             8: "modulo7-8.html",
             9: "modulo7-9.html",
-            10: "modulo7-10.html",
-            11: "modulo7-11.html",
-            12: "Quiz-m7.html",
-            13: "modulo7-final.html",
+            10: "Quiz-m7.html",
+            11: "modulo7-final.html",
             
         },
         modulo8: {
@@ -331,6 +342,19 @@ function getFiles() {
             10: "modulo8-10.html",
             11: "Quiz-m8.html",
             12: "modulo8-final.html",
+        },
+
+        modulo9: {
+            1: "modulo9-1.html",
+            2: "modulo9-2.html",
+            3: "modulo9-3.html",
+            4: "modulo9-4.html",
+            5: "modulo9-5.html",
+            6: "modulo9-6.html",
+            7: "modulo9-7.html",
+            8: "modulo9-8.html",
+            9: "Quiz-m9.html",
+            10: "modulo9-final.html",
         },
 
     };
