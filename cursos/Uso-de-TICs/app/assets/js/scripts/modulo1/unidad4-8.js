@@ -8,7 +8,7 @@ function getPreguntas() {
             p1.push($(this).attr("value"));
         });
 
-        if (p1.length == 2 && p1[0] == '1' && p1[1] == '3') {
+        if (p1.length == 2 && p1[0] == '1' && p1[1] == '3' || p1.length == 2 && p1[0] == '3' && p1[1] == '1') {
             $("#ans1").css("color", "green")
             $("#ans1").text("¡Correcto!").show();
             
@@ -24,7 +24,7 @@ function getPreguntas() {
             p2.push($(this).attr("value"));
         });
 
-        if (p2.length == 2 && p2[0] == '2' && p2[1] == '6') {
+        if (p2.length == 2 && p2[0] == '2' && p2[1] == '6' || p2.length == 2 && p2[0] == '6' && p2[1] == '2') {
             $("#ans2").css("color", "green")
             $("#ans2").text("¡Correcto!").show();
             
@@ -40,7 +40,7 @@ function getPreguntas() {
             p3.push($(this).attr("value"));
         });
 
-        if (p3.length == 2 && p3[0] == '4' && p3[1] == '5') {
+        if (p3.length == 2 && p3[0] == '4' && p3[1] == '5' || p3.length == 2 && p3[0] == '5' && p3[1] == '4') {
             $("#ans3").css("color", "green")
             $("#ans3").text("¡Correcto!").show();
             
