@@ -1,394 +1,290 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
-    />
-    <title>
-      Habilidades Básicas en Informática | CVA - Centro Virtual de Aprendizaje
-    </title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+  <title>
+    Habilidades Básicas en Informática | CVA - Centro Virtual de Aprendizaje
+  </title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
 
-    <!-- plugins css -->
-    <link
-      rel="stylesheet"
-      href="../../assets/vendors/bootstrap/dist/css/bootstrap.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
-    />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
 
-    <!-- core css -->
-    <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
-    <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
-    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="../../assets/css/animate.min.css" rel="stylesheet" />
-    <link href="../../assets/css/app.css" rel="stylesheet" />
-    <link href="../../assets/css/progress.css" rel="stylesheet" />
-    <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
-    <link href="../../assets/css/styles.css" rel="stylesheet" />
-    <link href="../../assets/css/modulo3/styles.css" rel="stylesheet" />
-  </head>
+  <!-- plugins css -->
+  <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
+  <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
 
-  <body class="header-info side-nav-dark">
-    <div class="app">
-      <div class="layout">
-        <!-- Side Nav START -->
-        <div class="side-nav" id="sideNav"></div>
-        <!-- Side Nav END -->
+  <!-- core css -->
+  <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
+  <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
+  <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="../../assets/css/animate.min.css" rel="stylesheet" />
+  <link href="../../assets/css/app.css" rel="stylesheet" />
+  <link href="../../assets/css/progress.css" rel="stylesheet" />
+  <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
+  <link href="../../assets/css/styles.css" rel="stylesheet" />
+  <link href="../../assets/css/modulo3/styles.css" rel="stylesheet" />
+</head>
 
-        <!-- Page Container START -->
-        <div class="page-container">
-          <!-- Header START -->
-          <div class="header navbar"></div>
-          <!-- Header END -->
+<body class="header-info side-nav-dark">
+  <div class="app">
+    <div class="layout">
+      <!-- Side Nav START -->
+      <div class="side-nav" id="sideNav"></div>
+      <!-- Side Nav END -->
 
-          <!-- Content Wrapper START -->
-          <div class="main-content">
-            <div class="container-fluid">
-              <div class="card">
-                <div class="card-block">
-                  <h1 class="card-title text-center mrg-btm-30">
-                    4.3.3 Ordenar lista de información
-                  </h1>
-                  <div class="container">
-                    <div class="row">
-                      <div class="col">
-                        <!-- CONTENT START -->
-                        <div
-                          class="row justify-content-center"
-                          style="padding-left: 5%;"
-                        >
-                          <!-- Tarjeta con botones laterales 1 START -->
-                          <div class="pill-info nav-vertical nav-stacked">
-                            <!--Botones laterales START-->
-                            <ul
-                              class="nav nav-pills"
-                              role="tablist"
-                              style="margin-right: 2%;"
-                            >
-                              <li class="nav-item btn-2" style="width: 150px;">
-                                <a
-                                  href="#teclado-1"
-                                  class="nav-link active"
-                                  role="tab"
-                                  data-toggle="tab"
-                                  >Ordenación Simple</a
-                                >
-                              </li>
-                              <li class="nav-item btn-2" style="width: 150px;">
-                                <a
-                                  href="#teclado-2"
-                                  class="nav-link"
-                                  role="tab"
-                                  data-toggle="tab"
-                                  >Ordenación por Criterios</a
-                                >
-                              </li>
-                            </ul>
-                            <!--Botones laterales FIN-->
+      <!-- Page Container START -->
+      <div class="page-container">
+        <!-- Header START -->
+        <div class="header navbar"></div>
+        <!-- Header END -->
 
-                            <!--Contenido de tarjeta START-->
-                            <div class="tab-content">
-                              <!--Teclado 1 START-->
-                              <div
-                                role="tabpanel"
-                                class="tab-pane fade in active"
-                                id="teclado-1"
-                              >
-                                <div class="pdd-horizon-15">
-                                  <div class="row">
-                                    <div class="card">
-                                      <div class="card-block">
-                                        <div class="container">
-                                          <div class="row">
-                                            <p>
-                                              Esta función sirve para hacer una
-                                              ordenación simple, por ejemplo
-                                              ordenar una lista de personas por
-                                              el primer apellido.
-                                            </p>
-                                            <table
-                                              class="table"
-                                              width="80%"
-                                              cellpadding="0"
-                                              cellspacing="10"
-                                              border="0"
-                                              align="center"
-                                            >
-                                              <tr>
-                                                <p>
-                                                  <b>1. </b>Posiciónese en la
-                                                  columna del criterio que desee
-                                                  ordenar.
-                                                </p>
-                                              </tr>
-                                              <tr>
-                                                <p>
-                                                  <b>2. </b> Vaya al menú
-                                                  "Datos" (Data).
-                                                </p>
-                                              </tr>
-                                              <tr>
-                                                <p>
-                                                  <b>3. </b>Haga clic en el
-                                                  grupo "Ordenar y Filtrar"
-                                                  (Sort & filter)
-                                                </p>
-                                                <img
-                                                  class="center-image m-auto w-25"
-                                                  style="
+        <!-- Content Wrapper START -->
+        <div class="main-content">
+          <div class="container-fluid">
+            <div class="card">
+              <div class="card-block">
+                <h1 class="card-title text-center mrg-btm-30">
+                  Ordenar lista de información
+                </h1>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <!-- CONTENT START -->
+                      <div class="row justify-content-center" style="padding-left: 5%;">
+                        <!-- Tarjeta con botones laterales 1 START -->
+                        <div class="pill-info nav-vertical nav-stacked">
+                          <!--Botones laterales START-->
+                          <ul class="nav nav-pills" role="tablist" style="margin-right: 2%;">
+                            <li class="nav-item btn-2" style="width: 150px;">
+                              <a href="#teclado-1" class="nav-link active" role="tab" data-toggle="tab">Ordenación Simple</a>
+                            </li>
+                            <li class="nav-item btn-2" style="width: 150px;">
+                              <a href="#teclado-2" class="nav-link" role="tab" data-toggle="tab">Ordenación por Criterios</a>
+                            </li>
+                          </ul>
+                          <!--Botones laterales FIN-->
+
+                          <!--Contenido de tarjeta START-->
+                          <div class="tab-content">
+                            <!--Teclado 1 START-->
+                            <div role="tabpanel" class="tab-pane fade in active" id="teclado-1">
+                              <div class="pdd-horizon-15">
+                                <div class="row">
+                                  <div class="card">
+                                    <div class="card-block">
+                                      <div class="container">
+                                        <div class="row">
+                                          <p>
+                                            Esta función sirve para hacer una
+                                            ordenación simple, por ejemplo
+                                            ordenar una lista de personas por
+                                            el primer apellido.
+                                          </p>
+                                          <table class="table" width="80%" cellpadding="0" cellspacing="10" border="0" align="center">
+                                            <tr>
+                                              <p>
+                                                <b>1. </b>Posiciónese en la
+                                                columna del criterio que desee
+                                                ordenar.
+                                              </p>
+                                            </tr>
+                                            <tr>
+                                              <p>
+                                                <b>2. </b> Vaya al menú
+                                                "Datos" (Data).
+                                              </p>
+                                            </tr>
+                                            <tr>
+                                              <p>
+                                                <b>3. </b>Haga clic en el
+                                                grupo "Ordenar y Filtrar"
+                                                (Sort & filter)
+                                              </p>
+                                              <img class="center-image m-auto w-25" style="
                                                     border: 5px solid darkblue;
-                                                  "
-                                                  src="../../assets/images/course/modulo3/xls_p3_3a_3-3.gif"
-                                                  width="10%;"
-                                                />
-                                              </tr>
-                                              <tr>
-                                                <p>
-                                                  <b>4. </b>Escoja el criterio
-                                                  de ordenación, pulse los
-                                                  botones del grupo "Ordenar y
-                                                  Filtrar" (Sort & filter) para
-                                                  que la ordenación sea
-                                                  ascendente o descendente
-                                                  respectivamente.
-                                                </p>
-                                              </tr>
-                                            </table>
-                                          </div>
+                                                  " src="../../assets/images/course/modulo3/xls_p3_3a_3-3.gif" width="10%;" />
+                                            </tr>
+                                            <tr>
+                                              <p>
+                                                <b>4. </b>Escoja el criterio
+                                                de ordenación, pulse los
+                                                botones del grupo "Ordenar y
+                                                Filtrar" (Sort & filter) para
+                                                que la ordenación sea
+                                                ascendente o descendente
+                                                respectivamente.
+                                              </p>
+                                            </tr>
+                                          </table>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <!--Teclado 1 FIN-->
-
-                              <!--Teclado 2 START-->
-                              <div
-                                role="tabpanel"
-                                class="tab-pane fade in"
-                                id="teclado-2"
-                              >
-                                <div class="pdd-horizon-15">
-                                  <div class="row">
-                                    <div class="card">
-                                      <div class="card-block">
-                                        <div class="container">
-                                          <div class="row">
-                                            <p>
-                                              Para ordenar la lista por más de un criterio de ordenación, por ejemplo ordenar una lista de personas por el primer apellido. 
-                                            </p>
-                                            <table
-                                              class="table"
-                                              width="80%"
-                                              cellpadding="0"
-                                              cellspacing="10"
-                                              border="0"
-                                              align="center"
-                                            >
-                                              <tr>
-                                                <p>
-                                                  <b>1. </b>Posiciónese en una de las celdas de la hoja de cálculo.
-                                                </p>
-                                              </tr>
-                                              <tr>
-                                                <p>
-                                                  <b>2. </b> Abra la pestaña "Datos" (Data) de la cinta de opciones.
-                                                </p>
-                                              </tr>
-                                              <tr>
-                                                <p>
-                                                  <b>3. </b>Seleccione la opción "Ordenar" (Sort). 
-                                                </p>
-                                              </tr>
-                                              <tr>
-                                                <p>
-                                                  <b>4. </b>Aparecerá un cuadro de diálogo "Ordenar" (Sort), en el cual se pueden seleccionar hasta tres campos distintos de ordenación. 
-                                                </p>
-                                              </tr>
-                                              <tr>
-                                                <p>
-                                                  <b>5. </b>En la parte inferior izquierda se tiene el botón "Opciones" (Options).
-                                                </p>
-                                              </tr>
-                                              <tr>
-                                                <p>
-                                                  <b>6. </b>Si se presiona, se abrirá un cuadro "Opciones de ordenación" (Sort options) dónde se puede especificar más opciones en el criterio de la ordenación.
-                                                </p>
-                                                                                                <img
-                                                  class="center-image m-auto w-25"
-                                                  style="
-                                                    border: 5px solid darkblue;
-                                                  "
-                                                  src="../../assets/images/course/modulo3/xls_p3_3a_3-4.gif"
-                                                  width="10%;"
-                                                />
-                                              </tr>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <!--Teclado 2 FIN-->
                             </div>
-                            <!--Contenido de tarjeta FIN-->
+                            <!--Teclado 1 FIN-->
+
+                            <!--Teclado 2 START-->
+                            <div role="tabpanel" class="tab-pane fade in" id="teclado-2">
+                              <div class="pdd-horizon-15">
+                                <div class="row">
+                                  <div class="card">
+                                    <div class="card-block">
+                                      <div class="container">
+                                        <div class="row">
+                                          <p>
+                                            Para ordenar la lista por más de un criterio de ordenación, por ejemplo ordenar una lista de personas por el primer apellido.
+                                          </p>
+                                          <table class="table" width="80%" cellpadding="0" cellspacing="10" border="0" align="center">
+                                            <tr>
+                                              <p>
+                                                <b>1. </b>Posiciónese en una de las celdas de la hoja de cálculo.
+                                              </p>
+                                            </tr>
+                                            <tr>
+                                              <p>
+                                                <b>2. </b> Abra la pestaña "Datos" (Data) de la cinta de opciones.
+                                              </p>
+                                            </tr>
+                                            <tr>
+                                              <p>
+                                                <b>3. </b>Seleccione la opción "Ordenar" (Sort).
+                                              </p>
+                                            </tr>
+                                            <tr>
+                                              <p>
+                                                <b>4. </b>Aparecerá un cuadro de diálogo "Ordenar" (Sort), en el cual se pueden seleccionar hasta tres campos distintos de ordenación.
+                                              </p>
+                                            </tr>
+                                            <tr>
+                                              <p>
+                                                <b>5. </b>En la parte inferior izquierda se tiene el botón "Opciones" (Options).
+                                              </p>
+                                            </tr>
+                                            <tr>
+                                              <p>
+                                                <b>6. </b>Si se presiona, se abrirá un cuadro "Opciones de ordenación" (Sort options) dónde se puede especificar más opciones en el criterio de la ordenación.
+                                              </p>
+                                              <img class="center-image m-auto w-25" style="
+                                                    border: 5px solid darkblue;
+                                                  " src="../../assets/images/course/modulo3/xls_p3_3a_3-4.gif" width="10%;" />
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--Teclado 2 FIN-->
                           </div>
+                          <!--Contenido de tarjeta FIN-->
                         </div>
-
-                        <!-- CONTENT END -->
                       </div>
+
+                      <!-- CONTENT END -->
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="row mrg-btm-20">
-                <div class="col text-center">
-                  <div class="btn-group">
-                    <a
-                      class="btn btn-default"
-                      role="button"
-                      href="tema4-3.2.html"
-                    >
-                      <span>Atrás</span>
-                    </a>
-                    <a
-                      class="btn btn-default"
-                      role="button"
-                      href="tema4-3.1.html"
-                    >
-                      <span>1</span>
-                    </a>
-                    <a
-                      class="btn btn-default"
-                      role="button"
-                      href="tema4-3.2.html"
-                    >
-                      <span>2</span>
-                    </a>
-                    <a
-                      class="btn btn-actual-page"
-                      role="button"
-                      href="tema4-3.3.html"
-                    >
-                      <span>3</span>
-                    </a>
-                    <a
-                      class="btn btn-default"
-                      role="button"
-                      href="tema4-3.4.html"
-                    >
-                      <span>4</span>
-                    </a>
-                    <a
-                      class="btn btn-default"
-                      role="button"
-                      href="tema4-3.5.html"
-                    >
-                      <span>5</span>
-                    </a>
-                    <a
-                      class="btn btn-default"
-                      role="button"
-                      href="tema4-3.6.html"
-                    >
-                      <span>6</span>
-                    </a>
-                    <a
-                      class="btn btn-default"
-                      role="button"
-                      href="tema4-3.7.html"
-                    >
-                      <span>7</span>
-                    </a>
-                    <a
-                      class="btn btn-default"
-                      role="button"
-                      href="tema4-3.4.html"
-                    >
-                      <span>Siguiente</span>
-                    </a>
-                  </div>
+            <div class="row mrg-btm-20">
+              <div class="col text-center">
+                <div class="btn-group">
+                  <a class="btn btn-default" role="button" href="tema4-3.2.html">
+                    <span>Atrás</span>
+                  </a>
+                  <a class="btn btn-default" role="button" href="tema4-3.1.html">
+                    <span>1</span>
+                  </a>
+                  <a class="btn btn-default" role="button" href="tema4-3.2.html">
+                    <span>2</span>
+                  </a>
+                  <a class="btn btn-actual-page" role="button" href="tema4-3.3.html">
+                    <span>3</span>
+                  </a>
+                  <a class="btn btn-default" role="button" href="tema4-3.4.html">
+                    <span>4</span>
+                  </a>
+                  <a class="btn btn-default" role="button" href="tema4-3.5.html">
+                    <span>5</span>
+                  </a>
+                  <a class="btn btn-default" role="button" href="tema4-3.6.html">
+                    <span>6</span>
+                  </a>
+                  <a class="btn btn-default" role="button" href="tema4-3.7.html">
+                    <span>7</span>
+                  </a>
+                  <a class="btn btn-default" role="button" href="tema4-3.4.html">
+                    <span>Siguiente</span>
+                  </a>
                 </div>
               </div>
+            </div>
 
-              <div class="card widget-feed">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <h1 class="feed-title tag tag-info">Módulo 3</h1>
-                    <h1 class="feed-title tag tag-info">Tema 2</h1>
-                    <h3 class="feed-subtitle">Tu Progreso</h3>
-                    <div class="progress" style="height: 20px;" id="bar">
-                      <div
-                        class="progress-bar bg-info"
-                        role="progressbar"
-                        aria-valuenow="25"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="max-width: 91%;"
-                      >
-                        91%
-                      </div>
+            <div class="card widget-feed">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h1 class="feed-title tag tag-info">Módulo 3</h1>
+                  <h1 class="feed-title tag tag-info">Tema 2</h1>
+                  <h3 class="feed-subtitle">Tu Progreso</h3>
+                  <div class="progress" style="height: 20px;" id="bar">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 91%;">
+                      91%
                     </div>
                   </div>
-                  <div class="col-lg-4">
-                    <div class="row justify-content-md-center">
-                      <div class="col-md-5">
-                        <div id="circlecontainer"></div>
-                      </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="row justify-content-md-center">
+                    <div class="col-md-5">
+                      <div id="circlecontainer"></div>
                     </div>
-                    <div class="row">
-                      <div class="col text-center">
-                        <h3 class="feed-subtitle">Progreso del Módulo</h3>
-                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-center">
+                      <h3 class="feed-subtitle">Progreso del Módulo</h3>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <!-- Footer START -->
-          <footer class="content-footer"></footer>
         </div>
+
+        <!-- Footer START -->
+        <footer class="content-footer"></footer>
       </div>
     </div>
+  </div>
 
-    <!-- Content Wrapper END -->
+  <!-- Content Wrapper END -->
 
-    <!-- plugins js -->
-    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
-    <script src="../../assets/js/recycled/navigationbar.js"></script>
-    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="../../assets/vendors/PACE/pace.min.js"></script>
-    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-    <script src="../../assets/js/progressbar.js"></script>
-    <script src="../../assets/js/progress-circle.js"></script>
-    <script src="../../assets/js/modulo3/moduloOffice.js"></script>
-    <script type="text/javascript">
-      show(0.6);
-    </script>
-    <!-- endbuild -->
+  <!-- plugins js -->
+  <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/js/recycled/navigationbar.js"></script>
+  <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../../assets/vendors/PACE/pace.min.js"></script>
+  <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+  <script src="../../assets/js/progressbar.js"></script>
+  <script src="../../assets/js/progress-circle.js"></script>
+  <script src="../../assets/js/modulo3/moduloOffice.js"></script>
+  <script type="text/javascript">
+    show(0.6);
+  </script>
+  <!-- endbuild -->
 
-    <!-- core js -->
-    <script src="../../assets/js/app.js"></script>
-  </body>
+  <!-- core js -->
+  <script src="../../assets/js/app.js"></script>
+</body>
+
 </html>
