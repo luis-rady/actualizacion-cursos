@@ -3700,3 +3700,6 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 /*----------------------------
 --------- 2. Personalización ---------
 ----------------------------*/
+.btn {
+  border: 1px solid black !important; 
+}

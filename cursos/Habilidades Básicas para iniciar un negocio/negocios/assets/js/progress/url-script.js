@@ -106,11 +106,12 @@ function generatePage(name,count){
 function getLast(){
     var url = window.location.href;
     url=url.substr(url.indexOf("src/"));
+    if(url=="src/modulo1/parte2/tema4/continue6.html"){return "../../../temario";}
+    if(url=="src/modulo2/tema4/continue14.html"      ){return "../../temario";}
+    if(url=="src/modulo3/autoevaluacion/continue6.html"){return "../../temario";}
+    if(url=="src/modulo4/tema10/continue.html"){return "../../../temario";}
     var url_split=url.split('/');
     url_split.pop();
-    // alert(url_split.join('/'));
-    // if(getSpecialLasts().hasOwnProperty(url_split.join('/')))
-    //     return getSpecialLasts().url_split.join('/');
     url_split.pop();
     var res="";var flag=false;
     for(var i=url_split.length-1;i>=0;i--){
@@ -174,9 +175,9 @@ function getMovementBar(){
         count++;
     }
     html=html_back+html;
-    if(getLast().indexOf("temario")==-1){
+    // if(getLast().indexOf("temario")==-1){
         html=html+generatePage(jsonTmp[idtmp],parseInt(idtmp)+1);count++;
-    }
+    // }
     //after overall max 5
     for(var right=parseInt(idtmp)+1;right<filescount && count<5;right++){
         
@@ -329,6 +330,7 @@ function getFiles() {
                 11: "continue10.html",
                 12: "continue11.html",
                 13: "continue13.html",
+                14: "continue14.html",
             },
 
         },
@@ -410,6 +412,7 @@ function getFiles() {
                     3: "continue2.html",
                     4: "continue4.html",
                     5: "continue5.html",
+                    6: "continue6.html",
                 },
             },
         },
