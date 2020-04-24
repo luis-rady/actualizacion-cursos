@@ -216,10 +216,8 @@ function getFiles() {
             6: "modulo1-6.html",
             7: "modulo1-7.html",
             8: "modulo1-8.html",
-            9: "modulo1-9.html",
-            10: "modulo1-10.html",
-            11: "Quiz-m1.html",
-            12: "modulo1-final.html",
+            9: "Quiz-m1.html",
+            10: "modulo1-final.html",
 
         },
         modulo2: {
@@ -242,6 +240,7 @@ function getFiles() {
             17: "modulo2-final.html",
         },
         modulo3: {
+
             1: "modulo3-1.html",
             2: "modulo3-2.html",
             3: "modulo3-3.html",
@@ -295,8 +294,9 @@ function getFiles() {
             14: "modulo5-14.html",
             15: "modulo5-15.html",
             16: "modulo5-16.html",
-            17: "Quiz-m5.html",
-            18: "modulo5-final.html",
+            17: "modulo5-17.html",
+            18: "Quiz-m5.html",
+            19: "modulo5-final.html",
             
         },
         modulo6: {
@@ -343,17 +343,19 @@ function getFiles() {
             11: "modulo8-final.html",
         },
         modulo9: {
-            1: "modulo9-1.html",
-            2: "modulo9-2.html",
-            3: "modulo9-3.html",
-            4: "modulo9-4.html",
-            5: "modulo9-5.html",
-            6: "modulo9-6.html",
-            7: "modulo9-7.html",
-            8: "modulo9-8.html",
-            9: "modulo9-9.html",
-            10: "Quiz-m9.html",
-            11: "modulo9-final.html",
+            1:"modulo9-1.html",
+            2:"modulo9-2.html",
+            3:"modulo9-3.html",
+            4:"modulo9-4.html",
+            5:"modulo9-5.html",
+            6:"modulo9-6.html",
+            7:"modulo9-7.html",
+            8:"modulo9-8.html",
+            9:"modulo9-9.html",
+            10:"modulo9-10.html",
+            11: "modulo9-11.html",
+            12: "Quiz-m9.html",
+            13: "modulo9-final.html",
         },
         modulo10: {
             1: "modulo10-1.html",
@@ -375,19 +377,6 @@ function getFiles() {
             17: "modulo10-final.html",
             18: "actividad-final.html",
             
-        },
-
-        modulo9: {
-            1: "modulo9-1.html",
-            2: "modulo9-2.html",
-            3: "modulo9-3.html",
-            4: "modulo9-4.html",
-            5: "modulo9-5.html",
-            6: "modulo9-6.html",
-            7: "modulo9-7.html",
-            8: "modulo9-8.html",
-            9: "Quiz-m9.html",
-            10: "modulo9-final.html",
         },
 
     };
