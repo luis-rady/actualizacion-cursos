@@ -3877,8 +3877,8 @@ b.alertCorrect{
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
@@ -3907,8 +3907,8 @@ b.alertCorrect{
 .button:hover {
   /* box-shadow: 0 0 10px 0 var(--accent-color) inset, 0 0 10px 4px var(--accent-color); */
   color: white;
-  background-color: var(--s-dark);
-  border-color: var(--s-dark);
+  background-color: var(--p-dark);
+  border-color: var(--p-dark);
 }
 
 .button-pass {
