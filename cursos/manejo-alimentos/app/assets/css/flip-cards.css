@@ -34,10 +34,11 @@
 }
 
 .flip-card-back {
-    background-color: #0c7bbe;
-    color: white;
+    background-color: #FFCE6B;
+    color: black;
     transform: rotateY(180deg);
     text-align: left;
+    font-size: 18px;
 }
 
 .flip-card-title{
