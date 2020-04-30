@@ -339,8 +339,9 @@ function getFiles() {
             7: "modulo8-7.html",
             8: "modulo8-8.html",
             9: "modulo8-9.html",
-            10: "Quiz-m8.html",
-            11: "modulo8-final.html",
+            10: "modulo8-10.html",
+            11: "Quiz-m8.html",
+            12: "modulo8-final.html",
         },
         modulo9: {
             1:"modulo9-1.html",
