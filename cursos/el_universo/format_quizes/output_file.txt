@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Nuestro planeta Tierra es significante ante el universo?</p>
+                                <p>¿Cuáles son los dos movimientos principales de la Tierra?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -28,28 +28,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A2">Sí, porque solo hay unos cuantos planetas en el Universo.</label>
+                                                for="U13_Q1_A2">Rotación y Desplazamiento.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">No, es realmente pequeño porque millones de Sistemas Solares abarcan una Galaxia y millones de Galaxias abarcan el Universo.</label>
+                                                for="U13_Q1_A1">Rotación y Traslación.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A4">Sí, porque somos el único planeta conocido.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A3">No, porque ya se han encontrado otros planetas con vida.</label>
+                                                for="U13_Q1_A3">Traslación y Desplazamiento.</label>
                                         </div>
 
                                     </div>
@@ -61,7 +54,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿Cuántos planetas hay en nuestro Sistema Solar?</p>
+                                <p>¿Cúal es el movimiento que se encarga del transcurso del día?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -77,21 +70,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">7 Planetas.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A1">8 Planetas.</label>
+                                                for="U13_Q2_A3">Desplazamiento.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A3">9 Planetas.</label>
+                                                for="U13_Q2_A2">Traslación.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A1">Rotación.</label>
                                         </div>
 
                                     </div>
@@ -103,7 +96,7 @@
 
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>¿Cómo se llama nuestra galaxia?</p>
+                                <p>¿Cuál es el movimiento que se encarga del transcurso del año?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -119,21 +112,21 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">Vía Láctea.</label>
+                                                for="U13_Q3_A1">Rotación.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A3">La Galaxia del planeta Tierra.</label>
+                                                for="U13_Q3_A3">Desplazamiento.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">La Galaxia de Andrómeda.</label>
+                                                for="U13_Q3_A2">Traslación.</label>
                                         </div>
 
                                     </div>
@@ -143,19 +136,9 @@
                             </li>
                             <!-- Pregunta 3 END -->
 
-                        </ol>
-                    </div>
-                </div>
-                <!-- Columna izquierda de preguntas END -->
-
-                <!-- Columna derecha de preguntas START -->
-                <div class="col-md-6 pl-3 mrg-btm-50">
-                    <div class="pdd-vertical-30 pdd-horizon-25">
-                        <ol start="4">
-
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿En qué parte de la galaxia se encuentra nuestro sistema solar?</p>
+                                <p>¿En qué dirección rota la tierra?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -168,24 +151,31 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A2">Cerca del centro.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">En uno de sus bordes.</label>
+                                                for="U13_Q4_A1">De Occidente a Oriente.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">Justo en el centro.</label>
+                                                for="U13_Q4_A4">De Sur a Norte.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A2">De Oriente a Occidente.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A3">De Norte a Sur.</label>
                                         </div>
 
                                     </div>
@@ -195,9 +185,19 @@
                             </li>
                             <!-- Pregunta 4 END -->
 
+                        </ol>
+                    </div>
+                </div>
+                <!-- Columna izquierda de preguntas END -->
+
+                <!-- Columna derecha de preguntas START -->
+                <div class="col-md-6 pl-3 mrg-btm-50">
+                    <div class="pdd-vertical-30 pdd-horizon-25">
+                        <ol start="5">
+
                             <!-- Pregunta 5 START -->
                             <li class="question">
-                                <p>¿Qué es un Cometa?</p>
+                                <p>¿Aproximadamente cuánto dura el año?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -213,21 +213,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A3">Es aquél que orbita un planeta o algún otro asteroide.</label>
+                                                for="U13_Q5_A4">365 días y 4 horas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A1">Un pequeño cuerpo celeste que está helado.</label>
+                                                for="U13_Q5_A1">365 días y 6 horas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A2">Es otro nombre para un asteroide.</label>
+                                                for="U13_Q5_A2">364 días y 6 horas.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A3">364 días y 4 horas.</label>
                                         </div>
 
                                     </div>
@@ -239,7 +246,49 @@
 
                             <!-- Pregunta 6 START -->
                             <li class="question">
-                                <p>¿Qué es un Exoplaneta?</p>
+                                <p>¿Cómo se le llama a el camino que sigue la tierra alrededor del Sol?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A1">Orbita.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A3">Recta solar.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A2">Camino del año.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 6 END -->
+
+                            <!-- Pregunta 7 START -->
+                            <li class="question">
+                                <p>¿Cuántas constelaciones del Zodíaco existen?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -255,14 +304,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A2">Es aquél planeta que su composición es totalmente distinta a la de la tierra.</label>
+                                                for="U13_Q7_A3">14 constelaciones.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A1">Es aquél planeta que orbita otra estrella distinta a nuestro Sol.</label>
+                                                for="U13_Q7_A1">13 constelaciones.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A4">11 constelaciones.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A2">12 constelaciones.</label>
                                         </div>
 
                                     </div>
@@ -270,7 +333,42 @@
 
 
                             </li>
-                            <!-- Pregunta 6 END -->
+                            <!-- Pregunta 7 END -->
+
+                            <!-- Pregunta 8 START -->
+                            <li class="question">
+                                <p>¿Se ven todas las constelaciones en todo momento del año?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q8_A1">No, porque a veces tocan cuando es de día y no se pueden observar.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q8_A2">Sí, porque siempre están en el mismo lugar.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 8 END -->
 
                         </ol>
                     </div>
