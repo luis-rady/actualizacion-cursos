@@ -1,6 +1,10 @@
 Por el momento estoy usando una copia de las imágenes para ver el resultado.
 En el producto, se usarán las imagenes originales para respetar el derecho de autor.
 
+checar fotografias en modulos
+click -> clic
+Quiz Módulo -> ejercicio y banner
+
 354499625   -   index.html line 57
 125922590   -   objetivos.html 
 316733576   -   metodologia.html

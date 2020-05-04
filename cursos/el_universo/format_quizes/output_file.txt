@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Bajo qué condiciones llegará el universo a volver a ser la singularidad que era antes y quedarse como tal?</p>
+                                <p>¿Nuestro planeta Tierra es significante ante el universo?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -25,24 +25,31 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A2">Sí, porque solo hay unos cuantos planetas en el Universo.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.</label>
+                                                for="U13_Q1_A1">No, es realmente pequeño porque millones de Sistemas Solares abarcan una Galaxia y millones de Galaxias abarcan el Universo.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A2">Si la densidad de la materia equilibra la fuerza de la expansión.</label>
+                                                for="U13_Q1_A4">Sí, porque somos el único planeta conocido.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A3">Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.</label>
+                                                for="U13_Q1_A3">No, porque ya se han encontrado otros planetas con vida.</label>
                                         </div>
 
                                     </div>
@@ -52,19 +59,9 @@
                             </li>
                             <!-- Pregunta 1 END -->
 
-                        </ol>
-                    </div>
-                </div>
-                <!-- Columna izquierda de preguntas END -->
-
-                <!-- Columna derecha de preguntas START -->
-                <div class="col-md-6 pl-3 mrg-btm-50">
-                    <div class="pdd-vertical-30 pdd-horizon-25">
-                        <ol start="2">
-
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿Bajo qué condiciones llegará el universo a volver a expandirse infinitamente?</p>
+                                <p>¿Cuántos planetas hay en nuestro Sistema Solar?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -77,24 +74,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A2">7 Planetas.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A1">Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.</label>
+                                                for="U13_Q2_A1">8 Planetas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A3">Si la densidad de la materia equilibra la fuerza de la expansión.</label>
+                                                for="U13_Q2_A3">9 Planetas.</label>
                                         </div>
 
                                     </div>
@@ -106,7 +103,59 @@
 
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>¿Bajo qué condiciones llegará el universo a volver a ser la singularidad que era antes y volverá a expandirse?</p>
+                                <p>¿Cómo se llama nuestra galaxia?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A1">Vía Láctea.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A3">La Galaxia del planeta Tierra.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A2">La Galaxia de Andrómeda.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 3 END -->
+
+                        </ol>
+                    </div>
+                </div>
+                <!-- Columna izquierda de preguntas END -->
+
+                <!-- Columna derecha de preguntas START -->
+                <div class="col-md-6 pl-3 mrg-btm-50">
+                    <div class="pdd-vertical-30 pdd-horizon-25">
+                        <ol start="4">
+
+                            <!-- Pregunta 4 START -->
+                            <li class="question">
+                                <p>¿En qué parte de la galaxia se encuentra nuestro sistema solar?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -122,21 +171,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A3">Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.</label>
+                                                for="U13_Q4_A2">Cerca del centro.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">Si la densidad de la materia equilibra la fuerza de la expansión.</label>
+                                                for="U13_Q4_A1">En uno de sus bordes.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.</label>
+                                                for="U13_Q4_A3">Justo en el centro.</label>
                                         </div>
 
                                     </div>
@@ -144,7 +193,84 @@
 
 
                             </li>
-                            <!-- Pregunta 3 END -->
+                            <!-- Pregunta 4 END -->
+
+                            <!-- Pregunta 5 START -->
+                            <li class="question">
+                                <p>¿Qué es un Cometa?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A3">Es aquél que orbita un planeta o algún otro asteroide.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A1">Un pequeño cuerpo celeste que está helado.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A2">Es otro nombre para un asteroide.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 5 END -->
+
+                            <!-- Pregunta 6 START -->
+                            <li class="question">
+                                <p>¿Qué es un Exoplaneta?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A2">Es aquél planeta que su composición es totalmente distinta a la de la tierra.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A1">Es aquél planeta que orbita otra estrella distinta a nuestro Sol.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 6 END -->
 
                         </ol>
                     </div>

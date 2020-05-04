@@ -1,16 +1,31 @@
-3
+6
 
-1. ¿Bajo qué condiciones llegará el universo a volver a ser la singularidad que era antes y quedarse como tal?
-Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.
-Si la densidad de la materia equilibra la fuerza de la expansión.
-Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.
+1. ¿Nuestro planeta Tierra es significante ante el universo?
+No, es realmente pequeño porque millones de Sistemas Solares abarcan una Galaxia y millones de Galaxias abarcan el Universo.
+Sí, porque solo hay unos cuantos planetas en el Universo.
+No, porque ya se han encontrado otros planetas con vida.
+Sí, porque somos el único planeta conocido.
 
-2. ¿Bajo qué condiciones llegará el universo a volver a expandirse infinitamente?
-Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.
-Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.
-Si la densidad de la materia equilibra la fuerza de la expansión.
+2. ¿Cuántos planetas hay en nuestro Sistema Solar?
+8 Planetas.
+7 Planetas.
+9 Planetas.
 
-3. ¿Bajo qué condiciones llegará el universo a volver a ser la singularidad que era antes y volverá a expandirse?
-Si la densidad de la materia equilibra la fuerza de la expansión.
-Si la densidad de la materia es lo suficientemente grande para detener la fuerza de la expansión.
-Si la densidad de la materia es no alcanza a detener la fuerza de la expansión.
+3. ¿Cómo se llama nuestra galaxia?
+Vía Láctea.
+La Galaxia de Andrómeda.
+La Galaxia del planeta Tierra.
+
+4. ¿En qué parte de la galaxia se encuentra nuestro sistema solar?
+En uno de sus bordes.
+Cerca del centro.
+Justo en el centro.
+
+5. ¿Qué es un Cometa?
+Un pequeño cuerpo celeste que está helado.
+Es otro nombre para un asteroide.
+Es aquél que orbita un planeta o algún otro asteroide.
+
+6. ¿Qué es un Exoplaneta?
+Es aquél planeta que orbita otra estrella distinta a nuestro Sol.
+Es aquél planeta que su composición es totalmente distinta a la de la tierra.
