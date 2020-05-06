@@ -31,6 +31,7 @@ $(document).ready(function(){
         $("div#sideNav > div > div.side-nav-logo > a > div.logo").each(function(){
             $(this).css("background-image","url("+getPath()+"assets/images/logo/logo.png)");
         });
+        $('.scrollable').perfectScrollbar();
     });
     $.get(getPath()+"assets/js/recycled/footer.html", function(html_string){
         $("footer.content-footer").html(html_string); 
