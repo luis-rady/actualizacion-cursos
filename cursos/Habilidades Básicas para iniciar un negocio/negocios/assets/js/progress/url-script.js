@@ -91,8 +91,7 @@ function getTotalPercentage(){
 
 function generatePage(name,count){
     var html="";
-    
-    if(name=="index.html"){name="";}
+    // if(name=="index.html"){alert(name);name="";}
     if(count=="Atrás" || count== "Siguiente"){
         html+='<a class="btn btn-default" role="button" href="./'+name+'">';
     }else{
@@ -106,10 +105,10 @@ function generatePage(name,count){
 function getLast(){
     var url = window.location.href;
     url=url.substr(url.indexOf("src/"));
-    if(url=="src/modulo1/parte2/tema4/continue6.html"){return "../../../temario";}
-    if(url=="src/modulo2/tema4/continue14.html"      ){return "../../temario";}
-    if(url=="src/modulo3/autoevaluacion/continue6.html"){return "../../temario";}
-    if(url=="src/modulo4/tema10/continue.html"){return "../../../temario";}
+    if(url=="src/modulo1/parte2/tema4/continue6.html"){return "../../../temario/index.html";}
+    if(url=="src/modulo2/tema4/continue14.html"      ){return "../../temario/index.html";}
+    if(url=="src/modulo3/autoevaluacion/continue6.html"){return "../../temario/index.html";}
+    if(url=="src/modulo4/tema10/continue.html"){return "../../../temario/index.html";}
     var url_split=url.split('/');
     url_split.pop();
     url_split.pop();
@@ -125,6 +124,9 @@ function getLast(){
     }
     if(!flag){
         res+="temario/";
+    }
+    if(res[res.length-1]=='/'){
+        res+="index.html";
     }
     return res;
 }
