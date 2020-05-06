@@ -17,7 +17,7 @@
 
 :root {
     /* Cambiar el valor de la variable según la temática del curso.*/
-    --theme-color: #d3d3d3;
+    --theme-color: #b3b3b3;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,500,700");
@@ -228,7 +228,7 @@ hr {
 }
 
 .bg-info {
-    background-color: #d3d3d3 !important;
+    background-color: var(--theme-color) !important;
     color: #000000 !important;
     min-width: 17% !important;
 }
@@ -6433,7 +6433,7 @@ button:disabled {
 }
 
 .btn-info {
-    background-color: #d3d3d3;
+    background-color: var(--theme-color);
     border-color: #000000;
     color: #000000;
 }
@@ -6446,12 +6446,12 @@ button:disabled {
 }
 
 .btn-info:active {
-    background-color: #d3d3d3;
+    background-color: var(--theme-color);
     border-color: #000000;
 }
 
 .btn-info.active {
-    background-color: #d3d3d3;
+    background-color: var(--theme-color);
     border-color: #000000;
 }
 
@@ -6471,19 +6471,19 @@ button:disabled {
 .btn-info.btn-inverse:hover,
 .btn-info.btn-inverse:focus {
     background-color: #cdeafc;
-    color: #d3d3d3;
+    color: var(--theme-color);
     border-color: transparent;
 }
 
 .btn-info.disabled {
-    background-color: #d3d3d3;
+    background-color: var(--theme-color);
     border-color: #000000;
     opacity: 0.35;
 }
 
 .btn-info.disabled:hover,
 .btn-info.disabled:focus {
-    background-color: #d3d3d3;
+    background-color: var(--theme-color);
     border-color: #000000;
 }
 
@@ -6642,13 +6642,13 @@ button:disabled {
 }
 
 .show>.dropdown-toggle.btn-info {
-    background-color: #d3d3d3;
+    background-color: var(--theme-color);
     border-color: #000000;
 }
 
 .show>.dropdown-toggle.btn-info:hover,
 .show>.dropdown-toggle.btn-info:focus {
-    background-color: #d3d3d3;
+    background-color: var(--theme-color);
     border-color: #000000;
 }
 
@@ -7929,7 +7929,7 @@ label.success {
 }
 
 .tag-info {
-    background-color: #d3d3d3;
+    background-color: var(--theme-color);
     color: #000000;
 }
 
@@ -10409,8 +10409,8 @@ glyphs.character-mapping {
 ----------------------------*/
 
 .btn {
-    border: 1px solid black !important; 
     color: black !important;
+    border: none !important;
 }
 .btn-sm{
     background-color: var(--theme-color) !important;
@@ -10426,18 +10426,17 @@ glyphs.character-mapping {
 }
 .btn-info:active{
     background-color: var(--theme-color) !important;
-    border: 1px solid black !important; 
+    border: none !important; 
     border-color: black !important;
     color:black !important;
     box-shadow: none !important;
 }
 .btn-actual-page{
-    background-color: rgba(0,0,0,0.1);
+    background-color: var(--theme-color);
 }
 .btn:hover{
-    background-color: rgba(0,0,0,0.1);
+    background-color: var(--theme-color);
 }
 .button {
-    border: 1px solid black !important; 
     color: black !important;
 }
