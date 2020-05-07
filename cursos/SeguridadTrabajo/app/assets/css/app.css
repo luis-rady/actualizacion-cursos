@@ -3985,11 +3985,7 @@ b.alertCorrect{
   height: 50%;
 }
 
-.seguridad {
-  
-  color: var(--secondary-color); 
-  
-}
+
 
 .card-password {
   
@@ -4025,12 +4021,15 @@ b.alertCorrect{
 
 .quiz {
   height: 300px;
-  width: 400px; 
+  width: auto; 
+  justify-content: center;
 }
 
 #fin-del-modulo {
   display: none;
-  
+  background-color: green;
+  border-color: green;
+  width: 300px;
 }
 
 .titulo-inicio-modulo {
