@@ -35,10 +35,10 @@ function checkAll() {
             $(this).find(".alertWrong").css("display", "block");
         }
     });
-    $(".score > span").html(parseInt(correct * 100 / count) + "/100");
-    if (parseInt(correct * 100 / count) > 70) {
-        $(".msg > span").html("Aprobado!!");
-    } else {
-        $(".msg > span").html("Reprobado!!");
+    $(".score > span").html("<p style=\"color:gray\"><b>Resultado: "+parseInt(correct*100/count)+"/100</b></p>");
+    if(parseInt(correct*100/count) >= 90){
+        $(".msg > span").html("<p style=\"color:green\"><b>¡Excelente!</b></p>");
+    }else if(parseInt(correct*100/count) <= 30){
+        $(".msg > span").html('<p style=\"color:red\"><b>Te invitamos a regresar al contenido para tu aprendizaje.</b></p>');
     }
 }
