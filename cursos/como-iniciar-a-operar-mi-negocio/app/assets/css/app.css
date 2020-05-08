@@ -3911,3 +3911,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 .pd-btn {
   padding: 1.2em 1.2em;
 }
+button.btn.btn-credits {
+  overflow: auto;
+  white-space: pre-wrap;
+}
