@@ -10,7 +10,7 @@ fieldset p, fieldset input, fieldset textarea {
   }
 
   input[type=text], ::placeholder {
-    color: white;
+    color: gray;
     border: 1pxs solid white;
     font-size: .7rem;
   }
