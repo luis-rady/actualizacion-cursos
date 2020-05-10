@@ -5,9 +5,9 @@
 	
 	// Side Nav
 	function sideNav() {
-		$('.side-nav .side-nav-menu li a').on('click', function(e) {
+		$('.side-nav').on('click','.side-nav-menu li a', function(e) {
 			if ($(this).parent().hasClass("open")) {
-
+				
 				$(this).parent().children('.dropdown-menu').slideUp(200, function() {
 					$(this).parent().removeClass("open");
 				});
@@ -25,15 +25,15 @@
 	
 	// Side Nav Toogle
 	function sideNavToggle() {
-		$('.side-nav-toggle').on('click', function(e) {
-	        $('.app').toggleClass("is-collapsed");
+		$('.header').on('click','.side-nav-toggle', function(e) {
+			$('.app').toggleClass("is-collapsed");
 	        e.preventDefault();
 	    });
 	}	
 
 	// Side Panel Toogle
 	function sidePanelToggle() {
-		$('.side-panel-toggle').on('click', function(e) {
+		$('.side-nav').on('click','.side-panel-toggle', function(e) {
 	        $('.side-panel').toggleClass("side-panel-open");
 	        e.preventDefault();
 	    });
@@ -41,7 +41,7 @@
 
 	// Chat Toggle
 	function chatToggle() {
-		$('.chat-toggle').on('click', function(e) {
+		$('.side-nav').on('click','.chat-toggle', function(e) {
 	        $('.chat').toggleClass("open");
 	        e.preventDefault();
 	    });
@@ -49,7 +49,7 @@
 
 	// Todo Toggle
 	function todoToggle() {
-		$('.todo-toggle').on('click', function(e) {
+		$('.side-nav').on('click','.todo-toggle', function(e) {
 	        $('.todo-wrapper').toggleClass("open");
 	        e.preventDefault();
 	    });
@@ -57,7 +57,7 @@
 
 	// Search Toggle 
 	function searchToggle() {
-		$('.search-toggle').on('click', function(e) {
+		$('.side-nav').on('click','.search-toggle', function(e) {
 			$('.search-box, .search-input').toggleClass("active");
 			$('.search-input input').focus();
 			e.preventDefault();
@@ -66,7 +66,7 @@
 
 	// Advance Search
 	function advanceSearch() {
-		$('.search-input input').on('keyup',function(){
+		$('.side-nav').on('keyup','.search-input input',function(){
 			if($(this).val().length > 0) {
 				$('.advanced-search').addClass("active");
 			} 
@@ -79,7 +79,7 @@
 
 	// Theme Configurator
 	function themeConfig() {
-		$('.theme-toggle, .config-close').on('click', function(e) {
+		$('.side-nav').on('click','.theme-toggle, .config-close', function(e) {
 	        $('.theme-configurator').toggleClass("theme-config-open");
 	        e.preventDefault();
 	    });
@@ -179,7 +179,5 @@
 	    cardPortletCtrl();
 	    themeColorConfig();
 	}
-	setTimeout(() => {
-		init();
-	}, 250);
+	init();
 })(jQuery);
