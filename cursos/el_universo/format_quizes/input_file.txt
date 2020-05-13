@@ -1,43 +1,31 @@
-8
+6
 
-1. ¿Cuáles son los dos movimientos principales de la Tierra?
-Rotación y Traslación.
-Rotación y Desplazamiento.
-Traslación y Desplazamiento.
+1. ¿Cuál es el eje imaginario sobre el que gira la Tierra?
+Aquél que cruza los puntos llamados Polo Norte y Polo Sur.
+El Ecuador.
 
-2. ¿Cúal es el movimiento que se encarga del transcurso del día?
-Rotación.
-Traslación.
-Desplazamiento.
+2. ¿Cuál es la línea imaginaria que corta a la Tierra en dos hemisferios?
+El Ecuador.
+Aquél que cruza los puntos llamados Polo Norte y Polo Sur.
 
-3. ¿Cuál es el movimiento que se encarga del transcurso del año?
-Rotación.
-Traslación.
-Desplazamiento.
+3. ¿Cuál es aproximadamente el ángulo de inclinación entre el plano del Ecuador Terrestre y la órbita Terrestre?
+El ángulo es 23.5.
+El ángulo es 20.5.
+El ángulo es 25.3.
+El ángulo es 20.3.
 
-4. ¿En qué dirección rota la tierra?
-De Occidente a Oriente.
-De Oriente a Occidente.
-De Norte a Sur.
-De Sur a Norte.
+4. ¿Qué se usa para describir la localización de un lugar en la superficie de la Tierra? Y ¿Cómo se miden?
+Latitud y Longitud. Latitud se mide del Ecuador en 0 grados, en el Polo Sur hasta 90 grados y Polo Norte hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Este y -180 hacia el Oeste.
+Latitud y Longitud. Latitud se mide del Ecuador en 0 grados, en el Polo Norte  hasta 90 grados y Polo Sur hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Este y -180 hacia el Oeste.
+Latitud y Longitud. Latitud se mide del Ecuador en 0 grados, en el Polo Sur hasta 90 grados y Polo Norte hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Oeste y -180 hacia el Este.
+Altitud y Longitud. Altitud se mide del Ecuador en 0 grados, en el Polo Sur hasta 90 grados y Polo Norte hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Este y -180 hacia el Oeste.
 
-5. ¿Aproximadamente cuánto dura el año?
-365 días y 6 horas.
-364 días y 6 horas.
-364 días y 4 horas.
-365 días y 4 horas.
+5. ¿Cuáles son los dos puntos en los que el Ecuador celeste corta a la Eclíptica?
+Equinoccio de Primavera y Otoño.
+Equinoccio de Verano e Invierno.
+Equinoccio de día y de noche.
 
-6. ¿Cómo se le llama a el camino que sigue la tierra alrededor del Sol?
-Orbita.
-Camino del año.
-Recta solar.
-
-7. ¿Cuántas constelaciones del Zodíaco existen? 
-13 constelaciones.
-12 constelaciones.
-14 constelaciones.
-11 constelaciones.
-
-8. ¿Se ven todas las constelaciones en todo momento del año?
-No, porque a veces tocan cuando es de día y no se pueden observar.
-Sí, porque siempre están en el mismo lugar.
+6. ¿De qué están conformadas las Coordenadas Ecuatoriales?
+Usan la Latitud Celeste, que se basa a partir del Ecuador Celeste y la Longitud Celeste, que se basa a partir del Equinoccio Vernal.
+Usan la Longitud Celeste, que se basa a partir del Ecuador Celeste y la Latitud Celeste, que se basa a partir del Equinoccio Vernal.
+Usan la Latitud Celeste, que se basa a partir del Ecuador Celeste y la Longitud Celeste, que se basa a partir del Equinoccio de Verano.
