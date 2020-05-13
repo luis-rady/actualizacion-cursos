@@ -3718,10 +3718,10 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
   height: 20vh!important;
 }
 /*-- Para el carousel de librito de cursos de DP --*/
-.credits-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: var(--theme-color); margin-top: 0px; line-height: 25px; }
+.credits-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #8fc4b5; margin-top: 0px; line-height: 25px; }
 
 /*-- Para los botones de creditos --*/
-.btn-credits { background-color: var(--theme-color); border-color: var(--theme-color); color: #ffffff; }
+.btn-credits { background-color: var(--theme-color); border-color: var(--theme-color); color: #686868; }
 
 /* Cambios al color palette */
 .header{
@@ -3914,4 +3914,8 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 button.btn.btn-credits {
   overflow: auto;
   white-space: pre-wrap;
+}
+
+a.nav-link, h4>a>span, div>p>strong, .theme-color {
+  color: #686868 !important;
 }
