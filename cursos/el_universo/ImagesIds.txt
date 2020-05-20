@@ -3,6 +3,8 @@ En el producto, se usarán las imagenes originales para respetar el derecho de a
 
 checar fotografias en modulos
 click -> clic
+Incluir Nombre del autor
+Buscar logo de Aida actualizado
 Quiz Módulo -> ejercicio y banner
 
 354499625   -   index.html line 57
