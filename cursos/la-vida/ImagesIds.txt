@@ -1,0 +1,80 @@
+Por el momento estoy usando una copia de las imágenes para ver el resultado.
+En el producto, se usarán las imagenes originales para respetar el derecho de autor.
+
+checar fotografias en modulos
+click -> clic
+Incluir Nombre del autor
+Buscar logo de Aida actualizado
+Quiz Módulo -> ejercicio y banner
+
+354499625   -   index.html line 57
+125922590   -   objetivos.html 
+316733576   -   metodologia.html
+1357330577  -   politicas.html
+1335773111  -   contacto.html
+1144494014  -   creditos.html
+111383906   -   Temario 1
+51358951    -   Temario 2
+398879401   -   Temario 3
+768973735   -   Temario 4
+285569396   -   Temario 5
+1665245008  -   Temario 6
+370061726   -   Temario 7
+557126443   -   Temario 8
+1607640910  -   Temario 9
+311871896   -   Temario 10
+490363447   -   Temario 11
+295846730   -   Temario 12
+1676700826  -   Temario 13
+353117663   -   Modulo 1.1
+155578883   -   Modulo 1.1
+237306604   -   Modulo 1.2
+1252197598  -   Modulo 1.2
+1334701838  -   Modulo 1.2
+221600710   -   Modulo 1.3
+397043317   -   Modulo 2.1
+456976504   -   Modulo 2.1
+1115089004  -   Modulo 2.2
+1428284177  -   Modulo 2.3
+1570783657  -   Modulo 2.4
+1571080210  -   Modulo 3.1
+514067857   -   Modulo 3.2
+618049562   -   Modulo 3.3
+1033961524  -   Modulo 4.1
+728027881   -   Modulo 5.1
+1137227624  -   Modulo 5.2
+389006449   -   Modulo 5.3
+465241142   -   Modulo 6.1
+1155018106  -   Modulo 6.2
+215899297   -   Modulo 6.3
+130669265   -   Modulo 7.1
+227376748
+425541721
+665421511
+197326970
+2972709
+418202662
+231163504
+1618403137
+727129150
+3471019
+577527586
+1029243295
+145255891
+285569396
+1440625991
+1180828402
+1399436144
+540073723
+48603517
+537833263
+340389752
+
+
+Universo        20 horas
+Astronomia      20 horas
+La Vida         20 horas
+metodologia
+politicas
+creditos quitar logo de gilberto y agregar aida
+numeracion del quiz
