@@ -1,38 +1,26 @@
-7
+5
 
-1. ¿A qué se puede comparar una célula por su manera de trabajar?
-Una fábrica.
-Una casa.
-A nada.
 
-2. ¿Cuál fue el primer Reino que se creó?
-Reino Monera.
-Reino Protista.
-Reino de los hongos.
-Reino de las plantas.
-Reino de los animales.
+1. ¿Es correcto el siguiente resumen para construir proteínas? El ADN se desenrolla, luego el ARN copia el orden de las bases, se adhiere a un ribosoma y este decodifica la información, finalmente junto a otra molécula lleva al lugar de ensamblaje lo necesario y se siguen las instrucciones hasta que se termine de leer el ARN.
+No, falta mencionar que los últimos tres nucleótidos no codifican nada y significa el fin del ensamblaje.
+Sí, no falta nada.
+No, falta mencionar que los primeros tres nucleótidos no codifican nada y significa el comienzo del ensamblaje.
 
-3. ¿Qué hace el aparato de Golgi?
-Procesa las proteínas producidas en la célula y las empaca en pequeñas esferas para transportarlas al exterior de la célula.
-Procesa las proteínas producidas en la célula y las empaca en pequeñas esferas para transportarlas a otras partes de la célula.
-Es el encargado de producir el ATP.
-Desempaca las proteínas recibidas por el exterior.
+2. ¿De qué está formado el ADN?
+De azúcar desoxirribosa y cuatro bases nitrogenadas.
+De proteína y cuatro bases nitrogenadas.
 
-4. ¿Qué es el citosol?
-Es la substancia gelatinosa que se encuentra en el citoplasma.
-Es un medio acuoso que se encuentra al interior de la membrana de la célula y está conformado por el citoplasma.
-Es una compleja red de finos tubos que ayudan a mantener la forma de la célula.
+3. ¿Cuáles son las combinaciones de bases nitrogenadas que se pueden observar?
+La adenina con la timina y la guanina con la citosina.
+La adenina con la guanina y la timina con la citosina.
+La adenina con la citosina y la timina con la guanina.
 
-5. ¿Cómo se cree que una célula obtuvo su núcleo?
-Una célula grande absorbió a una pequeña y está sobrevivió, convirtiéndose en el núcleo.
-Por medio de un proceso natural, en el que la célula formó su núcleo.
+4. ¿Cuál es la función del ARN?
+Transmitir la información del ADN a la célula para que produzca la proteína adecuada.
+La misma que el ADN.
+Transmitir la información del de proteínas al ADN para mejorarlo.
 
-6. ¿Qué hacen las mitocondrias?
-Convierten los átomos de carbohidratos o lípidos y los convierte en ATP.
-Convierte el ATP en átomos de lípidos para almacenar la energía.
-Convierte el ATP en átomos de carbohidratos para almacenar la energía.
-
-7. ¿Cuáles son los productos que se generan en la respiración animal?
-Dióxido de carbono, agua y ATP.
-Dióxido de carbono y ATP.
-Dióxido de carbono, agua, proteínas y ATP.
+5. ¿Dónde se encuentra el ADN y ARN?
+En el núcleo de la célula.
+En el citoplasma de la célula.
+Puede estar tanto en el núcleo como en el citoplasma de la célula.
