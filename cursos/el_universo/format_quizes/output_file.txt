@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Fueron los comienzos de la tierra violentos respecto al medio ambiente?</p>
+                                <p>¿A qué se puede comparar una célula por su manera de trabajar?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -25,17 +25,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A2">No.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">Sí.</label>
+                                                for="U13_Q1_A1">Una fábrica.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A2">Una casa.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A3">A nada.</label>
                                         </div>
 
                                     </div>
@@ -47,7 +54,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿Qué le ayuda a la tierra a conservar la temperatura ideal?</p>
+                                <p>¿Cuál fue el primer Reino que se creó?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -63,21 +70,35 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A3">Su tamaño.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A1">La atmósfera.</label>
+                                                for="U13_Q2_A2">Reino Protista.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">Las montañas.</label>
+                                                for="U13_Q2_A3">Reino de los hongos.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A4">Reino de las plantas.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A1">Reino Monera.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A5">Reino de los animales.</label>
                                         </div>
 
                                     </div>
@@ -89,7 +110,7 @@
 
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>A grandes rasgos, ¿En qué consisten las reacciones químicas?</p>
+                                <p>¿Qué hace el aparato de Golgi?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -105,28 +126,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A4">En cambios que se dan en los protones que ocupan el núcleo de los átomos.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A2">En cambios que se dan en los electrones que ocupan el núcleo de los átomos.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A3">En cambios que se dan en los protones que ocupan la capa exterior de los átomos.</label>
+                                                for="U13_Q3_A3">Es el encargado de producir el ATP.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">En cambios que se dan en los electrones que ocupan la capa exterior de los átomos.</label>
+                                                for="U13_Q3_A1">Procesa las proteínas producidas en la célula y las empaca en pequeñas esferas para transportarlas al exterior de la célula.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A2">Procesa las proteínas producidas en la célula y las empaca en pequeñas esferas para transportarlas a otras partes de la célula.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A4">Desempaca las proteínas recibidas por el exterior.</label>
                                         </div>
 
                                     </div>
@@ -148,7 +169,7 @@
 
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿Cuáles fueron probablemente las primeras formas de vida?</p>
+                                <p>¿Qué es el citosol?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -161,24 +182,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A2">Las plantas.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">Las bacterias.</label>
+                                                for="U13_Q4_A1">Es la substancia gelatinosa que se encuentra en el citoplasma.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">Los organismos pluricelulares.</label>
+                                                for="U13_Q4_A3">Es una compleja red de finos tubos que ayudan a mantener la forma de la célula.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A2">Es un medio acuoso que se encuentra al interior de la membrana de la célula y está conformado por el citoplasma.</label>
                                         </div>
 
                                     </div>
@@ -190,7 +211,7 @@
 
                             <!-- Pregunta 5 START -->
                             <li class="question">
-                                <p>¿Cuál de las siguientes opciones es la correcta?</p>
+                                <p>¿Cómo se cree que una célula obtuvo su núcleo?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -206,14 +227,14 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A2">El enlace iónico es aquel donde los átomos comparten electrones y el enlace covalente es aquel donde uno cede sus electrones al otro.</label>
+                                                for="U13_Q5_A2">Por medio de un proceso natural, en el que la célula formó su núcleo.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A1">El enlace covalente es aquel donde los átomos comparten electrones y el enlace iónico es aquel donde uno cede sus electrones al otro.</label>
+                                                for="U13_Q5_A1">Una célula grande absorbió a una pequeña y está sobrevivió, convirtiéndose en el núcleo.</label>
                                         </div>
 
                                     </div>
@@ -225,7 +246,7 @@
 
                             <!-- Pregunta 6 START -->
                             <li class="question">
-                                <p>¿Cuál es el elemento más importante en la formación de vida?</p>
+                                <p>¿Qué hacen las mitocondrias?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -241,28 +262,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A2">El hidrógeno.</label>
+                                                for="U13_Q6_A2">Convierte el ATP en átomos de lípidos para almacenar la energía.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A3">El oxígeno.</label>
+                                                for="U13_Q6_A3">Convierte el ATP en átomos de carbohidratos para almacenar la energía.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A1">El carbón.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q6_A4">El nitrógeno.</label>
+                                                for="U13_Q6_A1">Convierten los átomos de carbohidratos o lípidos y los convierte en ATP.</label>
                                         </div>
 
                                     </div>
@@ -274,7 +288,7 @@
 
                             <!-- Pregunta 7 START -->
                             <li class="question">
-                                <p>¿Cuál es la macromolécula que constituyen los tejidos de los órganos?</p>
+                                <p>¿Cuáles son los productos que se generan en la respiración animal?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -287,24 +301,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A3">Dióxido de carbono, agua, proteínas y ATP.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q7_A2">Dióxido de carbono y ATP.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q7_A1">Las proteínas.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q7_A3">Los lípidos.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q7_A2">Los carbohidratos.</label>
+                                                for="U13_Q7_A1">Dióxido de carbono, agua y ATP.</label>
                                         </div>
 
                                     </div>

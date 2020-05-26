@@ -1,36 +1,38 @@
 7
 
-1. ¿Fueron los comienzos de la tierra violentos respecto al medio ambiente?
-Sí.
-No.
+1. ¿A qué se puede comparar una célula por su manera de trabajar?
+Una fábrica.
+Una casa.
+A nada.
 
-2. ¿Qué le ayuda a la tierra a conservar la temperatura ideal?
-La atmósfera.
-Las montañas.
-Su tamaño.
+2. ¿Cuál fue el primer Reino que se creó?
+Reino Monera.
+Reino Protista.
+Reino de los hongos.
+Reino de las plantas.
+Reino de los animales.
 
-3. A grandes rasgos, ¿En qué consisten las reacciones químicas?
-En cambios que se dan en los electrones que ocupan la capa exterior de los átomos.
-En cambios que se dan en los electrones que ocupan el núcleo de los átomos.
-En cambios que se dan en los protones que ocupan la capa exterior de los átomos.
-En cambios que se dan en los protones que ocupan el núcleo de los átomos.
+3. ¿Qué hace el aparato de Golgi?
+Procesa las proteínas producidas en la célula y las empaca en pequeñas esferas para transportarlas al exterior de la célula.
+Procesa las proteínas producidas en la célula y las empaca en pequeñas esferas para transportarlas a otras partes de la célula.
+Es el encargado de producir el ATP.
+Desempaca las proteínas recibidas por el exterior.
 
-4. ¿Cuáles fueron probablemente las primeras formas de vida?
-Las bacterias.
-Las plantas.
-Los organismos pluricelulares.
+4. ¿Qué es el citosol?
+Es la substancia gelatinosa que se encuentra en el citoplasma.
+Es un medio acuoso que se encuentra al interior de la membrana de la célula y está conformado por el citoplasma.
+Es una compleja red de finos tubos que ayudan a mantener la forma de la célula.
 
-5. ¿Cuál de las siguientes opciones es la correcta?
-El enlace covalente es aquel donde los átomos comparten electrones y el enlace iónico es aquel donde uno cede sus electrones al otro.
-El enlace iónico es aquel donde los átomos comparten electrones y el enlace covalente es aquel donde uno cede sus electrones al otro. 
+5. ¿Cómo se cree que una célula obtuvo su núcleo?
+Una célula grande absorbió a una pequeña y está sobrevivió, convirtiéndose en el núcleo.
+Por medio de un proceso natural, en el que la célula formó su núcleo.
 
-6. ¿Cuál es el elemento más importante en la formación de vida?
-El carbón.
-El hidrógeno.
-El oxígeno.
-El nitrógeno.
+6. ¿Qué hacen las mitocondrias?
+Convierten los átomos de carbohidratos o lípidos y los convierte en ATP.
+Convierte el ATP en átomos de lípidos para almacenar la energía.
+Convierte el ATP en átomos de carbohidratos para almacenar la energía.
 
-7. ¿Cuál es la macromolécula que constituyen los tejidos de los órganos?
-Las proteínas.
-Los carbohidratos.
-Los lípidos.
+7. ¿Cuáles son los productos que se generan en la respiración animal?
+Dióxido de carbono, agua y ATP.
+Dióxido de carbono y ATP.
+Dióxido de carbono, agua, proteínas y ATP.
