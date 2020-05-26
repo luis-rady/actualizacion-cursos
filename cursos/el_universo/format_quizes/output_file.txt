@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Qué coordina las acciones de todas las células?</p>
+                                <p>¿Qué es la mitosis?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -28,21 +28,14 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A2">La inteligencia de cada célula.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A3">El cerebro.</label>
+                                                for="U13_Q1_A2">Es el proceso en el que dos células se reproducen para crear una nueva.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">Las instrucciones del ADN.</label>
+                                                for="U13_Q1_A1">Es el proceso en el que una célula se reproduce.</label>
                                         </div>
 
                                     </div>
@@ -54,7 +47,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿Cómo logra el ADN sobrevivir en cada célula?</p>
+                                <p>¿Qué es la meiosis?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -70,14 +63,14 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">Hay un ADN original, del cual todas las células reciben la instrucción.</label>
+                                                for="U13_Q2_A2">Es el proceso en el que una célula se reproduce.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A1">Cada vez que una célula se divide, se crea una copia del ADN.</label>
+                                                for="U13_Q2_A1">Es el proceso en el que dos células se reproducen para crear una nueva.</label>
                                         </div>
 
                                     </div>
@@ -89,7 +82,7 @@
 
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>¿Qué es un gen?</p>
+                                <p>¿Cómo se da la variación genética?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -105,14 +98,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">Son tipos especiales de ADN que contienen la información para cada uno de los rasgos o características de los organismos.</label>
+                                                for="U13_Q3_A3">Los organismos heredan sólo un gen, comúnmente del padre y estos terminan siendo los dominantes. El resto de los genes no recibidos se llaman recesivos.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A2">Los organismos heredan sólo un gen, comúnmente de la madre y estos terminan siendo los dominantes. El resto de los genes no recibidos se llaman recesivos.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A4">Los organismos heredan pares de genes por sus dos progenitores, y todos se combinan.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">Son segmentos del ADN que contienen la información para cada uno de los rasgos o características de los organismos.</label>
+                                                for="U13_Q3_A1">Los organismos heredan pares de genes por sus dos progenitores, y eso resulta en que hay genes dominantes, genes recesivos y también algunos que simplemente se combinan.</label>
                                         </div>
 
                                     </div>
@@ -134,7 +141,7 @@
 
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿Qué es una célula madre?</p>
+                                <p>¿Qué es una mutación?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -150,21 +157,14 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">Es toda aquella célula que aún no se ha especializado.</label>
+                                                for="U13_Q4_A1">Es un cambio en el cromosoma.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">Es una célula que está dividiéndose.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A2">Son las células que tienen las madres al estar embarazadas.</label>
+                                                for="U13_Q4_A2">Es otro nombre para la variación genética.</label>
                                         </div>
 
                                     </div>
@@ -176,7 +176,7 @@
 
                             <!-- Pregunta 5 START -->
                             <li class="question">
-                                <p>¿Es cierta la siguiente descripción? La ingeniería genética es como se le conoce a las técnicas con las que se alteran los genes de un organismo.</p>
+                                <p>¿Quiénes son los que aportan un rol en la evolución?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -192,14 +192,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A2">Falso.</label>
+                                                for="U13_Q5_A3">La variación genética y la mutación. Y queda al azar cuáles son los que sobrevivirán.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A1">Verdadero.</label>
+                                                for="U13_Q5_A1">La variación genética y la mutación. Sin embargo, la selección natural es la que termina optando por los cambios que apoyen a la sobrevivencia de la especie.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A2">La variación genética y la mutación.</label>
                                         </div>
 
                                     </div>
@@ -211,7 +218,7 @@
 
                             <!-- Pregunta 6 START -->
                             <li class="question">
-                                <p>¿Es cierta la siguiente descripción? Se llama genoma al conjunto de todos los genes que forman los cromosomas de la célula y que contienen toda la información relacionada con la vida y el funcionamiento de un organismo.</p>
+                                <p>¿En cuántos y cuáles reinos se clasifican a los seres vivos?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -224,17 +231,31 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
+                                            <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A1">Verdadero.</label>
+                                                for="U13_Q6_A4">5 reinos: Protista, Hongos, Plantas, Animales, Humanos</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A2">Falso.</label>
+                                                for="U13_Q6_A2">6 reinos: Monera, Protista, Hongos, Plantas, Animales, Humanos</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A1">5 reinos: Monera, Protista, Hongos, Plantas, Animales</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A3">4 reinos: Protista, Hongos, Plantas, Animales</label>
                                         </div>
 
                                     </div>

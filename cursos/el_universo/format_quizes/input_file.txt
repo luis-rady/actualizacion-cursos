@@ -1,28 +1,32 @@
 6
 
-1. ¿Qué coordina las acciones de todas las células?
-Las instrucciones del ADN.
-La inteligencia de cada célula.
-El cerebro.
+1. ¿Qué es la mitosis?
+Es el proceso en el que una célula se reproduce.
+Es el proceso en el que dos células se reproducen para crear una nueva.
 
-2. ¿Cómo logra el ADN sobrevivir en cada célula?
-Cada vez que una célula se divide, se crea una copia del ADN.
-Hay un ADN original, del cual todas las células reciben la instrucción.
+2. ¿Qué es la meiosis?
+Es el proceso en el que dos células se reproducen para crear una nueva.
+Es el proceso en el que una célula se reproduce.
 
-3. ¿Qué es un gen?
-Son segmentos del ADN que contienen la información para cada uno de los rasgos o características de los organismos.
-Son tipos especiales de ADN que contienen la información para cada uno de los rasgos o características de los organismos.
+3. ¿Cómo se da la variación genética?
+Los organismos heredan pares de genes por sus dos progenitores, y eso resulta en que hay genes dominantes, genes recesivos y también algunos que simplemente se combinan.
+Los organismos heredan sólo un gen, comúnmente de la madre y estos terminan siendo los dominantes. El resto de los genes no recibidos se llaman recesivos.
+Los organismos heredan sólo un gen, comúnmente del padre y estos terminan siendo los dominantes. El resto de los genes no recibidos se llaman recesivos.
+Los organismos heredan pares de genes por sus dos progenitores, y todos se combinan.
 
-4. ¿Qué es una célula madre?
-Es toda aquella célula que aún no se ha especializado.
-Son las células que tienen las madres al estar embarazadas.
-Es una célula que está dividiéndose.
+4. ¿Qué es una mutación?
+Es un cambio en el cromosoma.
+Es otro nombre para la variación genética.
 
-5. ¿Es cierta la siguiente descripción? La ingeniería genética es como se le conoce a las técnicas con las que se alteran los genes de un organismo.
-Verdadero.
-Falso.
+5. ¿Quiénes son los que aportan un rol en la evolución?
+La variación genética y la mutación. Sin embargo, la selección natural es la que termina optando por los cambios que apoyen a la sobrevivencia de la especie.
+La variación genética y la mutación.
+La variación genética y la mutación. Y queda al azar cuáles son los que sobrevivirán.
 
-6. ¿Es cierta la siguiente descripción? Se llama genoma al conjunto de todos los genes que forman los cromosomas de la célula y que contienen toda la información relacionada con la vida y el funcionamiento de un organismo.
-Verdadero.
-Falso.
+6. ¿En cuántos y cuáles reinos se clasifican a los seres vivos?
+5 reinos: Monera, Protista, Hongos, Plantas, Animales
+6 reinos: Monera, Protista, Hongos, Plantas, Animales, Humanos
+4 reinos: Protista, Hongos, Plantas, Animales
+5 reinos: Protista, Hongos, Plantas, Animales, Humanos
+
 
