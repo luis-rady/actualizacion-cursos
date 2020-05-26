@@ -1,31 +1,36 @@
-6
+7
 
-1. ¿Cuál es el eje imaginario sobre el que gira la Tierra?
-Aquél que cruza los puntos llamados Polo Norte y Polo Sur.
-El Ecuador.
+1. ¿Fueron los comienzos de la tierra violentos respecto al medio ambiente?
+Sí.
+No.
 
-2. ¿Cuál es la línea imaginaria que corta a la Tierra en dos hemisferios?
-El Ecuador.
-Aquél que cruza los puntos llamados Polo Norte y Polo Sur.
+2. ¿Qué le ayuda a la tierra a conservar la temperatura ideal?
+La atmósfera.
+Las montañas.
+Su tamaño.
 
-3. ¿Cuál es aproximadamente el ángulo de inclinación entre el plano del Ecuador Terrestre y la órbita Terrestre?
-El ángulo es 23.5.
-El ángulo es 20.5.
-El ángulo es 25.3.
-El ángulo es 20.3.
+3. A grandes rasgos, ¿En qué consisten las reacciones químicas?
+En cambios que se dan en los electrones que ocupan la capa exterior de los átomos.
+En cambios que se dan en los electrones que ocupan el núcleo de los átomos.
+En cambios que se dan en los protones que ocupan la capa exterior de los átomos.
+En cambios que se dan en los protones que ocupan el núcleo de los átomos.
 
-4. ¿Qué se usa para describir la localización de un lugar en la superficie de la Tierra? Y ¿Cómo se miden?
-Latitud y Longitud. Latitud se mide del Ecuador en 0 grados, en el Polo Sur hasta 90 grados y Polo Norte hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Este y -180 hacia el Oeste.
-Latitud y Longitud. Latitud se mide del Ecuador en 0 grados, en el Polo Norte  hasta 90 grados y Polo Sur hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Este y -180 hacia el Oeste.
-Latitud y Longitud. Latitud se mide del Ecuador en 0 grados, en el Polo Sur hasta 90 grados y Polo Norte hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Oeste y -180 hacia el Este.
-Altitud y Longitud. Altitud se mide del Ecuador en 0 grados, en el Polo Sur hasta 90 grados y Polo Norte hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Este y -180 hacia el Oeste.
+4. ¿Cuáles fueron probablemente las primeras formas de vida?
+Las bacterias.
+Las plantas.
+Los organismos pluricelulares.
 
-5. ¿Cuáles son los dos puntos en los que el Ecuador celeste corta a la Eclíptica?
-Equinoccio de Primavera y Otoño.
-Equinoccio de Verano e Invierno.
-Equinoccio de día y de noche.
+5. ¿Cuál de las siguientes opciones es la correcta?
+El enlace covalente es aquel donde los átomos comparten electrones y el enlace iónico es aquel donde uno cede sus electrones al otro.
+El enlace iónico es aquel donde los átomos comparten electrones y el enlace covalente es aquel donde uno cede sus electrones al otro. 
 
-6. ¿De qué están conformadas las Coordenadas Ecuatoriales?
-Usan la Latitud Celeste, que se basa a partir del Ecuador Celeste y la Longitud Celeste, que se basa a partir del Equinoccio Vernal.
-Usan la Longitud Celeste, que se basa a partir del Ecuador Celeste y la Latitud Celeste, que se basa a partir del Equinoccio Vernal.
-Usan la Latitud Celeste, que se basa a partir del Ecuador Celeste y la Longitud Celeste, que se basa a partir del Equinoccio de Verano.
+6. ¿Cuál es el elemento más importante en la formación de vida?
+El carbón.
+El hidrógeno.
+El oxígeno.
+El nitrógeno.
+
+7. ¿Cuál es la macromolécula que constituyen los tejidos de los órganos?
+Las proteínas.
+Los carbohidratos.
+Los lípidos.

@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Cuál es el eje imaginario sobre el que gira la Tierra?</p>
+                                <p>¿Fueron los comienzos de la tierra violentos respecto al medio ambiente?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -28,14 +28,14 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A2">El Ecuador.</label>
+                                                for="U13_Q1_A2">No.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A1">Aquél que cruza los puntos llamados Polo Norte y Polo Sur.</label>
+                                                for="U13_Q1_A1">Sí.</label>
                                         </div>
 
                                     </div>
@@ -47,7 +47,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿Cuál es la línea imaginaria que corta a la Tierra en dos hemisferios?</p>
+                                <p>¿Qué le ayuda a la tierra a conservar la temperatura ideal?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -63,14 +63,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">Aquél que cruza los puntos llamados Polo Norte y Polo Sur.</label>
+                                                for="U13_Q2_A3">Su tamaño.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A1">El Ecuador.</label>
+                                                for="U13_Q2_A1">La atmósfera.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A2">Las montañas.</label>
                                         </div>
 
                                     </div>
@@ -82,7 +89,7 @@
 
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>¿Cuál es aproximadamente el ángulo de inclinación entre el plano del Ecuador Terrestre y la órbita Terrestre?</p>
+                                <p>A grandes rasgos, ¿En qué consisten las reacciones químicas?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -98,28 +105,28 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A2">El ángulo es 20.5.</label>
+                                                for="U13_Q3_A4">En cambios que se dan en los protones que ocupan el núcleo de los átomos.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A4">El ángulo es 20.3.</label>
+                                                for="U13_Q3_A2">En cambios que se dan en los electrones que ocupan el núcleo de los átomos.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q3_A3">En cambios que se dan en los protones que ocupan la capa exterior de los átomos.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">El ángulo es 23.5.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A3">El ángulo es 25.3.</label>
+                                                for="U13_Q3_A1">En cambios que se dan en los electrones que ocupan la capa exterior de los átomos.</label>
                                         </div>
 
                                     </div>
@@ -141,7 +148,7 @@
 
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿Qué se usa para describir la localización de un lugar en la superficie de la Tierra? Y ¿Cómo se miden?</p>
+                                <p>¿Cuáles fueron probablemente las primeras formas de vida?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -157,28 +164,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A2">Latitud y Longitud. Latitud se mide del Ecuador en 0 grados, en el Polo Norte  hasta 90 grados y Polo Sur hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Este y -180 hacia el Oeste.</label>
+                                                for="U13_Q4_A2">Las plantas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">Latitud y Longitud. Latitud se mide del Ecuador en 0 grados, en el Polo Sur hasta 90 grados y Polo Norte hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Este y -180 hacia el Oeste.</label>
+                                                for="U13_Q4_A1">Las bacterias.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">Latitud y Longitud. Latitud se mide del Ecuador en 0 grados, en el Polo Sur hasta 90 grados y Polo Norte hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Oeste y -180 hacia el Este.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A4">Altitud y Longitud. Altitud se mide del Ecuador en 0 grados, en el Polo Sur hasta 90 grados y Polo Norte hasta -90 grados. Longitud se mide de 0 en el Meridiano de Greenwich, llegando a 180 hacia el Este y -180 hacia el Oeste.</label>
+                                                for="U13_Q4_A3">Los organismos pluricelulares.</label>
                                         </div>
 
                                     </div>
@@ -190,7 +190,7 @@
 
                             <!-- Pregunta 5 START -->
                             <li class="question">
-                                <p>¿Cuáles son los dos puntos en los que el Ecuador celeste corta a la Eclíptica?</p>
+                                <p>¿Cuál de las siguientes opciones es la correcta?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -206,21 +206,14 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A2">Equinoccio de Verano e Invierno.</label>
+                                                for="U13_Q5_A2">El enlace iónico es aquel donde los átomos comparten electrones y el enlace covalente es aquel donde uno cede sus electrones al otro.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A1">Equinoccio de Primavera y Otoño.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A3">Equinoccio de día y de noche.</label>
+                                                for="U13_Q5_A1">El enlace covalente es aquel donde los átomos comparten electrones y el enlace iónico es aquel donde uno cede sus electrones al otro.</label>
                                         </div>
 
                                     </div>
@@ -232,7 +225,56 @@
 
                             <!-- Pregunta 6 START -->
                             <li class="question">
-                                <p>¿De qué están conformadas las Coordenadas Ecuatoriales?</p>
+                                <p>¿Cuál es el elemento más importante en la formación de vida?</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A2">El hidrógeno.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A3">El oxígeno.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A1">El carbón.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q6_A4">El nitrógeno.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 6 END -->
+
+                            <!-- Pregunta 7 START -->
+                            <li class="question">
+                                <p>¿Cuál es la macromolécula que constituyen los tejidos de los órganos?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -248,21 +290,21 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A1">Usan la Latitud Celeste, que se basa a partir del Ecuador Celeste y la Longitud Celeste, que se basa a partir del Equinoccio Vernal.</label>
+                                                for="U13_Q7_A1">Las proteínas.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A2">Usan la Longitud Celeste, que se basa a partir del Ecuador Celeste y la Latitud Celeste, que se basa a partir del Equinoccio Vernal.</label>
+                                                for="U13_Q7_A3">Los lípidos.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q6_A3">Usan la Latitud Celeste, que se basa a partir del Ecuador Celeste y la Longitud Celeste, que se basa a partir del Equinoccio de Verano.</label>
+                                                for="U13_Q7_A2">Los carbohidratos.</label>
                                         </div>
 
                                     </div>
@@ -270,7 +312,7 @@
 
 
                             </li>
-                            <!-- Pregunta 6 END -->
+                            <!-- Pregunta 7 END -->
 
                         </ol>
                     </div>
