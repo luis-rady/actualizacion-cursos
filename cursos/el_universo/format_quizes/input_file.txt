@@ -1,32 +1,36 @@
-6
+7
 
-1. ¿Qué es la mitosis?
-Es el proceso en el que una célula se reproduce.
-Es el proceso en el que dos células se reproducen para crear una nueva.
+1. ¿Cuáles son las dos grandes etapas en las que se divide la evolución?
+La precámbrica y la fanerozoica.
+La precámbrica y la paleozoica.
+La fanerozoica y la paleozoica.
 
-2. ¿Qué es la meiosis?
-Es el proceso en el que dos células se reproducen para crear una nueva.
-Es el proceso en el que una célula se reproduce.
+2. ¿Qué sucedió durante la época precámbrica?
+Aparecen los primeros organismos celulares sin núcleo, luego algunos evolucionan a usar fotosíntesis y otros se convierten en seres aeróbicos.
+Aparecen los primeros organismos celulares sin núcleo, luego algunos evolucionan a usar fotosíntesis.
+Aparecen los primeros organismos celulares sin núcleo, luego algunos evolucionan a usar fotosíntesis y otros comenzaron a comer de estos.
 
-3. ¿Cómo se da la variación genética?
-Los organismos heredan pares de genes por sus dos progenitores, y eso resulta en que hay genes dominantes, genes recesivos y también algunos que simplemente se combinan.
-Los organismos heredan sólo un gen, comúnmente de la madre y estos terminan siendo los dominantes. El resto de los genes no recibidos se llaman recesivos.
-Los organismos heredan sólo un gen, comúnmente del padre y estos terminan siendo los dominantes. El resto de los genes no recibidos se llaman recesivos.
-Los organismos heredan pares de genes por sus dos progenitores, y todos se combinan.
+3. ¿Qué sucedió en la época paleozoica?
+Aparecen los primeros peces, las primeras plantas y los primeros anfibios.
+Aparecen los primeros mamíferos, las primeras aves, y sucede la extinción de la mayoría de los dinosaurios.
+Mueren los últimos dinosaurios y aparecen los antepasados del hombre. Los mamíferos se esparcen a todo el mundo.
 
-4. ¿Qué es una mutación?
-Es un cambio en el cromosoma.
-Es otro nombre para la variación genética.
+4. ¿Es cierta la siguiente oración? La etapa fanerozoica representa el 87% de la historia de la Tierra y aun no termina.
+Falso.
+Verdadero.
 
-5. ¿Quiénes son los que aportan un rol en la evolución?
-La variación genética y la mutación. Sin embargo, la selección natural es la que termina optando por los cambios que apoyen a la sobrevivencia de la especie.
-La variación genética y la mutación.
-La variación genética y la mutación. Y queda al azar cuáles son los que sobrevivirán.
+5. ¿Es cierta la siguiente oración? La etapa fanerozoica se divide en la era cenozoica, paleozoica, mesozoica.
+Verdadero.
+False.
 
-6. ¿En cuántos y cuáles reinos se clasifican a los seres vivos?
-5 reinos: Monera, Protista, Hongos, Plantas, Animales
-6 reinos: Monera, Protista, Hongos, Plantas, Animales, Humanos
-4 reinos: Protista, Hongos, Plantas, Animales
-5 reinos: Protista, Hongos, Plantas, Animales, Humanos
+6. ¿Qué sucedió en la época mesozoica?
+Aparecen los primeros mamíferos, las primeras aves, y sucede la extinción de la mayoría de los dinosaurios.
+Aparecen los primeros peces, las primeras plantas y los primeros anfibios.
+Mueren los últimos dinosaurios y aparecen los antepasados del hombre. Los mamíferos se esparcen a todo el mundo.
+
+7. ¿Qué sucede en la época cenozoica?
+Mueren los últimos dinosaurios y aparecen los antepasados del hombre. Los mamíferos se esparcen a todo el mundo.
+Aparecen los primeros peces, las primeras plantas y los primeros anfibios.
+
 
 
