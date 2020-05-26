@@ -12,7 +12,7 @@
 
                             <!-- Pregunta 1 START -->
                             <li class="question">
-                                <p>¿Es correcto el siguiente resumen para construir proteínas? El ADN se desenrolla, luego el ARN copia el orden de las bases, se adhiere a un ribosoma y este decodifica la información, finalmente junto a otra molécula lleva al lugar de ensamblaje lo necesario y se siguen las instrucciones hasta que se termine de leer el ARN.</p>
+                                <p>¿Qué coordina las acciones de todas las células?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -28,21 +28,21 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A2">Sí, no falta nada.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q1_A1">No, falta mencionar que los últimos tres nucleótidos no codifican nada y significa el fin del ensamblaje.</label>
+                                                for="U13_Q1_A2">La inteligencia de cada célula.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q1_A3">No, falta mencionar que los primeros tres nucleótidos no codifican nada y significa el comienzo del ensamblaje.</label>
+                                                for="U13_Q1_A3">El cerebro.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q1_A1">Las instrucciones del ADN.</label>
                                         </div>
 
                                     </div>
@@ -54,7 +54,7 @@
 
                             <!-- Pregunta 2 START -->
                             <li class="question">
-                                <p>¿De qué está formado el ADN?</p>
+                                <p>¿Cómo logra el ADN sobrevivir en cada célula?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -67,17 +67,17 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input option correct"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q2_A1">De azúcar desoxirribosa y cuatro bases nitrogenadas.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q2_A2">De proteína y cuatro bases nitrogenadas.</label>
+                                                for="U13_Q2_A2">Hay un ADN original, del cual todas las células reciben la instrucción.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q2_A1">Cada vez que una célula se divide, se crea una copia del ADN.</label>
                                         </div>
 
                                     </div>
@@ -87,19 +87,9 @@
                             </li>
                             <!-- Pregunta 2 END -->
 
-                        </ol>
-                    </div>
-                </div>
-                <!-- Columna izquierda de preguntas END -->
-
-                <!-- Columna derecha de preguntas START -->
-                <div class="col-md-6 pl-3 mrg-btm-50">
-                    <div class="pdd-vertical-30 pdd-horizon-25">
-                        <ol start="3">
-
                             <!-- Pregunta 3 START -->
                             <li class="question">
-                                <p>¿Cuáles son las combinaciones de bases nitrogenadas que se pueden observar?</p>
+                                <p>¿Qué es un gen?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -115,21 +105,14 @@
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A3">La adenina con la citosina y la timina con la guanina.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q3_A2">La adenina con la guanina y la timina con la citosina.</label>
+                                                for="U13_Q3_A2">Son tipos especiales de ADN que contienen la información para cada uno de los rasgos o características de los organismos.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q3_A1">La adenina con la timina y la guanina con la citosina.</label>
+                                                for="U13_Q3_A1">Son segmentos del ADN que contienen la información para cada uno de los rasgos o características de los organismos.</label>
                                         </div>
 
                                     </div>
@@ -139,9 +122,19 @@
                             </li>
                             <!-- Pregunta 3 END -->
 
+                        </ol>
+                    </div>
+                </div>
+                <!-- Columna izquierda de preguntas END -->
+
+                <!-- Columna derecha de preguntas START -->
+                <div class="col-md-6 pl-3 mrg-btm-50">
+                    <div class="pdd-vertical-30 pdd-horizon-25">
+                        <ol start="4">
+
                             <!-- Pregunta 4 START -->
                             <li class="question">
-                                <p>¿Cuál es la función del ARN?</p>
+                                <p>¿Qué es una célula madre?</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -154,24 +147,24 @@
                                     <div class="pl-3">
 
                                         <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q4_A2">La misma que el ADN.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A1">Transmitir la información del ADN a la célula para que produzca la proteína adecuada.</label>
+                                                for="U13_Q4_A1">Es toda aquella célula que aún no se ha especializado.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q4_A3">Transmitir la información del de proteínas al ADN para mejorarlo.</label>
+                                                for="U13_Q4_A3">Es una célula que está dividiéndose.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q4_A2">Son las células que tienen las madres al estar embarazadas.</label>
                                         </div>
 
                                     </div>
@@ -183,7 +176,42 @@
 
                             <!-- Pregunta 5 START -->
                             <li class="question">
-                                <p>¿Dónde se encuentra el ADN y ARN?</p>
+                                <p>¿Es cierta la siguiente descripción? La ingeniería genética es como se le conoce a las técnicas con las que se alteran los genes de un organismo.</p>
+
+                                <b class='alertWrong' style="display: none; color:red">
+                                    Respuesta equivocada, vuélvelo a intentar.
+                                </b>
+                                <b class='alertCorrect' style="display: none; color:green">
+                                    ¡Respuesta correcta!
+                                </b>
+
+                                <div class="row">
+                                    <div class="pl-3">
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A2">Falso.</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input option correct"
+                                                class="option">
+                                            <label class="custom-control-label"
+                                                for="U13_Q5_A1">Verdadero.</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- Pregunta 5 END -->
+
+                            <!-- Pregunta 6 START -->
+                            <li class="question">
+                                <p>¿Es cierta la siguiente descripción? Se llama genoma al conjunto de todos los genes que forman los cromosomas de la célula y que contienen toda la información relacionada con la vida y el funcionamiento de un organismo.</p>
 
                                 <b class='alertWrong' style="display: none; color:red">
                                     Respuesta equivocada, vuélvelo a intentar.
@@ -199,21 +227,14 @@
                                             <input type="radio" class="custom-control-input option correct"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A1">En el núcleo de la célula.</label>
+                                                for="U13_Q6_A1">Verdadero.</label>
                                         </div>
 
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input"
                                                 class="option">
                                             <label class="custom-control-label"
-                                                for="U13_Q5_A2">En el citoplasma de la célula.</label>
-                                        </div>
-
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input"
-                                                class="option">
-                                            <label class="custom-control-label"
-                                                for="U13_Q5_A3">Puede estar tanto en el núcleo como en el citoplasma de la célula.</label>
+                                                for="U13_Q6_A2">Falso.</label>
                                         </div>
 
                                     </div>
@@ -221,7 +242,7 @@
 
 
                             </li>
-                            <!-- Pregunta 5 END -->
+                            <!-- Pregunta 6 END -->
 
                         </ol>
                     </div>

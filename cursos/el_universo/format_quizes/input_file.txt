@@ -1,26 +1,28 @@
-5
+6
 
+1. ¿Qué coordina las acciones de todas las células?
+Las instrucciones del ADN.
+La inteligencia de cada célula.
+El cerebro.
 
-1. ¿Es correcto el siguiente resumen para construir proteínas? El ADN se desenrolla, luego el ARN copia el orden de las bases, se adhiere a un ribosoma y este decodifica la información, finalmente junto a otra molécula lleva al lugar de ensamblaje lo necesario y se siguen las instrucciones hasta que se termine de leer el ARN.
-No, falta mencionar que los últimos tres nucleótidos no codifican nada y significa el fin del ensamblaje.
-Sí, no falta nada.
-No, falta mencionar que los primeros tres nucleótidos no codifican nada y significa el comienzo del ensamblaje.
+2. ¿Cómo logra el ADN sobrevivir en cada célula?
+Cada vez que una célula se divide, se crea una copia del ADN.
+Hay un ADN original, del cual todas las células reciben la instrucción.
 
-2. ¿De qué está formado el ADN?
-De azúcar desoxirribosa y cuatro bases nitrogenadas.
-De proteína y cuatro bases nitrogenadas.
+3. ¿Qué es un gen?
+Son segmentos del ADN que contienen la información para cada uno de los rasgos o características de los organismos.
+Son tipos especiales de ADN que contienen la información para cada uno de los rasgos o características de los organismos.
 
-3. ¿Cuáles son las combinaciones de bases nitrogenadas que se pueden observar?
-La adenina con la timina y la guanina con la citosina.
-La adenina con la guanina y la timina con la citosina.
-La adenina con la citosina y la timina con la guanina.
+4. ¿Qué es una célula madre?
+Es toda aquella célula que aún no se ha especializado.
+Son las células que tienen las madres al estar embarazadas.
+Es una célula que está dividiéndose.
 
-4. ¿Cuál es la función del ARN?
-Transmitir la información del ADN a la célula para que produzca la proteína adecuada.
-La misma que el ADN.
-Transmitir la información del de proteínas al ADN para mejorarlo.
+5. ¿Es cierta la siguiente descripción? La ingeniería genética es como se le conoce a las técnicas con las que se alteran los genes de un organismo.
+Verdadero.
+Falso.
 
-5. ¿Dónde se encuentra el ADN y ARN?
-En el núcleo de la célula.
-En el citoplasma de la célula.
-Puede estar tanto en el núcleo como en el citoplasma de la célula.
+6. ¿Es cierta la siguiente descripción? Se llama genoma al conjunto de todos los genes que forman los cromosomas de la célula y que contienen toda la información relacionada con la vida y el funcionamiento de un organismo.
+Verdadero.
+Falso.
+
