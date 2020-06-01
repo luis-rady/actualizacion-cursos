@@ -31,6 +31,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: Roboto, -apple-system, system-
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-weight: 300; color: #5c5f73; }
 
+.text-hyperlink { color: var(--theme-color) !important;}
+
 h1 { font-size: 26px; }
 
 h2 { font-size: 22px; }
@@ -99,7 +101,7 @@ hr { border-top: 1px solid #e6ecf5; }
 
 .bg-primary { background-color: #7774e7 !important; }
 
-.bg-info { background-color: #40803E !important; }
+.bg-info { background-color: var(--theme-color) !important; }
 
 .bg-success { background-color: #37c936 !important; }
 
@@ -2904,7 +2906,7 @@ label.success { color: #37c936; }
 
 .tag-success { background-color: #37c936; color: #ffffff; }
 
-.tag-info { background-color: #40803E; color: #ffffff; }
+.tag-info { background-color: var(--theme-color); color: #ffffff; }
 
 .tag-warning { background-color: #ffcc00; color: #ffffff; }
 
@@ -3241,7 +3243,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .accordion .panel-default { background-color: #ffffff; margin-bottom: 15px; border: 1px solid #e6ecf5; }
 
-.accordion .panel-default > .panel-heading { color: #515365; background-color: #72ac25d2; border-color: #e6ecf5; }
+.accordion .panel-default > .panel-heading { color: #515365; background-color: var(--theme-color); border-color: #e6ecf5; }
 
 .accordion .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #e6ecf5; padding: 10px 20px 20px 20px; }
 
@@ -3692,7 +3694,15 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 --------- 2. Personalización ---------
 ----------------------------*/
 
-/*-- Para la barra de botones de avance en cada página --*/
+/*-- Para el carousel de librito de cursos de DP --*/
+.carousel-item{
+  height: 80vh;
+} 
+
+.carousel-item img{
+  margin: 0 auto;
+}
+
 .btn-actual-page {
   background-color: var(--theme-color);
   border-color: var(--theme-color);
@@ -3701,4 +3711,78 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 
 .btn-actual-page span {
   color: #ffffff;
+}
+
+/*-- Para el carousel de librito de cursos de DP --*/
+.credits-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: var(--theme-color); margin-top: 0px; line-height: 25px; }
+
+/*-- Para los botones de creditos --*/
+.btn-credits { background-color: var(--theme-color); border-color: var(--theme-color); color: #ffffff; }
+
+
+
+/*-- Para EJEMPLO 2 de carousel --*/
+.carousel-inner .carousel-item {
+  height: 100vh;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+
+
+
+/*QUIZ CSS*/
+.score{
+  position: absolute;
+  right:20%;
+  font-size: 22px;
+  font-weight: bold;
+  top:0px;
+}
+.msg{
+  position: absolute;
+  left:4%;
+  font-size: 22px;
+  font-weight: bold;
+  top:0px;
+}
+.submitbutton{
+  position: absolute;
+  right:18%;
+  font-size: 22px;
+  font-weight: bold;
+  bottom:0px;
+  z-index: 1;
+}
+
+b.alertWrong{
+  margin-top: -20px;
+}
+b.alertCorrect{
+  margin-top: -20px;
+}
+.mrg-btm--50{
+  margin-bottom: -50px;
 }

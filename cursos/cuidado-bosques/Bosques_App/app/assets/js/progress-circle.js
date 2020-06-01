@@ -12,6 +12,7 @@ var bar = new ProgressBar.Circle(circlecontainer, {
     text: {
       autoStyleContainer: false
     },
+    // cambiar el color según el theme
     from: { color: '#40803E', width: 1 },
     to: { color: '#40803E', width: 4 },
     // Set default step function for all animate calls
