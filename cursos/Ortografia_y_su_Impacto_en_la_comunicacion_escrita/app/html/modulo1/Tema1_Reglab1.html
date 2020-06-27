@@ -271,9 +271,9 @@
                             <div class="card-horizon">
                             <div class="row">
                             <div class="col mr-auto">
-                            <div class="pdd-vertical-30 pdd-horizon-25">
+                            <div class="pdd-vertical-3 pdd-horizon-25">
                             <h1 class="mrg-btm-20 card-title" style="text-align:center">
-                            <b>Tema 1: Primera Regla Para el Uso de la B</b>
+                            <b><br>Tema 1: Primera Regla Para el Uso de la B</b>
                             </h1>
                             <h1 class="mrg-btm-20 card-title">
                             1. Identificar la primera regla de ortografía del uso de la b
@@ -509,10 +509,10 @@
             for (cont = 0; cont < cons.length; cont++) {
                 if (document.getElementById("r1" + (cont + 1)).value == cons[cont]) {
                     acert++;
-                    document.getElementById("r0" + (cont + 1)).style.color = "#11CC22"
+                    document.getElementById("r1" + (cont + 1)).style.color = "#11CC22"
                 }
                 else {
-                    document.getElementById("r0" + (cont + 1)).style.color = "red"
+                    document.getElementById("r1" + (cont + 1)).style.color = "red"
                 }
             }
             if (acert < 20) {

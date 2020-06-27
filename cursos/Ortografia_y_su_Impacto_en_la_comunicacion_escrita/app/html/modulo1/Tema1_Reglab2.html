@@ -569,7 +569,7 @@
                                                                     <div class="flip-card-back" style="background-color:white">
                                                                         <div class="px-1 py-1">
                                                                             <p></p>
-                                                                            <p style="text-align:center;font-size:25px">¡Correcto!</p>
+                                                                            <p style="text-align:center;font-size:25px; color: #11CC22;">Correcto!</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -585,7 +585,7 @@
                                                                     <div class="flip-card-back" style="background-color:white">
                                                                         <div class="px-1 py-1">
                                                                             <p></p>
-                                                                            <p style="text-align:center;font-size:25px">¡Incorrecto!</p>
+                                                                            <p style="text-align:center;font-size:25px; color: red;">Incorrecto!</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -601,7 +601,7 @@
                                                                     <div class="flip-card-back" style="background-color:white">
                                                                         <div class="px-1 py-1">
                                                                             <p></p>
-                                                                            <p style="text-align:center;font-size:25px">¡Correcto!</p>
+                                                                            <p style="text-align:center;font-size:25px; color: #11CC22;">Correcto!</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -617,7 +617,7 @@
                                                                     <div class="flip-card-back" style="background-color:white">
                                                                         <div class="px-1 py-1">
                                                                             <p></p>
-                                                                            <p style="text-align:center;font-size:25px">¡Correcto!</p>
+                                                                            <p style="text-align:center;font-size:25px; color: #11CC22;">Correcto!</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -633,7 +633,7 @@
                                                                     <div class="flip-card-back" style="background-color:white">
                                                                         <div class="px-1 py-1">
                                                                             <p></p>
-                                                                            <p style="text-align:center;font-size:25px">¡Incorrecto!</p>
+                                                                            <p style="text-align:center;font-size:25px; color: red;">Incorrecto!</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -649,7 +649,7 @@
                                                                     <div class="flip-card-back" style="background-color:white">
                                                                         <div class="px-1 py-1">
                                                                             <p></p>
-                                                                            <p style="text-align:center;font-size:25px">¡Incorrecto!</p>
+                                                                            <p style="text-align:center;font-size:25px; color: red;">Incorrecto!</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -666,7 +666,7 @@
                                                                     <div class="flip-card-back" style="background-color:white">
                                                                         <div class="px-1 py-1">
                                                                             <p></p>
-                                                                            <p style="text-align:center;font-size:25px">¡Correcto!</p>
+                                                                            <p style="text-align:center;font-size:25px; color: #11CC22;">Correcto!</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -683,7 +683,7 @@
                                                                     <div class="flip-card-back" style="background-color:white">
                                                                         <div class="px-1 py-1">
                                                                             <p></p>
-                                                                            <p style="text-align:center;font-size:25px">¡Incorrecto!</p>
+                                                                            <p style="text-align:center;font-size:25px; color: red;">Incorrecto!</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -699,7 +699,7 @@
                                                                     </div>
                                                                     <div class="flip-card-back" style="background-color:white">
                                                                         <div class="px-1 py-1">
-                                                                            <p style="text-align:center;font-size:25px">¡Correcto!</p>
+                                                                            <p style="text-align:center;font-size:25px; color: #11CC22;">Correcto!</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -811,10 +811,10 @@
             for (cont = 0; cont < cons.length; cont++) {
                 if (document.getElementById("r1" + (cont + 1)).value == cons[cont]) {
                     acert++;
-                    document.getElementById("r0" + (cont + 1)).style.color = "#11CC22"
+                    document.getElementById("r1" + (cont + 1)).style.color = "#11CC22"
                 }
                 else {
-                    document.getElementById("r0" + (cont + 1)).style.color = "red"
+                    document.getElementById("r1" + (cont + 1)).style.color = "red"
                 }
             }
             if (acert < 20) {

@@ -3770,7 +3770,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 }
 .submitbutton{
   position: absolute;
-  right:18%;
+  left:41%;
   font-size: 22px;
   font-weight: bold;
   bottom:0px;

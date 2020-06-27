@@ -472,17 +472,17 @@
                                     <!-- Insert your dependencies here -->
                                     <script src="../../assets/js/scripts/modulo1/modulo1-4-2.js"></script>
                                     <script>
-                                        var cons = ["vice", "vice-"];
+                                        var cons = ["vice-"];
                                         var cont;
                                         function funonclick() {
                                             var acert = 0;
                                             for (cont = 0; cont < cons.length; cont++) {
                                                 if (document.getElementById("rule").value == cons[cont]) {
                                                     acert++;
-                                                    document.getElementById("r0" + (cont + 1)).style.color = "#11CC22"
+                                                    document.getElementById("rule" ).style.color = "#11CC22"
                                                 }
                                                 else {
-                                                    document.getElementById("r0" + (cont + 1)).style.color = "red"
+                                                    document.getElementById("rule").style.color = "red"
                                                 }
                                             }
                                             if (acert < 1) {
