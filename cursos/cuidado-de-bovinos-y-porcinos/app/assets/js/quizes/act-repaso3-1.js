@@ -8,7 +8,7 @@ function correct(a, b) {
   }
 }
 
-var cons = ["2", "1", "4", "3"];
+var cons = ["4", "1", "2", "3", "5", "6"];
 var cont;
 function funonclick() {
   var acert = 0;
@@ -21,8 +21,8 @@ function funonclick() {
           document.getElementById("r0" + (cont + 1)).style.color = "red"
       }
   }
-  if (acert < 4) {
-      document.getElementById("geeks").innerHTML ="Acertó " + acert + " de 4, intente de nuevo";
+  if (acert < 6) {
+      document.getElementById("geeks").innerHTML ="Acertó " + acert + " de 6, intente de nuevo";
       document.getElementById("button Verificar1").style.background='#1e8334';
       document.getElementById("button Verificar1").style.border='#000000';
       document.getElementById("button Verificar1").value='Verificar';

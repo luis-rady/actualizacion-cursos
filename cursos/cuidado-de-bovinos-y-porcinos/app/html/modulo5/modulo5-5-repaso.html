@@ -42,7 +42,6 @@
                     </div>
                     <!-- Header END -->
 
-
                       <!-- Content Wrapper START -->
                         <div class="main-content">
                             <div class="container-fluid">
@@ -55,63 +54,60 @@
                                     <div class="container-fluid">
                                         <div class="row">
                                             <div class="col-md-12 ml-auto">
-                                                    <div class="feed-body form-group pregunta_1 no-mrg-btm">
-                                                        <p>Relacione los 2 textos seleccionando en el recuadro el número correcto de
-                                                            la columna de la izquierda.</p>
-                                                        <div class="row">
-                                                            <div class="col-md-7">
+                                                <div class="feed-body form-group pregunta_1 no-mrg-btm">
+                                                    <p>Relacione los 2 textos seleccionando en el recuadro el número correcto de
+                                                        la columna de la izquierda.</p>
+                                                    <div class="row">
+                                                        <div class="col-md-7">
                                                                 <ol>
-                                                                    <li>Es una cámara de fermentación que permite reducir el tamaño de las partículas
-                                                                        de alimento fibroso a través de la acción de bacterias, hongos y protozoarios.</li>
-                                                                    <li>Recicla algunos nutrientes, absorción de agua, sodio, fósforo, y el 60 a 70% del agua que entra al rumen.</li>
-                                                                    <li>Es conocido como estomago verdadero, libera ácido clorhídrico, encimas, digestión
-                                                                        de algunas proteínas y lípidos no degradados en rumen.</li>
-                                                                    <li>Secreción de encimas por el intestino delgado, hígado y páncreas, digestión de carbohidratos,
-                                                                        proteínas y lípidos, absorción de agua.</li>
-                                                                </ol>
-                                                            </div>
-                                                            <div class="col-md-5">
-                                                                <p>
-                                                                    <input type="number" min="1" max="4" id="r01" name="r01">
-                                                                    Omaso
-                                                                </p>
-                                                                <p>
-                                                                    <input type="number" min="1" max="4" id="r02" name="r02">
-                                                                    Intestino delgado
-                                                                </p>
-                                                                <p>
-                                                                    <input type="number" min="1" max="4" id="r03" name="r03">
-                                                                    Retículo y rumen
-                                                                </p>
-                                                                <p>
-                                                                    <input type="number" min="1" max="4" id="r04" name="r04">
-                                                                    Abomaso
-                                                                </p>
-                                                            </div>
+                                                                <li>Es una cámara de fermentación que permite reducir el tamaño de las partículas
+                                                                    de alimento fibroso a través de la acción de bacterias, hongos y protozoarios.</li>
+                                                                <li>Recicla algunos nutrientes, absorción de agua, sodio, fósforo, y el 60 a 70% del agua que entra al rumen.</li>
+                                                                <li>Es conocido como estomago verdadero, libera ácido clorhídrico, encimas, digestión
+                                                                    de algunas proteínas y lípidos no degradados en rumen.</li>
+                                                                <li>Secreción de encimas por el intestino delgado, hígado y páncreas, digestión de carbohidratos,
+                                                                    proteínas y lípidos, absorción de agua.</li>
+                                                            </ol>
                                                         </div>
-                                                        <div class="row mrg-top-5 ">
-                                                            <div class="col-sm-12">
-                                                                <div class="score text-right" id="geeks">
-                                                                    <span>‎</span>
-                                                                </div>
-                                                                <div class="submitbutton">
-                                                                    <div class="no-mrg-btm">
-                                                                        <button type="button" id="button Verificar1" class="btn btn-actual-page btn-rounded pull-right" onclick="funonclick()">Verificar</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                        <div class="col-md-5">
+                                                            <p>
+                                                                <input type="number" min="1" max="4" id="r01" name="r01">
+                                                                Omaso
+                                                            </p>
+                                                            <p>
+                                                                <input type="number" min="1" max="4" id="r02" name="r02">
+                                                                Intestino delgado
+                                                            </p>
+                                                            <p>
+                                                                <input type="number" min="1" max="4" id="r03" name="r03">
+                                                                Retículo y rumen
+                                                            </p>
+                                                            <p>
+                                                                <input type="number" min="1" max="4" id="r04" name="r04">
+                                                                Abomaso
+                                                            </p>
                                                         </div>
                                                     </div>
-                                                
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <!--Mensaje de respuestas correctas-->
+                                                            <div class="score text-right mrg-btm-10" id="geeks">
+                                                                <span>‎</span>
+                                                            </div>
+                                                            <input id="button Verificar1" type="button" onclick="funonclick()"
+                                                                    class="btn btn-actual-page btn-rounded pull-right" name="pregunta_6"
+                                                                    value="Verificar">
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     
-
                                     <div class="row text-center">
                                         <div class="col">
                                             <div class="no-mrg-top mrg-btm-10">
-                                                <a href="modulo5-6.html" class="btn btn-info no-mrg-btm">Regresar</a>
+                                                <a href="modulo5-5.html" class="btn btn-info no-mrg-btm">Regresar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -150,7 +146,7 @@
         <!-- build:js assets/js/app.min.js -->
         <!-- core js -->
         <script src="../../assets/js/app.js"></script>
-        <script src="../../assets/js/quizes/act-repaso5-6.js"></script>
+        <script src="../../assets/js/quizes/act-repaso5-5.js"></script>
 
         <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
         <script type="text/javascript">show(0.91)</script>
