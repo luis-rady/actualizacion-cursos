@@ -2,7 +2,7 @@ function watchForm() {
     let answer = '';
     document.getElementById('act_1').addEventListener('click', e => {
         e.preventDefault();
-        for (let i = 1; i < 43; i++) {
+        for (let i = 1; i < 21; i++) {
             answer = document.getElementById(`Q${i}`)
             if (answer.value == "correct") {
                 answer.parentNode.style.backgroundColor = '#cdf9c6';
