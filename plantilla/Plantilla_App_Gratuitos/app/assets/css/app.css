@@ -47,6 +47,32 @@ h6 { font-size: 12px; }
 
 p, li { font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #000000; line-height: 1.9; font-size: 18px }
 
+.round {  border-radius: 50%;}
+
+.card-btn {text-decoration: none; display: inline-block;  padding: 8px 20px; margin: 5px; font-size: large;}
+
+.card-info {border: 2px solid lightgray; margin-top: 10px; margin-bottom: 5px; display: inline-block; border-radius: 10px; background-color: #f6f7fb; font-size: medium;}
+
+.card-slide {background-color: white;}
+
+.card-slide .row .col-xl-8 p {color: black;}
+
+.card-center {display: inline-block; text-align: left !important;}
+
+.slide-container {border: 3px solid #313644; border-radius: 20px; padding: 20px; width: 70%; margin: 0px auto;}
+
+.slide-container-small {border: 3px solid #313644; border-radius: 20px; padding: 20px; width: 50%; margin: 0px auto;}
+
+.alert-blue {background-color: #658da7; padding: 5px 20px; border-radius: 10px; color: #ffffff;}
+
+.alert-purple {background-color: #D94545; padding: 5px 20px; border-radius: 10px; color: #ffffff;}
+
+.alert-purple ul li {color: white;}
+
+.previous {background-color: #313644; color: white !important;}
+
+.next {  background-color: #ca0404;  color: white !important;}
+
 .image-auto-size {max-height: 100%; max-width: 100%}
 
 .side-index-general { font-size: 15px; }
@@ -3214,6 +3240,8 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 .nav-vertical .nav-pills > li + li { margin-left: 0px; }
 
 .nav-vertical .tab-content { float: left; width: 70%; }
+
+.slide { width: 100% !important;}
 
 .pill-success .nav-pills > li > a.active { border-color: #37c936; background-color: #37c936; border: 1px solid #37c936; }
 
